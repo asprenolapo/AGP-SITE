@@ -3,7 +3,16 @@ PROCEDURE GIT:
 [!NOTE]
 Accettare l'invito (arriva via mail o nelle notifiche di GitHub) prima di pushare.
 
-<!-- First commit + First push: -->
+<!-- Inizializzazione repo + First push con respository da creare: -->
+echo "# Nome Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:asprenolapo/AGP-SITE.git
+git push -u origin main
+
+<!-- First commit + First push con repository già creata: -->
 
 git add .
 git commit -m "Descrizione del commit"
@@ -77,3 +86,4 @@ Se è la prima volta che usi Git su quel PC, potrebbe chiederti chi sei. Se non 
 
 git config --global user.name "Il Tuo Nome"
 git config --global user.email "la-tua-email@esempio.it"
+
