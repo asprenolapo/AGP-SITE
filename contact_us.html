@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <script src="js/textAreaAutoExpand.js" defer></script>
 </head>
 <body>
     <header>
-        <div>
+        <div class="">
             <span>Chatch frase</span>
             <h1>Contact or work whit Us</h1>
             <p>Short text</p>
@@ -15,22 +16,65 @@
     </header>
 
     <section>
-        <div>
+        <div class="">
             <h2>Contact or work whit Us</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis dolorum at nobis sit animi beatae
                 doloremque placeat, magnam, iusto omnis iure illum inventore esse magni praesentium sequi nisi aliquid
                 vel.</p>
         </div>
-        <div>
-            <form action="">Contact Us</form>
+        <div class="">
+            <form method="post">
+                <fieldset>
+                    <legend>Contattaci</legend>
+
+                    <label for="email">Email</label> <br />
+                    <input type="email" id="email" name="email" placeholder="Scrivi la tua Email"> <br /> 
+<label for="tel">Telefono</label> <br />
+                    <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare"> <br />
+
+                    <label for="messages">Lasciaci un messaggio</label> <br />
+                    <textarea rows="5" cols="50" placeholder="Scrivici Qualcosa" id="messages" name="messages"></textarea> <br /> <br />
+
+                    <input type="submit" value="Invia"> &nbsp;
+                    <input type="reset" value="Resetta"> 
+                </fieldset> <br />
+
+            </form>
+
         </div>
-        <div>
-            <form action="">Work with us</form>
+        <div class="">
+            <form action="">
+                <fieldset>
+                    <legend>Lavora con noi</legend>
+
+                    <label for="name">Nome</label> <br />
+                    <input type="text" id="name" name="name" placeholder="Scrivi il tuo Nome"> <br />
+
+                    <label for="surname">Cognome</label> <br />
+                    <input type="text" id="surname" name="surname" placeholder="Scrivi il tuo Cognome"> <br />
+
+                    <label for="email">Email</label> <br />
+                    <input type="email" id="email" name="email" placeholder="Scrivi la tua Email"> <br />
+
+                    <label for="tel">Telefono</label> <br />
+                    <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare"> <br />
+
+                    <select name="position" id="position">
+                        <option value="null" selected>Non hai inserito nulla</option>
+                        <option value="human_resource">Risorse Umane</option>
+                        <option value="front_end">Sviluppo Front-End</option>
+                        <option value="back_end">Sviluppo Back-End</option>
+                        <option value="marketing">Marketing</option>
+                    </select> <br />
+                    <input type="submit" value="Invia"> &nbsp;
+                    <input type="reset" value="Resetta"> 
+                </fieldset>
+            </form>
         </div>
     </section>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
