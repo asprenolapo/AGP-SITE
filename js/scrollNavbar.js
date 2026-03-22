@@ -1,10 +1,19 @@
-const navbar = document.querySelector('.scrollNav')
+const navbar = document.querySelector('nav');
+let lastScroll = 0;
 
 window.addEventListener('scroll', () => {
-if (window.scrollY > 250) {
-    navbar.style.display = 'none';
-    
-} else {
-    navbar.style.display = 'block';
-}
-}); 
+    const currentScroll = window.scrollY;
+
+    if (currentScroll <= 0) {
+        navbar.style.display = "flex";
+        return;
+    }
+
+    if (currentScroll > lastScroll) {
+        navbar.style.display = "none";
+    } else if (currentScroll < lastScroll) {
+        navbar.style.display = "flex";
+    }
+
+    lastScroll = currentScroll;
+});

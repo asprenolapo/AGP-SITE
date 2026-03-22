@@ -1,5 +1,15 @@
-Capire se usare camel o snake case
+Mettere upcoming launches di spacex sottoforma di eventi in partenza
 
-Dividerci i ruoli
+Sistemare navbar in generale
+
+Sistemare h1 prima sezione
+
+Sistemare classi e struttura html/css
+
+Aggiungere transition alla scomparsa della navbar
+
+mettere margin h2 per el sezioni
+
+Commentare tutto
 
 ecc ecc
