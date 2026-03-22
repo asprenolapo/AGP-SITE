@@ -2,8 +2,6 @@ Mettere upcoming launches di spacex sottoforma di eventi in partenza
 
 Sistemare navbar in generale
 
-Sistemare h1 prima sezione
-
 Sistemare classi e struttura html/css
 
 Aggiungere transition alla scomparsa della navbar
