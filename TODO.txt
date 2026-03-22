@@ -8,8 +8,6 @@ Sistemare classi e struttura html/css
 
 Aggiungere transition alla scomparsa della navbar
 
-mettere margin h2 per el sezioniù
-
 se abbiamo tempo priaviamo a creare gia le card riutilizzabili e struttura delle sezione card 
 
 separatori sagomati tra le sezioni 

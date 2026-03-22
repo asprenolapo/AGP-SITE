@@ -75,22 +75,28 @@ section {
   align-items: center;
 }
 
+.section-title {
+  text-align: center;
+}
+
 section:nth-child(odd) {
   justify-content: flex-start;
+  .section-title {
+    width: 50%;
+  }
 }
 
 section:nth-child(even) {
   justify-content: flex-end;
-}
-
-.section-title {
-  width: 50%;
+  .section-title {
+    width: 50%;
+  }
 }
 
 #hero {
   height: calc(100vh - var(--header-height));
   padding-top: var(--header-height);
-  background-image: url("../assets/images/hero-background.jpg");
+  background-image: url("../assets/images/prova.jpg");
   background-size: cover;
 
   display: flex;
