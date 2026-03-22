@@ -99,11 +99,6 @@ section:nth-child(even) {
   background-image: url("../assets/images/prova.jpg");
   background-size: cover;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-
   color: tomato;
   font-size: 3.5rem;
 }
