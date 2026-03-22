@@ -1,5 +1,6 @@
 :root {
     --header-height: 10vh;
+    --button-padding: 15px;
 }
 
 * {
@@ -8,7 +9,7 @@
 }
 
 body {
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 header {
     position: fixed;
@@ -25,37 +26,46 @@ header {
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
-headbar {
-    width: 95%;
-
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-    /* background-color: violet; */
+    justify-content: space-between;
+    padding: var(--button-padding);
+    width: 75%;
 }
 
-nav {
-    width: 35%;
-
+.rounded-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    padding: var(--button-padding);
+}
 
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 50px;
+img {
+    width: 55%;
+    height: auto;
+}
+
+headbar {
+    width: 95%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 15px;
 }
 
 a {
     font-size: 1.5rem;
     text-decoration: none;
-    color: orange;
+    color: gray;
 }
 
 nav a {
-    padding: 10px;
+    padding: var(--button-padding);
     border: none;
 }
 
@@ -84,14 +94,6 @@ nav a {
 
     color: tomato;
     font-size: 3.5rem;
-}
-
-
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    border: none;
-    cursor: pointer;
 }
 
 section {
