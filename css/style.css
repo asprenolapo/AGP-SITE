@@ -103,20 +103,15 @@ section {
 
 .section-title {
   text-align: center;
+    width: 50%;
 }
 
 section:nth-child(odd) {
   justify-content: flex-start;
-  .section-title {
-    width: 50%;
-  }
 }
 
 section:nth-child(even) {
   justify-content: flex-end;
-  .section-title {
-    width: 50%;
-  }
 }
 
 #hero {
