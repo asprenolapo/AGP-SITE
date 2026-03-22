@@ -8,6 +8,12 @@ FONTS:
 
 PALETTE COLORI:
 
+https://coolors.co/d97706-1a1b1e-f5efed-2292a4-bdbf09
+
+https://coolors.co/31393c-2176ff-33a1fd-fdca40-f79824
+
+https://getwaves.io/
+
 SITI DI RIFERIMENTO:
 
 LINK UTILI:
