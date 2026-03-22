@@ -14,4 +14,6 @@ Commentare tutto
 
 Gestire le lingue
 
+Decidere tra php e Java come backend e rifare sistema mail insieme
+
 ecc ecc
