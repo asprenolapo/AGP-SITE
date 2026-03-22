@@ -24,15 +24,28 @@
   --golden-glow: #bdbf09;
 }
 
+/* GENERAL SETTINGS FOR TAGS */
+
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+h1{
+  font-family: var(--font-titles);
+}
+h2{
+  font-family: var(--font-titles);
 }
 
+body {
+  height: 100%;
+  font-family:var(--font-body);
+}
+
+
+
+/* HEADER */
 header {
   position: fixed;
   height: var(--header-height);
@@ -43,6 +56,7 @@ header {
   align-items: center;
 }
 
+/* NAVBAR */
 nav {
   background-color: var(--navbar-color);
   border-radius: 100px;
@@ -56,7 +70,8 @@ nav {
 nav a {
   padding: 15px;
   text-decoration: none;
-  color: gray;
+  color:var(--platinum);
+  font-family: var(--font-titles);
 }
 
 nav a:hover {
@@ -70,6 +85,7 @@ nav a:hover {
   gap: 15px;
 }
 
+/* LOGO */
 .logo {
   max-width: calc(var(--header-height) / 2);
   height: auto;
@@ -78,6 +94,7 @@ nav a:hover {
   white-space: nowrap;
 }
 
+/* SECTION */
 section {
   height: 100vh;
   display: flex;
@@ -108,7 +125,7 @@ section:nth-child(even) {
   background-image: url("../assets/images/prova.jpg");
   background-size: cover;
 
-  color: tomato;
+  color: var(--ochre);
   font-size: 3.5rem;
 }
 
