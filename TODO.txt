@@ -12,4 +12,6 @@ separatori sagomati tra le sezioni
 
 Commentare tutto
 
+Gestire le lingue
+
 ecc ecc
