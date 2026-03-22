@@ -1,4 +1,4 @@
-const navbar = document.querySelector('nav');
+const navbar = document.querySelector('header');
 let lastScroll = 0;
 
 window.addEventListener('scroll', () => {
