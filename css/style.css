@@ -1,4 +1,5 @@
 :root {
+  /* GENERAL SETTINGS */
   --header-height: 10vh;
 
   --navbar-color: rgba(0, 0, 0, 0.3);
@@ -6,12 +7,20 @@
 
   --navbar-buttons-hover-color: rgba(0, 0, 0, 0.5);
 
-  /* COLORS */
+  /* FONTS */
+  --font-titles: "Playfair Display", serif;
+  --font-body: "Jetbrain Mono", sans-serif§;
 
+  /* COLORS */
+  /* Deep-Charcoal */
   --carbon-black: #1a1b1e;
+  /* Ochre */
   --ochre: #d97706;
+  /* Platinum */
   --platinum: #f4f4f5;
+  /* Pacifi-Cyan */
   --pacific-cyan: #2292a4;
+  /* Golden-Glow */
   --golden-glow: #bdbf09;
 }
 

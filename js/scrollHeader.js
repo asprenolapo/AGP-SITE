@@ -1,3 +1,6 @@
+//==========================
+// SCROLL HEADER MODULE
+//==========================
 const navbar = document.querySelector('header');
 let lastScroll = 0;
 
