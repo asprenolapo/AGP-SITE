@@ -3,8 +3,9 @@
   HEADER & NAVBAR
 /////////////////////////////////////////////////// */
   --header-height: 10vh;
+  --header-top-color: rgba(0, 0, 0, 0.4);
+  --header-bottom-color: rgba(0, 0, 0, 0);
 
-  --navbar-color: rgba(0, 0, 0, 0.3);
   --navbar-width: fit-content;
 
   --navbar-buttons-hover-color: rgba(0, 0, 0, 0.5);

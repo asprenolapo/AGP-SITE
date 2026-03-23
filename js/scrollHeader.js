@@ -8,14 +8,14 @@ window.addEventListener('scroll', () => {
     const currentScroll = window.scrollY;
 
     if (currentScroll <= 0) {
-        navbar.style.display = "flex";
+        navbar.classList.remove('nav-hidden');
         return;
     }
 
-    if (currentScroll > lastScroll) {
-        navbar.style.display = "none";
-    } else if (currentScroll < lastScroll) {
-        navbar.style.display = "flex";
+    if (currentScroll > lastScroll && !navbar.classList.contains('nav-hidden')) {
+        navbar.classList.add('nav-hidden');
+    } else if (currentScroll < lastScroll && navbar.classList.contains('nav-hidden')) {
+        navbar.classList.remove('nav-hidden');
     }
 
     lastScroll = currentScroll;
