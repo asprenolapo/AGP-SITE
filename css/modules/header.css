@@ -11,12 +11,13 @@ header {
   z-index: 1000;
 }
 
+header.hidden {
+  transform: translateY(-100%);
+}
+
 /* ////////////////////////////////////////////////
   NAVBAR
 /////////////////////////////////////////////////// */
-.nav-hidden {
-    transform: translateY(-100%);
-}
 
 nav {
   display: flex;
