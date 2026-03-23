@@ -7,6 +7,8 @@
 
   --navbar-buttons-hover-color: rgba(0, 0, 0, 0.5);
 
+  --navbar-buttons-hover-transition-time: 0.5s;
+
   /* FONTS */
   --font-titles: "Playfair Display", serif;
   --font-body: "Jetbrain Mono", sans-serif§;
@@ -68,16 +70,18 @@ nav {
 }
 
 nav a {
+  border-radius: 100px;
   padding: 15px;
   text-decoration: none;
   color:var(--platinum);
   font-family: var(--font-titles);
+  transition: var(--navbar-buttons-hover-transition-time);
 }
 
 nav a:hover {
   border-radius: 100px;
   background-color: var(--navbar-buttons-hover-color);
-  transition: 0.5s;
+  transition: var(--navbar-buttons-hover-transition-time);
 }
 
 .nav-links {
@@ -87,11 +91,15 @@ nav a:hover {
 
 /* LOGO */
 .logo {
-  max-width: calc(var(--header-height) / 2);
-  height: auto;
   display: flex;
   align-items: center;
+  gap: 10px;
   white-space: nowrap;
+}
+
+.logo img {
+  max-width: calc(var(--header-height) / 2);
+  height: auto;
 }
 
 /* SECTION */
