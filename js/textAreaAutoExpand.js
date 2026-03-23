@@ -11,16 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
     if (element.value) expand(element);
   }
 
-  function expand(element) {
-    element.rows = element.dataset.minRows; // ← reset al minimo
-    while (element.scrollHeight > element.clientHeight) {
-      element.rows += 1;
-    }
+function expand(element) {
+  element.rows = element.dataset.minRows; // ← reset al minimo
+  while (element.scrollHeight > element.clientHeight) {
+    element.rows += 1;
   }
+}
 
   document.querySelectorAll("textarea").forEach(setup);
 
   document.addEventListener("input", ({ target }) => {
-    if (target.matches("textarea")) expand(target);
+        if (target.matches("textarea")) expand(target);
   });
 });
