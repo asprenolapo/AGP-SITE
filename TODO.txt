@@ -4,7 +4,8 @@ Sistemare navbar in generale
 
 Sistemare classi e struttura html/css
 
-Aggiungere transition alla scomparsa della navbar
+Aggiungere transition alla scomparsa della navbar facendo il modo che rimanga solamente il logo in sovraimpressione
+Tutto il resto deve diventare trasparente pian piano e il logo si deve spostare lentamente verso il centro
 
 se abbiamo tempo priaviamo a creare gia le card riutilizzabili e struttura delle sezione card 
 

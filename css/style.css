@@ -3,11 +3,14 @@
   --header-height: 10vh;
 
   --navbar-color: rgba(0, 0, 0, 0.3);
-  --navbar-width: 50%;
+  --navbar-width: fit-content;
 
   --navbar-buttons-hover-color: rgba(0, 0, 0, 0.5);
 
   --navbar-buttons-hover-transition-time: 0.5s;
+
+  --navbar-sections-gap: 100px;
+  --navbar-buttons-gap: 15px;
 
   /* FONTS */
   --font-titles: "Playfair Display", serif;
@@ -64,9 +67,9 @@ nav {
   border-radius: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 15px;
   width: var(--navbar-width);
+  gap: var(--navbar-sections-gap);
 }
 
 nav a {
@@ -86,7 +89,7 @@ nav a:hover {
 
 .nav-links {
   display: flex;
-  gap: 15px;
+  gap: var(--navbar-buttons-gap);
 }
 
 /* LOGO */
