@@ -1,13 +1,13 @@
 export function initScrollHeader() {
-  const navbar = document.querySelector("header");
+  const header = document.querySelector("header");
   
-  if (!navbar) {
+  if (!header) {
     console.warn("Header element not found");
     return;
   }
   
   let lastScroll = 0;
-  let ticking = false; // Per performance ottimali
+  let ticking = false;
   
   window.addEventListener("scroll", () => {
     if (!ticking) {
@@ -15,11 +15,11 @@ export function initScrollHeader() {
         const currentScroll = window.scrollY;
         
         if (currentScroll <= 0) {
-          navbar.classList.remove("nav-hidden");
+          header.classList.remove("hidden");
         } else if (currentScroll > lastScroll) {
-          navbar.classList.add("nav-hidden");
+          header.classList.add("hidden");
         } else if (currentScroll < lastScroll) {
-          navbar.classList.remove("nav-hidden");
+          header.classList.remove("hidden");
         }
         
         lastScroll = currentScroll;
