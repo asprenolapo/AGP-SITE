@@ -5,8 +5,10 @@ header {
   position: fixed;
   height: var(--header-height);
   width: 100%;
-  background-image: linear-gradient(to bottom,var(--header-top-color),var(--header-bottom-color) );
+  background-image: linear-gradient(to bottom, var(--header-top-color), var(--header-bottom-color));
   transition: 0.5s;
+  display: flex;
+  align-items: center;
 }
 
 header.hidden {
@@ -21,21 +23,19 @@ nav {
   display: flex;
   align-items: center;
   padding: 15px;
-  width: var(--navbar-width);
   gap: var(--navbar-sections-gap);
 }
 
-nav a {
+nav a, .burger-button a {
   border-radius: 100px;
   padding: 15px;
   text-decoration: none;
-  color:var(--platinum);
+  color: var(--platinum);
   font-family: var(--font-titles);
   transition: var(--navbar-buttons-hover-transition-time);
 }
 
-nav a:hover {
-  border-radius: 100px;
+nav a:hover, .burger-button a:hover {
   background-color: var(--navbar-buttons-hover-color);
   transition: var(--navbar-buttons-hover-transition-time);
 }
@@ -58,4 +58,24 @@ nav a:hover {
 .logo img {
   max-width: calc(var(--header-height) / 2);
   height: auto;
+}
+
+/* ////////////////////////////////////////////////
+  MOBILE RULES FOR HEADER AND NAVBAR
+/////////////////////////////////////////////////// */
+
+.burger-button {
+  display: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .burger-button {
+    display: block;
+  }
 }
