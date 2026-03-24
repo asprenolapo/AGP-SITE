@@ -7,8 +7,6 @@ header {
   width: 100%;
   background-image: linear-gradient(to bottom,var(--header-top-color),var(--header-bottom-color) );
   transition: 0.5s;
-  top: 0;
-  z-index: 1000;
 }
 
 header.hidden {
