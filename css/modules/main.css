@@ -7,16 +7,18 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
+h1 {
   font-family: var(--font-titles);
 }
-h2{
+
+h2 {
   font-family: var(--font-titles);
 }
 
 body {
   height: 100%;
-  font-family:var(--font-body);
+  font-family: var(--font-body);
 }

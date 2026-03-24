@@ -9,6 +9,7 @@ header {
   transition: 0.5s;
   display: flex;
   align-items: center;
+  padding: 0px 20px;
 }
 
 header.hidden {
@@ -26,7 +27,8 @@ nav {
   gap: var(--navbar-sections-gap);
 }
 
-nav a, .burger-button a {
+nav a,
+.burger-button a {
   border-radius: 100px;
   padding: 15px;
   text-decoration: none;
@@ -35,7 +37,8 @@ nav a, .burger-button a {
   transition: var(--navbar-buttons-hover-transition-time);
 }
 
-nav a:hover, .burger-button a:hover {
+nav a:hover,
+.burger-button a:hover {
   background-color: var(--navbar-buttons-hover-color);
   transition: var(--navbar-buttons-hover-transition-time);
 }
