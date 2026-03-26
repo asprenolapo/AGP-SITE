@@ -22,3 +22,8 @@ body {
   height: 100%;
   font-family: var(--font-body);
 }
+
+.col {
+    /* Tutti i div con col vengono fatti a parti uguali automaticamente */
+    flex: 1;
+}
