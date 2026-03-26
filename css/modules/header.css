@@ -27,18 +27,15 @@ nav {
   gap: var(--navbar-sections-gap);
 }
 
-nav a,
-.burger-button a {
+.nav-button{
   border-radius: 100px;
   padding: 15px;
-  text-decoration: none;
   color: var(--platinum);
   font-family: var(--font-titles);
   transition: var(--navbar-buttons-hover-transition-time);
 }
 
-nav a:hover,
-.burger-button a:hover {
+.nav-button:hover{
   background-color: var(--navbar-buttons-hover-color);
   transition: var(--navbar-buttons-hover-transition-time);
 }
