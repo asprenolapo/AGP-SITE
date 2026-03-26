@@ -45,4 +45,6 @@ section {
   background-size: cover;
   padding: 0 var(--sections-orizzontal-padding);
   flex-direction: column;
+
+  background-color: grey;
 }
