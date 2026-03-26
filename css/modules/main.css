@@ -34,11 +34,13 @@ body {
 }
 
 section {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
 
-    flex-direction: column;
+  padding: 0 var(--sections-orizzontal-padding);
+
+  flex-direction: column;
 }
