@@ -8,17 +8,18 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: var(--font-titles);
-}
-
-h2 {
+h1, h2, h3 {
   font-family: var(--font-titles);
 }
 
 body {
   height: 100%;
   font-family: var(--font-body);
+}
+
+small {
+  font-size: var(--card-font-size-small);
+  opacity: 0.6;
 }
 
 .row {
@@ -37,8 +38,6 @@ section {
   justify-content: center;
   align-items: center;
   background-size: cover;
-
   padding: 0 var(--sections-orizzontal-padding);
-
   flex-direction: column;
 }

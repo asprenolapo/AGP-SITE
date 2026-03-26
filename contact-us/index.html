@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <script src="js/textAreaAutoExpand.js" defer></script>
 
     <script src="../js/pages/contact-us.js" type="module" defer></script>
-    <link rel="stylesheet" href="../css/pages/contact-us.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/pages/contact-us.css" />
+  </head>
+  <body>
     <header>
       <nav>
         <div class="logo">
@@ -31,65 +31,127 @@
     </header>
 
     <section id="contact-forms">
-        <div class="row">
-            <div class="col">
-                <h2>Contattaci </h2>
-                <p>Hai un progetto in mente o una necessità tecnica da risolvere? Siamo pronti ad ascoltarti. Sviluppiamo software su misura per aziende e privati, incluse soluzioni dedicate a hardware specifici. Scrivici: trova la soluzione giusta inizia da una conversazione.</p>
-            </div>
-            <div class="col">
-                <h2>lavora con noi</h2>
-                <p>Sei uno sviluppatore, un designer o un tecnico con la passione per l'innovazione? Siamo sempre alla ricerca di nuovi talenti da inserire nel nostro team. Inviaci il tuo CV e raccontaci chi sei: potrebbe essere l'inizio di qualcosa di grande.</p>
-            </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Contattaci</h2>
+          <p>
+            Hai un progetto in mente o una necessità tecnica da risolvere? Siamo
+            pronti ad ascoltarti. Sviluppiamo software su misura per aziende e
+            privati, incluse soluzioni dedicate a hardware specifici. Scrivici:
+            trova la soluzione giusta inizia da una conversazione.
+          </p>
         </div>
-        <div class="row">
-            <div class="col">
-                <form method="post">
-                    <fieldset>
-                        <label for="email">Email</label> <br />
-                        <input type="email" id="email" name="email" placeholder="Scrivi la tua Email" required> <br /> 
-
-                        <label for="tel">Telefono</label> <br />
-                        <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare" required> <br />
-
-                        <label for="messages">Lasciaci un messaggio</label> <br />
-                        <textarea rows="5" cols="50" placeholder="Scrivici Qualcosa" id="messages" name="messages" required></textarea> <br /> <br />
-
-                        <input type="submit" value="Invia"> &nbsp;
-                        <input type="reset" value="Resetta"> 
-                    </fieldset> <br />
-                </form>
-            </div>
-            <div class="col">
-                <form action="">
-                    <fieldset>
-                        <label for="name">Nome</label> <br />
-                        <input type="text" id="name" name="name" placeholder="Scrivi il tuo Nome" required> <br />
-
-                        <label for="surname">Cognome</label> <br />
-                        <input type="text" id="surname" name="surname" placeholder="Scrivi il tuo Cognome" required> <br />
-
-                        <label for="email">Email</label> <br />
-                        <input type="email" id="email" name="email" placeholder="Scrivi la tua Email" required> <br />
-
-                        <label for="tel">Telefono</label> <br />
-                        <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare" required> <br />
-
-                        <select name="position" id="position" required>
-                            <option value="" selected disabled>Seleziona</option>
-                            <option value="human_resource">Risorse Umane</option>
-                            <option value="front_end">Sviluppo Front-End</option>
-                            <option value="back_end">Sviluppo Back-End</option>
-                            <option value="marketing">Marketing</option>
-                        </select> <br />
-                        <input type="submit" value="Invia"> &nbsp;
-                        <input type="reset" value="Resetta"> 
-                    </fieldset>
-                </form>
-            </div>
+        <div class="col">
+          <h2>lavora con noi</h2>
+          <p>
+            Sei uno sviluppatore, un designer o un tecnico con la passione per
+            l'innovazione? Siamo sempre alla ricerca di nuovi talenti da
+            inserire nel nostro team. Inviaci il tuo CV e raccontaci chi sei:
+            potrebbe essere l'inizio di qualcosa di grande.
+          </p>
         </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form method="post">
+            <fieldset>
+              <label for="email">Email</label> <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Scrivi la tua Email"
+                required
+              />
+              <br />
+
+              <label for="tel">Telefono</label> <br />
+              <input
+                type="number"
+                id="tel"
+                name="tel"
+                placeholder="Telefono Cellulare"
+                required
+              />
+              <br />
+
+              <label for="messages">Lasciaci un messaggio</label> <br />
+              <textarea
+                rows="5"
+                cols="50"
+                placeholder="Scrivici Qualcosa"
+                id="messages"
+                name="messages"
+                required
+              ></textarea>
+              <br />
+              <br />
+
+              <input type="submit" value="Invia" /> &nbsp;
+              <input type="reset" value="Resetta" />
+            </fieldset>
+            <br />
+          </form>
+        </div>
+        <div class="col">
+          <form action="">
+            <fieldset>
+              <label for="name">Nome</label> <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Scrivi il tuo Nome"
+                required
+              />
+              <br />
+
+              <label for="surname">Cognome</label> <br />
+              <input
+                type="text"
+                id="surname"
+                name="surname"
+                placeholder="Scrivi il tuo Cognome"
+                required
+              />
+              <br />
+
+              <label for="email">Email</label> <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Scrivi la tua Email"
+                required
+              />
+              <br />
+
+              <label for="tel">Telefono</label> <br />
+              <input
+                type="number"
+                id="tel"
+                name="tel"
+                placeholder="Telefono Cellulare"
+                required
+              />
+              <br />
+
+              <select name="position" id="position" required>
+                <option value="" selected disabled>Seleziona</option>
+                <option value="human_resource">Risorse Umane</option>
+                <option value="front_end">Sviluppo Front-End</option>
+                <option value="back_end">Sviluppo Back-End</option>
+                <option value="marketing">Marketing</option>
+              </select>
+              <br />
+              <input type="submit" value="Invia" /> &nbsp;
+              <input type="reset" value="Resetta" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </section>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
