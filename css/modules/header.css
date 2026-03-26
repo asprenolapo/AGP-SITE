@@ -69,13 +69,3 @@ nav {
   cursor: pointer;
   margin-left: auto;
 }
-
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-
-  .burger-button {
-    display: block;
-  }
-}
