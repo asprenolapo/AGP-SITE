@@ -1,7 +1,7 @@
-@import '../modules/root.css';
-@import '../modules/main.css';
-@import '../modules/header.css';
-@import '../modules/sections.css';
+@import "../modules/root.css";
+@import "../modules/main.css";
+@import "../modules/header.css";
+@import '../modules/mobile.css';
 
 #contact-forms {
     background-image: url("../../assets/images/hero-background.jpg") ;
