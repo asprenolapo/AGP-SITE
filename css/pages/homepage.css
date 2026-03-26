@@ -19,7 +19,7 @@ section:nth-child(even) {
 }
 
 #hero {
-  background-image: url("../../assets/images/prova.jpg");
+    background-image: url("../../assets/images/stars-space.jpg");
 }
 
 #about-us {
