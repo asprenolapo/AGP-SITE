@@ -13,8 +13,3 @@ section {
     text-align: center;
     /* Aggiungere stile titoli sezioni */
 }
-
-
-section:nth-child(even) {
-    flex-direction: row-reverse;
-}
