@@ -11,59 +11,71 @@
 </head>
 <body>
     <header>
-        <div class="">
-            <span>Chatch frase</span>
-            <h1>Contact or work whit Us</h1>
-            <p>Short text</p>
+      <nav>
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="" />
+          <a class="brand-name" href="">Our Distro</a>
+        </div>  
+
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="#about-us">Future Visions</a>
+          <a href="#about-us">Research & development</a>
+          <a href="#about-us">Consultancy</a>
+          <a href="#about-us">Contact Us</a>
         </div>
+      </nav>
+      <div class="burger-button">
+        <a>Burger Menu</a>
+      </div>
     </header>
 
-    <section>
-        <div class="">
+    <section id="contact-forms">
+        <div class="col">
             <h2>Contact or work whit Us</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis dolorum at nobis sit animi beatae
                 doloremque placeat, magnam, iusto omnis iure illum inventore esse magni praesentium sequi nisi aliquid
                 vel.</p>
         </div>
-        <div class="">
+        <div class="col">
             <form method="post">
                 <fieldset>
                     <legend>Contattaci</legend>
 
                     <label for="email">Email</label> <br />
-                    <input type="email" id="email" name="email" placeholder="Scrivi la tua Email"> <br /> 
-<label for="tel">Telefono</label> <br />
-                    <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare"> <br />
+                    <input type="email" id="email" name="email" placeholder="Scrivi la tua Email" required> <br /> 
+
+                    <label for="tel">Telefono</label> <br />
+                    <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare" required> <br />
 
                     <label for="messages">Lasciaci un messaggio</label> <br />
-                    <textarea rows="5" cols="50" placeholder="Scrivici Qualcosa" id="messages" name="messages"></textarea> <br /> <br />
+                    <textarea rows="5" cols="50" placeholder="Scrivici Qualcosa" id="messages" name="messages" required></textarea> <br /> <br />
 
                     <input type="submit" value="Invia"> &nbsp;
                     <input type="reset" value="Resetta"> 
                 </fieldset> <br />
-
             </form>
-
         </div>
-        <div class="">
+        <div class="col">
             <form action="">
                 <fieldset>
                     <legend>Lavora con noi</legend>
 
                     <label for="name">Nome</label> <br />
-                    <input type="text" id="name" name="name" placeholder="Scrivi il tuo Nome"> <br />
+                    <input type="text" id="name" name="name" placeholder="Scrivi il tuo Nome" required> <br />
 
                     <label for="surname">Cognome</label> <br />
-                    <input type="text" id="surname" name="surname" placeholder="Scrivi il tuo Cognome"> <br />
+                    <input type="text" id="surname" name="surname" placeholder="Scrivi il tuo Cognome" required> <br />
 
                     <label for="email">Email</label> <br />
-                    <input type="email" id="email" name="email" placeholder="Scrivi la tua Email"> <br />
+                    <input type="email" id="email" name="email" placeholder="Scrivi la tua Email" required> <br />
 
                     <label for="tel">Telefono</label> <br />
-                    <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare"> <br />
+                    <input type="number" id="tel" name="tel" placeholder="Telefono Cellulare" required> <br />
 
-                    <select name="position" id="position">
-                        <option value="null" selected>Non hai inserito nulla</option>
+                    <select name="position" id="position" required>
+                        <option value="" selected disabled>Seleziona</option>
                         <option value="human_resource">Risorse Umane</option>
                         <option value="front_end">Sviluppo Front-End</option>
                         <option value="back_end">Sviluppo Back-End</option>
