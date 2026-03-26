@@ -2,9 +2,12 @@
   ANNUAL RESULTS MODULE
 /////////////////////////////////////////////////// */
 
-.annual-results {
-  padding: 80px 40px;
-  text-align: center;
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .results-title {

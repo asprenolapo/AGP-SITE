@@ -1,0 +1,56 @@
+/* ////////////////////////////////////////////////
+  PARTNERS MODULE
+/////////////////////////////////////////////////// */
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 40px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.partner-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-4px);
+}
+
+.partner-logo {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.partner-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.partner-name {
+  font-family: var(--font-titles);
+  color: var(--platinum);
+  font-size: var(--card-font-size-name);
+  opacity: 0.55;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*
+<div class="partner-card">
+  <div class="partner-logo">
+    <img src="assets/images/partners/partner1.png" alt="Partner Name" />
+  </div>
+  <span class="partner-name">Partner Name</span>
+</div>
+*/
