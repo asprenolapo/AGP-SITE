@@ -1,34 +1,43 @@
-@import '../modules/root.css';
-@import '../modules/main.css';
-@import '../modules/header.css';
-
-@import '../modules/sections.css';
-
+@import "../modules/root.css";
+@import "../modules/main.css";
+@import "../modules/header.css";
 
 /* ////////////////////////////////////////////////
   SECTIONS BACKGROUND IMAGES
 /////////////////////////////////////////////////// */
+
+section:nth-child(odd) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+
+section:nth-child(even) {
+  .row {
+    flex-direction: row-reverse;
+  }
+}
 
 #hero {
     background-image: url("../../assets/images/stars-space.jpg");
 }
 
 #about-us {
-    background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.jpg");
 }
 
 #future-visions {
-    background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.jpg");
 }
 
 #research-and-development {
-    background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.jpg");
 }
 
 #consultancy {
-    background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.jpg");
 }
 
 #contact-us {
-    background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.jpg");
 }

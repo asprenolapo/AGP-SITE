@@ -23,7 +23,22 @@ body {
   font-family: var(--font-body);
 }
 
+.row {
+  display: flex;
+  width: 100%;
+}
+
 .col {
-    /* Tutti i div con col vengono fatti a parti uguali automaticamente */
-    flex: 1;
+  flex: 1;
+  display: block;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+    flex-direction: column;
 }
