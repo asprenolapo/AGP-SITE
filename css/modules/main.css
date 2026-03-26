@@ -26,4 +26,5 @@ body {
 .col {
     /* Tutti i div con col vengono fatti a parti uguali automaticamente */
     flex: 1;
+    
 }
