@@ -66,3 +66,19 @@
   line-height: 1.5;
   margin: 0;
 }
+
+/*
+<div class="person-card">
+    <div class="avatar-wrapper">
+        <img class="avatar" src="../path">
+    </div>
+
+    <p class="card-name">Nome e cognome</p>
+    <p class="card-known-as">Conosciuto/a come</p>
+    <span class="card-role">RUOLO</span>
+    <hr class="card-divider">
+    <p class="card-quote">
+        "Frase tipica"
+    </p>
+</div>
+*/
