@@ -65,3 +65,29 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
+
+
+/*
+<div class="results-grid">
+  <div class="result-card">
+    <span class="result-icon">📈</span>
+    <span class="result-value">€4.2M</span>
+    <span class="result-label">Fatturato</span>
+  </div>
+  <div class="result-card">
+    <span class="result-icon">📍</span>
+    <span class="result-value">12</span>
+    <span class="result-label">Sedi aperte</span>
+  </div>
+  <div class="result-card">
+    <span class="result-icon">✅</span>
+    <span class="result-value">87</span>
+    <span class="result-label">Progetti finiti</span>
+  </div>
+  <div class="result-card">
+    <span class="result-icon">🤝</span>
+    <span class="result-value">34</span>
+    <span class="result-label">Persone assunte</span>
+  </div>
+</div>
+*/
