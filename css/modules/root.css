@@ -14,6 +14,9 @@
   --navbar-sections-gap: 100px;
   --navbar-buttons-gap: 15px;
 
+  --footer-color: var(--golden-glow); 
+  --footer-vertical-padding: 5vh;
+
 /* ////////////////////////////////////////////////
   SECTIONS
 /////////////////////////////////////////////////// */

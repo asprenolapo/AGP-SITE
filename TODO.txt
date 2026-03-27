@@ -1,16 +1,28 @@
-Mettere upcoming launches di spacex sottoforma di eventi in partenza
+IMPORTANTI:
 
-Sistemare navbar in generale e aggiungere burger
+Aggiungere finestra burger button
 
-Aggiungere transition alla scomparsa della navbar facendo il modo che rimanga solamente il logo in sovraimpressione
-Tutto il resto deve diventare trasparente pian piano e il logo si deve spostare lentamente verso il centro
+Rivedere responsive
 
-se abbiamo tempo priaviamo a creare gia le card riutilizzabili e struttura delle sezione card 
-
-separatori sagomati tra le sezioni 
+Rivedere contenuto pagine
 
 Gestire le lingue
 
+Palette colori
+
+Immagini
+Creare LOGO
+
+Refactor root e otimizzazione css
+
+Rifare moduli card
+
+FACOLTATIVO:
+
+Mettere upcoming launches di spacex sottoforma di eventi in partenza
+
+separatori sagomati tra le sezioni 
+
 Decidere tra php e Java come backend e rifare sistema mail insieme
 
-ecc ecc
+Aggiungere scrollbar per indicare altezza pagina

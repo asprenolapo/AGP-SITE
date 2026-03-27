@@ -1,7 +1,8 @@
 @import "../modules/root.css";
 @import "../modules/main.css";
 @import "../modules/header.css";
+@import "../modules/footer.css";
 @import '../modules/mobile.css';
 
 
-@import '../modules/person-card.css';
+@import '../modules/cards/person-card.css';

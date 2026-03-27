@@ -30,6 +30,7 @@ small {
 .row {
   display: flex;
   width: 100%;
+  padding: 5vh;
 }
 
 .col {
