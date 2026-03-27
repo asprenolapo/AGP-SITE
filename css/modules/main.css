@@ -32,7 +32,7 @@ small {
 .row {
   display: flex;
   width: 100%;
-  padding: 5vh;
+  padding: 5vh 0;
 }
 
 .col {
