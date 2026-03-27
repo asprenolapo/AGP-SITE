@@ -33,15 +33,13 @@
   COLORS
 /////////////////////////////////////////////////// */
   /* Deep-Charcoal */
-  --carbon-black: #1a1b1e;
-  /* Ochre */
-  --ochre: #d97706;
-  /* Platinum */
-  --platinum: #f4f4f5;
-  /* Pacifi-Cyan */
-  --pacific-cyan: #2292a4;
-  /* Golden-Glow */
-  --golden-glow: #bdbf09;
+  --deep-black: #0B0C10;
+  /* Tech-Cyan */
+  --pacific-cyan: #45A29E;
+  /* Starlight Text-Title */
+  --golden-glow: #F3F4F6;
+   /* Muted Grey Text-Body */
+  --platinum: #9CA3AF;
 
 /* ////////////////////////////////////////////////
   CARDS
