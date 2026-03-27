@@ -31,10 +31,10 @@
 }
 
 /*
-<div class="partner-card">
-  <div class="partner-logo">
-    <img src="assets/images/partners/partner1.png" alt="Partner Name" />
+<div class="col partner-card">
+  <div class="partner-logo-wrapper">
+    <img src="PATH.png" alt="Partner 1" />
   </div>
-  <span class="partner-name">Partner Name</span>
+  <span class="partner-name">Partner One</span>
 </div>
 */
