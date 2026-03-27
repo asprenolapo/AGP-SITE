@@ -37,7 +37,7 @@ small {
 
 .col {
   flex: 1;
-  display: block;
+  display: flex;
 }
 
 section {
@@ -49,5 +49,5 @@ section {
   /* padding: 0 var(--sections-orizzontal-padding); */
   flex-direction: column;
 
-  background-color: grey;
+  background-color: rgb(97, 97, 84);
 }

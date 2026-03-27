@@ -12,7 +12,7 @@
   border: 2px solid orange;
   border-radius: var(--card-border-radius);
   background: var(--card-background);
-  width: var(--card-width);
+  width: 100%;
 }
 
 /* Il div wrapper controlla la dimensione, l'img si adatta */
