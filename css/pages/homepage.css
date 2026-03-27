@@ -25,8 +25,33 @@ section:nth-child(even) {
 
 #hero {
     background-image: url("../../assets/images/stars-space.jpg");
-    clip-path: polygon(0 50%, 100% 75%, 100% 25%);
+  background-size: cover;
+  width: 100%;
 }
+.poligon-border{
+/* Usiamo ombre nette e vicine per simulare un bordo al neon */
+    filter: drop-shadow(0 0 2px #00ffff) drop-shadow(0 0 5px #00ffff);
+}
+.glass-effect{
+  width: 100rem;
+  height: 700px; 
+  clip-path: polygon(100% 50%, 0 25%, 0 75%);
+  background-color:var(--deep-black); 
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px);
+  /* NUOVO: Impostazioni Flexbox per centrare il contenuto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* TRUCCO GEOMETRICO: Il tuo poligono ha la punta a sinistra e la base a destra. 
+  Il centro "visivo" del triangolo è spostato verso destra rispetto al centro 
+  del quadrato di 400x400px. Aggiungiamo un po' di padding a sinistra per 
+  spingere il testo verso la parte più larga del triangolo, evitando che 
+  venga "tagliato" dalla punta. */ 
+  box-sizing: border-box; /* Assicura che il padding non sballi le dimensioni totali */
+}
+
+
 
 #about-us {
   background-image: url("../../assets/images/hero-background.jpg");
