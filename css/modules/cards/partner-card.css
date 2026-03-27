@@ -9,6 +9,8 @@
   gap: 12px;
   padding: 40px 20px;
   cursor: pointer;
+
+  width: 100%;
 }
 
 .partner-logo-wrapper {

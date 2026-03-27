@@ -11,42 +11,12 @@
     display: block;
   }
 
-  .results-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .partners-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   /* ROW E COL RESPONSIVE */
   .row {
     flex-direction: column;
-    gap: 2rem;
-    padding: 3vh 1rem;
   }
 
   .col {
     width: 100%;
-  }
-
-  /* SECTION PADDING SU MOBILE */
-  section {
-    padding: 0 1rem;
-  }
-}
-
-@media (max-width: 420px) {
-  .results-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .partners-grid {
-    grid-template-columns: 1fr;
-  }
-
-  /* Riduci ulteriormente il padding su schermi molto piccoli */
-  .row {
-    padding: 2vh 0.5rem;
   }
 }
