@@ -10,6 +10,7 @@
 
 h1, h2, h3 {
   font-family: var(--font-titles);
+  color: var(--starlight-text-title);
 }
 
 a {
@@ -20,6 +21,7 @@ a {
 body {
   height: 100%;
   font-family: var(--font-body);
+  color: var(--muted-grey-text-body);
 }
 
 small {
@@ -44,7 +46,7 @@ section {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  padding: 0 var(--sections-orizzontal-padding);
+  /* padding: 0 var(--sections-orizzontal-padding); */
   flex-direction: column;
 
   background-color: grey;
