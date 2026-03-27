@@ -6,4 +6,6 @@ footer {
     align-items: center;
     text-align: center;
     padding: var(--footer-vertical-padding);
+
+    flex-direction: column;
 }
