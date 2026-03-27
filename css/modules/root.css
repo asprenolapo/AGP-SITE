@@ -32,14 +32,14 @@
 /* ////////////////////////////////////////////////
   COLORS
 /////////////////////////////////////////////////// */
-  /* Deep-Charcoal */
+  /* Deep-Black */
   --deep-black: #0B0C10;
   /* Tech-Cyan */
-  --pacific-cyan: #45A29E;
+  --tech-cyan: #00FFFF;
   /* Starlight Text-Title */
-  --golden-glow: #F3F4F6;
+  --starlight-text-title: #F3F4F6;
    /* Muted Grey Text-Body */
-  --platinum: #9CA3AF;
+  --muted-grey-text-body: #9CA3AF;
 
 /* ////////////////////////////////////////////////
   CARDS

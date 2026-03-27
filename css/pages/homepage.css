@@ -25,6 +25,7 @@ section:nth-child(even) {
 
 #hero {
     background-image: url("../../assets/images/stars-space.jpg");
+    clip-path: polygon(0 50%, 100% 75%, 100% 25%);
 }
 
 #about-us {
