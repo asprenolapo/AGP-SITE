@@ -43,11 +43,6 @@ small {
 section {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-size: cover;
-  /* padding: 0 var(--sections-orizzontal-padding); */
-  flex-direction: column;
-
   background-color: rgb(97, 97, 84);
 }
