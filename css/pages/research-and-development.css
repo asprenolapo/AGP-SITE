@@ -6,3 +6,7 @@
 
 @import '../modules/cards/results-card.css';
 @import '../modules/cards/partner-card.css';
+
+#mission {
+    background-image: url("../../assets/images/mission-dev-hero-background.png");
+}
