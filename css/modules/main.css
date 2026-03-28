@@ -24,7 +24,6 @@ a {
 
 body {
   height: 100%;
-  font-family: var(--font-body);
   color: var(--muted-grey-text-body);
 }
 
@@ -35,7 +34,6 @@ section:first-of-type {
 section {
   min-height: 100vh;
   background-size: cover;
-  background-color: rgb(97, 97, 84);
 }
 
 /* ////////////////////////////////////////////////
