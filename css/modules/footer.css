@@ -1,11 +1,11 @@
 footer {
     width: 100%;
-    background-color: var(--footer-color);
+    background-color: var(--golden-glow);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: var(--footer-vertical-padding);
+    padding: 5vh;
 
     flex-direction: column;
 }

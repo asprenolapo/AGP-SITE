@@ -6,40 +6,27 @@
   --header-top-color: rgba(0, 0, 0, 0.4);
   --header-bottom-color: rgba(0, 0, 0, 0);
 
-
   --navbar-buttons-hover-color: rgba(51, 26, 190, 0.5);
-
   --navbar-buttons-hover-transition-time: 0.5s;
-
   --navbar-sections-gap: 100px;
   --navbar-buttons-gap: 15px;
-
-  --footer-color: var(--golden-glow); 
-  --footer-vertical-padding: 5vh;
-
-/* ////////////////////////////////////////////////
-  SECTIONS
-/////////////////////////////////////////////////// */
-
-  --sections-orizzontal-padding: 1vw;
 
 /* ////////////////////////////////////////////////
   FONTS
 /////////////////////////////////////////////////// */
-  --font-titles: "Space Grotesk, sans-serif";
-  --font-body: "Jetbrain Mono, sans-serif";
+  --font-title: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
 
 /* ////////////////////////////////////////////////
   COLORS
 /////////////////////////////////////////////////// */
-  /* Deep-Black */
   --deep-black: #0B0C10;
-  /* Tech-Cyan */
   --tech-cyan: #00FFFF;
-  /* Starlight Text-Title */
   --starlight-text-title: #F3F4F6;
-   /* Muted Grey Text-Body */
   --muted-grey-text-body: #9CA3AF;
+
+
+
 
 /* ////////////////////////////////////////////////
   CARDS
@@ -61,5 +48,9 @@
 --card-font-size-small: 0.75rem;
 --card-font-size-role: 0.8rem;
 --card-font-size-quote: 0.85rem;
---col-width: 50%;
+
+/* ////////////////////////////////////////////////
+  ROW, COL E RESPONSIVE
+/////////////////////////////////////////////////// */
+
 }

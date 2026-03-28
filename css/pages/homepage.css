@@ -8,14 +8,15 @@
   SECTIONS BACKGROUND IMAGES
 /////////////////////////////////////////////////// */
 
-#hero {
-  background-color: white;
-}
-.col{
+.col, .col-12 {
   background-color: brown;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#hero {
+  background-color: white;
 }
 
 #about-us {
