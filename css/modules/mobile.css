@@ -20,3 +20,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .col {
+    width: var(--col-width-sm, var(--col-width));
+  }
+}

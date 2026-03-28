@@ -8,7 +8,11 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2 {
   font-family: var(--font-titles);
   color: var(--starlight-text-title);
 }
@@ -24,25 +28,20 @@ body {
   color: var(--muted-grey-text-body);
 }
 
-small {
-  font-size: var(--card-font-size-small);
-  opacity: 0.6;
-}
-
 .row {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
   padding: 5vh 0;
 }
 
 .col {
-  flex: 1;
-  display: flex;
+  flex: 0 0 auto;
+  width: var(--col-width, 0);
 }
 
 section {
   min-height: 100vh;
-  display: flex;
   background-size: cover;
   background-color: rgb(97, 97, 84);
 }
