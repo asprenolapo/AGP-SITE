@@ -28,6 +28,10 @@ body {
   color: var(--muted-grey-text-body);
 }
 
+section:first-of-type {
+  padding-top: var(--header-height);
+}
+
 section {
   min-height: 100vh;
   background-size: cover;
