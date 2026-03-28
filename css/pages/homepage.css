@@ -4,6 +4,8 @@
 @import "../modules/footer.css";
 @import "../modules/mobile.css";
 
+@import "../modules/buttons.css";
+
 /* ////////////////////////////////////////////////
   SECTIONS BACKGROUND IMAGES
 /////////////////////////////////////////////////// */
@@ -17,10 +19,6 @@
   align-items: center;
   justify-content: start;
   padding-left: 10%;
-}
-.section-title {
-  position: relative;
-  justify-content: space-between;
 }
 .sec-primary-title {
   font-size: 4.5rem;
@@ -51,29 +49,6 @@
   font-size: 1.5rem;
   letter-spacing: 0, 1rem;
   padding-bottom: 10%;
-}
-.button {
-  font-family: var(--font-body);
-  font-size: 1.5rem;
-  border: solid, 2px;
-  color: var(--starlight-text-title);
-  padding: 20px 30px;
-  border-radius: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-}
-.button>.arrow-right-icon{
-  padding-left: 20px;
-  font-size: 1.5rem;
-}
-.button:hover{
-  background-color: var(--starlight-text-title);
-  color: var(--deep-black);
-  box-shadow: 0 0 2px #00ffff,
-    0 0 15px rgba(0, 255, 255, 0.6),
-    0 0 40px rgba(0, 255, 255, 0.2); 
 }
 
 #about-us {
