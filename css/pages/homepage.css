@@ -7,15 +7,8 @@
 /* ////////////////////////////////////////////////
   SECTIONS BACKGROUND IMAGES
 /////////////////////////////////////////////////// */
-
-.col, .col-12 {
-  background-color: brown;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 section.row > .col, [class*="col-"] {
+  /* background-color: brown; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -27,7 +20,7 @@ section.row:nth-of-type(even) > .col, [class*="col-"] {
 }
 
 #hero {
-  background-color: white;
+  background-image: url("../../assets/images/stars-space.jpg");
 }
 
 #about-us {

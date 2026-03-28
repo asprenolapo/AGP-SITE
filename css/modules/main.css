@@ -47,7 +47,6 @@ section {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  padding: 5vh 0;
 }
 
 .col {
