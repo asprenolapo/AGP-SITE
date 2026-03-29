@@ -4,11 +4,11 @@
 @import "../modules/footer.css";
 @import '../modules/mobile.css';
 
+@import '../../css/modules/cards/person-card.css';
 @import '../modules/cards/results-card.css';
 @import '../modules/cards/partner-card.css';
 
 @import '../modules/buttons.css';
-
 
 .sec-primary-title {
   font-size: 4.5rem;
@@ -64,11 +64,7 @@ section:nth-of-type(even) .col-12 {
     background-image: url("../../assets/images/mission-dev-hero-background.png");
 }
 
-#focus {
-    background-image: url("../../assets/images/mission-dev-hero-background.png");
-}
-
-#mission {
+#ai {
     background-image: url("../../assets/images/mission-dev-hero-background.png");
 }
 
