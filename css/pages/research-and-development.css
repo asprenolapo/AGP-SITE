@@ -7,6 +7,60 @@
 @import '../modules/cards/results-card.css';
 @import '../modules/cards/partner-card.css';
 
+@import '../modules/buttons.css';
+
+
+.col,
+.col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10%;
+}
+.sec-primary-title {
+  font-size: 4.5rem;
+  letter-spacing: 0.1em;
+  text-shadow:
+    /* 1. Definizione: un'ombra sottilissima quasi solida per non perdere il bordo */
+    0 0 2px #00ffff,
+    /* 2. Il cuore del colore: una sfumatura media */ 0 0 15px
+      rgba(0, 255, 255, 0.6),
+    /* 3. L'atmosfera: un alone molto largo ma quasi invisibile */ 0 0 40px
+      rgba(0, 255, 255, 0.2);
+  /* Opzionale: aggiunge un filo di contorno per staccare ancora di più */
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+  padding-bottom: 2%;
+}
+.sec-sub-title {
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
+  text-shadow:
+    0 0 2px #00ffff,
+    0 0 15px rgba(0, 255, 255, 0.6),
+    0 0 40px rgba(0, 255, 255, 0.2);
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+  padding-bottom: 2%;
+}
+.paragraph-home {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  letter-spacing: 0, 1rem;
+  padding-bottom: 10%;
+}
+
+
 #mission {
+    background-image: url("../../assets/images/mission-dev-hero-background.png");
+}
+
+#focus {
+    background-image: url("../../assets/images/mission-dev-hero-background.png");
+}
+
+#results {
+    background-image: url("../../assets/images/mission-dev-hero-background.png");
+}
+
+#partners {
     background-image: url("../../assets/images/mission-dev-hero-background.png");
 }
