@@ -13,8 +13,8 @@
   border-radius: var(--card-border-radius);
   background: var(--card-background);
   box-shadow: var(--card-shadow);
-  width: var(--card-width); /* ← larghezza fissa */
-  min-height: var(--card-height); /* ← altezza minima */
+  width: 100%;        /* ← si adatta alla col che la contiene */
+  min-height: var(--card-height);
 }
 
 .person-card:hover {
@@ -24,7 +24,6 @@
   transition: 0.3s;
 }
 
-/* Il div wrapper controlla la dimensione, l'img si adatta */
 .avatar-wrapper {
   width: var(--avatar-size);
   height: var(--avatar-size);
@@ -68,7 +67,6 @@
 }
 
 .card-quote {
-  /* font-size: var(--card-font-size-quote); */
   font-style: italic;
   color: var(--card-text-body);
 }
