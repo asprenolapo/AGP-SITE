@@ -2,8 +2,132 @@
 @import "../modules/main.css";
 @import "../modules/header.css";
 @import "../modules/footer.css";
-@import '../modules/mobile.css';
+@import "../modules/mobile.css";
+@import "../modules/buttons.css";
 
-#contact-forms {
-    background-image: url("../../assets/images/hero-background.jpg") ;
+/* ////////////////////////////////////////////////
+  SEZIONI CONTACT E WORK WITH US FORMS
+/////////////////////////////////////////////////// */
+
+#contact-forms,
+#work-with-us-forms {
+    background-image: url("../../assets/images/mission-dev-hero-background.png");
+    padding-top: var(--header-height);
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.col-12.col-md-6 {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+}
+
+.paragraph-contact,
+.paragraph-work-with-us {
+    color: var(--starlight-text-title);
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+/* ////////////////////////////////////////////////
+  FIELDSET
+/////////////////////////////////////////////////// */
+
+.border-form {
+    border: 2px solid var(--tech-cyan);
+    border-radius: 8px;
+    padding: 30px;
+    background: var(--deep-black);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+/* ////////////////////////////////////////////////
+  INPUT E LABELS (Migliore visibilità)
+/////////////////////////////////////////////////// */
+
+.form-label {
+    display: block;
+    font-family: var(--font-title);
+    color: var(--tech-cyan);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 12px;
+    color: #fff;
+    font-family: var(--font-body);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-label:focus,
+.form-input:focus {
+    border-color: var(--tech-cyan);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    background: rgba(0, 255, 255, 0.05);
+}
+
+
+/* ////////////////////////////////////////////////
+  BUTTON SUBMIT, RESET
+/////////////////////////////////////////////////// */
+
+.button-group {
+    margin-top: 20px;
+}
+
+.submit-form,
+.reset-form {
+    flex: 1;
+    margin-top: 0;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+
+    border: 2px solid var(--tech-cyan);
+    background: transparent;
+    color: var(--tech-cyan);
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.reset-form {
+    margin-top: 20px;
+}
+
+.submit-form:hover,
+.reset-form:hover {
+    background: transparent;
+    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
 }
