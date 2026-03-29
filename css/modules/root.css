@@ -33,13 +33,15 @@
 
 --card-padding: 1.5rem 1.25rem;
 --card-border-radius: 12px;
---card-border-color: rgba(255, 255, 255, 0.1);
---card-background: rgba(255, 255, 255, 0.8);
+--card-border-color: rgba(0, 255, 255, 0.15);       /* bordo cyan sottile */
+--card-background: rgba(255, 255, 255, 0.3);        /* vetro scuro */
+--card-background-hover: rgba(0, 255, 255, 0.06);    /* hover leggermente cyan */
 --card-gap: 0.5rem;
 --card-width: 220px;
+--card-height: 320px;  /* ← aggiunta */
 
 --avatar-size: 160px;
---avatar-border-color: var(--ochre);
+--avatar-border-color: var(--tech-cyan);
 
 --partner-img-size: 80px;
 
@@ -48,8 +50,10 @@
 --card-font-size-role: 0.8rem;
 --card-font-size-quote: 0.85rem;
 
-/* ////////////////////////////////////////////////
-  ROW, COL E RESPONSIVE
-/////////////////////////////////////////////////// */
+--card-text-title: var(--starlight-text-title);
+--card-text-body: var(--muted-grey-text-body);
+--card-accent: var(--tech-cyan);
+--card-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+--card-shadow-hover: 0 0 30px rgba(0, 255, 255, 0.12);
 
 }
