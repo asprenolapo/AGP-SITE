@@ -16,6 +16,8 @@ header {
   align-items: center;
   padding: 0px 40px;
   z-index: 2;
+
+  transition: 0.5s;
 }
 
 header.hidden {
@@ -78,4 +80,13 @@ nav {
   display: none;
   cursor: pointer;
   margin-left: auto;
+
+  font-size: 1.5rem;
+}
+
+.mobile-menu {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
