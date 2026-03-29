@@ -8,7 +8,7 @@ Rivedere contenuto pagine
 
 Gestire le lingue
 
-Palette colori
+Gestire definitivamente transizioni navbar
 
 Immagini
 Creare LOGO
