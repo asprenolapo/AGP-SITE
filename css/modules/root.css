@@ -5,7 +5,7 @@
   --header-height: 100px;
   --header-top-color: rgba(0, 0, 0, 0.4);
   --header-bottom-color: rgba(0, 0, 0, 0);
-  /* --navbar-buttons-hover-transition-time: 0.5s;transition: all 0.4s ease; */
+  --navbar-buttons-hover-transition-time: 0.5s;
   --navbar-sections-gap: 60px;
   --navbar-buttons-gap: 2.5px;
   --nav-link-size: 1rem;
