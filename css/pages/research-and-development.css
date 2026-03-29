@@ -40,17 +40,9 @@
   letter-spacing: 0, 1rem;
 }
 
-section:nth-of-type(odd) .col-12 {
-  justify-content: flex-start;
-  padding-right: 0;
-  text-align: left;
-}
-
-section:nth-of-type(even) .col-12 {
-  justify-content: flex-end;
-  padding-left: 0;
-  text-align: right;
-}
+/* section:nth-of-type(even).row {
+  flex-direction: row-reverse;
+} */
 
 .center {
   display: flex;
@@ -68,10 +60,14 @@ section:nth-of-type(even) .col-12 {
     background-image: url("../../assets/images/data-center.jpg");
 }
 
-#results {
-    background-image: url("../../assets/images/mission-dev-hero-background.png");
+#green-energy {
+    background-image: url("../../assets/images/green-energy.png");
 }
 
-#partners {
-    background-image: url("../../assets/images/mission-dev-hero-background.png");
+#home-automation {
+    background-image: url("../../assets/images/future-city.png");
+}
+
+#aspre-fai-tu {
+    background-image: url("../../assets/images/green-energy.png");
 }
