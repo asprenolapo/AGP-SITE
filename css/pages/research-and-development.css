@@ -10,12 +10,6 @@
 @import '../modules/buttons.css';
 
 
-.col,
-.col-12 {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
 .sec-primary-title {
   font-size: 4.5rem;
   letter-spacing: 0.1em;
