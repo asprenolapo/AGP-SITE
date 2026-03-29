@@ -2,8 +2,6 @@ IMPORTANTI:
 
 Aggiungere finestra burger button
 
-Rivedere responsive
-
 Rivedere contenuto pagine
 
 Gestire le lingue
