@@ -51,6 +51,20 @@
   padding-bottom: 10%;
 }
 
+section:nth-of-type(odd) .col-12 {
+  justify-content: flex-start;
+  padding-left: 10%;
+  padding-right: 0;
+  text-align: left;
+}
+
+section:nth-of-type(even) .col-12 {
+  justify-content: flex-end;
+  padding-left: 0;
+  padding-right: 10%;
+  text-align: right;
+}
+
 #about-us {
   background-image: url("../../assets/images/hero-background.jpg");
 }
