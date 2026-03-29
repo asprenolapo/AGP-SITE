@@ -5,7 +5,11 @@ header {
   position: fixed;
   height: var(--header-height);
   width: 100%;
-  background-image: linear-gradient(to bottom, var(--header-top-color), var(--header-bottom-color));
+  background-image: linear-gradient(
+    to bottom,
+    var(--header-top-color),
+    var(--header-bottom-color)
+  );
   backdrop-filter: blur(1px); /* Aggiunge l'effetto vetro tech */
   display: flex;
   justify-content: space-between;
@@ -28,18 +32,22 @@ nav {
   gap: var(--navbar-sections-gap);
 }
 
-.nav-button{
+.nav-button {
   font-family: var(--font-title);
   font-size: var(--nav-link-size);
+  color: var(--starlight-text-title);
+  text-decoration: none;
   border-radius: 100px;
   padding: 15px;
-  color: var(--platinum);
-  transition: var(--navbar-buttons-hover-transition-time);
+  transition: all 0.4s ease;
 }
 
-.nav-button:hover{
-  background-color: var(--navbar-buttons-hover-color);
-  transition: var(--navbar-buttons-hover-transition-time);
+.nav-button:hover {
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px rgba(0, 255, 255, 0.5);
+  -webkit-text-stroke: 0.3px rgba(255, 255, 255, 0.5);
+  transition: all 0.4s ease;
 }
 
 .nav-links {
@@ -59,7 +67,7 @@ nav {
 
 .logo img {
   max-width: calc(var(--header-height) / 2);
-  height: 2,5rem;
+  height: 2, 5rem;
 }
 
 /* ////////////////////////////////////////////////
