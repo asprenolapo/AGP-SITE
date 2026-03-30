@@ -88,7 +88,6 @@
   ); /* Sfondo ancora più scuro per staccare */
   text-align: center;
   padding: 20px;
-  margin-top: 90px;
   font-size: 0.9rem;
   color: var(--starlight-text-title);
   font-family: var(--font-body);
