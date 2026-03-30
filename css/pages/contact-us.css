@@ -82,7 +82,7 @@
     width: 100%;
     background: var(--deep-black);
     border: 1px solid rgba(0, 255, 255, 0.2);
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 12px;
     color: var(--starlight-text-title);
     font-family: var(--font-body);
@@ -95,17 +95,15 @@
     border-color: var(--tech-cyan);
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
     background: var(--deep-black);
+    transition: 0.3s;
+    border-radius: 4px;
 }
 
 .select-input {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-
     width: 100%;
     background: var(--deep-black);
     border: 1px solid rgba(0, 255, 255, 0.2);
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 12px;
     color: var(--muted-grey-text-body);
     font-family: var(--font-body);
@@ -117,13 +115,15 @@
 .select.input option {
     background-color: var(--deep-black) !important; 
     color: var(--starlight-text-title) !important;          
-    padding: 12px;          
+    padding: 12px;
 }
 
 .select-input:focus {
     border-color: var(--tech-cyan);
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
     background: var(--deep-black);
+    transition: 0.3s;
+    border-radius: 4px;
 }
 
 
