@@ -15,6 +15,7 @@
   position: relative; /* Crea il contenitore per la lastra di vetro */
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   overflow: hidden; /* Evita che il blur "esca" dai bordi */
 }
 
@@ -158,6 +159,7 @@ section:nth-of-type(even) .col-12 {
   overflow: hidden;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center; 
   justify-content: flex-end; 
