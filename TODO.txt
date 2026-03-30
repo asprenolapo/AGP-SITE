@@ -1,28 +1,23 @@
 IMPORTANTI:
 
-Aggiungere finestra burger button
+Riempire pagina future visions, unifcare consultancy in ricerca e sviluppo e creare pagina notizie + eventuale newsletter
+
+Rivedere spaziature delle sezioni
 
 Rivedere contenuto pagine
 
 Gestire le lingue
 
-Gestire definitivamente transizioni navbar
+Riverede mobile menu
 
-Immagini
-Creare LOGO
+Creare LOGO e favicon
 
-Refactor root e otimizzazione css
-
-Rifare moduli card
-
-Usare root per le card.css
+Refactor root e otimizzazione moduli css
 
 FACOLTATIVO:
 
-Mettere upcoming launches di spacex sottoforma di eventi in partenza
-
 separatori sagomati tra le sezioni 
 
-Decidere tra php e Java come backend e rifare sistema mail insieme
+Fare backend in php con sistema mail + database locale senza critto in json
 
 Aggiungere scrollbar per indicare altezza pagina
