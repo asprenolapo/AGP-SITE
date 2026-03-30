@@ -5,12 +5,11 @@ header {
   position: fixed;
   height: var(--header-height);
   width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    var(--header-top-color),
-    var(--header-bottom-color)
-  );
-  backdrop-filter: blur(1px); /* Aggiunge l'effetto vetro tech */
+  background-image: linear-gradient(to bottom,
+      var(--header-top-color),
+      var(--header-bottom-color));
+  backdrop-filter: blur(1px);
+  /* Aggiunge l'effetto vetro tech */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,9 +83,22 @@ nav {
   font-size: 1.5rem;
 }
 
+.menu-burger-button {
+
+  font-size: 1.5rem;
+}
+
 .mobile-menu {
   display: none;
   width: 100%;
   height: 100%;
   position: fixed;
+  background-color: black;
+  z-index: 3;
+  flex-direction: column;
+
+  .nav-button {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }
