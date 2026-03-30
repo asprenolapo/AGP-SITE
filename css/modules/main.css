@@ -32,6 +32,7 @@ a {
 body {
   height: 100%;
   color: var(--muted-grey-text-body);
+  overflow-x: hidden;
 }
 
 section:first-of-type {
