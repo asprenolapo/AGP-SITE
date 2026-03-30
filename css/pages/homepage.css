@@ -11,7 +11,7 @@
 /////////////////////////////////////////////////// */
 
 #hero {
-  background-image: url("../../assets/images/stars-space.jpg");
+  background-image: url("../../assets/images/stars-space.webp");
 }
 .col,
 .col-12 {
@@ -66,21 +66,21 @@ section:nth-of-type(even) .col-12 {
 }
 
 #about-us {
-  background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.webp");
 }
 
 #future-visions {
-  background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.webp");
 }
 
 #research-and-development {
-  background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.webp");
 }
 
 #consultancy {
-  background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.webp");
 }
 
 #contact-us {
-  background-image: url("../../assets/images/hero-background.jpg");
+  background-image: url("../../assets/images/hero-background.webp");
 }

@@ -11,7 +11,7 @@
 
 #contact-forms,
 #work-with-us-forms {
-    background-image: url("../../assets/images/mission-dev-hero-background.png");
+    background-image: url("../../assets/images/mission-dev-hero-background.webp");
     padding-top: var(--header-height);
     padding-bottom: 50px;
     display: flex;
