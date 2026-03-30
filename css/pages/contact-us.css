@@ -64,15 +64,15 @@
 }
 
 /* ////////////////////////////////////////////////
-  INPUT E LABELS (Migliore visibilità)
+  INPUT, LABELS E SELECT
 /////////////////////////////////////////////////// */
 
 .form-label {
     display: block;
     font-family: var(--font-title);
-    color: var(--tech-cyan);
+    color: var(--starlight-text-title);
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
     font-size: 0.85rem;
-    text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 5px;
     letter-spacing: 1px;
@@ -80,11 +80,11 @@
 
 .form-input {
     width: 100%;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--deep-black);
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 4px;
     padding: 12px;
-    color: #fff;
+    color: var(--starlight-text-title);
     font-family: var(--font-body);
     outline: none;
     transition: all 0.3s ease;
@@ -94,7 +94,36 @@
 .form-input:focus {
     border-color: var(--tech-cyan);
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-    background: rgba(0, 255, 255, 0.05);
+    background: var(--deep-black);
+}
+
+.select-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    width: 100%;
+    background: var(--deep-black);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 12px;
+    color: var(--muted-grey-text-body);
+    font-family: var(--font-body);
+    outline: none;
+    transition: all 0.3s ease;
+    
+}
+
+.select.input option {
+    background-color: var(--deep-black) !important; 
+    color: var(--starlight-text-title) !important;          
+    padding: 12px;          
+}
+
+.select-input:focus {
+    border-color: var(--tech-cyan);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    background: var(--deep-black);
 }
 
 
@@ -126,8 +155,9 @@
     margin-top: 20px;
 }
 
-.submit-form:hover,
-.reset-form:hover {
+.reset-form:hover,
+.submit-form:hover {
     background: transparent;
     box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
 }
