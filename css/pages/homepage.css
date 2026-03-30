@@ -12,11 +12,11 @@
 
 #hero {
   background-image: url("../../assets/images/stars-space.webp");
-  position: relative; /* Crea il contenitore per la lastra di vetro */
+  position: relative;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  overflow: hidden; /* Evita che il blur "esca" dai bordi */
+  overflow: hidden;
 }
 
 #hero::before {
@@ -43,13 +43,9 @@
   font-size: 4.5rem;
   letter-spacing: 0.1em;
   text-shadow:
-    /* 1. Definizione: un'ombra sottilissima quasi solida per non perdere il bordo */
     0 0 2px #00ffff,
-    /* 2. Il cuore del colore: una sfumatura media */ 0 0 15px
-      rgba(0, 255, 255, 0.6),
-    /* 3. L'atmosfera: un alone molto largo ma quasi invisibile */ 0 0 40px
-      rgba(0, 255, 255, 0.2);
-  /* Opzionale: aggiunge un filo di contorno per staccare ancora di più */
+    0 0 15px rgba(0, 255, 255, 0.6),
+    0 0 40px rgba(0, 255, 255, 0.2);
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
   padding-bottom: 2%;
 }
@@ -92,8 +88,8 @@ section:nth-of-type(even) .col-12 {
   background-size: cover;
   background-attachment: fixed; /* <-- Aggiungi questa riga */
   display: flex;
-  align-items: center; 
-  justify-content: flex-end; 
+  align-items: center;
+  justify-content: flex-end;
 }
 #about-us::before {
   content: "";
@@ -112,10 +108,10 @@ section:nth-of-type(even) .col-12 {
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  align-items: center; 
-  justify-content: flex-end; 
+  align-items: center;
+  justify-content: flex-end;
 }
-#research-and-development::before{
+#research-and-development::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -133,10 +129,10 @@ section:nth-of-type(even) .col-12 {
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  align-items: center; 
-  justify-content: flex-end; 
+  align-items: center;
+  justify-content: flex-end;
 }
-#news-and-consultancy::before{
+#news-and-consultancy::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -155,10 +151,10 @@ section:nth-of-type(even) .col-12 {
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  align-items: center; 
-  justify-content: flex-end; 
+  align-items: center;
+  justify-content: flex-end;
 }
-#contact-us::before{
+#contact-us::before {
   content: "";
   position: absolute;
   inset: 0;
