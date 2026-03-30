@@ -18,19 +18,18 @@
   overflow: hidden; /* Evita che il blur "esca" dai bordi */
 }
 
-
 #hero::before {
   content: "";
   position: absolute;
   inset: 0; /* Copre tutto il #hero (top, bottom, left, right: 0) */
-  
+
   /* L'EFFETTO GLOSSY (LUCIDO) */
   backdrop-filter: blur(2px) saturate(150%) brightness(1);
   /* -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.7); */
-  
+
   /* COLORE DELLA TINTA */
-  background: rgba(0, 0, 0, 0.050); 
-  
+  background: rgba(0, 0, 0, 0.05);
+
   /* IL TRUCCO FONDAMENTALE */
   pointer-events: none; /* Rende la patina "trasparente" ai click: i pulsanti sotto funzioneranno! */
   z-index: 1;
@@ -91,41 +90,81 @@ section:nth-of-type(even) .col-12 {
 }
 
 #about-us {
-  background-image: url("../../assets/images/we-care.webp");
-  position: relative; /* Crea il contenitore per la lastra di vetro */
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../../assets/images/we-care.webp") no-repeat center center;
   background-size: cover;
-  background-position: center;
-  overflow: hidden; /* Evita che il blur "esca" dai bordi */
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
 }
 #about-us::before {
   content: "";
   position: absolute;
-  inset: 0; /* Copre tutto il #hero (top, bottom, left, right: 0) */
-  
-  /* L'EFFETTO GLOSSY (LUCIDO) */
+  inset: 0;
   backdrop-filter: blur(2px) saturate(150%) brightness(1);
-  /* -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.7); */
-  
-  /* COLORE DELLA TINTA */
-  background: rgba(0, 0, 0, 0.050); 
-  
-  /* IL TRUCCO FONDAMENTALE */
-  pointer-events: none; /* Rende la patina "trasparente" ai click: i pulsanti sotto funzioneranno! */
+  background: rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+  z-index: 1;
+}
+#research-and-development {
+  background-image: url("../../assets/images/motherboard.webp");
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
+}
+#research-and-development::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(2px) saturate(150%) brightness(0.5);
+  background: rgba(0, 0, 0, 0.05);
+  pointer-events: none;
   z-index: 1;
 }
 
-#future-visions {
-  background-image: url("../../assets/images/hero-background.webp");
+#news-and-consultancy {
+  background-image: url("../../assets/images/black-hole.webp");
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
 }
-
-#research-and-development {
-  background-image: url("../../assets/images/hero-background.webp");
-}
-
-#consultancy {
-  background-image: url("../../assets/images/hero-background.webp");
+#news-and-consultancy::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(2px) saturate(150%) brightness(0.5);
+  background: rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+  z-index: 1;
 }
 
 #contact-us {
-  background-image: url("../../assets/images/hero-background.webp");
+  background-image: url("../../assets/images/cabina-telefonica.webp");
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
+}
+#contact-us::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(1px) saturate(130%) brightness(0.9);
+  background: rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+  z-index: 1;
 }
