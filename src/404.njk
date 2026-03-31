@@ -1,0 +1,30 @@
+---
+title: "404"
+permalink: 404.html
+---
+
+<!-- !IMPORTANT -->
+<!-- This is the only page that you need to modify statically -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    {% set pageKey = title | lower %}
+    {% set pageData = site.pages[pageKey] %}
+
+    <meta charset="UTF-8"/>
+    <title>{{ pageData.seo.title or title or site.title }}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ site.favicon }}">
+  </head>
+
+  <body>
+    <h1>Oops! Page not found</h1>
+    <div><a href="/" title="Return to homepage">Return to homepage</a></div>
+  </body>
+
+</html>

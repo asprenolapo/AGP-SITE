@@ -1,0 +1,27 @@
+---
+layout: base.njk
+---
+
+<!-- NJK (HTML) components per page -->
+ 
+{% if title == "homepage" %}
+  {% include "_COMPONENTE-UNICO-HOMEPAGE.njk" %}
+
+{% elif title == "contactUs" %}
+  {% include "_COMPONENTE-UNICO-CONTACT-US.njk" %}
+
+{% elif title == "futureVisions" %}
+  {% include "_COMPONENTE-UNICO-FUTURE-VISIONS.njk" %}
+
+{% elif title == "researchAndDevelopment" %}
+  {% include "_COMPONENTE-UNICO-RESEARCH-AND_DEVELOPMENT.njk" %}
+
+{% elif title == "aboutUs" %}
+  {% include "_COMPONENTE-UNICO-ABOUT-US.njk" %}
+
+{% elif title == "consultancy" %}
+  {% include "_COMPONENTE-UNICO-CONSULTANCY.njk" %}
+
+{% else %}
+  {% include "404/_404.njk" %}
+{% endif %}

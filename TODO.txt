@@ -1,23 +1,16 @@
-IMPORTANTI:
+PhP:
+    
+    Capire se il php presente funziona senza problemi e apire come gestire i composer json ecc
+    Gestire da JS la mancata risposta del php
 
-Riempire pagina future visions, unifcare consultancy in ricerca e sviluppo e creare pagina notizie + eventuale newsletter
+    Capire se si può mettere anche python senza doverlo installare ecc
 
-Rivedere spaziature delle sezioni
+Guide:
 
-Rivedere contenuto pagine
+    Compilare le guide e rivedere i commenti nei file sass ecc
 
-Gestire le lingue
-
-Riverede mobile menu
-
-Creare LOGO e favicon
-
-Refactor root e otimizzazione moduli css
-
-FACOLTATIVO:
-
-separatori sagomati tra le sezioni 
-
-Fare backend in php con sistema mail + database locale senza critto in json
-
-Aggiungere scrollbar per indicare altezza pagina
+JS:
+    document.addEventListener("DOMContentLoaded", () => {
+    Title della pagina
+    await import('./pages/$titolopagina.js')
+})

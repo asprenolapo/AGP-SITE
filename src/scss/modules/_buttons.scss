@@ -1,0 +1,30 @@
+// Getting root rules from _root.scss
+@use 'root' as root;
+
+.button {
+  font-family: root.$font-body;
+  font-size: 1.5rem;
+  border: 2px solid;
+  color: root.$starlight-text-title;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.button>.arrow-right-icon{
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+.button>.arrow-left-icon{
+  padding-right: 20px;
+  font-size: 1.5rem;
+}
+.button:hover{
+  background-color: root.$starlight-text-title;
+  color: root.$deep-black;
+  box-shadow: 0 0 2px #00ffff,
+    0 0 15px rgba(0, 255, 255, 0.6),
+    0 0 40px rgba(0, 255, 255, 0.2); 
+}

@@ -1,0 +1,75 @@
+/* ////////////////////////////////////////////////
+  CARDS MODULE
+/////////////////////////////////////////////////// */
+
+// Getting root rules from _root.scss
+@use '../root' as root;
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: root.$card-gap;
+  padding: root.$card-padding;
+  border: 1px solid root.$card-border-color;
+  border-radius: root.$card-border-radius;
+  background: root.$card-background;
+  box-shadow: root.$card-shadow;
+  width: 100%;        /* ← si adatta alla col che la contiene */
+  min-height: root.$card-height;
+}
+
+.person-card:hover {
+  background: root.$card-background-hover;
+  border-color: root.$card-accent;
+  box-shadow: root.$card-shadow-hover;
+  transition: 0.3s;
+}
+
+.avatar-wrapper {
+  width: root.$avatar-size;
+  height: root.$avatar-size;
+  border-radius: 50%;
+  border: 2px solid root.$card-accent;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.card-name {
+  font-family: root.$font-title;
+  font-size: root.$card-font-size-name;
+  color: root.$card-text-title;
+}
+
+.card-known-as {
+  color: root.$card-text-body;
+}
+
+.card-role {
+  font-size: root.$card-font-size-role;
+  padding: 3px 10px;
+  border: 1px solid root.$card-accent;
+  border-radius: 20px;
+  color: root.$card-accent;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+.card-divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid root.$card-border-color;
+}
+
+.card-quote {
+  font-style: italic;
+  color: root.$card-text-body;
+}

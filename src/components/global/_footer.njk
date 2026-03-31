@@ -1,0 +1,85 @@
+{# <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5 class="mb-3">{{ site.title }}</h5>
+                <p>{{ site.description }}</p>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="mb-0">
+                    &copy; {{ site.copyright.year }}
+                    {{ site.name }} {{ site.copyright.text }}.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <small class="text-muted">
+                    <a href="{{ site.legal.privacy }}" class="text-decoration-none me-3">Privacy
+                        Policy</a>
+                    <a href="{{ site.legal.cookie }}" class="text-decoration-none me-3">Cookie
+                        Policy</a>
+                    <a href="{{ site.legal.terms }}" class="text-decoration-none me-3">Terms and conditions</a>
+                </small>
+            </div>
+        </div>
+    </div>
+</footer> #}
+
+
+
+
+  <footer class="distro-footer">
+    <div class="footer-social-row">
+      <div class="social-text">
+        <span>Connettiti con noi sui social:</span>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-main-row">
+      <div class="footer-col">
+        <h6>{{ site.title }}</h6>
+        <p>
+          {{ site.description }}
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h6>Competenze</h6>
+        <p><a href="#">AI & Deep Learning</a></p>
+        <p><a href="#">Sistemi & Cloud</a></p>
+        <p><a href="#">Domotica & IoT</a></p>
+        <p><a href="#">Finanza Quantitativa</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h6>Navigazione</h6>
+        <p><a href="#">About Us</a></p>
+        <p><a href="#">Future Visions</a></p>
+        <p><a href="#">R&D</a></p>
+        <p><a href="#">Work with us</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h6>Contatti</h6>
+        <p>Bari, Italia (Loggione ITS)</p>
+        <p>info@ourdistro.dev</p>
+        <p>+39 012 345 678</p>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      &copy; {{ site.copyright.year }}
+        {{ site.name }} {{ site.copyright.text }}. <strong>{{ site.site_name }}</strong>
+    </div>
+  </footer>

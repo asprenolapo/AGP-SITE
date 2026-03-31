@@ -1,0 +1,20 @@
+//==========================
+// CSS RULES FOR RESPONSIVE
+//==========================
+
+@use 'root' as root;
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .burger-button {
+    display: block;
+  }
+
+  /* ROW E COL RESPONSIVE */
+  .row {
+    flex-direction: column;
+  }
+}

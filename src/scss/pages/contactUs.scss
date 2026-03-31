@@ -1,0 +1,185 @@
+//==========================
+// CSS MODULES IMPORTS
+//==========================
+
+// ╔═════════════════════════════════════════════════════════════╗
+// ║                       CSS FRAMEWORK                         ║
+// ║  Uncomment the framework you want to use (only one at time) ║
+// ║  To reduce or filter modules, edit the corresponding file:  ║
+// ║               _bootstrap.scss / _bulma.scss                 ║
+// ║              _uikit.scss  / _foundation.scss                ║
+// ╚═════════════════════════════════════════════════════════════╝
+
+
+// Use @use with a namespace to avoid framework variable conflicts:
+@use "../modules/root" as root;
+
+// @import "../modules/frameworks/bootstrap";
+// @import "../modules/frameworks/bulma";
+// @import "../modules/frameworks/foundation";
+// @import "../modules/frameworks/uikit";
+
+
+// Page layout modules — comment out any section you don't need
+@import "../modules/header";
+@import "../modules/main";
+@import "../modules/footer";
+
+// Responsive overrides — edit _mobile.scss for breakpoint-specific rules
+@import "../modules/animations";
+@import "../modules/mobile";
+
+@import '../modules/buttons';
+
+//==========================
+// PAGE CUSTOM CSS RULES FOR PAGE: contact-us
+//==========================
+
+#contact-forms,
+#work-with-us-forms {
+    background-image: url("../../assets/images/mission-dev-hero-background.webp");
+    padding-top: root.$header-height;
+    padding-bottom: 65px;
+}
+
+
+.col-12.col-md-6 {
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.section-title {
+    font-family: root.$font-title;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+}
+
+.paragraph-contact,
+.paragraph-work-with-us {
+    font-family: root.$font-body;
+    color: root.$starlight-text-title;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+/* ////////////////////////////////////////////////
+  FIELDSET
+/////////////////////////////////////////////////// */
+
+.border-form {
+    border: 2px solid root.$tech-cyan;
+    border-radius: 8px;
+    padding: 30px;
+    background: root.$deep-black;
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+/* ////////////////////////////////////////////////
+  INPUT, LABELS E SELECT
+/////////////////////////////////////////////////// */
+
+.form-label {
+    display: block;
+    font-family: root.$font-title;
+    color: root.$starlight-text-title;
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    font-size: 0.85rem;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    width: 100%;
+    background: root.$deep-black;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 12px;
+    color: root.$starlight-text-title;
+    font-family: root.$font-body;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-label:focus,
+.form-input:focus {
+    border-color: root.$tech-cyan;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    background: root.$deep-black;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.select-input {
+    width: 100%;
+    background: root.$deep-black;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 12px;
+    color: root.$muted-grey-text-body;
+    font-family: root.$font-body;
+    transition: all 0.3s ease;
+}
+
+.select.input option {
+    background-color: root.$deep-black !important; 
+    color: root.$starlight-text-title !important;          
+    padding: 12px;
+}
+
+.select-input:focus {
+    border-color: root.$tech-cyan;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    background: root.$deep-black;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+
+/* ////////////////////////////////////////////////
+  BUTTON SUBMIT, RESET
+/////////////////////////////////////////////////// */
+
+.button-group {
+    margin-top: 20px;
+}
+
+.submit-form,
+.reset-form {
+    flex: 1;
+    margin-top: 0;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+
+    border: 2px solid root.$tech-cyan;
+    background: transparent;
+    color: root.$tech-cyan;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.reset-form {
+    margin-top: 20px;
+}
+
+.reset-form:hover,
+.submit-form:hover {
+    background: transparent;
+    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+}
