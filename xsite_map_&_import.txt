@@ -1,0 +1,32 @@
+SITE MAP 
+
+ROOT
+|
+|
+|_consultancy
+|_conctact us
+|_future visions
+|_homepage
+|_reserch and development
+|_who we are
+|
+|CONFIG|
+|      |_se abbiamo configurazioni base da inserire 
+|
+|CSS|
+|   |_style.css(ho messo solo questo poi ci si organizza)
+|
+|
+|DATA|
+|    |_database(eventuale?)
+|
+|IMG/VID|
+|       |_IMG
+|       |_VID
+|
+|JS|
+|  |_main.js
+|___________________________________________________________________________________________________________________________
+
+
+IMPORT NECESSARI DA MEMORIZZARE E POI INSERIRE NEL READ.ME
