@@ -1,0 +1,101 @@
+/* ////////////////////////////////////////////////
+  CARDS MODULE (Refactored)
+/////////////////////////////////////////////////// */
+
+// Import only essential global variables
+@use '../root' as root;
+
+// Local card-specific variables
+$card-padding: 1.5rem 1.25rem;
+$card-gap: 0.5rem;
+$card-border-radius: 12px;
+$card-min-height: 320px;
+$card-margin: 15px;
+
+$avatar-size: 160px;
+$avatar-border-width: 2px;
+
+$role-padding: 3px 10px;
+$role-border-radius: 20px;
+$role-letter-spacing: 0.05em;
+
+$font-size-name: 1.1rem;
+$font-size-role: 0.8rem;
+
+// Colors (using root theme colors)
+$border-color: rgba(0, 255, 255, 0.15);
+$background: rgba(0, 0, 0, 0.7);
+$background-hover: rgba(0, 0, 0, 0.3);
+$shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+$shadow-hover: 0 0 30px rgba(0, 255, 255, 0.12);
+$text-glow: 0 0 8px rgba(0, 255, 255, 0.4);
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: $card-gap;
+  padding: $card-padding;
+  box-shadow: 0 0 5px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);;
+  border-radius: $card-border-radius;
+  background: $background;
+  box-shadow: $shadow;
+  min-height: $card-min-height;
+  margin: $card-margin;
+  min-width: calc(#{$avatar-size} + 15px);
+}
+
+.person-card:hover {
+  background: $background-hover;
+  border-color: root.$tech-cyan;
+  box-shadow: $shadow-hover;
+  transition: 0.3s;
+}
+
+.avatar-wrapper {
+  width: $avatar-size;
+  height: $avatar-size;
+  border-radius: 50%;
+  border: $avatar-border-width solid root.$tech-cyan;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.card-name {
+  font-family: root.$font-title;
+  font-size: $font-size-name;
+  color: root.$starlight-text-title;
+}
+
+.card-known-as {
+  color: root.$muted-grey-text-body;
+}
+
+.card-role {
+  font-size: $font-size-role;
+  padding: $role-padding;
+  border: 1px solid root.$tech-cyan;
+  border-radius: $role-border-radius;
+  color: root.$tech-cyan;
+  letter-spacing: $role-letter-spacing;
+  text-shadow: $text-glow;
+}
+
+.card-divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid $border-color;
+}
+
+.card-quote {
+  font-style: italic;
+  color: root.$muted-grey-text-body;
+}
