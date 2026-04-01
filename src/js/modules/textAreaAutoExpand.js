@@ -5,37 +5,44 @@
 // Expands a textarea to fit its content automatically
 // Must be called inside DOMContentLoaded in the page's JS file
 export function initTextAreaAutoExpand() {
-  
-  // Resizes the textarea by incrementing rows until the content fits
-  function setup(element) {
-    if (element.dataset.autoExpand) return;
-    element.dataset.autoExpand = true;
-    element.style.resize = "none";
-    element.style.overflow = "hidden";
-    element.dataset.minRows = element.rows || 1;
-    element.addEventListener("input", () => expand(element));
-    if (element.value) expand(element);
-  }
+  const MAX_ROWS = 6;
 
-  function expand(element) {
-    element.rows = element.dataset.minRows;
-    while (element.scrollHeight > element.clientHeight) {
-      element.rows += 1;
+  function expand(el) {
+    el.rows = el.dataset.minRows;
+    // Un piccolo trucco: invece di un ciclo while, usiamo un calcolo più diretto
+    // ma manteniamo il limite MAX_ROWS
+    while (el.scrollHeight > el.clientHeight && el.rows < MAX_ROWS) {
+      el.rows++;
     }
   }
 
-  // Attach to all existing textareas
+  function setup(el) {
+    if (el.dataset.autoExpand) return;
+    el.dataset.autoExpand = "true";
+    
+    // Lo stile overflow e resize è meglio gestirlo via CSS, 
+    // ma se vuoi tenerlo qui, lascialo pure.
+    el.dataset.minRows = el.rows || 1;
+    
+    el.addEventListener("input", () => expand(el));
+    if (el.value) expand(el);
+  }
+
+  // Eseguiamo il primo check
   document.querySelectorAll("textarea").forEach(setup);
 
-  // Handle dynamically injected textareas via MutationObserver
+  // Observer ottimizzato
   const observer = new MutationObserver((mutations) => {
-    mutations.forEach(({ addedNodes }) => {
-      addedNodes.forEach((node) => {
-        if (node.nodeType !== 1) return;
+    for (const mutation of mutations) {
+      for (const node of mutation.addedNodes) {
+        if (node.nodeType !== 1) continue; // Salta se non è un elemento HTML
+        
+        // Se il nodo stesso è una textarea lo inizializza, 
+        // altrimenti cerca textarea al suo interno
         if (node.matches("textarea")) setup(node);
         node.querySelectorAll?.("textarea").forEach(setup);
-      });
-    });
+      }
+    }
   });
 
   observer.observe(document.body, { childList: true, subtree: true });

@@ -12,6 +12,7 @@ import { initScrollHeader } from '../modules/scrollHeader.js';
 import { initBurgerMenu } from '../modules/burgerMenu.js';
 import { initTextAreaAutoExpand } from '../modules/textAreaAutoExpand.js';
 import { initNormalizePhoneNumber } from '../modules/normalizePhoneNumber.js';
+import { initSelectArrowAnimation } from '../modules/selectArrowAnimation.js';
 
 //==========================
 // "contact-us" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initBurgerMenu();
     initTextAreaAutoExpand();
     initNormalizePhoneNumber();
+    initSelectArrowAnimation();
 });
 
 // showNotification("Homepage notification");

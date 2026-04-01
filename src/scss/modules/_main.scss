@@ -28,6 +28,30 @@ a {
   color: inherit;
 }
 
+textarea {
+  // --- Proprietà Standard (Firefox) ---
+   resize: none;           /* Impedisce all'utente di allungarla a mano */
+  overflow-y: auto;       /* Mostra la scrollbar solo quando serve */
+  box-sizing: border-box;
+  scrollbar-color: root.$scrollbar-thumb root.$scrollbar-track;
+  scrollbar-width: thin;
+
+  // --- Proprietà Webkit (Chrome, Edge, Safari) ---
+  &::-webkit-scrollbar-track {
+    background: root.$scrollbar-track;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: root.$scrollbar-thumb;
+    border-radius: 10px;
+    
+    &:hover {
+      background: root.$scrollbar-thumb-hover;
+    }
+  }
+}
+
 body {
   height: 100%;
   color: root.$muted-grey-text-body;

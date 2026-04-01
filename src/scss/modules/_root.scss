@@ -34,7 +34,12 @@ $tech-cyan: #00FFFF;
 $starlight-text-title: #F3F4F6;
 $muted-grey-text-body: #9CA3AF;
 
-
+/* ////////////////////////////////////////////////
+  SCROLLBAR 
+/////////////////////////////////////////////////// */
+$scrollbar-thumb: $tech-cyan;              // Il cursore sarà cyan
+$scrollbar-track: rgba(255, 255, 255, 0.05); // Il binario quasi invisibile
+$scrollbar-thumb-hover: lighten($tech-cyan, 10%);
 
 
 /* ////////////////////////////////////////////////
