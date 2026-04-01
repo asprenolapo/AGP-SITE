@@ -28,15 +28,24 @@
 @import "../modules/animations";
 @import "../modules/mobile";
 
-@import '../modules/cards/person-card';
-@import '../modules/cards/results-card';
-@import '../modules/cards/partner-card';
+@import '../modules/cards/personCard';
 
 @import '../modules/buttons';
 
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: research-and-development
 //==========================
+
+section {
+  padding: 100px 100px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 
 .sec-primary-title {
   font-size: 4.5rem;
