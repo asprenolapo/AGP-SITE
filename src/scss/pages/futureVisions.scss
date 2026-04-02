@@ -10,7 +10,6 @@
 // ║               _uikit.scss  / _foundation.scss               ║
 // ╚═════════════════════════════════════════════════════════════╝
 
-
 // Use @use with a namespace to avoid framework variable conflicts:
 @use "../modules/root" as root;
 
@@ -19,13 +18,11 @@
 // @import "../modules/frameworks/foundation";
 // @import "../modules/frameworks/uikit";
 
-
-
-
 // Page layout modules — comment out any section you don't need
 @import "../modules/header";
 @import "../modules/main";
 @import "../modules/footer";
+@import "../modules/buttons";
 
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
@@ -37,6 +34,121 @@
 
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
-// body {
-//     background-color: black;
-// }
+
+#hero {
+    background-image: url("../../assets/images/hero-future-vision.webp");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(1px) saturate(130%) brightness(1);
+    /* -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.7); */
+    background: rgba(0, 0, 0, 0.50);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.col,
+.col-12 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10%;
+    z-index: 2;
+}
+
+.sec-primary-title {
+    font-size: 4.5rem;
+    letter-spacing: 0.1em;
+    text-shadow:
+        0 0 2px #00ffff,
+        0 0 15px rgba(0, 255, 255, 0.6),
+        0 0 40px rgba(0, 255, 255, 0.2);
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+    padding-bottom: 2%;
+}
+
+.sec-sub-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    text-shadow:
+        0 0 2px #00ffff,
+        0 0 15px rgba(0, 255, 255, 0.6),
+        0 0 40px rgba(0, 255, 255, 0.2);
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+    padding-bottom: 2%;
+}
+
+.paragraph-home {
+    font-family: root.$font-body;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 10%;
+}
+
+section:nth-of-type(odd) .col-12 {
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-right: 0;
+    text-align: left;
+}
+
+section:nth-of-type(even) .col-12 {
+    justify-content: flex-end;
+    padding-left: 0;
+    padding-right: 10%;
+    text-align: right;
+}
+
+#first-section {
+    background-color: var(--deep-black);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#first-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(1px) saturate(130%) brightness(1);
+    /* -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.7); */
+    background: rgba(0, 0, 0, 0.03);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.code-window {
+    height: 700px;
+    border: solid 2px;
+    border-radius: 5%;
+    border-color: root.$tech-cyan;
+    overflow: hidden;
+    position: relative;
+}
+
+.code-scroll {
+    animation: scroll-code 20s linear infinite;
+    color: root.$muted-grey-text-body;
+    font-family: root.$font-body;
+}
+
+@keyframes scroll-code {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}
