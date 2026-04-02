@@ -48,8 +48,8 @@
     "layout: dynamic_page.njk",
     "---",
     "",
-    "",
-    ""
+    "<!-- !IMPORTANT -->",
+    "<!-- DO NOT ADD ANYTHING HERE -->"
   ],
   ".js": [
     "//==========================",
