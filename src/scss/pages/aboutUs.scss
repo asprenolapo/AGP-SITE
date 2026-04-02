@@ -10,8 +10,12 @@
 // ║               _uikit.scss  / _foundation.scss               ║
 // ╚═════════════════════════════════════════════════════════════╝
 
+
+
 // Use @use with a namespace to avoid framework variable conflicts:
 @use "../modules/root" as root;
+
+
 
 // @import "../modules/frameworks/bootstrap";
 // @import "../modules/frameworks/bulma";
@@ -27,7 +31,7 @@
 @import "../modules/animations";
 @import "../modules/mobile";
 
-@import "../modules/cards/personCard";
+@import '../modules/cards/personCard';
 
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: about-us
@@ -39,11 +43,6 @@
 //     background-color: black;
 // }
 
-.scrollable-div {
-  overflow-y: auto;
-  scrollbar-width: none;
-  height: 300px;
-}
-
 #team {
+    background-color: beige;
 }

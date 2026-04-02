@@ -28,19 +28,6 @@ a {
   color: inherit;
 }
 
-section {
-  padding: 3vh 3vw;
-  background-color: root.$deep-black;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 textarea {
   // --- Proprietà Standard (Firefox) ---
    resize: none;           /* Impedisce all'utente di allungarla a mano */
