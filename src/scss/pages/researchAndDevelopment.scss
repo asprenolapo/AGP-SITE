@@ -36,10 +36,6 @@
 // PAGE CUSTOM CSS RULES FOR PAGE: research-and-development
 //==========================
 
-section {
-  padding: 100px 100px;
-}
-
 .row {
   display: flex;
   justify-content: center;
@@ -80,14 +76,6 @@ section {
 /* section:nth-of-type(even).row {
   flex-direction: row-reverse;
 } */
-
-.center {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 #hero {
     background-image: url("../../assets/images/res-dev.webp");
