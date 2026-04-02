@@ -1,21 +1,138 @@
-<section id="hero">
-  <div class="row">
-    <div class="col section-title">
-      <h2>Future Visions</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-        dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto
-        omnis iure illum inventore esse magni praesentium sequi nisi aliquid
-        vel.
+<section id="hero" class="row">
+  <div class="col-12 col-md-12 col-sm-12">
+    <div class="section-title">
+      <h1 class="sec-primary-title">Il nostro futuro</h1>
+      <h2 class="sec-sub-title">L'utopia come ambiente di test</h2>
+      <p class="paragraph-home">
+        "Non fuggiamo dalla realtà. Ne stiamo compilando una parallela, più degna"
+      </p>
+      <a href="/future-vision" class="button">Esplora la visione<i
+          class="fa-solid fa-arrow-right arrow-right-icon"></i></a>
+    </div>
+  </div>
+</section>
+<!-- Potrebbe essere carino pernsare insieme a quali siano i futuri possibili dell'informatica e non solo tra la fantascienza e la supercazzola -->
+
+<section id="first-section" class="row">
+  <div class="col-12 col-md-6 col-sm-12">
+    <div class="section-title">
+      <h2 class="sec-sub-title">La Conoscenza è l'Unica Infrastruttura</h2>
+      <p class="paragraph-home">
+        "Il pensiero utopico non è una fuga ingenua, ma la costruzione metodica di un'alternativa.
+        In Our Distro, crediamo che la libertà non si trovi semplicemente nel codice open-source, ma in una mente strutturalmente aperta.
+        La vera tecnologia emancipa, non controlla. 
+        Vogliamo abolire l'estrazione sistemica e lo sfruttamento del dato e dell'utente. 
+        Stiamo ingegnerizzando sistemi dove l'ordine nasce dalla cooperazione volontaria e non dal potere centralizzato di un server o di un consiglio di amministrazione. 
+        Un ecosistema digitale in cui l'unica autorità riconosciuta è la forza della ragione, del calcolo esatto e dell'esempio."
+      </p>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-sm-12">
+    <div class="code-window">
+      <div class="code-scroll">
+      <pre><code>
+        import csv
+        import os
+        from src.persistence.interface_db import InterfaceDB
+        from src.models.contatto import Contatto
+        from src.models.appuntamento import Appuntamento
+        from src.models.nota import Nota
+
+        class CSVHandler(InterfaceDB):
+            
+            #? COSTANTI PATH
+            PATH_DEFAULT_CONTATTI = "data/contatti.csv"
+            PATH_DEFAULT_APPUNTAMENTI = "data/appuntamenti.csv"
+            PATH_DEFAULT_NOTE = "data/note.csv"
+            
+            def __init__(self,path_c = PATH_DEFAULT_CONTATTI,path_a = PATH_DEFAULT_APPUNTAMENTI,path_n = PATH_DEFAULT_NOTE):
+                self.path_contatti = path_c
+                self.path_appuntamenti = path_a
+                self.path_note = path_n
+
+        #! CREATE X 3
+            def create_contatto(self, contatto):
+                riga_da_scrivere = [contatto.id, contatto.nome, contatto.cognome, contatto.telefono, contatto.email]# 1. lista attributi oggetto 
+                try: # 2. Apriamo il file in modalità append ('a')
+                    with open(self.path_contatti, mode='a', newline='', encoding='utf-8') as file: # newline='' serve alla libreria csv per non creare righe vuote extra
+                        # 3. Creiamo lo "scrittore" csv
+                        writer = csv.writer(file)
+                        # 4. Scriviamo la riga
+                        writer.writerow(riga_da_scrivere)       
+                except FileNotFoundError:
+                    print(f"Errore: La cartella per '{self.path_contatti}' non esiste.")
+                except PermissionError:
+                    print(f"Errore: Non hai i permessi per scrivere su '{self.path_contatti}'.")
+                except OSError as e:
+                    print(f"Errore di sistema (Disco/IO): {e}") # Cattura errori di I/O, disco pieno, ecc.
+                except Exception as e:
+                    print(f"Errore imprevisto durante il salvataggio: {e}") # La rete di sicurezza finale per tutto il resto
+
+            def create_appuntamento(self, appuntamento):
+                riga_da_scrivere = [appuntamento.id, appuntamento.contatto_id, appuntamento.data_ora, appuntamento.luogo]
+                try:
+                    with open(self.path_appuntamenti, mode='a', newline='', encoding='utf-8') as file:
+                        writer = csv.writer(file)
+                        writer.writerow(riga_da_scrivere)
+                except FileNotFoundError:
+                    print(f"Errore: La cartella per '{self.path_appuntamenti}' non esiste.")
+                except PermissionError:
+                    print(f"Errore: Non hai i permessi per scrivere su '{self.path_appuntamenti}'.")
+                except OSError as e:
+                    print(f"Errore di sistema (Disco/IO): {e}")
+                except Exception as e:
+                    print(f"Errore imprevisto durante il salvataggio: {e}") 
+
+            def create_nota(self, note):
+                riga_da_scrivere = [note.id, note.contatto_id, note.testo, note.data_creazione, note.appuntamento_id]
+                try:
+                    with open(self.path_note, mode='a', newline='', encoding='utf-8') as file:
+                        writer = csv.writer(file)
+                        writer.writerow(riga_da_scrivere)
+                except FileNotFoundError:
+                    print(f"Errore: La cartella per '{self.path_note}' non esiste.")
+                except PermissionError:
+                    print(f"Errore: Non hai i permessi per scrivere su '{self.path_note}'.")
+                except OSError as e:
+                    print(f"Errore di sistema (Disco/IO): {e}")
+                except Exception as e:
+                    print(f"Errore imprevisto durante il salvataggio: {e}")
+    </code></pre>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="second-section" class="row">
+  <div class="col-12 col-md-6 col-sm-12">
+    <div class="section-title">
+      <h2 class="sec-sub-title">Il Reset Necessario</h2>
+      <p class="paragraph-home">
+        "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti. <br>
+        Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'. <br>
+        Noi applichiamo questo principio all'architettura informatica. <br>
+        Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale. <br> 
+        È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
       </p>
     </div>
   </div>
 </section>
-<section>
-  <div>
-    <h2></h2>
-    <div>
-      <!-- Potrebbe essere carino pernsare insieme a quali siano i futuri possibili dell'informatica e non solo tra la fantascienza e la supercazzola -->
+
+<section id="third-section" class="row">
+  <div class="col-12 col-md-6 col-sm-12">
+    <div class="section-title">
+      <h2 class="sec-sub-title">Il futuro non si attende. Si progetta</h2>
+      <p class="paragraph-home">
+        "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti. <br>
+        Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'. <br>
+        Noi applichiamo questo principio all'architettura informatica. <br>
+        Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale. <br> 
+        È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
+      </p>
     </div>
+    <a href="/reserch-and-development" class="button">Esplora il nostro R&D<i
+          class="fa-solid fa-arrow-right arrow-right-icon"></i></a>
+    <a href="/news-and-consultancy" class="button">O scopri come applichiamo questi principi nella Consulenza.<i
+          class="fa-solid fa-arrow-right arrow-right-icon"></i></a>
   </div>
 </section>
