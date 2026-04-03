@@ -11,7 +11,7 @@
 // ╚═════════════════════════════════════════════════════════════╝
 
 // Use @use with a namespace to avoid framework variable conflicts:
-// @use "../modules/root" as root;
+@use "../modules/root" as root;
 
 // @import "../modules/frameworks/bootstrap";
 // @import "../modules/frameworks/bulma";
@@ -36,3 +36,92 @@
 // body {
 //     background-color: black;
 // }
+
+section {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; // Assicuriamoci che copra tutto
+    
+    // --- MODIFICA CRUCIALI PER IL BURGER MENU ---
+    z-index: 1; // Forza la section a stare sotto l'header/menu
+    // --------------------------------------------
+
+    // Il contenuto deve stare sopra tutto il resto NELLA section
+    .container.fade-in {
+        position: relative;
+        z-index: 5; // Più alto del noise-overlay ma limitato dal padre
+        text-align: center;
+        width: 100%;
+    }
+
+    .error-message {
+        font-family: root.$font-body; 
+        color: root.$muted-grey-text-body;
+        margin: 0 auto 2rem auto;
+        font-size: clamp(1rem, 2.5vw, 1.2rem);
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+        max-width: 600px;
+    }
+
+    .actions {
+        margin-top: 1rem;
+    }
+
+    // Overlay del rumore (Noise)
+    .noise-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none; 
+        z-index: 0; // Sta sul fondo assoluto della section
+        opacity: 0.7;
+    }
+
+    // Spaziatura per il FuzzyText
+    #fuzzy-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 250px;
+        margin-bottom: 1rem;
+        width: 100%;
+
+        canvas {
+            max-width: 100% !important;
+            height: auto !important;
+            // Assicuriamoci che anche il canvas segua lo stacking del container
+            position: relative;
+            z-index: 6; 
+        }
+    }
+
+    // Link di ritorno
+    a {
+        font-family: root.$font-title;
+        color: root.$tech-cyan;
+        background-color: root.$deep-black;
+        border: 1px solid rgba(0, 255, 255, 0.2);
+        padding: 12px 30px;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 8px;
+        display: inline-block;
+        position: relative;
+        z-index: 7; // Sopra al canvas se necessario per i click
+
+        &:hover {
+            border-radius: 4px;
+            box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+            transform: translateY(-2px); 
+        }
+    }
+}

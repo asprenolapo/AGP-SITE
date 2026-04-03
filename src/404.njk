@@ -6,12 +6,29 @@ layout: base.njk
 
 <!-- !IMPORTANT -->
 <!-- This is the only page that you need to modify statically -->
+<section class="center">
+  <div class="noise-overlay"></div>
 
-<div class="container fade-in">
-  <h1>Oops! Page not found</h1>
-<h1>prova</h1>
-  <div><a href="/" title="Return to homepage">Return to homepage</a></div>
-</div>
+  <div class="container fade-in">
+    <div class="row center">
+      
+      <div class="col-12">
+        <div id="fuzzy-container" class="center"></div>
+      </div>
+
+      <div class="col-12 col-md-8 col-lg-6">
+        <p class="error-message">
+          La pagina che stai cercando non esiste!
+        </p>
+        
+        <div class="button-group center">
+          <a href="/" class="btn-return" title="Return to homepage">Torna alla Home</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 {# You can also add the includes you need here below
 {% include "_exampleComponent.njk" %} #}
