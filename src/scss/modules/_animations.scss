@@ -17,3 +17,12 @@
 //     opacity: 1;
 //   }
 // }
+
+
+//==========================
+// SPINNER LOADING ANIMATIONS
+//==========================
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

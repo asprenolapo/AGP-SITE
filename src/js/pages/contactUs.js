@@ -5,14 +5,18 @@
 // Import all the modules you need for this page from ../modules
 
 // Pure utility functions - can be used directly without initialization
-import { showNotification } from '../modules/notification.js';
+import { initFormListener } from '../modules/form/form.js';
 
 // DOM-dependent modules - require init
 import { initScrollHeader } from '../modules/scrollHeader.js';
 import { initBurgerMenu } from '../modules/burgerMenu.js';
-import { initTextAreaAutoExpand } from '../modules/textAreaAutoExpand.js';
-import { initNormalizePhoneNumber } from '../modules/normalizePhoneNumber.js';
-import { initSelectArrowAnimation } from '../modules/selectArrowAnimation.js';
+
+// FORM
+import { initCheckEmailProvider } from '../modules/form/checkEmailProvider.js';
+import { initNormalizePhoneNumber } from '../modules/form/normalizePhoneNumber.js';
+import { initTextAreaAutoExpand } from '../modules/form/textAreaAutoExpand.js';
+import { initSelectArrowAnimation } from '../modules/form/selectArrowAnimation.js';
+
 
 //==========================
 // "contact-us" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
@@ -23,9 +27,11 @@ import { initSelectArrowAnimation } from '../modules/selectArrowAnimation.js';
 document.addEventListener("DOMContentLoaded", () => {
     initScrollHeader();
     initBurgerMenu();
+
+    // JS PER FORMS
+    initFormListener();
     initTextAreaAutoExpand();
     initNormalizePhoneNumber();
     initSelectArrowAnimation();
+    initCheckEmailProvider();
 });
-
-// showNotification("Homepage notification");

@@ -32,6 +32,10 @@ layout: base.njk
 {% elif title == "consultancy" %}
   {% include "pages/consultancy/hero-section.njk" %}
 
+{% elif title == "404" %}
+  {#{% include "_exampleComponent.njk" %}#}
+
 {% else %}
-  {% include "404/404.njk" %}
+  {% include "404/_404.njk" %}
+  {{ content | safe }}
 {% endif %}

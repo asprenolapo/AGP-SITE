@@ -1,30 +1,17 @@
 ---
 title: "404"
 permalink: 404.html
+layout: base.njk
 ---
 
 <!-- !IMPORTANT -->
 <!-- This is the only page that you need to modify statically -->
 
+<div class="container fade-in">
+  <h1>Oops! Page not found</h1>
+<h1>prova</h1>
+  <div><a href="/" title="Return to homepage">Return to homepage</a></div>
+</div>
 
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    {% set pageKey = title | lower %}
-    {% set pageData = site.pages[pageKey] %}
-
-    <meta charset="UTF-8"/>
-    <title>{{ pageData.seo.title or title or site.title }}</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="{{ site.favicon }}">
-  </head>
-
-  <body>
-    <h1>Oops! Page not found</h1>
-    <div><a href="/" title="Return to homepage">Return to homepage</a></div>
-  </body>
-
-</html>
+{# You can also add the includes you need here below
+{% include "_exampleComponent.njk" %} #}

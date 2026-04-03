@@ -9,8 +9,6 @@ export function initTextAreaAutoExpand() {
 
   function expand(el) {
     el.rows = el.dataset.minRows;
-    // Un piccolo trucco: invece di un ciclo while, usiamo un calcolo più diretto
-    // ma manteniamo il limite MAX_ROWS
     while (el.scrollHeight > el.clientHeight && el.rows < MAX_ROWS) {
       el.rows++;
     }
@@ -20,8 +18,6 @@ export function initTextAreaAutoExpand() {
     if (el.dataset.autoExpand) return;
     el.dataset.autoExpand = "true";
     
-    // Lo stile overflow e resize è meglio gestirlo via CSS, 
-    // ma se vuoi tenerlo qui, lascialo pure.
     el.dataset.minRows = el.rows || 1;
     
     el.addEventListener("input", () => expand(el));
