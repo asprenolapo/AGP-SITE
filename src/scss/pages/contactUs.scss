@@ -38,7 +38,16 @@
 
 #contact-forms,
 #work-with-us-forms {
-    background-image: url("../../assets/images/mission-dev-hero-background.webp");
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../../assets/images/contact-us-background.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+
+    position: relative;
+    z-index: 1;
     padding-top: root.$header-height;
     padding-bottom: 65px;
 }
@@ -65,7 +74,7 @@
 .paragraph-contact,
 .paragraph-work-with-us {
     font-family: root.$font-body;
-    color: root.$starlight-text-title;
+    color: #ffffff;
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 30px;
@@ -133,10 +142,10 @@
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 8px; // Manteniamo 8px per coerenza
     padding: 12px 40px 12px 12px; // Aumentato il padding destro per non sovrapporre testo e freccia
-    color: root.$muted-grey-text-body; 
+    color: root.$muted-grey-text-body;
     font-family: root.$font-body;
     cursor: pointer;
-    
+
     // Rimuove freccia nativa
     appearance: none;
     -webkit-appearance: none;
@@ -151,11 +160,12 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     // STATO APERTO (Gestito dal modulo JS)
-    &:focus, &.is-open {
+    &:focus,
+    &.is-open {
         outline: none;
         border-color: root.$tech-cyan;
         box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-        border-radius: 4px; 
+        border-radius: 4px;
         color: root.$starlight-text-title;
     }
 
@@ -165,7 +175,7 @@
     }
 
     option {
-        background-color: root.$deep-black; 
+        background-color: root.$deep-black;
         color: root.$starlight-text-title;
         padding: 10px;
     }
