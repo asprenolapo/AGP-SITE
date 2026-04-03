@@ -11,6 +11,8 @@ import { showNotification } from '../modules/notification.js';
 import { initScrollHeader } from '../modules/scrollHeader.js';
 import { initBurgerMenu } from '../modules/burgerMenu.js';
 
+import { initTeam } from '../modules/teamPrinter.js';
+
 //==========================
 // "about-us" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
 //==========================
@@ -20,6 +22,7 @@ import { initBurgerMenu } from '../modules/burgerMenu.js';
 document.addEventListener("DOMContentLoaded", () => {
     initScrollHeader();
     initBurgerMenu();
+    initTeam();
 });
 
 // showNotification("Homepage notification");
