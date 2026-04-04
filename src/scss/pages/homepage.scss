@@ -10,12 +10,8 @@
 // ║              _uikit.scss  / _foundation.scss                ║
 // ╚═════════════════════════════════════════════════════════════╝
 
-
-
-
 // Use @use with a namespace to avoid framework variable conflicts:
 @use "../modules/root" as root;
-
 
 // @import "../modules/frameworks/bootstrap";
 // @import "../modules/frameworks/bulma";
@@ -37,14 +33,7 @@
 // PAGE CUSTOM CSS RULES FOR PAGE: homepage
 //==========================
 
-#hero {
-  background-image: url("../../assets/images/stars-space.webp");
-}
-
-.col,
-.col-12 {
-  position: relative;
-  display: flex;
+section {
   align-items: center;
 }
 
@@ -52,13 +41,30 @@
   padding-bottom: 10%;
 }
 
-section:nth-of-type(odd) .col-12 {
+section:nth-of-type(odd) {
   justify-content: flex-start;
+  padding-left: 10%;
 }
 
-section:nth-of-type(even) .col-12 {
+section:nth-of-type(even) {
   justify-content: flex-end;
   padding-right: 10%;
+}
+
+@media (max-width: 768px) {
+  section:nth-of-type(odd) {
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  section:nth-of-type(even) {
+    justify-content: center;
+    padding-right: 0px;
+  }
+}
+
+#hero {
+  background-image: url("../../assets/images/stars-space.webp");
 }
 
 #about-us {
