@@ -17,6 +17,9 @@ import { initNormalizePhoneNumber } from '../modules/form/normalizePhoneNumber.j
 import { initTextAreaAutoExpand } from '../modules/form/textAreaAutoExpand.js';
 import { initSelectArrowAnimation } from '../modules/form/selectArrowAnimation.js';
 
+// Languages
+import { initLangSwitcher } from '../modules/langSwitcher.js';
+
 
 //==========================
 // "contact-us" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
@@ -34,4 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initNormalizePhoneNumber();
     initSelectArrowAnimation();
     initCheckEmailProvider();
+
+    initLangSwitcher();
+    
 });

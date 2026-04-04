@@ -14,6 +14,9 @@ import { initBurgerMenu } from '../modules/burgerMenu.js';
 import { initNoise } from '../modules/404/noise.js';
 import { initFuzzyText } from '../modules/404/fuzzyText.js';
 
+// Languages
+import { initLangSwitcher } from '../modules/langSwitcher.js';
+
 //==========================
 // "404" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
 //==========================
@@ -33,4 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         fontWeight: 900,
         fuzzRange: 35
     });
+  
+  initLangSwitcher();
 });

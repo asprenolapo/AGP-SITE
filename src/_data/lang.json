@@ -1,0 +1,26 @@
+{
+    "en": {
+        "enLangName": "English 🇺🇸",
+        "itLangName": "Italian 🇮🇹",
+        "header": {
+            "home": "Home",
+            "aboutUs": "About Us",
+            "futureVisions": "Future Visions",
+            "reserchAndDevelopment": "Research & Development",
+            "consultancy": "Consultancy",
+            "contactUs": "Contact Us"
+        }
+    },
+    "it": {
+        "enLangName": "Inglese 🇺🇸",
+        "itLangName": "Italiano 🇮🇹",
+        "header": {
+            "home": "Home",
+            "aboutUs": "Chi Siamo",
+            "futureVisions": "Prospettiva Futura",
+            "reserchAndDevelopment": "Ricerca & Sviluppo",
+            "consultancy": "Consultancy",
+            "contactUs": "Contattaci"
+        }
+    }
+}

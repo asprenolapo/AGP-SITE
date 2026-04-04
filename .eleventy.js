@@ -61,7 +61,8 @@ module.exports = function (eleventyConfig) {
     "node_modules/bootstrap-icons/font/fonts": "css/fonts",
     "node_modules/frameworks/bootstrap/dist/js/bootstrap.bundle.min.js": "js/bootstrap.bundle.min.js",
   });
-
+  
+  eleventyConfig.addPassthroughCopy({ "src/_data/lang.json": "_data/lang.json" });
   // =====================================================
   // WATCH & DIRECTORY CONFIG
   // =====================================================
