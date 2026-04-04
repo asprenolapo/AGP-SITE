@@ -1,26 +1,138 @@
 {
     "en": {
-        "enLangName": "English 🇺🇸",
-        "itLangName": "Italian 🇮🇹",
+        "allLang": {
+            "enLangName": "English 🇺🇸",
+            "itLangName": "Italian 🇮🇹"
+        },
         "header": {
-            "home": "Home",
-            "aboutUs": "About Us",
-            "futureVisions": "Future Visions",
-            "reserchAndDevelopment": "Research & Development",
-            "consultancy": "Consultancy",
-            "contactUs": "Contact Us"
+            "navHome": "Home",
+            "navAboutUs": "About Us",
+            "navFutureVisions": "Future Visions",
+            "navReserchAndDevelopment": "Research & Development",
+            "navConsultancy": "Consultancy",
+            "navContactUs": "Contact Us"
+        },
+        "footer": {
+            "spanSocial": "Connect with us on social media:",
+            "skills": {
+                "title": "Skills",
+                "ai": "AI & Deep Learning",
+                "systems": "System & Cloud",
+                "iot": "Home Automation & IoT",
+                "finance": "Quantitative Finance"
+            },
+            "navigation": {
+                "title": "Navigation",
+                "home": "Homepage",
+                "aboutUs": "About Us",
+                "futureVisions": "Future Visions",
+                "reserchAndDevelopment": "Research & Development",
+                "consultancy": "Consultancy",
+                "contactUs": "Contact Us"
+            },
+            "contact": {
+                "title": "contact",
+                "avenue": "69 Sparano Avenue Right There, Bari, Italy (ITS Grand Tier)",
+                "email": "info@ourdistro.dev",
+                "tel": "+39 012 345 678"
+            }
+        },
+        "homepage": {
+            "heroSec": {
+                "title": "Our Distro",
+                "subtitle": "Order without authority",
+                "paragraph": "There is no future to wait for, only a future to build.",
+                "button": "Explore the vision"
+            },
+            "aboutUsSec": {
+                "title": "The ecosystem",
+                "paragraph": "We don’t seek a place in an org chart, we live our own ecosystem.",
+                "button": "About Us"
+            },
+            "reserchAndDevelopmentSec": {
+                "title": "Engineering solutions",
+                "paragraph": "Our R&D department is a permanent lab where utopia becomes a prototype.",
+                "button": "Reserch & Development"
+            },
+            "newsAndConsultancySec": {
+                "title": "We want to share and collaborate.",
+                "paragraph": "News and info on our surroundings, and much more.",
+                "button": "Stay Updated"
+            },
+            "contactUsSec": {
+                "title": "Connect with us",
+                "paragraph": "Message us, or choose to become part of our ecosystem.",
+                "button": "Contact Us"
+            }
         }
     },
     "it": {
-        "enLangName": "Inglese 🇺🇸",
-        "itLangName": "Italiano 🇮🇹",
+        "allLang": {
+            "enLangName": "Inglese 🇺🇸",
+            "itLangName": "Italiano 🇮🇹"
+        },
         "header": {
-            "home": "Home",
-            "aboutUs": "Chi Siamo",
-            "futureVisions": "Prospettiva Futura",
-            "reserchAndDevelopment": "Ricerca & Sviluppo",
-            "consultancy": "Consultancy",
-            "contactUs": "Contattaci"
+            "navHome": "Home",
+            "navAboutUs": "Chi Siamo",
+            "navFutureVisions": "Prospettive Future",
+            "navReserchAndDevelopment": "Ricerca & Sviluppo",
+            "navConsultancy": "Consulenza",
+            "navContactUs": "Contattaci"
+        },
+        "footer": {
+            "spanSocial": "Connettiti con noi sui social:",
+            "siteTitle": "Titolo Sito",
+            "siteDesc": "Descrizione Sito",
+            "skills": {
+                "title": "Competenze",
+                "ai": "AI & Deep Learning",
+                "systems": "Sistemi & Cloud",
+                "iot": "Domotica & IoT",
+                "finance": "Finanza Quantitativa"
+            },
+            "navigation": {
+                "title": "Navigazione",
+                "home": "Homepage",
+                "aboutUs": "Chi Siamo",
+                "futureVisions": "Prospettive Future",
+                "reserchAndDevelopment": "Ricerca & Sviluppo",
+                "consultancy": "Consulenza",
+                "contactUs": "Contattaci"
+            },
+            "contact": {
+                "title": "Contatti",
+                "avenue": "Via Sparano sta la 69, Bari, Italia (Loggione ITS)",
+                "email": "info@ourdistro.dev",
+                "tel": "+39 012 345 678"
+            }
+        },
+        "homepage": {
+            "heroSec": {
+                "title": "Our Distro",
+                "subtitle": "L'ordine senza potere",
+                "paragraph": "Non c'è un futuro da attendere, c'è solo un futuro da costruire.",
+                "button": "Esplora la visione"
+            },
+            "aboutUsSec": {
+                "title": "L'ecosistema",
+                "paragraph": "Non cerchiamo un posto in un organigramma, viviamo il nsotro ecosistema.",
+                "button": "Chi Siamo"
+            },
+            "reserchAndDevelopmentSec": {
+                "title": "Inventiamo soluzioni",
+                "paragraph": "Il nostro dipartimento di R&D è un laboratorio permanente dove l'utopia diventa prototipo.",
+                "button": "Ricerca &  Sviluppo"
+            },
+            "newsAndConsultancySec": {
+                "title": "Desideriamo condividere e confrontarci",
+                "paragraph": "News e informazioni su tutto quello che cic circonda e non solo.",
+                "button": "Resta Informato"
+            },
+            "contactUsSec": {
+                "title": "Come Raggiungerci",
+                "paragraph": "Scrivici oppure scegli di entrare a far parte del nostro ecosistema.",
+                "button": "Contattaci"
+            }
         }
     }
 }
