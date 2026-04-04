@@ -36,20 +36,6 @@
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
 
-.col-xl-6 {
-    padding-bottom: 50px;
-}
-
-.paragraph-home {
-  font-family: root.$font-body;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-}
-
-/* section:nth-of-type(even).row {
-  flex-direction: row-reverse;
-} */
-
 .center {
   flex-direction: column;
 }
@@ -68,6 +54,5 @@
 
 #team {
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../../assets/images/mission-dev-hero-background.webp");
 }

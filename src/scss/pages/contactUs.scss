@@ -39,17 +39,7 @@
 #contact-forms,
 #work-with-us-forms {
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("../../assets/images/contact-us-background.webp");
-
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; 
-
-    position: relative;
-    z-index: 1;
-    padding-top: root.$header-height;
-    padding-bottom: 65px;
 }
 
 
