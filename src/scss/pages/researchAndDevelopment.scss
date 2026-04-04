@@ -33,16 +33,6 @@
 // PAGE CUSTOM CSS RULES FOR PAGE: research-and-development
 //==========================
 
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-/* section:nth-of-type(even).row {
-  flex-direction: row-reverse;
-} */
 
 .center {
   flex-direction: column;
@@ -50,30 +40,25 @@
 
 #hero {
     background-image:
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../assets/images/res-dev.webp");
 }
 
 #ai {
     background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../assets/images/data-center.webp");
 }
 
 #green-energy {
     background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../assets/images/green-energy.webp");
 }
 
 #home-automation {
     background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../assets/images/house-automation-background.webp");
 }
 
 #quantitative-finance {
     background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../assets/images/green-energy.webp");
 }

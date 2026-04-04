@@ -67,28 +67,8 @@
     z-index: 2;
 }
 
-.paragraph-home {
-    padding-bottom: 10%;
-}
-
 #first-section {
     background-color: var(--deep-black);
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-
-#first-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    backdrop-filter: blur(1px) saturate(130%) brightness(1);
-    /* -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.7); */
-    background: rgba(0, 0, 0, 0.03);
-    pointer-events: none;
-    z-index: 1;
 }
 
 .code-window {

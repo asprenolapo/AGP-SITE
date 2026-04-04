@@ -5,7 +5,7 @@
 // Getting root rules from _root.scss
 @use 'root' as root;
 
-// @import
+// IMPORT
 
 @import'../modules/tipografia';
 @import'../modules/bg-filter-image';
@@ -110,6 +110,7 @@ section {
   /* flex: 0 0 auto; */
   flex: 1 0 auto;
   width: 100%;
+  position: relative;
 }
 
 .col-1 {
