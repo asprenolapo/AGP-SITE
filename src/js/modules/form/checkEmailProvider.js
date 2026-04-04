@@ -1,6 +1,6 @@
 // modules/form/checkEmailProvider.js
 
-import data from '../../json/providers.json' with { type: 'json' };
+import data from '../../json/mailProviders.json' with { type: 'json' };
 
 const officialProviders = data.official_providers;
 
