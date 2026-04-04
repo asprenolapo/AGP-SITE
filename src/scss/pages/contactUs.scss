@@ -39,7 +39,7 @@
 #contact-forms,
 #work-with-us-forms {
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("../../assets/images/contact-us-background.webp");
 
     background-size: cover;
@@ -74,7 +74,6 @@
 .paragraph-contact,
 .paragraph-work-with-us {
     font-family: root.$font-body;
-    color: #ffffff;
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 30px;
@@ -142,7 +141,7 @@
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 8px; // Manteniamo 8px per coerenza
     padding: 12px 40px 12px 12px; // Aumentato il padding destro per non sovrapporre testo e freccia
-    color: root.$muted-grey-text-body;
+    color: root.$off-white-text-body;
     font-family: root.$font-body;
     cursor: pointer;
 

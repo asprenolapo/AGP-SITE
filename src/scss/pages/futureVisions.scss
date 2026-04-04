@@ -36,7 +36,9 @@
 // These rules override the framework and module styles
 
 #hero {
-    background-image: url("../../assets/images/hero-future-vision.webp");
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/images/hero-future-vision.webp");
     position: relative;
     background-size: cover;
     background-position: center;
@@ -139,7 +141,7 @@ section:nth-of-type(even) .col-12 {
 
 .code-scroll {
     animation: scroll-code 20s linear infinite;
-    color: root.$muted-grey-text-body;
+    color: root.$off-white-text-body;
     font-family: root.$font-body;
 }
 

@@ -1,0 +1,66 @@
+{
+  "site_name": "Anarchia del loggione",
+  "title": "Site title",
+  "description": "Site description",
+  "keywords": "anarchia, loggione, scapocchia",
+  "domain": "webfixer.it",
+  "url": "https://webfixer.it",
+  "lang": "it",
+  "author": "Michele, Aspreno, Andrea",
+  "favicon": "/assets/favicon.svg",
+  "logo": "/assets/logo.svg",
+  "image_width": [320, 480, 720, 1280, 1920, 2048, 2560, 3840, 4096, 7680],
+  "copyright": {
+    "year": "2026",
+    "text": "Tutti i diritti riservati"
+  },
+  "legal": {
+    "privacy": "",
+    "cookie": "",
+    "cookieControls": "",
+    "terms": ""
+  },
+  "pages": {
+    "homepage": {
+      "seo": {
+        "title": "Homepage",
+        "description": "Description"
+      }
+    },
+    "contactus": {
+      "seo": {
+        "title": "Contact us",
+        "description": "description"
+      }
+    },
+    "futurevisions": {
+      "seo": {
+        "title": "Future visions",
+        "description": "description"
+      }
+    },
+    "researchanddevelopment": {
+      "seo": {
+        "title": "Research and development",
+        "description": "description"
+      }
+    },
+    "aboutus": {
+      "seo": {
+        "title": "About us",
+        "description": "description"
+      }
+    },
+    "consultancy": {
+      "seo": {
+        "title": "Consultancy",
+        "description": "description"
+      }
+    },
+    "404": {
+      "seo": {
+        "title": "404 - Not found"
+      }
+    }
+  }
+}

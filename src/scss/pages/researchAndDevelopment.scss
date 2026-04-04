@@ -86,21 +86,31 @@
 }
 
 #hero {
-    background-image: url("../../assets/images/res-dev.webp");
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/images/res-dev.webp");
 }
 
 #ai {
-    background-image: url("../../assets/images/data-center.webp");
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/images/data-center.webp");
 }
 
 #green-energy {
-    background-image: url("../../assets/images/green-energy.webp");
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/images/green-energy.webp");
 }
 
 #home-automation {
-    background-image: url("../../assets/images/future-city.webp");
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/images/house-automation-background.webp");
 }
 
 #quantitative-finance {
-    background-image: url("../../assets/images/green-energy.webp");
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/images/green-energy.webp");
 }

@@ -22,12 +22,12 @@
   align-items: center;
   padding: 20px 10%;
   font-family: root.$font-body;
-  color: root.$muted-grey-text-body;
+  color: root.$off-white-text-body;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Sottile linea divisoria */
 }
 
 .social-links a {
-color: root.$muted-grey-text-body;
+color: root.$off-white-text-body;
   text-decoration: none;
   margin-left: 10px;
   padding: 12px;
@@ -61,10 +61,7 @@ color: root.$muted-grey-text-body;
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 20px;
-  text-shadow:
-    0 0 2px #00ffff,
-    0 0 15px rgba(0, 255, 255, 0.6),
-    0 0 40px rgba(0, 255, 255, 0.2);
+
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
 }
 
@@ -72,7 +69,7 @@ color: root.$muted-grey-text-body;
   font-family: root.$font-body;
   font-size: 0.95rem;
   line-height: 1.5;
-  color: root.$muted-grey-text-body; /* Grigio tenue per i testi */
+  color: root.$off-white-text-body; /* Grigio tenue per i testi */
   margin-bottom: 1.25rem;
 
   a {
