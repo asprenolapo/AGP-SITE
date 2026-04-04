@@ -11,6 +11,9 @@ import { showNotification } from '../modules/notification.js';
 import { initScrollHeader } from '../modules/scrollHeader.js';
 import { initBurgerMenu } from '../modules/burgerMenu.js';
 
+// Languages
+import { initLangSwitcher } from '../modules/langSwitcher.js';
+
 //==========================
 // "future-visions" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
 //==========================
@@ -20,6 +23,8 @@ import { initBurgerMenu } from '../modules/burgerMenu.js';
 document.addEventListener("DOMContentLoaded", () => {
     initScrollHeader();
     initBurgerMenu();
+
+    initLangSwitcher();
 });
 
 // showNotification("Homepage notification");

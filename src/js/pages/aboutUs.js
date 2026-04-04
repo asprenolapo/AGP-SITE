@@ -13,6 +13,9 @@ import { initBurgerMenu } from '../modules/burgerMenu.js';
 
 import { initTeam } from '../modules/teamPrinter.js';
 
+// Languages
+import { initLangSwitcher } from '../modules/langSwitcher.js';
+
 //==========================
 // "about-us" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
 //==========================
@@ -23,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
     initScrollHeader();
     initBurgerMenu();
     initTeam();
+
+    initLangSwitcher();
 });
 
 // showNotification("Homepage notification");
