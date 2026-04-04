@@ -52,14 +52,21 @@ section:nth-of-type(even) {
 }
 
 @media (max-width: 768px) {
+
+  .col-6:empty {
+    display: none;
+  }
+
   section:nth-of-type(odd) {
     justify-content: center;
-    padding-left: 0px;
+    padding: 0;
+    padding-top: root.$header-height;
   }
 
   section:nth-of-type(even) {
     justify-content: center;
-    padding-right: 0px;
+    padding: 0;
+    padding-top: root.$header-height;
   }
 }
 
