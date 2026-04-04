@@ -11,8 +11,8 @@
 import { initScrollHeader } from '../modules/scrollHeader.js';
 import { initBurgerMenu } from '../modules/burgerMenu.js';
 
-import { initNoise } from '../modules/404/noise.js';
-import { initFuzzyText } from '../modules/404/fuzzyText.js';
+import { initNoise } from '../modules/react/noise.js';
+import { initFuzzyText } from '../modules/react/fuzzyText.js';
 
 // Languages
 import { initLangSwitcher } from '../modules/langSwitcher.js';
