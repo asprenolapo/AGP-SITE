@@ -39,22 +39,6 @@
 
 #hero {
   background-image: url("../../assets/images/stars-space.webp");
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  overflow: hidden;
-}
-
-#hero::before {
-  content: "";
-  position: absolute;
-  inset: 0; 
-  backdrop-filter: blur(1px) saturate(130%) brightness(1);
-  /* -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.7); */
-  background: rgba(0, 0, 0, 0.05);
-  pointer-events: none;
-  z-index: 1;
 }
 
 .col,
@@ -67,134 +51,30 @@
   z-index: 2;
 }
 
-.sec-primary-title {
-  font-size: 4.5rem;
-  letter-spacing: 0.1em;
-  text-shadow:
-    0 0 2px #00ffff,
-    0 0 15px rgba(0, 255, 255, 0.6),
-    0 0 40px rgba(0, 255, 255, 0.2);
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
-  padding-bottom: 2%;
-}
-
-.sec-sub-title {
-  font-size: 2.5rem;
-  letter-spacing: 0.1em;
-  text-shadow:
-    0 0 2px #00ffff,
-    0 0 15px rgba(0, 255, 255, 0.6),
-    0 0 40px rgba(0, 255, 255, 0.2);
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
-  padding-bottom: 2%;
-}
-
 .paragraph-home {
-  font-family: root.$font-body;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
   padding-bottom: 10%;
 }
 
 section:nth-of-type(odd) .col-12 {
   justify-content: flex-start;
-  padding-left: 10%;
-  padding-right: 0;
-  text-align: left;
 }
 
 section:nth-of-type(even) .col-12 {
   justify-content: flex-end;
-  padding-left: 0;
-  padding-right: 10%;
-  text-align: right;
 }
 
 #about-us {
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background: url("../../assets/images/we-care.webp") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-#about-us::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  backdrop-filter: blur(2px) saturate(150%) brightness(1);
-  background: rgba(0, 0, 0, 0.05);
-  pointer-events: none;
-  z-index: 1;
+  background-image: url("../../assets/images/we-care.webp");
 }
 
 #research-and-development {
   background-image: url("../../assets/images/motherboard.webp");
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-#research-and-development::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  backdrop-filter: blur(2px) saturate(150%) brightness(0.5);
-  background: rgba(0, 0, 0, 0.05);
-  pointer-events: none;
-  z-index: 1;
 }
 
 #news-and-consultancy {
   background-image: url("../../assets/images/black-hole.webp");
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-#news-and-consultancy::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  backdrop-filter: blur(2px) saturate(150%) brightness(0.5);
-  background: rgba(0, 0, 0, 0.05);
-  pointer-events: none;
-  z-index: 1;
 }
 
 #contact-us {
   background-image: url("../../assets/images/cabina-telefonica.webp");
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-#contact-us::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  backdrop-filter: blur(1px) saturate(130%) brightness(0.9);
-  background: rgba(0, 0, 0, 0.05);
-  pointer-events: none;
-  z-index: 1;
 }
