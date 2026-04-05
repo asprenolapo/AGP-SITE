@@ -142,7 +142,7 @@ nav {
   }
 }
 
-.btn-group {
+.lang-switcher {
   display: flex;
   position: relative;
   background: root.$deep-black;
@@ -156,7 +156,7 @@ nav {
 }
 
 // Slider animato
-.btn-group .slider {
+.lang-switcher .slider {
   position: absolute;
   top: 4px;
   bottom: 4px;
@@ -173,24 +173,24 @@ nav {
 }
 
 // Posizione slider: EN selezionato
-.btn-group:has(#lang-en:checked) .slider {
+.lang-switcher:has(#lang-en:checked) .slider {
   left: 4px;
 }
 
 // Posizione slider: IT selezionato
-.btn-group:has(#lang-it:checked) .slider {
+.lang-switcher:has(#lang-it:checked) .slider {
   left: calc(50% + 2px);
 }
 
 // Nasconde l'input radio nativo
-.btn-check {
+.lang-input {
   position: absolute;
   opacity: 0;
   pointer-events: none;
 }
 
 // Label base
-.btn-group .btn.btn-outline-primary {
+.lang-btn {
   position: relative;
   z-index: 1;
   flex: 1;
@@ -216,25 +216,20 @@ nav {
 
   &:hover {
     color: root.$starlight-text-title;
+  }
+
+  &:focus,
+  &:active {
     background: transparent;
-    border: none;
+    border-color: transparent;
     box-shadow: none;
+    outline: none;
   }
 }
 
-// Override Bootstrap :focus e :active
-.btn-group .btn.btn-outline-primary:focus,
-.btn-group .btn.btn-outline-primary:active,
-.btn-group .btn.btn-outline-primary.active {
-  background: transparent !important;
-  border-color: transparent !important;
-  box-shadow: none !important;
-  outline: none !important;
-}
-
 // Label selezionata: solo text-shadow cyan
-.btn-group:has(#lang-en:checked) label[for="lang-en"],
-.btn-group:has(#lang-it:checked) label[for="lang-it"] {
+.lang-switcher:has(#lang-en:checked) label[for="lang-en"],
+.lang-switcher:has(#lang-it:checked) label[for="lang-it"] {
   color: root.$starlight-text-title;
   text-shadow:
     0 0 2px #00ffff,
