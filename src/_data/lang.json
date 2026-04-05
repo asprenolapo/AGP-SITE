@@ -1,152 +1,216 @@
 {
-  "en": {
-    "allLang": {
-      "enLangName": "English 🇺🇸",
-      "itLangName": "Italian 🇮🇹"
+    "en": {
+        "allLang": {
+            "enLangName": "English 🇺🇸",
+            "itLangName": "Italian 🇮🇹"
+        },
+        "notifications": {
+            "formInvalidFields": "⚠️ You have to complete all the fields.",
+            "invalidEmailProvider": "❌ Email provider is not valid",
+            "sending": "Sending",
+            "messageSent": "The form has been sent sucessfully! ✨",
+            "sendError": "❌ Something went wrong"
+        },
+        "header": {
+            "navHome": "Home",
+            "navAboutUs": "About Us",
+            "navFutureVisions": "Future Visions",
+            "navReserchAndDevelopment": "Research & Development",
+            "navConsultancy": "Consultancy",
+            "navContactUs": "Contact Us"
+        },
+        "footer": {
+            "spanSocial": "Connect with us on social media:",
+            "skills": {
+                "title": "Skills",
+                "ai": "AI & Deep Learning",
+                "systems": "System & Cloud",
+                "iot": "Home Automation & IoT",
+                "finance": "Quantitative Finance"
+            },
+            "navigation": {
+                "title": "Navigation",
+                "home": "Homepage",
+                "aboutUs": "About Us",
+                "futureVisions": "Future Visions",
+                "reserchAndDevelopment": "Research & Development",
+                "consultancy": "Consultancy",
+                "contactUs": "Contact Us"
+            },
+            "contact": {
+                "title": "contact",
+                "avenue": "69 Sparano Avenue Right There, Bari, Italy (ITS Grand Tier)",
+                "email": "info@ourdistro.dev",
+                "tel": "+39 012 345 678"
+            }
+        },
+        "homepage": {
+            "heroSec": {
+                "title": "Our Distro",
+                "subtitle": "Order without authority",
+                "paragraph": "There is no future to wait for, only a future to build.",
+                "button": "Explore the vision"
+            },
+            "aboutUsSec": {
+                "title": "The ecosystem",
+                "paragraph": "We don’t seek a place in an org chart, we live our own ecosystem.",
+                "button": "About Us"
+            },
+            "reserchAndDevelopmentSec": {
+                "title": "Engineering solutions",
+                "paragraph": "Our R&D department is a permanent lab where utopia becomes a prototype.",
+                "button": "Reserch & Development"
+            },
+            "newsAndConsultancySec": {
+                "title": "We want to share and collaborate.",
+                "paragraph": "News and info on our surroundings, and much more.",
+                "button": "Stay Updated"
+            },
+            "contactUsSec": {
+                "title": "Connect with us",
+                "paragraph": "Message us, or choose to become part of our ecosystem.",
+                "button": "Contact Us"
+            }
+        },
+        "aboutUsPage": {
+            "heroSec": {
+                "title": "About us",
+                "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing eli Veritatis dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto"
+            },
+            "teamSec": {
+                "title": "Our team",
+                "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing eli Veritatis dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto",
+                "aiTitle": "Artificial Intelligence",
+                "cloudSysTitle": "Cloud System",
+                "houseAutoTitle": "House Automation",
+                "quantFinanceTitle": "Quantitative Finance",
+                "DevTitle": "Developers"
+            }
+        },
+        "futureVisionsPage": {
+            "heroSec": {
+                "title": "Our future",
+                "subtitle": "Utopia as a test environment",
+                "paragraph": "We are not escaping reality. We are compiling a parallel one, more worthy.",
+                "button": "Explore the vision"
+            },
+            "firstSec": {
+                "title": "Knowledge is the Only Infrastructure",
+                "paragraph": "Utopian thinking is not an naive escape, but the methodical construction of an alternative. At Our Distro, we believe that freedom is found not just in open-source code, but in a structurally open mind. True technology emancipates; it does not control. We seek to abolish systemic extraction and the exploitation of both data and users. We are engineering systems where order arises from voluntary cooperation, rather than the centralized power of a server or a boardroom. A digital ecosystem where the only recognized authority is the force of reason, exact calculation, and leading by example."
+            }
+        }
     },
-    "notifications": {
-      "formInvalidFields": "⚠️ You have to complete all the fields.",
-      "invalidEmailProvider": "❌ Email provider is not valid",
-      "sending": "Sending",
-      "messageSent": "The form has been sent sucessfully! ✨",
-      "sendError": "❌ Something went wrong"
-    },
-    "header": {
-      "navHome": "Home",
-      "navAboutUs": "About Us",
-      "navFutureVisions": "Future Visions",
-      "navReserchAndDevelopment": "Research & Development",
-      "navConsultancy": "Consultancy",
-      "navContactUs": "Contact Us"
-    },
-    "footer": {
-      "spanSocial": "Connect with us on social media:",
-      "skills": {
-        "title": "Skills",
-        "ai": "AI & Deep Learning",
-        "systems": "System & Cloud",
-        "iot": "Home Automation & IoT",
-        "finance": "Quantitative Finance"
-      },
-      "navigation": {
-        "title": "Navigation",
-        "home": "Homepage",
-        "aboutUs": "About Us",
-        "futureVisions": "Future Visions",
-        "reserchAndDevelopment": "Research & Development",
-        "consultancy": "Consultancy",
-        "contactUs": "Contact Us"
-      },
-      "contact": {
-        "title": "contact",
-        "avenue": "69 Sparano Avenue Right There, Bari, Italy (ITS Grand Tier)",
-        "email": "info@ourdistro.dev",
-        "tel": "+39 012 345 678"
-      }
-    },
-    "homepage": {
-      "heroSec": {
-        "title": "Our Distro",
-        "subtitle": "Order without authority",
-        "paragraph": "There is no future to wait for, only a future to build.",
-        "button": "Explore the vision"
-      },
-      "aboutUsSec": {
-        "title": "The ecosystem",
-        "paragraph": "We don’t seek a place in an org chart, we live our own ecosystem.",
-        "button": "About Us"
-      },
-      "reserchAndDevelopmentSec": {
-        "title": "Engineering solutions",
-        "paragraph": "Our R&D department is a permanent lab where utopia becomes a prototype.",
-        "button": "Reserch & Development"
-      },
-      "newsAndConsultancySec": {
-        "title": "We want to share and collaborate.",
-        "paragraph": "News and info on our surroundings, and much more.",
-        "button": "Stay Updated"
-      },
-      "contactUsSec": {
-        "title": "Connect with us",
-        "paragraph": "Message us, or choose to become part of our ecosystem.",
-        "button": "Contact Us"
-      }
+    "it": {
+        "allLang": {
+            "enLangName": "Inglese 🇺🇸",
+            "itLangName": "Italiano 🇮🇹"
+        },
+        "notifications": {
+            "formInvalidFields": "⚠️ Compila i campi obbligatori",
+            "invalidEmailProvider": "❌ Provider email non valido (Usa Gmail, Outlook, ecc.)",
+            "sending": "Invio in corso...",
+            "messageSent": "Messaggio inviato con successo! ✨",
+            "sendError": "❌ Errore durante l'invio"
+        },
+        "header": {
+            "navHome": "Home",
+            "navAboutUs": "Chi Siamo",
+            "navFutureVisions": "Prospettive Future",
+            "navReserchAndDevelopment": "Ricerca & Sviluppo",
+            "navConsultancy": "Consulenza",
+            "navContactUs": "Contattaci"
+        },
+        "footer": {
+            "spanSocial": "Connettiti con noi sui social:",
+            "siteTitle": "Titolo Sito",
+            "siteDesc": "Descrizione Sito",
+            "skills": {
+                "title": "Competenze",
+                "ai": "AI & Deep Learning",
+                "systems": "Sistemi & Cloud",
+                "iot": "Domotica & IoT",
+                "finance": "Finanza Quantitativa"
+            },
+            "navigation": {
+                "title": "Navigazione",
+                "home": "Homepage",
+                "aboutUs": "Chi Siamo",
+                "futureVisions": "Prospettive Future",
+                "reserchAndDevelopment": "Ricerca & Sviluppo",
+                "consultancy": "Consulenza",
+                "contactUs": "Contattaci"
+            },
+            "contact": {
+                "title": "Contatti",
+                "avenue": "Via Sparano sta la 69, Bari, Italia (Loggione ITS)",
+                "email": "info@ourdistro.dev",
+                "tel": "+39 012 345 678"
+            }
+        },
+        "homepage": {
+            "heroSec": {
+                "title": "Our Distro",
+                "subtitle": "L'ordine senza potere",
+                "paragraph": "Non c'è un futuro da attendere, c'è solo un futuro da costruire.",
+                "button": "Esplora la visione"
+            },
+            "aboutUsSec": {
+                "title": "L'ecosistema",
+                "paragraph": "Non cerchiamo un posto in un organigramma, viviamo il nsotro ecosistema.",
+                "button": "Chi Siamo"
+            },
+            "reserchAndDevelopmentSec": {
+                "title": "Inventiamo soluzioni",
+                "paragraph": "Il nostro dipartimento di R&D è un laboratorio permanente dove l'utopia diventa prototipo.",
+                "button": "Ricerca &  Sviluppo"
+            },
+            "newsAndConsultancySec": {
+                "title": "Desideriamo condividere e confrontarci",
+                "paragraph": "News e informazioni su tutto quello che cic circonda e non solo.",
+                "button": "Resta Informato"
+            },
+            "contactUsSec": {
+                "title": "Come Raggiungerci",
+                "paragraph": "Scrivici oppure scegli di entrare a far parte del nostro ecosistema.",
+                "button": "Contattaci"
+            }
+        },
+        "aboutUsPage": {
+            "heroSec": {
+                "title": "Chi siamo",
+                "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing eli Veritatis dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto"
+            },
+            "teamSec": {
+                "title": "Il nostro team",
+                "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing eli Veritatis dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto",
+                "aiTitle": "Intelligenza Artificiale",
+                "cloudSysTitle": "Sistemi Cloud",
+                "houseAutoTitle": "Domotica",
+                "quantFinanceTitle": "Finanza Quantitativa",
+                "DevTitle": "Programmatori"
+            }
+        },
+        "futureVisionsPage": {
+            "heroSec": {
+                "title": "Il nostro futuro",
+                "subtitle": "L'utopia come ambiente di test",
+                "paragraph": "Non fuggiamo dalla realtà. Ne stiamo compilando una parallela, più degna",
+                "button": "Esplora la visione"
+            },
+            "firstSec": {
+                "title": "La Conoscenza è l'Unica Infrastruttura",
+                "paragraph": "Il pensiero utopico non è una fuga ingenua, ma la costruzione metodica di un'alternativa. In Our Distro, crediamo che la libertà non si trovi semplicemente nel codice open-source, ma in una mente strutturalmente aperta. La vera tecnologia emancipa, non controlla.  Vogliamo abolire l'estrazione sistemica e lo sfruttamento del dato e dell'utente.  Stiamo ingegnerizzando sistemi dove l'ordine nasce dalla cooperazione volontaria e non dal potere centralizzato di un server o di un consiglio di amministrazione. Un ecosistema digitale in cui l'unica autorità riconosciuta è la forza della ragione, del calcolo esatto e dell'esempio."
+            },
+            "secondSec": {
+                "title": "Il Reset Necessario",
+                "paragraphs": {
+                    "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
+                    "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
+                    "application": "Noi applichiamo questo principio all'architettura informatica.",
+                    "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
+                    "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
+                }
+            }
+        }
     }
-  },
-  "it": {
-    "allLang": {
-      "enLangName": "Inglese 🇺🇸",
-      "itLangName": "Italiano 🇮🇹"
-    },
-    "notifications": {
-      "formInvalidFields": "⚠️ Compila i campi obbligatori",
-      "invalidEmailProvider": "❌ Provider email non valido (Usa Gmail, Outlook, ecc.)",
-      "sending": "Invio in corso...",
-      "messageSent": "Messaggio inviato con successo! ✨",
-      "sendError": "❌ Errore durante l'invio"
-    },
-    "header": {
-      "navHome": "Home",
-      "navAboutUs": "Chi Siamo",
-      "navFutureVisions": "Prospettive Future",
-      "navReserchAndDevelopment": "Ricerca & Sviluppo",
-      "navConsultancy": "Consulenza",
-      "navContactUs": "Contattaci"
-    },
-    "footer": {
-      "spanSocial": "Connettiti con noi sui social:",
-      "siteTitle": "Titolo Sito",
-      "siteDesc": "Descrizione Sito",
-      "skills": {
-        "title": "Competenze",
-        "ai": "AI & Deep Learning",
-        "systems": "Sistemi & Cloud",
-        "iot": "Domotica & IoT",
-        "finance": "Finanza Quantitativa"
-      },
-      "navigation": {
-        "title": "Navigazione",
-        "home": "Homepage",
-        "aboutUs": "Chi Siamo",
-        "futureVisions": "Prospettive Future",
-        "reserchAndDevelopment": "Ricerca & Sviluppo",
-        "consultancy": "Consulenza",
-        "contactUs": "Contattaci"
-      },
-      "contact": {
-        "title": "Contatti",
-        "avenue": "Via Sparano sta la 69, Bari, Italia (Loggione ITS)",
-        "email": "info@ourdistro.dev",
-        "tel": "+39 012 345 678"
-      }
-    },
-    "homepage": {
-      "heroSec": {
-        "title": "Our Distro",
-        "subtitle": "L'ordine senza potere",
-        "paragraph": "Non c'è un futuro da attendere, c'è solo un futuro da costruire.",
-        "button": "Esplora la visione"
-      },
-      "aboutUsSec": {
-        "title": "L'ecosistema",
-        "paragraph": "Non cerchiamo un posto in un organigramma, viviamo il nsotro ecosistema.",
-        "button": "Chi Siamo"
-      },
-      "reserchAndDevelopmentSec": {
-        "title": "Inventiamo soluzioni",
-        "paragraph": "Il nostro dipartimento di R&D è un laboratorio permanente dove l'utopia diventa prototipo.",
-        "button": "Ricerca &  Sviluppo"
-      },
-      "newsAndConsultancySec": {
-        "title": "Desideriamo condividere e confrontarci",
-        "paragraph": "News e informazioni su tutto quello che cic circonda e non solo.",
-        "button": "Resta Informato"
-      },
-      "contactUsSec": {
-        "title": "Come Raggiungerci",
-        "paragraph": "Scrivici oppure scegli di entrare a far parte del nostro ecosistema.",
-        "button": "Contattaci"
-      }
-    }
-  }
 }
