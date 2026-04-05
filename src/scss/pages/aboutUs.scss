@@ -22,12 +22,18 @@
 @import "../modules/header";
 @import "../modules/main";
 @import "../modules/footer";
+@import "../modules/imageFilter";
+
 
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
 @import "../modules/mobile";
 
 @import "../modules/cards/personCard";
+@import"../modules/cards/testProfileCard";
+@import"../modules/cards/testAdvisorCard";
+@import"../modules/typography";
+@import"../modules/sliders";
 
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: about-us
@@ -36,23 +42,40 @@
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
 
-.center {
-  flex-direction: column;
+#about-hero{
+  background-color: root.$deep-black;
+}
+#operative-nodes{
+  background-color: root.$deep-black;
+}
+#advisors{
+  background-color: root.$deep-black;
 }
 
-.scrollable-div {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: visible;
-  padding-bottom: 1rem;
 
-  // Scrollbar styling
-  scrollbar-width: thin;
-  scrollbar-color: root.$tech-cyan transparent;
-}
 
-#team {
-    background-image: 
-    url("../../assets/images/mission-dev-hero-background.webp");
-}
+
+
+
+
+
+
+// .center {
+//   flex-direction: column;
+// }
+// .scrollable-div {
+//   display: flex;
+//   flex-wrap: nowrap;
+//   overflow-x: auto;
+//   overflow-y: visible;
+//   padding-bottom: 1rem;
+
+//   // Scrollbar styling
+//   scrollbar-width: thin;
+//   scrollbar-color: root.$tech-cyan transparent;
+// }
+
+// #team {
+//     background-image: 
+//     url("../../assets/images/mission-dev-hero-background.webp");
+// }
