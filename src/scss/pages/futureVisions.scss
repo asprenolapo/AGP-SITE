@@ -23,6 +23,7 @@
 @import "../modules/main";
 @import "../modules/footer";
 @import "../modules/buttons";
+@import "../modules/imageFilter";
 
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
@@ -40,6 +41,8 @@
     url("../../assets/images/hero-future-vision.webp");
 }
 
+
+
 .col,
 .col-12 {
     position: relative;
@@ -50,8 +53,25 @@
     z-index: 2;
 }
 
+operative-nodes {
+  padding: 10vh 3vw;
+  background-color: darken(root.$deep-black, 2%); // Crea un leggero stacco con l'hero
+}
+
 #first-section {
     background-color: var(--deep-black);
+}
+
+#advisors {
+  padding: 10vh 3vw;
+  background-color: root.$deep-black;
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-transform: uppercase;
+    color: root.$starlight-text-title;
+    letter-spacing: 1.5px;
+  }
 }
 
 .code-window {

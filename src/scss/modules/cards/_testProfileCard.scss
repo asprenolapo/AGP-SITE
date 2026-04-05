@@ -1,0 +1,109 @@
+/* ////////////////////////////////////////////////
+  CARDS MODULE (Refactored)
+/////////////////////////////////////////////////// */
+
+@use '../root' as root;
+
+.team-card {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    position: relative;
+
+    background-color: lighten(root.$deep-black, 5%);
+    border: 1px solid rgba(root.$starlight-text-title, 0.1);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(root.$tech-cyan, 0.3);
+        border-color: root.$tech-cyan;
+    }
+
+    .card-cover {
+        width: 100%;
+        height: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .card-avatar {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+        img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: #ffffff;
+            padding: 3px;
+            border: 4px solid root.$tech-cyan;
+        }
+    }
+
+    .card-info {
+        width: 100%;
+        flex-grow: 1;
+        padding: 75px 15px 20px;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .aka {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            font-weight: 800;
+            margin-bottom: 5px;
+            color: root.$off-white-text-body;
+        }
+
+        .real-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: root.$starlight-text-title;
+        }
+
+        .role {
+            font-size: 0.9rem;
+            color: lighten(root.$off-white-text-body, 15%);
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .motto {
+            margin-top: auto;
+
+            .motto-title {
+                display: block;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 5px;
+                color: root.$tech-cyan;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 0.85rem;
+                line-height: 1.4;
+                color: root.$off-white-text-body;
+            }
+        }
+    }
+}

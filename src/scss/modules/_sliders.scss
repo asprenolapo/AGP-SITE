@@ -1,0 +1,43 @@
+@use 'root' as root;
+
+//==========================
+// REGOLE COMUNI A TUTTI GLI SWIPER
+//==========================
+.swiper {
+  width: 100%;
+  height: 100%;
+  /* Padding vitale per non far tagliare le ombre al passaggio del mouse */
+  padding: 30px 10px 50px 10px !important; 
+}
+
+.swiper-slide {
+  /* height: auto permette alla slide di adattarsi all'altezza del contenuto (la card) */
+  height: auto; 
+  display: flex;
+}
+
+
+//==========================
+// 1. SWIPER TEAM (Nodi Operativi)
+//==========================
+.team-swiper {
+  .swiper-slide {
+    /* Le card del team sono verticali e vanno centrate perfettamente nello spazio della slide */
+    justify-content: center; 
+  }
+}
+
+
+//==========================
+// 2. SWIPER ADVISOR (Custodi della Conoscenza)
+//==========================
+.advisor-swiper {
+  .swiper-slide {
+    /* Le card dei professori sono orizzontali e devono riempire bene la larghezza */
+    justify-content: flex-start; 
+    align-items: stretch; /* Assicura che si allunghino tutte alla stessa altezza */
+  }
+  
+  /* Se vuoi dare un po' di respiro extra al contenitore dei professori */
+  padding: 20px 10px 40px 10px !important;
+}

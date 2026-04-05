@@ -1,0 +1,99 @@
+//===========================================
+// BLOCCO 3: ADVISORS (PROFESSORI)
+//===========================================
+@use '../root' as root;
+
+// La Card dei Professori / Advisor
+.advisor-card {
+  display: flex;
+  align-items: flex-start;
+  /* Evita che la foto si stiri verticalmente */
+  height: 100%;
+  /* Si adatta alla slide dello swiper */
+
+  background-color: lighten(root.$deep-black, 4%);
+  border-left: 5px solid rgba(root.$starlight-text-title, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+  // display: flex;
+  // align-items: center;
+
+
+  // background-color: lighten(root.$deep-black, 4%);
+  // border-left: 5px solid rgba(root.$starlight-text-title, 0.5); 
+  // border-radius: 8px;
+  // padding: 20px;
+  margin-bottom: 20px; // Spazio extra su mobile se collassano in una colonna
+
+  transition: all 0.3s ease;
+
+  // Hover elegante, autorevole, non eccessivo
+  &:hover {
+    background-color: lighten(root.$deep-black, 8%);
+    border-left-color: root.$starlight-text-title;
+    transform: translateX(5px); // Un leggero movimento in avanti invece che in alto
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .advisor-avatar {
+    flex-shrink: 0; // Evita che la foto si schiacci se c'è troppo testo
+    margin-right: 25px;
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px; // Quadrato con angoli leggermente smussati
+      object-fit: cover;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+
+      // Filtro per renderli leggermente desaturati per dare l'effetto "veterano", 
+      // torna a colori pieni sull'hover della card
+      filter: grayscale(40%);
+      transition: filter 0.3s ease;
+    }
+  }
+
+  &:hover .advisor-avatar img {
+    filter: grayscale(0%);
+  }
+
+  .advisor-info {
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+      color: root.$starlight-text-title;
+    }
+
+    .advisor-role {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: lighten(root.$off-white-text-body, 10%);
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: root.$off-white-text-body;
+    }
+  }
+
+  // Responsive: su smartphone molto piccoli, mettiamo la foto sopra il testo
+  @media (max-width: 575px) {
+    flex-direction: column;
+    text-align: center;
+    border-left: none;
+    border-top: 5px solid rgba(root.$starlight-text-title, 0.5);
+
+    &:hover {
+      transform: translateY(-5px);
+      border-top-color: root.$starlight-text-title;
+    }
+
+    .advisor-avatar {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+}
