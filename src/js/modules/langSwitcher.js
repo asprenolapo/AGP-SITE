@@ -1,5 +1,6 @@
 // Cache delle traduzioni — evita di fare fetch multipli
-let translations = null;
+export let currentLang = null;
+export let translations = null;
 
 // Carica lang.json una sola volta e lo salva in memoria
 async function loadTranslations() {
@@ -57,6 +58,8 @@ async function getInitialLang(availableLangs, fallbackLang) {
 // Applica la lingua a tutti gli elementi con data-lang-key
 // Supporta chiavi annidate tipo "homepage.hero_title"
 function applyLanguage(lang, data) {
+  currentLang = lang;
+  translations = data;
   document.querySelectorAll("[data-lang-key]").forEach((element) => {
     const key = element.dataset.langKey;
     const keys = key.split(".");
