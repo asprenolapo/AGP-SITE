@@ -10,7 +10,6 @@
 // ║              _uikit.scss  / _foundation.scss                ║
 // ╚═════════════════════════════════════════════════════════════╝
 
-
 // Use @use with a namespace to avoid framework variable conflicts:
 @use "../modules/root" as root;
 
@@ -27,38 +26,45 @@
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
 @import "../modules/mobile";
-@import '../modules/cards/personCard';
-@import '../modules/buttons';
+@import "../modules/cards/personCard";
+@import "../modules/buttons";
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: research-and-development
 //==========================
-
 
 .center {
   flex-direction: column;
 }
 
 #hero {
-    background-image:
-      url("../../assets/images/res-dev.webp");
+  background-image: url("../../assets/images/res-dev.webp");
 }
 
 #ai {
-    background-image: 
-      url("../../assets/images/data-center.webp");
+  background-image: url("../../assets/images/data-center.webp");
 }
 
 #green-energy {
-    background-image: 
-      url("../../assets/images/green-energy.webp");
+  background-image: url("../../assets/images/green-energy.webp");
 }
 
 #home-automation {
-    background-image: 
-      url("../../assets/images/house-automation-background.webp");
+  background-image: url("../../assets/images/house-automation-background.webp");
 }
 
 #quantitative-finance {
-    background-image: 
-      url("../../assets/images/green-energy.webp");
+  background-image: url("../../assets/images/green-energy.webp");
+}
+
+.hero-video-wrapper {
+  border: solid 2px root.$tech-cyan;
+  border-radius: 5%;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+}
+
+.hero-video {
+  width: 100%;
+  display: block;
 }
