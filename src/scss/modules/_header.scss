@@ -124,3 +124,120 @@ nav {
   transition: all 0.4s ease;
 }
 }
+
+/* ////////////////////////////////////////////////
+  LANGUAGE SWITCHER
+/////////////////////////////////////////////////// */
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  > i {
+    color: root.$starlight-text-title;
+    font-size: 1.4rem;
+    opacity: 0.85;
+    flex-shrink: 0;
+  }
+}
+
+.btn-group {
+  display: flex;
+  position: relative;
+  background: root.$deep-black;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow:
+    0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 15px rgba(255, 255, 255, 0.3),
+    0 0 40px rgba(255, 255, 255, 0.1);
+  animation: lang-slide-in 0.6s ease-out;
+}
+
+// Slider animato
+.btn-group .slider {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  width: calc(50% - 6px);
+  background: root.$deep-black;
+  border-radius: 8px;
+  box-shadow:
+    0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 15px rgba(255, 255, 255, 0.3),
+    0 0 40px rgba(255, 255, 255, 0.1);
+  transition: left 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 0;
+  pointer-events: none;
+}
+
+// Posizione slider: EN selezionato
+.btn-group:has(#lang-en:checked) .slider {
+  left: 4px;
+}
+
+// Posizione slider: IT selezionato
+.btn-group:has(#lang-it:checked) .slider {
+  left: calc(50% + 2px);
+}
+
+// Nasconde l'input radio nativo
+.btn-check {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+// Label base
+.btn-group .btn.btn-outline-primary {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  height: 100%;
+  font-family: root.$font-title;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(243, 244, 246, 0.5);
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: none;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 0.03em;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: root.$starlight-text-title;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+// Override Bootstrap :focus e :active
+.btn-group .btn.btn-outline-primary:focus,
+.btn-group .btn.btn-outline-primary:active,
+.btn-group .btn.btn-outline-primary.active {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+// Label selezionata: solo text-shadow cyan
+.btn-group:has(#lang-en:checked) label[for="lang-en"],
+.btn-group:has(#lang-it:checked) label[for="lang-it"] {
+  color: root.$starlight-text-title;
+  text-shadow:
+    0 0 2px #00ffff,
+    0 0 15px rgba(0, 255, 255, 0.6),
+    0 0 40px rgba(0, 255, 255, 0.2);
+}
