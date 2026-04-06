@@ -1,8 +1,8 @@
 {
     "en": {
         "allLang": {
-            "enLangName": "English 🇺🇸",
-            "itLangName": "Italian 🇮🇹"
+            "enLangName": "ENG 🇺🇸",
+            "itLangName": "ITA 🇮🇹"
         },
         "notifications": {
             "formInvalidFields": "⚠️ You have to complete all the fields.",
@@ -194,8 +194,8 @@
     },
     "it": {
         "allLang": {
-            "enLangName": "Inglese 🇺🇸",
-            "itLangName": "Italiano 🇮🇹"
+            "enLangName": "ENG 🇺🇸",
+            "itLangName": "ITA 🇮🇹"
         },
         "notifications": {
             "formInvalidFields": "⚠️ Compila i campi obbligatori",
