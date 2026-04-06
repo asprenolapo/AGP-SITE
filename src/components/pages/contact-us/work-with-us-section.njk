@@ -1,40 +1,112 @@
 <section id="work-with-us-forms" class="row">
   <div class="col-12 col-md-6">
-    <h2 class="section-title" data-lang-key="contactUsPage.workWithUsSec.title"></h2>
-    <p class="paragraph-work-with-us" data-lang-key="contactUsPage.workWithUsSec.paragraph"></p>
-    <p class="paragraph-work-with-us" data-lang-key="contactUsPage.workWithUsSec.paragraph1"></p>
+    <h2
+      class="section-title"
+      data-lang-key="contactUsPage.workWithUsSec.title"
+    ></h2>
+    <p
+      class="paragraph-work-with-us"
+      data-lang-key="contactUsPage.workWithUsSec.paragraph"
+    ></p>
+    <p
+      class="paragraph-work-with-us"
+      data-lang-key="contactUsPage.workWithUsSec.paragraph1"
+    ></p>
 
     <!-- FORM LAVORA CON NOI -->
-    <form action="" class="needs-validation" novalidate>
+    <form method="post" class="needs-validation" novalidate>
       <fieldset class="border-form">
-        <label for="name-work-with-us" class="form-label" data-lang-key="contactUsPage.workWithUsSec.form.labelName"></label>
-        <input type="text" id="name" name="name-work-with-us" placeholder="Scrivi il tuo Nome" class="form-input"
-          required />
+        <input type="hidden" name="formType" value="apply" />
 
-        <label for="surname-work-with-us" class="form-label" data-lang-key="contactUsPage.workWithUsSec.form.labelSurname"></label>
-        <input type="text" id="surname" name="surname-work-with-us" placeholder="Scrivi il tuo Cognome"
-          class="form-input" required />
+        <label
+          for="name-work-with-us"
+          class="form-label"
+          data-lang-key="contactUsPage.workWithUsSec.form.labelName"
+        ></label>
+        <input
+          type="text"
+          id="name-work-with-us"
+          name="name"
+          placeholder="Scrivi il tuo Nome"
+          class="form-input"
+          required
+        />
 
+        <label
+          for="surname-work-with-us"
+          class="form-label"
+          data-lang-key="contactUsPage.workWithUsSec.form.labelSurname"
+        ></label>
+        <input
+          type="text"
+          id="surname-work-with-us"
+          name="surname"
+          placeholder="Scrivi il tuo Cognome"
+          class="form-input"
+          required
+        />
 
-        <label for="email-work-with-us" class="form-label" data-lang-key="contactUsPage.workWithUsSec.form.labelEmail"></label>
-        <input type="email" id="email-work-with-us" name="email" placeholder="Scrivi la tua Email" class="form-input"
-          required />
+        <label
+          for="email-work-with-us"
+          class="form-label"
+          data-lang-key="contactUsPage.workWithUsSec.form.labelEmail"
+        ></label>
+        <input
+          type="email"
+          id="email-work-with-us"
+          name="email"
+          placeholder="Scrivi la tua Email"
+          class="form-input"
+          required
+        />
 
-        <label for="tel-work-with-us" class="form-label" data-lang-key="contactUsPage.workWithUsSec.form.labelTel"></label>
-        <input type="tel" id="tel-work-with-us" name="tel" placeholder="Telefono Cellulare" class="form-input"
-          required />
+        <label
+          for="tel-work-with-us"
+          class="form-label"
+          data-lang-key="contactUsPage.workWithUsSec.form.labelTel"
+        ></label>
+        <input
+          type="tel"
+          id="tel-work-with-us"
+          name="tel"
+          placeholder="Telefono Cellulare"
+          class="form-input"
+          required
+        />
 
-        <label for="position" class="form-label" data-lang-key="contactUsPage.workWithUsSec.form.labelSkills"></label>
+        <label
+          for="position"
+          class="form-label"
+          data-lang-key="contactUsPage.workWithUsSec.form.labelSkills"
+        ></label>
         <select name="position" id="position" class="select-input" required>
-          <option value="" selected disabled data-lang-key="contactUsPage.workWithUsSec.select.optionSelect"></option>
-          <option value="human_resource" data-lang-key="contactUsPage.workWithUsSec.select.optionHumanReso"></option>
-          <option value="front_end" data-lang-key="contactUsPage.workWithUsSec.select.optionDevFrontEnd"></option>
-          <option value="back_end" data-lang-key="contactUsPage.workWithUsSec.select.optionDevBackEnd"></option>
-          <option value="marketing" data-lang-key="contactUsPage.workWithUsSec.select.optionMarketing"></option>
+          <option
+            value=""
+            selected
+            disabled
+            data-lang-key="contactUsPage.workWithUsSec.select.optionSelect"
+          ></option>
+          <option
+            value="human_resource"
+            data-lang-key="contactUsPage.workWithUsSec.select.optionHumanReso"
+          ></option>
+          <option
+            value="front_end"
+            data-lang-key="contactUsPage.workWithUsSec.select.optionDevFrontEnd"
+          ></option>
+          <option
+            value="back_end"
+            data-lang-key="contactUsPage.workWithUsSec.select.optionDevBackEnd"
+          ></option>
+          <option
+            value="marketing"
+            data-lang-key="contactUsPage.workWithUsSec.select.optionMarketing"
+          ></option>
         </select>
+
         <div class="button-group">
-          <input type="submit" value="Invia" class="submit-form" />
-          <input type="reset" value="Resetta" class="reset-form" />
+          <button type="submit" class="submit-form">Invia</button>
+          <button type="reset" class="reset-form">Resetta</button>
         </div>
       </fieldset>
     </form>
