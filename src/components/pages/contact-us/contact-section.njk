@@ -1,35 +1,99 @@
 <section id="contact-forms" class="row">
+  <!-- TITOLI E DESCRIZIONI -->
+  <div class="col-12 col-md-6">
+    <h2
+      class="section-title"
+      data-lang-key="contactUsPage.contactSec.title"
+    ></h2>
+    <p
+      class="paragraph-contact"
+      data-lang-key="contactUsPage.contactSec.paragraph"
+    ></p>
+    <p
+      class="paragraph-contact"
+      data-lang-key="contactUsPage.contactSec.paragraph1"
+    ></p>
 
-    <!-- TITOLI E DESCRIZIONI -->
-    <div class="col-12 col-md-6">
-      <h2 class="section-title" data-lang-key="contactUsPage.contactSec.title"></h2>
-      <p class="paragraph-contact" data-lang-key="contactUsPage.contactSec.paragraph"></p>
-      <p class="paragraph-contact" data-lang-key="contactUsPage.contactSec.paragraph1"></p>
+    <!-- FORM CONTATTACI -->
+    <form method="post" class="needs-validation" novalidate>
+      <fieldset class="border-form">
+        <input type="hidden" name="formType" value="contact" />
 
-      <!-- FORM CONTATTACI -->
-      <form method="post" class="needs-validation" novalidate>
-        <fieldset class="border-form">
-          
-          <label for="name-contact" class="form-label" data-lang-key="contactUsPage.contactSec.form.labelName"></label>
-          <input type="text" id="name-contact" name="name" placeholder="Scrivi il tuo Nome" class="form-input" required />
-            
-          <label for="surname-contact" class="form-label" data-lang-key="contactUsPage.contactSec.form.labelSurname"></label>
-          <input type="text" id="surname-contact" name="surname" placeholder="Scrivi il tuo Cognome" class="form-input" required/>
+        <label
+          for="name-contact"
+          class="form-label"
+          data-lang-key="contactUsPage.contactSec.form.labelName"
+        ></label>
+        <input
+          type="text"
+          id="name-contact"
+          name="name"
+          placeholder="Scrivi il tuo Nome"
+          class="form-input"
+          required
+        />
 
-          <label for="email-contact" class="form-label" data-lang-key="contactUsPage.contactSec.form.labelSurname"></label>
-          <input type="email" id="email-contact" name="email" placeholder="Scrivi la tua Email" class="form-input" required  />
+        <label
+          for="surname-contact"
+          class="form-label"
+          data-lang-key="contactUsPage.contactSec.form.labelSurname"
+        ></label>
+        <input
+          type="text"
+          id="surname-contact"
+          name="surname"
+          placeholder="Scrivi il tuo Cognome"
+          class="form-input"
+          required
+        />
 
-          <label for="tel-contact" class="form-label" data-lang-key="contactUsPage.contactSec.form.labelSurname"></label>
-          <input type="tel" id="tel-contact" name="tel" placeholder="Telefono Cellulare" class="form-input" required  />
+        <label
+          for="email-contact"
+          class="form-label"
+          data-lang-key="contactUsPage.contactSec.form.labelEmail"
+        ></label>
+        <input
+          type="email"
+          id="email-contact"
+          name="email"
+          placeholder="Scrivi la tua Email"
+          class="form-input"
+          required
+        />
 
-          <label for="messages-contact" class="form-label" data-lang-key="contactUsPage.contactSec.form.labelSurname"></label>
-          <textarea rows="3" cols="50" placeholder="Descrivi la tua idea..." id="messages-contact" name="messages" class="form-input"></textarea>
+        <label
+          for="tel-contact"
+          class="form-label"
+          data-lang-key="contactUsPage.contactSec.form.labelTel"
+        ></label>
+        <input
+          type="tel"
+          id="tel-contact"
+          name="tel"
+          placeholder="Telefono Cellulare"
+          class="form-input"
+          required
+        />
+
+        <label
+          for="messages-contact"
+          class="form-label"
+          data-lang-key="contactUsPage.contactSec.form.labelMessages"
+        ></label>
+        <textarea
+          rows="3"
+          cols="50"
+          placeholder="Descrivi la tua idea..."
+          id="messages-contact"
+          name="messages"
+          class="form-input"
+        ></textarea>
 
           <div class="button-group">
-            <input type="submit" value="Invia" class="submit-form" />
-            <input type="reset" value="Resetta" class="reset-form" />
-          </div>
-        </fieldset>
-      </form>
-    </div>
-  </section>
+            <button type="submit" class="submit-form">Invia</button>
+            <button type="reset" class="reset-form">Resetta</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
