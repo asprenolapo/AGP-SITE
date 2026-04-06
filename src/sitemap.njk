@@ -2,20 +2,14 @@
 permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
-<!-- !IMPORTANT -->
-<!-- DO NOT MODIFY ANYTHING HERE -->
-
-
-<!-- Site pages are on lowecase instead with original url -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in collections.all %}
         {% if not page.data.draft %}
             <url>
                 <loc>{{ site.url }}{{ page.url | lower }}</loc>
                 <lastmod>{{ page.date.toISOString() }}</lastmod>
-                <changefreq>weekly</changefreq> // Change to "daily", "weekly", "monthly" etc. based on how often the page is updated
+                <changefreq>weekly</changefreq>
                 <priority>{{ '1.0' if page.url == '/' else '0.8' }}</priority>
             </url>
         {% endif %}
