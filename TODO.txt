@@ -8,7 +8,6 @@ Finire consultancy
 Rivedere res-dev
 
 Finire traduzioni
-Capire perchè solo in homepage il div lang non se ne va a destra
 
 
 FACOLTATIVO:
