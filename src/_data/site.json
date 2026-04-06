@@ -1,8 +1,8 @@
 {
   "site_name": "Our Distro",
-  "title": "Our Distro | Software House Internazionale B2B",
-  "description": "Software house specializzata in soluzioni IT su misura, ricerca, sviluppo e consulenza informatica per aziende a livello globale situata nel territorio di Bari.",
-  "keywords": "software house, sviluppo software B2B, innovazione IT, ricerca e sviluppo software, consulenza informatica internazionale",
+  "title": "Our Distro — Tecnologia, Ricerca e Sviluppo a Bari",
+  "description": "Our Distro è un ecosistema tecnologico indipendente specializzato in AI, cloud systems, domotica e finanza quantitativa. Sviluppiamo software su misura e consulenza tecnica.",
+  "keywords": "intelligenza artificiale, cloud systems, domotica IoT, finanza quantitativa, sviluppo software, consulenza informatica, Bari, Italia",
   "domain": "webfixer.it",
   "url": "https://webfixer.it",
   "lang": "it",
@@ -12,7 +12,7 @@
   "image_width": [320, 480, 720, 1280, 1920, 2048, 2560, 3840, 4096, 7680],
   "copyright": {
     "year": "2026",
-    "text": "Copyright Our Distro - Tutti i diritti riservati"
+    "text": "Tutti i diritti riservati"
   },
   "legal": {
     "privacy": "",
@@ -23,43 +23,43 @@
   "pages": {
     "homepage": {
       "seo": {
-        "title": "Software House B2B | Soluzioni IT Internazionali | Our Distro",
-        "description": "Partner tecnologico globale per lo sviluppo di software custom. Trasformiamo le sfide aziendali in soluzioni digitali scalabili e innovative."
+        "title": "Our Distro — L'ordine senza potere | Tecnologia e Innovazione",
+        "description": "Our Distro è un ecosistema tecnologico che costruisce il futuro attraverso AI, cloud, domotica e finanza quantitativa. Non c'è un futuro da attendere, c'è solo un futuro da costruire."
       }
     },
     "contactus": {
       "seo": {
-        "title": "Contattaci e Lavora con Noi | Supporto e Carriere | Our Distro",
-        "description": "Hai un progetto o vuoi unirti al team? Contatta Our Distro per consulenze software personalizzate o per inviare la tua candidatura."
+        "title": "Contattaci — Our Distro | Sviluppo Software su Misura",
+        "description": "Hai un progetto o una necessità tecnica? Scrivici o inviaci la tua candidatura. Our Distro sviluppa software su misura e soluzioni per hardware specifici."
       }
     },
     "futurevisions": {
       "seo": {
-        "title": "Future Visions | Il Futuro del Software B2B | Our Distro",
-        "description": "Esploriamo le frontiere della tecnologia. Scopri la nostra visione sui trend futuri dell'informatica e l'impatto del software sulle aziende."
+        "title": "Prospettiva Futura — Our Distro | L'utopia come ambiente di test",
+        "description": "La nostra visione tecnologica: sistemi aperti, decentralizzati e rispettosi dell'utente. Ingegneriamo alternative concrete alla tecnologia estrattiva."
       }
     },
     "researchanddevelopment": {
       "seo": {
-        "title": "Ricerca e Sviluppo Software (R&D) | Innovazione IT | Our Distro",
-        "description": "Investiamo nel futuro tramite il nostro reparto R&D. Progettazione di nuove tecnologie e software d'avanguardia per il mercato B2B."
+        "title": "Ricerca e Sviluppo — Our Distro | AI, Cloud, Domotica, Finanza",
+        "description": "Il laboratorio permanente di Our Distro: intelligenza artificiale, algoritmi a bassa intensità energetica, domotica IoT e finanza quantitativa. L'utopia diventa prototipo."
       }
     },
     "aboutus": {
       "seo": {
-        "title": "Chi Siamo | Storia e Valori della Software House | Our Distro",
-        "description": "Scopri la missione di Our Distro: eccellenza nello sviluppo software e partnership strategiche con aziende internazionali."
+        "title": "Chi Siamo — Our Distro | Il nostro ecosistema",
+        "description": "Siamo un team di sviluppatori, ricercatori e tecnici appassionati di innovazione. Non cerchiamo un posto in un organigramma: viviamo il nostro ecosistema."
       }
     },
     "consultancy": {
       "seo": {
-        "title": "Consulenza Informatica e News | Aggiornamenti IT | Our Distro",
-        "description": "Servizi di IT Consultancy per l'ottimizzazione dei processi aziendali e news sugli ultimi eventi tecnologici del settore."
+        "title": "Consulenza — Our Distro | Competenze Tecniche Specializzate",
+        "description": "Consulenza tecnica specializzata in sviluppo front-end, back-end, sistemistica e molto altro. Our Distro affianca aziende e professionisti con soluzioni concrete."
       }
     },
     "404": {
       "seo": {
-        "title": "404 - Pagina non trovata | Our Distro"
+        "title": "404 — Pagina non trovata | Our Distro"
       }
     }
   }
