@@ -28,13 +28,21 @@
   </div>
 </header>
 
-<div class="mobile-menu">
-  <div class="mobile-nav-links">
+<!-- Overlay scuro dietro l'offcanvas -->
+<div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+
+<!-- Offcanvas panel -->
+<aside class="offcanvas" id="offcanvas-menu" aria-hidden="true">
+  <button class="offcanvas-close" aria-label="Chiudi menu">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+
+  <nav class="offcanvas-nav">
     <a class="nav-button" href="/" data-lang-key="header.navHome"></a>
     <a class="nav-button" href="/about-us" data-lang-key="header.navAboutUs"></a>
     <a class="nav-button" href="/future-visions" data-lang-key="header.navFutureVisions"></a>
     <a class="nav-button" href="/research-and-development" data-lang-key="header.navReserchAndDevelopment"></a>
     <a class="nav-button" href="/consultancy" data-lang-key="header.navConsultancy"></a>
     <a class="nav-button" href="/contact-us" data-lang-key="header.navContactUs"></a>
-  </div>
-</div>
+  </nav>
+</aside>
