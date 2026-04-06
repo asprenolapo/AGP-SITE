@@ -35,7 +35,6 @@ nav {
   display: flex;
   align-items: center;
   gap: root.$navbar-sections-gap;
-  flex: 1;
 }
 
 .nav-button {
@@ -58,6 +57,7 @@ nav {
 .nav-links {
   display: flex;
   gap: root.$navbar-buttons-gap;
+  flex: 1;
 }
 
 /* ////////////////////////////////////////////////

@@ -1,23 +1,16 @@
 IMPORTANTI:
 
-Riempire pagina future visions, unifcare consultancy in ricerca e sviluppo e creare pagina notizie + eventuale newsletter
+Decidere se scrivere tuto a sinistra o tutto centrato
+Decidere se tenere immagini oppure toglierle, se si fare i filtri
 
-Rivedere spaziature delle sezioni
+Pescare card dinamicamente con js dal json
+Finire consultancy
+Rivedere res-dev
 
-Rivedere contenuto pagine
+Finire traduzioni
+Capire perchè solo in homepage il div lang non se ne va a destra
 
-Gestire le lingue
-
-Riverede mobile menu
-
-Creare LOGO e favicon
-
-Refactor root e otimizzazione moduli css
 
 FACOLTATIVO:
 
 separatori sagomati tra le sezioni 
-
-Fare backend in php con sistema mail + database locale senza critto in json
-
-Aggiungere scrollbar per indicare altezza pagina
