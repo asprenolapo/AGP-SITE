@@ -1,41 +1,41 @@
-import teamData from '../json/teamData.json';
-
-// Funzione helper per creare elementi DOM usando textContent in modo sicuro
+/**
+ * Funzione helper per creare elementi DOM in modo sicuro
+ */
 function createEl(tag, classNames = [], attributes = {}, text = '') {
   const el = document.createElement(tag);
   if (classNames.length > 0) el.classList.add(...classNames);
   Object.entries(attributes).forEach(([key, value]) => el.setAttribute(key, value));
-  if (text) el.textContent = text; // <-- Qui usiamo textContent al posto di innerHTML
+  if (text) el.textContent = text; 
   return el;
 }
 
-export function initTeam() {
+/**
+ * Funzione principale per stampare i membri del team e i tutor.
+ */
+export function initTeam(data) {
+  if (!data) return;
+
   try {
     const programmersContainer = document.getElementById('team-wrapper');
     const tutorsContainer = document.getElementById('advisor-wrapper');
 
-    const programmers = teamData.programmers;
-    const tutors = teamData.tutors;
-
-    // 2. Popolamento Team Wrapper (Programmers)
+    // 1. Popolamento Programmatori
     if (programmersContainer) {
-      programmersContainer.textContent = ""; // Pulizia preventiva sicura
+      programmersContainer.textContent = ""; 
+      const programmers = data.programmers || [];
 
       programmers.forEach(person => {
         const fullName = `${person.name} ${person.surname}`;
-        const randomAvatar = `../../assets/images/foto-compagni/${fullName}.webp`;
+        const avatarPath = `../../assets/images/foto-compagni/${fullName}.webp`;
 
-        // Creazione struttura DOM
         const slide = createEl('div', ['swiper-slide', 'center']);
         const article = createEl('article', ['team-card']);
 
         const cover = createEl('div', ['card-cover']);
-        const coverImg = createEl('img', [], { src: '../../assets/images/motherboard.webp', alt: 'Sfondo' });
-        cover.appendChild(coverImg);
+        cover.appendChild(createEl('img', [], { src: '../../assets/images/motherboard.webp', alt: 'Sfondo' }));
 
         const avatar = createEl('div', ['card-avatar']);
-        const avatarImg = createEl('img', [], { src: randomAvatar, alt: fullName });
-        avatar.appendChild(avatarImg);
+        avatar.appendChild(createEl('img', [], { src: avatarPath, alt: fullName }));
 
         const info = createEl('div', ['card-info']);
         const h3 = createEl('h3', ['aka', 'sec-sub-title'], {}, `AKA: ${person.aka}`);
@@ -55,21 +55,20 @@ export function initTeam() {
       });
     }
 
-    // 3. Popolamento Advisor Wrapper (Tutors)
+    // 2. Popolamento Tutors
     if (tutorsContainer) {
-      tutorsContainer.textContent = ""; // Pulizia preventiva sicura
+      tutorsContainer.textContent = ""; 
+      const tutors = data.tutors || [];
 
       tutors.forEach(person => {
         const fullName = `${person.name} ${person.surname}`;
-        const randomTutorAvatar = `../../assets/images/foto-professori/${fullName}.webp`;
+        const avatarPath = `../../assets/images/foto-professori/${fullName}.webp`;
 
-        // Creazione struttura DOM
         const slide = createEl('div', ['swiper-slide']);
         const article = createEl('article', ['tutor-card']);
 
         const avatar = createEl('div', ['tutor-avatar']);
-        const avatarImg = createEl('img', [], { src: randomTutorAvatar, alt: fullName });
-        avatar.appendChild(avatarImg);
+        avatar.appendChild(createEl('img', [], { src: avatarPath, alt: fullName }));
 
         const info = createEl('div', ['tutor-info']);
         const h2 = createEl('h2', ['sec-sub-title'], {}, fullName);
@@ -85,23 +84,23 @@ export function initTeam() {
       });
     }
 
-    // 4. Inizializzazione Swiper
+    // Inizializza gli Swiper con la velocità corretta
     initSwipers();
 
   } catch (error) {
-    console.error("Errore nel rendering dei dati:", error);
+    console.error("Errore nel rendering del team:", error);
   }
 }
 
-// Funzione per inizializzare gli Swiper
 function initSwipers() {
+  // Swiper Team (Velocità 3000ms)
   new Swiper('.team-swiper', {
     loop: true, 
     grabCursor: true, 
     spaceBetween: 30, 
-    autoplay: {
-      delay: 2500, 
-      disableOnInteraction: false, 
+    autoplay: { 
+        delay: 3000, // Velocità standard ripristinata
+        disableOnInteraction: false 
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
@@ -110,14 +109,15 @@ function initSwipers() {
     }
   });
 
+  // Swiper Advisor (Velocità 3000ms)
   new Swiper('.advisor-swiper', {
     loop: true,
     grabCursor: true,
     spaceBetween: 30,
-    autoplay: {
-      delay: 3000, 
-      disableOnInteraction: false,
-      reverseDirection: true, 
+    autoplay: { 
+        delay: 3000, // Velocità standard ripristinata
+        disableOnInteraction: false, 
+        reverseDirection: true 
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
