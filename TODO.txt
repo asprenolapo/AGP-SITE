@@ -1,28 +1,27 @@
 IMPORTANTI:
 
-- finire chi siamo 
-- finire consultancy, news 
-- check generale style 
+- finire chi siamo (aspreno)
+- finire consultancy, news (aspreno)
+- check generale style (tutti insieme)
 - completamento ricerca e sviluppo contenuti e card 
-- casi di test + requisiti + test affidabilità
-- realzione presentazione progetto 
+- casi di test + requisiti + test affidabilità (tutti insieme)
+- realzione presentazione progetto (insieme)
 
 Front-end:
-            - mettere testi tutto da sx vs dx (ragionare su possibile emdia quesri per testi centrati da mobile)
-            - diminuire rem size dei font
-            - import e var dei possibili nuovi colori
-            - rimozione delle immagini per ogni sezione 
-            - creare gradiente per sezioni senza immagine 
-            - grandezze responsive degli elementi della navbar(logo == link == switch == burger)
-            - test immagine di sfondo motherboard o gradiente
-            - centratura testi hompegae tramite regola generale 
-            - contattacci trasfomrazione in switch ds sx con testo e form alternati per contattaci e lavora con noi 
+            - mettere testi tutto da sx vs dx (ragionare su possibile emdia quesri per testi centrati da mobile) - mike
+            - diminuire rem size dei font - mike
+            - import e var dei possibili nuovi colori - aspreno
+            - rimozione delle immagini per ogni sezione - aspreno
+            - creare gradiente per sezioni senza immagine - aspreno
+            - grandezze responsive degli elementi della navbar(logo == link == switch == burger) - mike 
+            - test immagine di sfondo motherboard o gradiente card (succesivamente allo sviluppo del gradient)
+            - contattacci trasfomrazione in switch ds sx con testo e form alternati per contattaci e lavora con noi - andre  
 
 Back-end:
-            - collegamento json per generazione card trmite for each sia studenti che docenti 
-            - check style del return dei dati tramite mail + gestire tempistice di notifica  
+            - collegamento json per generazione card trmite for each sia studenti che docenti - mike  
+            - check style del return dei dati tramite mail + gestire tempistice di notifica - mike 
 
 Tools: 
-            - completare le traduzioni 
-            - completare i contenuti 
+            - completare le traduzioni - andrea
+            - completare i contenuti - aspreno 
 
