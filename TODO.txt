@@ -1,17 +1,28 @@
 IMPORTANTI:
 
-Decidere se scrivere tuto a sinistra o tutto centrato
-Decidere se tenere immagini oppure toglierle, se si fare i filtri
+- finire chi siamo 
+- finire consultancy, news 
+- check generale style 
+- completamento ricerca e sviluppo contenuti e card 
+- casi di test + requisiti + test affidabilità
+- realzione presentazione progetto 
 
-Pescare card dinamicamente con js dal json
-Finire consultancy
-Rivedere res-dev
+Front-end:
+            - mettere testi tutto da sx vs dx (ragionare su possibile emdia quesri per testi centrati da mobile)
+            - diminuire rem size dei font
+            - import e var dei possibili nuovi colori
+            - rimozione delle immagini per ogni sezione 
+            - creare gradiente per sezioni senza immagine 
+            - grandezze responsive degli elementi della navbar(logo == link == switch == burger)
+            - test immagine di sfondo motherboard o gradiente
+            - centratura testi hompegae tramite regola generale 
+            - contattacci trasfomrazione in switch ds sx con testo e form alternati per contattaci e lavora con noi 
 
-Finire traduzioni
+Back-end:
+            - collegamento json per generazione card trmite for each sia studenti che docenti 
+            - check style del return dei dati tramite mail + gestire tempistice di notifica  
 
-Vedere per la presentazione
+Tools: 
+            - completare le traduzioni 
+            - completare i contenuti 
 
-
-FACOLTATIVO:
-
-separatori sagomati tra le sezioni 
