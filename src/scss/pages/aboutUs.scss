@@ -42,40 +42,122 @@
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
 
-#about-hero{
-  background-color: root.$deep-black;
-}
-#operative-nodes{
-  background-color: root.$deep-black;
-}
-#advisors{
+#about-hero {
   background-color: root.$deep-black;
 }
 
+/* =========================================
+   1. SEZIONE NORMALE (Diagonale da Sx a Dx)
+   ========================================= */
+#operative-nodes {
+  background-color: root.$deep-black;
+  position: relative;
+  overflow: hidden;
 
+  >* {
+    position: relative;
+    z-index: 2;
+  }
 
+  // POLIGONO (Orientamento Standard)
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 200%;
+    height: 100%;
+    z-index: 0;
 
+    background:
+      // Giallo
+      linear-gradient(-20deg, transparent 40%, rgba(root.$yellow, 0.25) 50%, transparent 60%),
+      // Ciano
+      linear-gradient(75deg, transparent 15%, rgba(root.$tech-cyan, 0.40) 45%, rgba(root.$tech-cyan, 0.1) 65%, transparent 85%),
+      // Base
+      linear-gradient(150deg, root.$deep-black 15%, root.$state-grey 55%, root.$deep-black 85%);
 
+    transform: skewY(-12deg) rotate(5deg);
+    filter: blur(80px);
+  }
 
+  // MASCHERA UNIVERSALE (Transizione + Leggibilità + Lucido)
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+      // A. EFFETTO LUCIDO (Inizia dopo il bordo nero solido)
+      linear-gradient(to bottom, transparent 0px, rgba(255, 255, 255, 0.04) 50px, transparent 100px),
+      // B. LEGGIBILITÀ (Velo scuro su tutto il contenitore)
+      linear-gradient(to bottom, rgba(root.$deep-black, 0.3) 0%, rgba(root.$deep-black, 0.3) 100%),
+      // C. TRANSIZIONI SUI BORDI (Valori assoluti in pixel per aggancio millimetrico)
+      linear-gradient(to bottom,
+        root.$deep-black 0px,
+        root.$deep-black 40px,           
+        rgba(root.$deep-black, 0) 200px, 
+        rgba(root.$deep-black, 0) calc(100% - 200px), 
+        root.$deep-black calc(100% - 40px),          
+        root.$deep-black 100%
+      );
+  }
+}
 
+/* =========================================
+   2. SEZIONE SPECULARE (Diagonale da Dx a Sx)
+   ========================================= */
+#advisors {
+  background-color: root.$deep-black;
+  position: relative;
+  overflow: hidden;
 
+  >* {
+    position: relative;
+    z-index: 2;
+  }
 
-// .center {
-//   flex-direction: column;
-// }
-// .scrollable-div {
-//   display: flex;
-//   flex-wrap: nowrap;
-//   overflow-x: auto;
-//   overflow-y: visible;
-//   padding-bottom: 1rem;
+  // POLIGONO SPECULARE (Orientamento Invertito)
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -10%; 
+    width: 200%;
+    height: 100%;
+    z-index: 0;
 
-//   // Scrollbar styling
-//   scrollbar-width: thin;
-//   scrollbar-color: root.$tech-cyan transparent;
-// }
+    background:
+      // Giallo invertito
+      linear-gradient(20deg, transparent 40%, rgba(root.$yellow, 0.25) 50%, transparent 60%),
+      // Ciano invertito
+      linear-gradient(-75deg, transparent 15%, rgba(root.$tech-cyan, 0.40) 45%, rgba(root.$tech-cyan, 0.1) 65%, transparent 85%),
+      // Base invertita
+      linear-gradient(210deg, root.$deep-black 15%, root.$state-grey 55%, root.$deep-black 85%);
 
-// #team {
-//     background-image: 
-//     url("../../assets/images/mission-dev-hero-background.webp");
-// }
+    // Distorsione invertita
+    transform: skewY(12deg) rotate(-5deg);
+    filter: blur(80px);
+  }
+
+  // MASCHERA UNIVERSALE (Identica e in pixel)
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+      linear-gradient(to bottom, transparent 0px, rgba(255, 255, 255, 0.04) 50px, transparent 100px),
+      linear-gradient(to bottom, rgba(root.$deep-black, 0.3) 0%, rgba(root.$deep-black, 0.3) 100%),
+      linear-gradient(to bottom,
+        root.$deep-black 0px,
+        root.$deep-black 40px,
+        rgba(root.$deep-black, 0) 200px,
+        rgba(root.$deep-black, 0) calc(100% - 200px),
+        root.$deep-black calc(100% - 40px),
+        root.$deep-black 100%
+      );
+  }
+}
