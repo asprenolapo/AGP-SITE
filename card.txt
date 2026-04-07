@@ -1,0 +1,40 @@
+
+000 == Card incompleta di nome,cognome,aka,role e quote
+111 == Card completa di nome,cognome,aka,role e quote
+
+Card Mancanti e finite Alunni:  
+    1 Alessandro Foggetti 		    000
+    2 Andrea Alduino 		        000
+    3. Andrea Piangivino 		    000
+    4. Angelo Schena 		        000
+    5. Antonella Pesare 		    000
+    6. Antonio Straziota 		    000
+    7. Aspreno Lapo Pesce		    000
+    8. Christian Losito		        000
+    9. Davide Barbieri 		        000
+    10. Edoardo Martino		        111
+    11. Enrico Pasquale De Candia	000
+    12. Fabio Balenzano		        000
+    13. Fabio Scarpa		        000 
+    14. Federico Di Leo		        000
+    15. Francesco De Santis		    000
+    16. Francesco Pepe		        000 
+    17. Francesco Picciotti		    000
+    18. Gianvito Brunazzi 		    000 
+    19. Giorgio Smaldino		    000
+    20. Giuseppe Calabrese		    000
+    21. Leonardo Chiarella		    000
+    22. Matteo Caputo 		        111
+    23. Michele Garofalo		    000
+    24. Nico Chimienti		        111
+    25. Nicolò Gigante		        111
+    26. Gherard Pirretti		    000 FOTO MANCANTE
+    27. Alessandro Cramarossa	    111 FOTO MANCANTE
+
+Card Mancanti e finite Tutor:  
+    1. Alessandra Raspatelli	    000
+    2. Michele Scalera		        000
+    3. Leonardo Chiarella		    000
+    4. Antonello Magaletti		    000
+    5. Michele Salierno 		    000
+    6. Vito Carulli			        000 FOTO MANCANTE
