@@ -2,9 +2,15 @@
 // CSS RULES FOR RESPONSIVE
 //==========================
 
+@use "sass:math";
 @use 'root' as root;
 
 @media (max-width: 992px) {
+
+  html {
+    font-size: math.div(root.$general-font-size, 1.5);
+  }
+
   .nav-links {
     display: none;
   }

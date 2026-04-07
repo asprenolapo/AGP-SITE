@@ -1,5 +1,21 @@
 @use 'root' as root;
 
+html {
+  font-size: root.$general-font-size;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2, h3 {
+  font-family: root.$font-title;
+  color: root.$starlight-text-title;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .sec-primary-title {
     font-size: 4.5rem;
     letter-spacing: 0.1em;
