@@ -16,6 +16,7 @@ import { initCheckEmailProvider } from '../modules/form/checkEmailProvider.js';
 import { initNormalizePhoneNumber } from '../modules/form/normalizePhoneNumber.js';
 import { initTextAreaAutoExpand } from '../modules/form/textAreaAutoExpand.js';
 import { initSelectArrowAnimation } from '../modules/form/selectArrowAnimation.js';
+import { initContactFlip } from '../modules/form/contactFlip.js';
 
 // Languages
 import { initLangSwitcher } from '../modules/langSwitcher.js';
@@ -37,7 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
     initNormalizePhoneNumber();
     initSelectArrowAnimation();
     initCheckEmailProvider();
+    initContactFlip();
 
     initLangSwitcher();
+    
     
 });

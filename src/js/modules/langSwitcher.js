@@ -2,7 +2,9 @@
 export let currentLang = null;
 export let translations = null;
 
-// Carica lang.json una sola volta e lo salva in memoria
+/**
+ * Carica lang.json una sola volta e lo salva in memoria
+ */
 async function loadTranslations() {
   if (translations) return translations;
   const response = await fetch("/_data/lang.json");
@@ -10,6 +12,9 @@ async function loadTranslations() {
   return translations;
 }
 
+/**
+ * Inizializza lo switcher di lingua
+ */
 export async function initLangSwitcher() {
   const data = await loadTranslations();
 
@@ -37,17 +42,15 @@ export async function initLangSwitcher() {
   });
 }
 
-// Determina la lingua iniziale:
-// 1. Usa quella salvata in localStorage se presente
-// 2. Usa quella del browser se disponibile in lang.json
-// 3. Ricade sulla lingua di fallback
+/**
+ * Determina la lingua iniziale
+ */
 async function getInitialLang(availableLangs, fallbackLang) {
   if (localStorage.getItem("language")) {
     return localStorage.getItem("language");
   }
 
   const browserLang = navigator.language.slice(0, 2);
-
   if (availableLangs.includes(browserLang)) {
     return browserLang;
   }
@@ -55,16 +58,41 @@ async function getInitialLang(availableLangs, fallbackLang) {
   return fallbackLang;
 }
 
-// Applica la lingua a tutti gli elementi con data-lang-key
-// Supporta chiavi annidate tipo "homepage.hero_title"
+/**
+ * Funzione Helper per navigare nel JSON usando stringhe dot-notation (es. "header.navHome")
+ */
+function getNestedValue(obj, path) {
+  return path.split('.').reduce((acc, part) => acc && acc[part], obj);
+}
+
+/**
+ * Applica la lingua a tutti gli elementi con data-lang-key e data-lang-placeholder
+ */
 function applyLanguage(lang, data) {
   currentLang = lang;
   translations = data;
+  const langData = data[lang];
+
+  // 1. Traduzione dei testi (textContent)
   document.querySelectorAll("[data-lang-key]").forEach((element) => {
     const key = element.dataset.langKey;
-    const keys = key.split(".");
-    let value = data[lang];
-    keys.forEach((k) => { value = value?.[k]; });
-    if (value) element.textContent = value;
+    const value = getNestedValue(langData, key);
+    if (value) {
+      // Se è un elemento di testo standard, aggiorna il contenuto
+      element.textContent = value;
+    }
   });
-}
+
+  // 2. Traduzione dei PLACEHOLDER
+  document.querySelectorAll("[data-lang-placeholder]").forEach((element) => {
+    const key = element.dataset.langPlaceholder;
+    const value = getNestedValue(langData, key);
+    if (value) {
+      // Aggiorna l'attributo placeholder dell'input/textarea
+      element.setAttribute("placeholder", value);
+    }
+  });
+
+  // Opzionale: aggiorna l'attributo lang dell'HTML per SEO e accessibilità
+  document.documentElement.lang = lang;
+} 

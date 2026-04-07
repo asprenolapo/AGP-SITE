@@ -15,6 +15,7 @@ Front-end:
             - grandezze responsive degli elementi della navbar(logo == link == switch == burger) - mike 
             - test immagine di sfondo motherboard o gradiente card (succesivamente allo sviluppo del gradient)
             - contattacci trasfomrazione in switch ds sx con testo e form alternati per contattaci e lavora con noi - andre  
+            - traduzioni di placeholder e dei pulsanti di invio e reset nei form. - andre
 
 Back-end:
             - collegamento json per generazione card trmite for each sia studenti che docenti e togliere innerHTML - mike
