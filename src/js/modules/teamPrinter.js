@@ -1,64 +1,87 @@
 import teamData from '../json/teamData.json';
 
+// Funzione helper per creare elementi DOM usando textContent in modo sicuro
+function createEl(tag, classNames = [], attributes = {}, text = '') {
+  const el = document.createElement(tag);
+  if (classNames.length > 0) el.classList.add(...classNames);
+  Object.entries(attributes).forEach(([key, value]) => el.setAttribute(key, value));
+  if (text) el.textContent = text; // <-- Qui usiamo textContent al posto di innerHTML
+  return el;
+}
+
 export function initTeam() {
   try {
     const programmersContainer = document.getElementById('team-wrapper');
     const tutorsContainer = document.getElementById('advisor-wrapper');
 
-    // 1. ESTRAZIONE DATI DALLE NUOVE CHIAVI
-    // Usiamo 'trainers' per il team principale e 'programmers' per gli advisor
     const programmers = teamData.programmers;
     const tutors = teamData.tutors;
 
-    // 2. Popolamento Team Wrapper (Trainers - 6 persone)
+    // 2. Popolamento Team Wrapper (Programmers)
     if (programmersContainer) {
-      programmersContainer.innerHTML = ""; // Pulizia preventiva
-      programmers.forEach(person => {
-        const randomAvatar = `../../assets/images/foto-compagni/${person.name + " " + person.surname}.webp`;
+      programmersContainer.textContent = ""; // Pulizia preventiva sicura
 
-        programmersContainer.innerHTML += `
-          <div class="swiper-slide center">
-            <article class="team-card">
-              <div class="card-cover">
-                <img src="../../assets/images/motherboard.webp" alt="Sfondo">
-              </div>
-              <div class="card-avatar">
-                <img src="${randomAvatar}" alt="${person.name} ${person.surname}">
-              </div>
-              <div class="card-info">
-                <h3 class="aka sec-sub-title">AKA: ${person.aka}</h3>
-                <h4 class="real-name sec-sub-title">${person.name} ${person.surname}</h4>
-                <p class="role">${person.role}</p>
-                <div class="motto">
-                  <span class="motto-title">IL MIO MOTTO:</span>
-                  <p class="paragraph-home">"${person.quote}"</p>
-                </div>
-              </div>
-            </article>
-          </div>`;
+      programmers.forEach(person => {
+        const fullName = `${person.name} ${person.surname}`;
+        const randomAvatar = `../../assets/images/foto-compagni/${fullName}.webp`;
+
+        // Creazione struttura DOM
+        const slide = createEl('div', ['swiper-slide', 'center']);
+        const article = createEl('article', ['team-card']);
+
+        const cover = createEl('div', ['card-cover']);
+        const coverImg = createEl('img', [], { src: '../../assets/images/motherboard.webp', alt: 'Sfondo' });
+        cover.appendChild(coverImg);
+
+        const avatar = createEl('div', ['card-avatar']);
+        const avatarImg = createEl('img', [], { src: randomAvatar, alt: fullName });
+        avatar.appendChild(avatarImg);
+
+        const info = createEl('div', ['card-info']);
+        const h3 = createEl('h3', ['aka', 'sec-sub-title'], {}, `AKA: ${person.aka}`);
+        const h4 = createEl('h4', ['real-name', 'sec-sub-title'], {}, fullName);
+        const role = createEl('p', ['role'], {}, person.role);
+
+        const mottoContainer = createEl('div', ['motto']);
+        const mottoTitle = createEl('span', ['motto-title'], {}, 'IL MIO MOTTO:');
+        const mottoText = createEl('p', ['paragraph-home'], {}, `"${person.quote}"`);
+        
+        mottoContainer.append(mottoTitle, mottoText);
+        info.append(h3, h4, role, mottoContainer);
+        article.append(cover, avatar, info);
+        slide.appendChild(article);
+
+        programmersContainer.appendChild(slide);
       });
     }
 
-    // 3. Popolamento Advisor Wrapper (Programmers - 27 persone)
+    // 3. Popolamento Advisor Wrapper (Tutors)
     if (tutorsContainer) {
-      tutorsContainer.innerHTML = ""; // Pulizia preventiva
-      tutors.forEach(person => {
-        const randomTutorAvatar = `../../assets/images/foto-professori/${person.name + " " + person.surname}.webp`;
+      tutorsContainer.textContent = ""; // Pulizia preventiva sicura
 
-        tutorsContainer.innerHTML += `
-          <div class="swiper-slide">
-            <article class="tutor-card">
-              <div class="tutor-avatar">
-                <img src="${randomTutorAvatar}" alt="${person.name} ${person.surname}">
-              </div>
-              <div class="tutor-info">
-                <h2 class="sec-sub-title">${person.name} ${person.surname}</h2>
-                <p class="tutor-role known-as sec-sub-title">${person.aka}</p>
-                <p class="tutor-role sec-sub-title">${person.role}</p>
-                <p class="paragraph-home">"${person.quote}"</p>
-              </div>
-            </article>
-          </div>`;
+      tutors.forEach(person => {
+        const fullName = `${person.name} ${person.surname}`;
+        const randomTutorAvatar = `../../assets/images/foto-professori/${fullName}.webp`;
+
+        // Creazione struttura DOM
+        const slide = createEl('div', ['swiper-slide']);
+        const article = createEl('article', ['tutor-card']);
+
+        const avatar = createEl('div', ['tutor-avatar']);
+        const avatarImg = createEl('img', [], { src: randomTutorAvatar, alt: fullName });
+        avatar.appendChild(avatarImg);
+
+        const info = createEl('div', ['tutor-info']);
+        const h2 = createEl('h2', ['sec-sub-title'], {}, fullName);
+        const roleAka = createEl('p', ['tutor-role', 'known-as', 'sec-sub-title'], {}, person.aka);
+        const role = createEl('p', ['tutor-role', 'sec-sub-title'], {}, person.role);
+        const quote = createEl('p', ['paragraph-home'], {}, `"${person.quote}"`);
+
+        info.append(h2, roleAka, role, quote);
+        article.append(avatar, info);
+        slide.appendChild(article);
+
+        tutorsContainer.appendChild(slide);
       });
     }
 
@@ -70,7 +93,7 @@ export function initTeam() {
   }
 }
 
-// Funzione per inizializzare gli Swiper (Resta invariata)
+// Funzione per inizializzare gli Swiper
 function initSwipers() {
   new Swiper('.team-swiper', {
     loop: true, 
