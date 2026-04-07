@@ -18,21 +18,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-h1,
-h2, h3 {
-  font-family: root.$font-title;
-  color: root.$starlight-text-title;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 section {
   padding: 3vh 3vw;
   background-color: root.$deep-black;
