@@ -39,8 +39,10 @@ section {
     padding: 0;
     overflow: hidden;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh; // Assicuriamoci che copra tutto
     
     // --- MODIFICA CRUCIALI PER IL BURGER MENU ---

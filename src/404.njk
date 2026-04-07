@@ -6,28 +6,20 @@ layout: base.njk
 
 <!-- !IMPORTANT -->
 <!-- This is the only page that you need to modify statically -->
-<section class="center">
-  <div class="noise-overlay"></div>
 
-  <div class="container fade-in">
-    <div class="row center">
+<section class="row">
       
-      <div class="col-12">
-        <div id="fuzzy-container" class="center"></div>
-      </div>
+      <div class="">
+        <div id="fuzzy-container">
 
-      <div class="col-12 col-md-8 col-lg-6">
-        <p class="error-message">
-          La pagina che stai cercando non esiste!
-        </p>
-        
-        <div class="button-group center">
-          <a href="/" class="btn-return" title="Return to homepage">Torna alla Home</a>
         </div>
       </div>
 
-    </div>
-  </div>
+        <p class="error-message" data-lang-key="404Page.paragraph"></p>
+        
+        <div class="button-group">
+          <a href="/" class="btn-return" title="Return to homepage" data-lang-key="404Page.button"></a>
+        </div>
 </section>
 
 {# You can also add the includes you need here below
