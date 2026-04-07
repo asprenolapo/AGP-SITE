@@ -34,32 +34,169 @@
 @import '../modules/notification';
 
 //==========================
-// PAGE CUSTOM CSS RULES FOR PAGE: contact-us
+// PAGE CUSTOM CSS RULES: contact-us
 //==========================
 
-#contact-forms,
-#work-with-us-forms {
-    background-image:
-        url("../../assets/images/contact-us-background.webp");
-}
+/* ////////////////////////////////////////////////
+   FLIP CARD 3D STRUCTURE
+/////////////////////////////////////////////////// */
 
+#flip-section {
+    perspective: 2000px;
+    background-image: url("../../assets/images/contact-us-background.webp");
+    background-size: cover;
+    background-position: center;
 
-.col-12.col-md-6 {
-    max-width: 1100px;
-    margin: 0 auto;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: calc(root.$header-height + 2rem) 1rem 2rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
+.flip-card {
+    background-color: transparent;
+    flex: 1;
+
+    width: 100%;
+    max-width: 1050px;
+    min-height: 0;
+    height: auto;
+    position: relative;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+
+    will-change: transform;
+
+    &.is-flipped {
+        transform: rotateY(180deg);
+    }
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front {
+    transform: rotateY(0deg);
+    z-index: 2;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+/* ////////////////////////////////////////////////
+   FORM SWITCHER 
+/////////////////////////////////////////////////// */
+
+.form-switcher-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem; // Distanza Form -> Switcher
+    flex-shrink: 0; // Impedisce allo switcher di schiacciarsi
+    z-index: 100;
+}
+
+.form-switcher {
+    display: flex;
+    position: relative;
+    background: root.$deep-black;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    min-width: 320px;
+
+    .slider {
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        width: calc(50% - 7px);
+        background: root.$deep-black;
+        border-radius: 6px;
+        box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+        border: 1px solid root.$tech-cyan;
+        transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 0;
+        will-change: left;
+        transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    // Logica Slider
+    &:has(#toggle-contact:checked) .slider {
+        left: 5px;
+    }
+
+    &:has(#toggle-work:checked) .slider {
+        left: calc(50% + 2px);
+    }
+
+    // Logica Testo Attivo
+    &:has(#toggle-contact:checked) label[for="toggle-contact"],
+    &:has(#toggle-work:checked) label[for="toggle-work"] {
+        color: root.$starlight-text-title;
+        text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    }
+}
+
+.switcher-input {
+    display: none;
+}
+
+.switcher-btn {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 14px;
+    font-family: root.$font-body;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: root.$starlight-text-title;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: root.$starlight-text-title;
+        text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    }
+}
+
+/* ////////////////////////////////////////////////
+   ELEMENTI TESTUALI E BORDER FORM
+/////////////////////////////////////////////////// */
 
 .section-title {
     font-family: root.$font-title;
     font-size: 3rem;
-    letter-spacing: 0.1em;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6);
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
 
-    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
-    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
 }
 
 .paragraph-contact,
@@ -67,141 +204,110 @@
     font-family: root.$font-body;
     text-align: center;
     font-size: 1.1rem;
-    margin-bottom: 30px;
-    text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+    margin-bottom: 1rem; // Distanza Paragrafo -> Form
+    flex-shrink: 0;
 }
-
-/* ////////////////////////////////////////////////
-  FIELDSET
-/////////////////////////////////////////////////// */
 
 .border-form {
+    transform: translateZ(10px);
+    position: relative;
+    z-index: 5;
+
+    margin: 0;
+    height: 100%;
     border: 2px solid root.$tech-cyan;
     border-radius: 8px;
-    padding: 30px;
+    padding: 35px;
     background: root.$deep-black;
     backdrop-filter: blur(10px);
+    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
 
-    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
-    margin-bottom: 2rem;
-    justify-content: center;
+.form-row {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+    .form-group {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* ////////////////////////////////////////////////
-  INPUT, LABELS E SELECT
+   INPUT E TEXTAREA
 /////////////////////////////////////////////////// */
 
 .form-label {
     display: block;
-    font-family: root.$font-title;
+    font-family: root.$font-body;
     color: root.$starlight-text-title;
     text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
     font-size: 0.85rem;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-bottom: px;
 }
 
-.form-input {
+.form-input,
+.select-input {
     width: 100%;
     background: root.$deep-black;
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 8px;
     padding: 12px;
     color: root.$starlight-text-title;
-    font-family: root.$font-body;
     outline: none;
-    transition: all 0.3s ease;
-}
+    transition: border-color 0.3s ease;
 
-.form-label:focus,
-.form-input:focus {
-    border-color: root.$tech-cyan;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 4px;
-}
-
-/* ////////////////////////////////////////////////
-  SELECT A TENDINA
-/////////////////////////////////////////////////// */
-
-.select-input {
-    width: 100%;
-    background-color: root.$deep-black;
-    border: 1px solid rgba(0, 255, 255, 0.2);
-    border-radius: 8px; // Manteniamo 8px per coerenza
-    padding: 12px 40px 12px 12px; // Aumentato il padding destro per non sovrapporre testo e freccia
-    color: root.$off-white-text-body;
-    font-family: root.$font-body;
-    cursor: pointer;
-
-    // Rimuove freccia nativa
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-
-    // FRECCIA DEFAULT (VERSO IL BASSO)
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2300FFFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    background-size: 18px;
-
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-
-    // STATO APERTO (Gestito dal modulo JS)
-    &:focus,
-    &.is-open {
-        outline: none;
-        border-color: root.$tech-cyan;
-        box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    &:focus {
         border-radius: 4px;
-        color: root.$starlight-text-title;
-    }
-
-    &.is-open {
-        // FRECCIA VERSO L'ALTO
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2300FFFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m18 15-6-6-6 6'/%3E%3C/svg%3E");
-    }
-
-    option {
-        background-color: root.$deep-black;
-        color: root.$starlight-text-title;
-        padding: 10px;
+        box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+        transition: all 0.3s ease;
     }
 }
 
+textarea.form-input {
+    min-height: 114px;
+    resize: none;
+}
+
+.select-input:invalid {
+    color: #9E9E9E;
+}
+
+/* Forza lo stile dell'opzione disabilitata */
+.select-input option[disabled] {
+    display: none;
+}
+
 /* ////////////////////////////////////////////////
-  BUTTON SUBMIT, RESET
+   BUTTONS
 /////////////////////////////////////////////////// */
 
 .button-group {
-    margin-top: 20px;
+    margin-top: 20px; // Più respiro tra l'ultimo campo e l'invio
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .submit-form,
 .reset-form {
-    flex: 1;
-    margin-top: 0;
     width: 100%;
     cursor: pointer;
     font-weight: bold;
-    padding: 12px;
-
-    border: 2px solid root.$tech-cyan;
+    padding: 14px;
+    border: 1px solid #66FFFF;
     background: transparent;
     color: root.$tech-cyan;
-    transition: all 0.3s ease;
     border-radius: 8px;
-}
+    transition: all 0.3s ease;
 
-.reset-form {
-    margin-top: 20px;
-}
-
-.reset-form:hover,
-.submit-form:hover {
-    background: transparent;
-    box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
-    text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    &:hover {
+        box-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
+    }
 }

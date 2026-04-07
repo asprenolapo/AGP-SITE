@@ -1,0 +1,106 @@
+<section id="flip-section" class="row center">
+  <div class="flip-card col-12 col-md-6">
+    <div class="flip-card-inner" id="cardInner">
+
+      <div class="flip-card-front">
+        <h2 class="section-title" data-lang-key="contactUsPage.contactSec.title"></h2>
+        <p class="paragraph-contact" data-lang-key="contactUsPage.contactSec.paragraph"></p>
+
+        <form method="post" class="needs-validation" novalidate>
+          <fieldset class="border-form">
+            <input type="hidden" name="formType" value="contact" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name-contact" class="form-label"
+                  data-lang-key="contactUsPage.contactSec.form.labelName"></label>
+                <input type="text" id="name-contact" name="name" data-lang-placeholder="contactUsPage.contactSec.form.placeholder.name" class="form-input" required />
+              </div>
+              <div class="form-group">
+                <label for="surname-contact" class="form-label"
+                  data-lang-key="contactUsPage.contactSec.form.labelSurname"></label>
+                <input type="text" id="surname-contact" name="surname" data-lang-placeholder="contactUsPage.contactSec.form.placeholder.surname" class="form-input"
+                  required />
+              </div>
+            </div>
+            <label for="email-contact" class="form-label"
+              data-lang-key="contactUsPage.contactSec.form.labelEmail"></label>
+            <input type="email" id="email-contact" name="email" data-lang-placeholder="contactUsPage.contactSec.form.placeholder.email" class="form-input" required />
+
+            <label for="tel-contact" class="form-label" data-lang-key="contactUsPage.contactSec.form.labelTel"></label>
+            <input type="tel" id="tel-contact" name="tel" data-lang-placeholder="contactUsPage.contactSec.form.placeholder.tel" class="form-input" required />
+
+            <label for="messages-contact" class="form-label"
+              data-lang-key="contactUsPage.contactSec.form.labelMessages"></label>
+            <textarea id="messages-contact" name="messages" data-lang-placeholder="contactUsPage.contactSec.form.placeholder.messages"
+              class="form-input full-expand"></textarea>
+
+            <div class="button-group">
+              <button type="submit" class="submit-form"
+                data-lang-key="contactUsPage.workWithUsSec.buttons.submit"></button>
+              <button type="reset" class="reset-form"
+                data-lang-key="contactUsPage.workWithUsSec.buttons.reset"></button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="flip-card-back">
+        <h2 class="section-title" data-lang-key="contactUsPage.workWithUsSec.title"></h2>
+        <p class="paragraph-work-with-us" data-lang-key="contactUsPage.workWithUsSec.paragraph"></p>
+
+        <form method="post" class="needs-validation" novalidate>
+          <fieldset class="border-form">
+            <input type="hidden" name="formType" value="apply" />
+
+            <label for="name-work" class="form-label"
+              data-lang-key="contactUsPage.workWithUsSec.form.labelName"></label>
+            <input type="text" id="name-work" name="name" data-lang-placeholder="contactUsPage.workWithUsSec.form.placeholder.name" class="form-input" required />
+
+            <label for="surname-work" class="form-label"
+              data-lang-key="contactUsPage.workWithUsSec.form.labelSurname"></label>
+            <input type="text" id="surname-work" name="surname" data-lang-placeholder="contactUsPage.workWithUsSec.form.placeholder.surname" class="form-input" required />
+
+            <label for="email-work" class="form-label"
+              data-lang-key="contactUsPage.workWithUsSec.form.labelEmail"></label>
+            <input type="email" id="email-work" name="email" data-lang-placeholder="contactUsPage.workWithUsSec.form.placeholder.email" class="form-input" required />
+
+            <label for="tel-work" class="form-label" data-lang-key="contactUsPage.workWithUsSec.form.labelTel"></label>
+            <input type="tel" id="tel-work" name="tel" data-lang-placeholder="contactUsPage.workWithUsSec.form.placeholder.tel" class="form-input" required />
+
+            <label for="position" class="form-label"
+              data-lang-key="contactUsPage.workWithUsSec.form.labelSkills"></label>
+            <select name="position" id="position" class="select-input" required>
+              <option value="" selected disabled data-lang-key="contactUsPage.workWithUsSec.select.optionSelect">
+              </option>
+              <option value="hr" data-lang-key="contactUsPage.workWithUsSec.select.optionHumanReso"></option>
+              <option value="front_end" data-lang-key="contactUsPage.workWithUsSec.select.optionDevFrontEnd"></option>
+              <option value="back_end" data-lang-key="contactUsPage.workWithUsSec.select.optionDevBackEnd"></option>
+              <option value="marketing" data-lang-key="contactUsPage.workWithUsSec.select.optionMarketing"></option>
+            </select>
+
+            <div class="button-group">
+              <button type="submit" class="submit-form"
+                data-lang-key="contactUsPage.workWithUsSec.buttons.submit"></button>
+              <button type="reset" class="reset-form"
+                data-lang-key="contactUsPage.workWithUsSec.buttons.reset"></button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="form-switcher-container">
+    <div class="form-switcher" role="group">
+      <div class="slider"></div>
+
+      <input class="switcher-input" type="radio" name="form-toggle" id="toggle-contact" value="contact" checked />
+      <label class="switcher-btn" for="toggle-contact"
+        data-lang-key="contactUsPage.contactSec.contactUsSwitch"></label>
+
+      <input class="switcher-input" type="radio" name="form-toggle" id="toggle-work" value="work" />
+      <label class="switcher-btn" for="toggle-work" data-lang-key="contactUsPage.workWithUsSec.workWithUsSwitch"></label>
+    </div>
+  </div>
+</section>

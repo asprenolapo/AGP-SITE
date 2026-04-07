@@ -161,34 +161,51 @@
         "contactUsPage": {
             "contactSec": {
                 "title": "Contact Us",
-                "paragraph": "Have a project in mind or a technical need to solve?",
-                "paragraph1": "We are ready to listen. We develop custom software, including solutions dedicated to specific hardware.",
+                "paragraph": "Have a project in mind or a technical need to solve?, We are ready to listen. We develop custom software, including solutions dedicated to specific hardware.",
                 "form": {
                     "labelName": "Name*",
                     "labelSurname": "Surname*",
                     "labelEmail": "Email*",
                     "labelTel": "Phone Number*",
-                    "labelMessages": "Leave us a message"
-                }
+                    "labelMessages": "Leave us a message",
+                    "placeholder": {
+                        "name": "Name...",
+                        "surname": "Surname...",
+                        "email": "Email...",
+                        "tel": "Phone number...",
+                        "messages": "Describe your idea..."
+                    }
+                },
+                "contactUsSwitch": "Contact Us"
             },
             "workWithUsSec": {
                 "title": "Work With Us",
-                "paragraph": "Are you a developer, a designer, or a technician with a passion for innovation?",
-                "paragraph1": "We are always looking for new talent to join our team. Send us your application and tell us about your skills!",
+                "paragraph": "Are you a developer, a designer, or a technician with a passion for innovation?, We are always looking for new talent to join our team. Send us your application and tell us about your skills!",
                 "form": {
                     "labelName": "Name*",
                     "labelSurname": "Surname*",
                     "labelEmail": "Email*",
                     "labelTel": "Phone Number*",
-                    "labelSkills": "Skills*"
+                    "labelSkills": "Skills*",
+                    "placeholder": {
+                        "name": "Name...",
+                        "surname": "Surname...",
+                        "email": "Email...",
+                        "tel": "Phone number..."
+                    }
                 },
                 "select": {
-                    "optionSelect": "Select",
+                    "optionSelect": "Select...",
                     "optionHumanReso": "Human Resources",
                     "optionDevFrontEnd": "Front-End Development",
                     "optionDevBackEnd": "Back-End Development",
                     "optionMarketing": "Marketing"
-                }
+                },
+                "buttons": {
+                    "submit": "Submit",
+                    "reset": "Reset"
+                },
+                "workWithUsSwitch": "Work With Us"
             }
         }
     },
@@ -356,34 +373,51 @@
         "contactUsPage": {
             "contactSec": {
                 "title": "Contattaci",
-                "paragraph": "Hai un progetto in mente o una necessità tecnica da risolvere?",
-                "paragraph1": "Siamo pronti ad ascoltarti. Sviluppiamo software su misura, incluse soluzioni dedicate a hardware specifici.",
+                "paragraph": "Hai un progetto in mente o una necessità tecnica da risolvere?, Siamo pronti ad ascoltarti. Sviluppiamo software su misura, incluse soluzioni dedicate a hardware specifici.",
                 "form": {
                     "labelName": "Nome*",
                     "labelSurname": "Cognome*",
                     "labelEmail": "Email*",
                     "labelTel": "Telefono*",
-                    "labelMessages": "Lasciaci un messaggio"
-                }
+                    "labelMessages": "Lasciaci un messaggio",
+                    "placeholder": {
+                        "name": "Nome...",
+                        "surname": "Cognome...",
+                        "email": "Email...",
+                        "tel": "Numero...",
+                        "messages": "Descrivi la tua idea..."
+                    }
+                },
+                "contactUsSwitch": "Contattaci"
             },
             "workWithUsSec": {
                 "title": "lavora con noi",
-                "paragraph": "Sei uno sviluppatore, un designer o un tecnico con la passione per l'innovazione?",
-                "paragraph1": "Siamo sempre alla ricerca di nuovi talenti da inserire nel nostro team. Inviaci la tua candidatura e inserisci Quali sono le Tue Competenze!",
+                "paragraph": "Sei uno sviluppatore, un designer o un tecnico con la passione per l'innovazione?, Siamo sempre alla ricerca di nuovi talenti da inserire nel nostro team. Inviaci la tua candidatura e inserisci Quali sono le Tue Competenze!",
                 "form": {
                     "labelName": "Nome*",
                     "labelSurname": "Cognome*",
                     "labelEmail": "Email*",
                     "labelTel": "Telefono*",
-                    "labelSkills": "Competenze*"
+                    "labelSkills": "Competenze*",
+                    "placeholder": {
+                        "name": "Nome...",
+                        "surname": "Cognome...",
+                        "email": "Email...",
+                        "tel": "Telefono..."
+                    }
                 },
                 "select": {
-                    "optionSelect": "Seleziona",
+                    "optionSelect": "Scegli...",
                     "optionHumanReso": "Risorse Umane",
                     "optionDevFrontEnd": "Sviluppo Front-End",
                     "optionDevBackEnd": "Sviluppo Back-End",
                     "optionMarketing": "Marketing"
-                }
+                },
+                "buttons": {
+                    "submit": "Invia",
+                    "reset": "Resetta"
+                },
+                "workWithUsSwitch": "Lavora Con Noi"
             }
         }
     }
