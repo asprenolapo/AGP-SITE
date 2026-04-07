@@ -33,40 +33,33 @@
 // PAGE CUSTOM CSS RULES FOR PAGE: homepage
 //==========================
 
-section {
-  align-items: center;
-}
-
 .paragraph-home {
   padding-bottom: 10%;
 }
 
 section:nth-of-type(odd) {
-  justify-content: flex-start;
   padding-left: 10%;
 }
 
 section:nth-of-type(even) {
-  justify-content: flex-end;
   padding-right: 10%;
 }
 
 @media (max-width: 768px) {
 
-  .col-6:empty {
+  .col:empty,
+  [class^="col-"]:empty {
     display: none;
   }
 
   section:nth-of-type(odd) {
     justify-content: center;
     padding: 0;
-    padding-top: root.$header-height;
   }
 
   section:nth-of-type(even) {
     justify-content: center;
     padding: 0;
-    padding-top: root.$header-height;
   }
 }
 
