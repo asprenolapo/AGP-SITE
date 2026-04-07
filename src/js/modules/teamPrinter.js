@@ -26,7 +26,7 @@ export function initTeam() {
                 <img src="${randomAvatar}" alt="${person.name} ${person.surname}">
               </div>
               <div class="card-info">
-                <h3 class="aka sec-sub-title">AKA: ${person.knownAs}</h3>
+                <h3 class="aka sec-sub-title">AKA: ${person.aka}</h3>
                 <h4 class="real-name sec-sub-title">${person.name} ${person.surname}</h4>
                 <p class="role">${person.role}</p>
                 <div class="motto">
@@ -53,7 +53,7 @@ export function initTeam() {
               </div>
               <div class="tutor-info">
                 <h2 class="sec-sub-title">${person.name} ${person.surname}</h2>
-                <p class="tutor-role known-as sec-sub-title">${person.knownAs}</p>
+                <p class="tutor-role known-as sec-sub-title">${person.aka}</p>
                 <p class="tutor-role sec-sub-title">${person.role}</p>
                 <p class="paragraph-home">"${person.quote}"</p>
               </div>

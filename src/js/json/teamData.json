@@ -3,42 +3,42 @@
     {
       "name": "Alessandra",
       "surname": "Raspatelli",
-      "knownAs": "La regina delle firme",
+      "aka": "La regina delle firme",
       "role": "Risorse della giun... umane",
       "quote": "The brain has about 10^14 synapses and we only live for about 10^9 seconds."
     },
     {
       "name": "Michele",
       "surname": "Scalera",
-      "knownAs": "Scapocchione",
+      "aka": "Scapocchione",
       "role": "Professore UML/WEB",
       "quote": "Our intelligence is what makes us human, and AI is an extension of that quality."
     },
     {
       "name": "Leonardo",
       "surname": "Chiarella",
-      "knownAs": "Leo Fender",
+      "aka": "Leo Fender",
       "role": "Proessore Soft Skill",
       "quote": "Educare sorridendo alla semplicità"
     },
     {
       "name": "Antonello",
       "surname": "Magaletti",
-      "knownAs": "The Mind Behind AlphaGo",
+      "aka": "The Mind Behind AlphaGo",
       "role": "Professore Matematica e statistica",
       "quote": "AI could be the most transformative technology in human history."
     },
     {
       "name": "Michele",
       "surname": "Salierno",
-      "knownAs": "Super quark",
+      "aka": "Super quark",
       "role": "Professore Lingua Inglese",
       "quote": "Aspreeeeeen"
     },
     {
       "name": "Vito",
       "surname": "Carulli",
-      "knownAs": "The Cloud Transformer",
+      "aka": "The Cloud Transformer",
       "role": "Professore Diritto informatico",
       "quote": "We are in a mobile-first, cloud-first world."
     }
@@ -47,189 +47,189 @@
     {
       "name": "Alessandro",
       "surname": "Foggetti",
-      "knownAs": "The Linux God",
+      "aka": "The Linux God",
       "role": "Creator of Linux & Git",
       "quote": "Talk is cheap. Show me the code."
     },
     {
       "name": "Andrea",
       "surname": "Alduino",
-      "knownAs": "Father of C",
+      "aka": "Father of C",
       "role": "Creator of C & Co-creator of Unix",
       "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
     },
     {
       "name": "Andrea",
       "surname": "Piangivino",
-      "knownAs": "The Art of Computer Programming",
+      "aka": "The Art of Computer Programming",
       "role": "Computer Scientist & Author",
       "quote": "Premature optimization is the root of all evil."
     },
     {
       "name": "Angelo",
       "surname": "Schena",
-      "knownAs": "Benevolent Dictator For Life",
+      "aka": "Benevolent Dictator For Life",
       "role": "Creator of Python",
       "quote": "Code is read much more often than it is written."
     },
     {
       "name": "Antonella",
       "surname": "Pesare",
-      "knownAs": "Father of C++",
+      "aka": "Father of C++",
       "role": "Creator of C++",
       "quote": "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
     },
     {
       "name": "Antonio",
       "surname": "Straziota",
-      "knownAs": "The AWS Architect",
+      "aka": "The AWS Architect",
       "role": "CEO of Amazon",
       "quote": "The cloud is the new normal for enterprise IT."
     },
     {
       "name": "Aspreno Lapo",
       "surname": "Pesce",
-      "knownAs": "GCP's Commander",
+      "aka": "GCP's Commander",
       "role": "CEO of Google Cloud",
       "quote": "Every company in every industry is becoming a technology company."
     },
     {
       "name": "Christian",
       "surname": "Losito",
-      "knownAs": "Dr. Werner",
+      "aka": "Dr. Werner",
       "role": "CTO of Amazon",
       "quote": "Everything fails, all the time. Design for failure."
     },
     {
       "name": "Davide",
       "surname": "Barbieri",
-      "knownAs": "Hybrid Cloud Champion",
+      "aka": "Hybrid Cloud Champion",
       "role": "CEO of IBM",
       "quote": "Hybrid cloud is where every enterprise will operate."
     },
     {
       "name": "Edoardo",
       "surname": "Martino",
-      "knownAs": "Father of the iPod & Nest",
+      "aka": "Father of the iPod & Nest",
       "role": "Founder of Nest Labs",
       "quote": "Good design is not just what looks good. It also needs to perform, convert, astonish."
     },
     {
       "name": "Enrico Pasquale",
       "surname": "De Candia",
-      "knownAs": "The Nest Co-Founder",
+      "aka": "The Nest Co-Founder",
       "role": "Co-Founder of Nest Labs",
       "quote": "The home should adapt to you, not the other way around."
     },
     {
       "name": "Fabio",
       "surname": "Balenzano",
-      "knownAs": "SmartThings Pioneer",
+      "aka": "SmartThings Pioneer",
       "role": "Co-Founder of SmartThings",
       "quote": "The smart home is about making everyday life simpler and more efficient."
     },
     {
       "name": "Fabio",
       "surname": "Scarpa",
-      "knownAs": "Z-Wave Guru",
+      "aka": "Z-Wave Guru",
       "role": "Director of Z-Wave Alliance",
       "quote": "Interoperability is the key to a truly connected home."
     },
     {
       "name": "Federico",
       "surname": "Di Leo",
-      "knownAs": "Home Assistant Creator",
+      "aka": "Home Assistant Creator",
       "role": "Founder of Nabu Casa",
       "quote": "Your home automation should work locally, privately, and without the cloud."
     },
     {
       "name": "Francesco",
       "surname": "De Santis",
-      "knownAs": "The Quant King",
+      "aka": "The Quant King",
       "role": "Founder of Renaissance Technologies",
       "quote": "We don't override the models. If you start doing that, you get in trouble."
     },
     {
       "name": "Francesco",
       "surname": "Pepe",
-      "knownAs": "Father of Quantitative Investing",
+      "aka": "Father of Quantitative Investing",
       "role": "Mathematician & Hedge Fund Manager",
       "quote": "The market is beatable, but only with math and discipline."
     },
     {
       "name": "Francesco",
       "surname": "Picciotti",
-      "knownAs": "The Black of Black-Scholes",
+      "aka": "The Black of Black-Scholes",
       "role": "Financial Economist",
       "quote": "Markets look a lot less efficient from the banks of the Hudson than the banks of the Charles."
     },
     {
       "name": "Gianvito",
       "surname": "Brunazzi",
-      "knownAs": "Options Pricing Legend",
+      "aka": "Options Pricing Legend",
       "role": "Nobel Laureate in Economics",
       "quote": "Risk is the uncertainty of future outcomes."
     },
     {
       "name": "Giorgio",
       "surname": "Smaldino",
-      "knownAs": "The King of Quants",
+      "aka": "The King of Quants",
       "role": "Founder of D.E. Shaw & Co.",
       "quote": "Mathematics is the language the market speaks if you listen carefully enough."
     },
     {
       "name": "Giuseppe",
       "surname": "Calabrese",
-      "knownAs": "Systems Architect",
+      "aka": "Systems Architect",
       "role": "Senior Developer",
       "quote": "Scaling is not just a feature, it's a mindset."
     },
     {
       "name": "Leonardo",
       "surname": "Chiarella",
-      "knownAs": "The Script Master",
+      "aka": "The Script Master",
       "role": "Automation Engineer",
       "quote": "If you do it twice, automate it."
     },
     {
       "name": "Matteo",
       "surname": "Caputo",
-      "knownAs": "Debug Specialist",
+      "aka": "Debug Specialist",
       "role": "Quality Assurance",
       "quote": "Finding the bug is half the fun; fixing it is the other half."
     },
     {
       "name": "Michele",
       "surname": "Garofalo",
-      "knownAs": "Full Stack Legend",
+      "aka": "Full Stack Legend",
       "role": "Software Architect",
       "quote": "Frontend, backend, it's all just data in motion."
     },
     {
       "name": "Nico",
       "surname": "Chimienti",
-      "knownAs": "Kernel Hacker",
+      "aka": "Kernel Hacker",
       "role": "Low Level Programmer",
       "quote": "The hardware is the limit, the code is the bridge."
     },
     {
       "name": "Nicolò",
       "surname": "Gigante",
-      "knownAs": "Security Guru",
+      "aka": "Security Guru",
       "role": "Ethical Hacker",
       "quote": "Security is a process, not a product."
     },
     {
       "name": "GHERARD",
       "surname": "COGNOME",
-      "knownAs": "Database Wizard",
+      "aka": "Database Wizard",
       "role": "Data Engineer",
       "quote": "Data is the new oil, and SQL is the drill."
     },
     {
       "name": "ALESSANDRO",
       "surname": "CRAMAROSSA",
-      "knownAs": "UI/UX Coder",
+      "aka": "UI/UX Coder",
       "role": "Interface Developer",
       "quote": "User experience is the soul of the application."
     }
