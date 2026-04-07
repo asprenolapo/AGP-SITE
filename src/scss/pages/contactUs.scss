@@ -188,10 +188,16 @@
    ELEMENTI TESTUALI E BORDER FORM
 /////////////////////////////////////////////////// */
 
+.content-wrapper {
+    max-width: 930px;    /* Scegli la larghezza massima del testo */
+    margin-left: auto;   /* Crea lo spazio vuoto a sinistra */
+    margin-right: auto;  /* Crea lo spazio vuoto a destra */
+    padding: 0 20px;     /* Sicurezza per non far toccare i bordi sui cellulari */
+}
+
 .section-title {
     font-family: root.$font-title;
     font-size: 3rem;
-    text-align: center;
     text-transform: uppercase;
     text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6);
     margin-bottom: 0.5rem;
@@ -202,9 +208,8 @@
 .paragraph-contact,
 .paragraph-work-with-us {
     font-family: root.$font-body;
-    text-align: center;
     font-size: 1.1rem;
-    margin-bottom: 1rem; // Distanza Paragrafo -> Form
+    margin-bottom: 1rem; 
     flex-shrink: 0;
 }
 
