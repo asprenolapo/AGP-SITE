@@ -1,10 +1,10 @@
 //===========================================
-// BLOCCO 3: ADVISORS (PROFESSORI)
+// BLOCCO 3: tutorS (PROFESSORI)
 //===========================================
 @use '../root' as root;
 
-// La Card dei Professori / Advisor
-.advisor-card {
+// La Card dei Professori / tutor
+.tutor-card {
   display: flex;
   align-items: flex-start;
   /* Evita che la foto si stiri verticalmente */
@@ -35,7 +35,7 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   }
 
-  .advisor-avatar {
+  .tutor-avatar {
     flex-shrink: 0; // Evita che la foto si schiacci se c'è troppo testo
     margin-right: 25px;
 
@@ -53,18 +53,18 @@
     }
   }
 
-  &:hover .advisor-avatar img {
+  &:hover .tutor-avatar img {
     filter: grayscale(0%);
   }
 
-  .advisor-info {
+  .tutor-info {
     h3 {
       font-size: 1.4rem;
       margin-bottom: 5px;
       color: root.$starlight-text-title;
     }
 
-    .advisor-role {
+    .tutor-role {
       font-size: 0.95rem;
       font-style: italic;
       color: lighten(root.$off-white-text-body, 10%);
@@ -91,7 +91,7 @@
       border-top-color: root.$starlight-text-title;
     }
 
-    .advisor-avatar {
+    .tutor-avatar {
       margin-right: 0;
       margin-bottom: 15px;
     }

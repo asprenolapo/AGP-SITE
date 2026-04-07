@@ -9,7 +9,6 @@ IMPORTANTI:
 
 Front-end:
             - mettere testi tutto da sx vs dx (ragionare su possibile emdia quesri per testi centrati da mobile) - mike
-            - diminuire rem size dei font - mike
             - import e var dei possibili nuovi colori - aspreno
             - rimozione delle immagini per ogni sezione - aspreno
             - creare gradiente per sezioni senza immagine - aspreno
@@ -18,7 +17,7 @@ Front-end:
             - contattacci trasfomrazione in switch ds sx con testo e form alternati per contattaci e lavora con noi - andre  
 
 Back-end:
-            - collegamento json per generazione card trmite for each sia studenti che docenti - mike  
+            - collegamento json per generazione card trmite for each sia studenti che docenti e togliere innerHTML - mike
             - check style del return dei dati tramite mail + gestire tempistice di notifica - mike 
 
 Tools: 
