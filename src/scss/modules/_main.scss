@@ -21,11 +21,14 @@
 section {
   padding: 3vh 3vw;
   background-color: root.$deep-black;
+  min-height: 100vh;
+  background-size: cover;
 }
 
 .center {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 textarea {
@@ -63,14 +66,10 @@ section:first-of-type {
   padding-top: root.$header-height;
 }
 
-section {
-  min-height: 100vh;
-  background-size: cover;
-}
-
 .section-title {
   position: relative;
   justify-content: space-between;
+  width: 100%;
 }
 
 /* ////////////////////////////////////////////////
