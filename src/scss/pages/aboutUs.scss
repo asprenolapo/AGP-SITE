@@ -46,6 +46,10 @@
   background-color: rgba(root.$deep-black, 0);
 }
 
+
+/* =========================================
+  1. PRIMA SEZIONE (Triangolo in basso a destra)
+   ========================================= */
 #operative-nodes {
   background-color: root.$deep-black;
   position: relative;
@@ -53,109 +57,137 @@
 
   > * {
     position: relative;
-    z-index: 2;
+    z-index: 5;
   }
 
-  // SFONDO CON GRADIENTE DIAGONALE
-  // Sostituisce il clip-path, i 3 gradienti, il transform e il blur originale
+  // SFONDO POLIGONALE (Transizione dei Colori Base)
   &::after {
     content: "";
     position: absolute;
     inset: 0;
-    z-index: 0;
+    z-index: 1;
+    
+    /* Il nuovo poligono richiesto */
+    clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
 
+    /* Transizione: Cyan -> Grey -> Deep Black */
     background: linear-gradient(
-      130deg,                              // Angolo inclinato
-      root.$deep-black 0%,
-      root.$deep-black 55%,                // Il nero copre più spazio prima di iniziare
-      rgba(root.$state-grey, 0.9) 62%,     // Grigio attenuato al 50%
-      rgba(root.$tech-cyan, 0.45) 66%,     // Ciano morbido al 25%
-      rgba(root.$yellow, 0.6) 70%,        // Giallo "velo" al 10% (centro esatto)
-      rgba(root.$tech-cyan, 0.45) 74%,     // Ciano morbido al 25%
-      rgba(root.$state-grey, 0.9) 78%,     // Grigio attenuato al 50%
-      root.$deep-black 85%,                // Ritorno rapido al nero
-      root.$deep-black 100%
+      315deg, /* Parte dall'angolo in basso a destra (100% 100%) */
+      rgba(root.$tech-cyan, 0.55) 0%,     /* Cuore intenso del Cyan */
+      rgba(root.$tech-cyan, 0.25) 25%,    /* Inizia a sfumare */
+      rgba(root.$state-grey, 0.35) 45%,   /* Transizione netta verso il Grey */
+      rgba(root.$state-grey, 0.15) 65%,   /* Il Grey si spegne */
+      root.$deep-black 90%                /* Si fonde con il background */
     );
+    
+    // Un leggero blur ammorbidisce la pasta di colore sottostante
+    filter: blur(1px); 
   }
 
-  // MASCHERA UNIVERSALE (Transizione + Leggibilità + Lucido)
+  // OVERLAY LUCIDO (Simulazione Riflesso Vetro senza backdrop-filter)
   &::before {
     content: "";
     position: absolute;
     inset: 0;
-    z-index: 1;
+    z-index: 2;
     pointer-events: none;
-    background:
-      // A. EFFETTO LUCIDO (Inizia dopo il bordo nero solido)
-      linear-gradient(to bottom, transparent 0px, rgba(255, 255, 255, 0.04) 50px, transparent 100px),
-      // B. LEGGIBILITÀ (Velo scuro su tutto il contenitore)
-      linear-gradient(to bottom, rgba(root.$deep-black, 0.3) 0%, rgba(root.$deep-black, 0.3) 100%),
-      // C. TRANSIZIONI SUI BORDI (Valori assoluti in pixel per aggancio millimetrico)
-      linear-gradient(to bottom,
-        root.$deep-black 0px,
-        root.$deep-black 40px,          
-        rgba(root.$deep-black, 0) 200px, 
-        rgba(root.$deep-black, 0) calc(100% - 200px), 
-        root.$deep-black calc(100% - 40px),          
-        root.$deep-black 100%
+    
+    /* Stesso clip-path per mascherare perfettamente la luce */
+    clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
+
+    background: 
+      /* 1. Il "Taglio" di luce principale (Riflesso netto diagonale) */
+      linear-gradient(
+        295deg, 
+        transparent 35%, 
+        rgba(255, 255, 255, 0.02) 38%, 
+        rgba(255, 255, 255, 0.18) 40%, /* Picco di luce speculare (il "lucido") */
+        rgba(255, 255, 255, 0.02) 42%, 
+        transparent 45%
+      ),
+      /* 2. Un secondo riflesso secondario e più tenue per dare spessore */
+      linear-gradient(
+        295deg, 
+        transparent 65%, 
+        rgba(255, 255, 255, 0.05) 70%, 
+        transparent 75%
+      ),
+      /* 3. Maschera di profondità radiale (scurisce i bordi per dare volume) */
+      radial-gradient(
+        circle at 90% 90%, 
+        transparent 30%, 
+        rgba(root.$deep-black, 0.7) 100%
       );
   }
 }
 
-/* =========================================
-  2. SEZIONE SUCCESSIVA (Continuazione Gradiente)
-   ========================================= */
-#advisors {
+#advisors{
   background-color: root.$deep-black;
   position: relative;
   overflow: hidden;
 
   > * {
     position: relative;
-    z-index: 2;
+    z-index: 5;
   }
 
-  // SFONDO CON GRADIENTE DIAGONALE SPOSTATO
+  // SFONDO POLIGONALE (Transizione dei Colori Base)
   &::after {
     content: "";
     position: absolute;
     inset: 0;
-    z-index: 0;
+    z-index: 1;
+    
+    /* Il nuovo poligono: triangolo in alto a sinistra */
+    clip-path: polygon(100% 0, 0 90%, 0 0);
 
+    /* Transizione speculare: Cyan -> Grey -> Deep Black */
+    /* Parte dall'angolo in alto a sinistra (135deg) */
     background: linear-gradient(
-      130deg,                              
-      root.$deep-black 0%,
-      root.$deep-black 32%,                // <-- Spostato a 32%
-      rgba(root.$state-grey, 0.9) 39%,     // <-- Spostato a 39%
-      rgba(root.$tech-cyan, 0.45) 43%,     // <-- Spostato a 43%
-      rgba(root.$yellow, 0.6) 47%,         // <-- NUOVO CENTRO BILANCIATO (47%)
-      rgba(root.$tech-cyan, 0.45) 51%,     // <-- Spostato a 51%
-      rgba(root.$state-grey, 0.9) 55%,     // <-- Spostato a 55%
-      root.$deep-black 62%,                // <-- Spostato a 62%
-      root.$deep-black 100%                
+      135deg, 
+      rgba(root.$tech-cyan, 0.55) 0%,     /* Cuore intenso del Cyan in alto a sx */
+      rgba(root.$tech-cyan, 0.25) 25%,    /* Inizia a sfumare */
+      rgba(root.$state-grey, 0.35) 45%,   /* Transizione netta verso il Grey */
+      rgba(root.$state-grey, 0.15) 65%,   /* Il Grey si spegne */
+      root.$deep-black 90%                /* Si fonde con il background */
     );
+    
+    filter: blur(1px); 
   }
 
-  // MASCHERA UNIVERSALE (Mantenuta identica)
+  // OVERLAY LUCIDO (Simulazione Riflesso Vetro senza backdrop-filter)
   &::before {
     content: "";
     position: absolute;
     inset: 0;
-    z-index: 1;
+    z-index: 2;
     pointer-events: none;
-    background:
-      // A. EFFETTO LUCIDO
-      linear-gradient(to bottom, transparent 0px, rgba(255, 255, 255, 0.04) 50px, transparent 100px),
-      // B. LEGGIBILITÀ
-      linear-gradient(to bottom, rgba(root.$deep-black, 0.3) 0%, rgba(root.$deep-black, 0.3) 100%),
-      // C. TRANSIZIONI SUI BORDI
-      linear-gradient(to bottom,
-        root.$deep-black 0px,
-        root.$deep-black 40px,          
-        rgba(root.$deep-black, 0) 200px, 
-        rgba(root.$deep-black, 0) calc(100% - 200px), 
-        root.$deep-black calc(100% - 40px),          
-        root.$deep-black 100%
+    
+    /* Stesso clip-path per la maschera di luce */
+    clip-path: polygon(100% 0, 0 90%, 0 0);
+
+    background: 
+      /* 1. Il "Taglio" di luce principale (angolo invertito per colpire il nuovo triangolo) */
+      linear-gradient(
+        115deg, 
+        transparent 35%, 
+        rgba(255, 255, 255, 0.02) 38%, 
+        rgba(255, 255, 255, 0.18) 40%, /* Picco di luce speculare */
+        rgba(255, 255, 255, 0.02) 42%, 
+        transparent 45%
+      ),
+      /* 2. Riflesso secondario e più tenue */
+      linear-gradient(
+        115deg, 
+        transparent 65%, 
+        rgba(255, 255, 255, 0.05) 70%, 
+        transparent 75%
+      ),
+      /* 3. Maschera di profondità radiale (ora parte dall'alto a sx) */
+      radial-gradient(
+        circle at 10% 10%, 
+        transparent 30%, 
+        rgba(root.$deep-black, 0.7) 100%
       );
   }
 }
