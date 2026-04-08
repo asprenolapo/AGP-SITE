@@ -1,27 +1,15 @@
 IMPORTANTI:
 
-- finire chi siamo (aspreno)
-- finire consultancy, news (aspreno)
 - check generale style (tutti insieme)
 - completamento ricerca e sviluppo contenuti e card 
 - casi di test + requisiti + test affidabilità (tutti insieme)
 - realzione presentazione progetto (insieme)
 
-Front-end:
-            - mettere testi tutto da sx vs dx (ragionare su possibile emdia quesri per testi centrati da mobile) - mike
-            - import e var dei possibili nuovi colori - aspreno
-            - rimozione delle immagini per ogni sezione - aspreno
-            - creare gradiente per sezioni senza immagine - aspreno
-            - grandezze responsive degli elementi della navbar(logo == link == switch == burger) - mike 
-            - test immagine di sfondo motherboard o gradiente card (succesivamente allo sviluppo del gradient)
-            - contattacci trasfomrazione in switch ds sx con testo e form alternati per contattaci e lavora con noi - andre  
-            - traduzioni di placeholder e dei pulsanti di invio e reset nei form. - andre
+Finire presentazione
 
-Back-end:
-            - collegamento json per generazione card trmite for each sia studenti che docenti e togliere innerHTML - mike
-            - check style del return dei dati tramite mail + gestire tempistice di notifica - mike 
+Finire contenuti card per le persone
 
-Tools: 
-            - completare le traduzioni - andrea
-            - completare i contenuti - aspreno 
+Cambiare ordine contenuti card
+
+Scrivere counter e mettere immaginina come sfondo in res-dev
 
