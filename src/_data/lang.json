@@ -74,11 +74,13 @@
         },
         "aboutUsPage": {
             "heroSec": {
-                "title": "About us",
-                "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing eli Veritatis dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto"
+                "title": "Our Ecosystem",
+                "paragraph": "Hierarchies slow down thinking. Labels limit talent. This is our collective: a network of interconnected nodes, where chronological age takes precedence over competence, and authority comes solely from the code you write and the problems you solve."
             },
             "teamSec": {
                 "title": "The Operational Nodes",
+                "subtitle":"Collective Intelligence Runnin",
+                "paragraph":"The true strength of a network lies not in its core, but in the ability of its nodes to communicate. We are twenty-seven diverse minds, fused into a single collective. From training artificial intelligence to soldering hardware components, each member brings their own fragment of vision. In Our Distro, we have eliminated the concept of 'employee' to embrace that of 'creator'. We operate without imposed hierarchies, guided only by shared responsibility and the hunger to translate our utopias into real, functioning architectures.",
                 "card": {
                     "tutors": [
                         {
@@ -319,7 +321,8 @@
             },
             "advisorSec": {
                 "title": "The Guardians of Knowledge",
-                "paragraph": "No ecosystem thrives without solid roots. Our Advisors are not managers who issue orders, but veterans of code and engineering who oversee methods, guarantee architectural stability, and constantly challenge us to push beyond our limits. They are the safety net that allows us to dare."
+                "subtitle":"The solid architecture of experience",
+                "paragraph": "No ecosystem thrives without solid roots. Our Advisors aren't managers who give orders, but veterans of code and engineering who oversee methods, ensure the robustness of architectures, and constantly challenge us to push our limits. They are the safety net that allows us to dare."
             }
         },
         "futureVisionsPage": {
@@ -525,11 +528,13 @@
         },
         "aboutUsPage": {
             "heroSec": {
-                "title": "Chi siamo",
-                "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing eli Veritatis dolorum at nobis sit animi beatae doloremque placeat, magnam, iusto"
+                "title": "Il Nostro Ecosistema",
+                "paragraph": "Le gerarchie rallentano il pensiero. Le etichette limitano il talento. Questo è il nostro collettivo: una rete di nodi interconnessi, dove l'età anagrafica cede il passo alla competenza e l'autorità deriva esclusivamente dal codice che scrivi e dai problemi che risolvi."
             },
             "teamSec": {
                 "title": "I Nodi Operativi",
+                "subtitle":"L'intelligenza collettiva in esecuzione",
+                "paragraph":"La vera forza di una rete non sta nel centro, ma nella capacità dei suoi nodi di comunicare. Siamo ventisette menti eterogenee, fuse in un unico collettivo. Dall'addestramento di intelligenze artificiali alla saldatura di componenti hardware, ogni membro porta il suo frammento di visione. In Our Distro abbiamo eliminato il concetto di 'dipendente' per abbracciare quello di 'creatore'. Operiamo senza gerarchie imposte, guidati solo dalla responsabilità condivisa e dalla fame di tradurre le nostre utopie in architetture reali e funzionanti.",
                 "card": {
                     "tutors": [
                         {
@@ -770,6 +775,7 @@
             },
             "advisorSec": {
                 "title": "I Custodi della Conoscenza",
+                "subtitle":"L'architettura solida dell'esperienza",
                 "paragraph": "Nessun ecosistema prospera senza radici solide. I nostri Advisor non sono manager che impartiscono ordini, ma veterani del codice e dell'ingegneria che supervisionano i metodi, garantiscono la solidità delle architetture e ci sfidano costantemente a superare i nostri limiti. Sono la rete di sicurezza che ci permette di osare."
             }
         },
