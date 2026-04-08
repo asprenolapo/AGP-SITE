@@ -100,7 +100,7 @@ try {
     // MAIL BODY
     //==========================
 
-    $body  = "<h2>New Form Submission</h2>";
+    $body  = "";
 
 
     //==========================
@@ -127,7 +127,7 @@ try {
     // MAIL CONTENT
     //==========================
 
-    $mail->Subject = "Tipo di form: {$formType}";
+    $mail->Subject = "Nuova richiesta dal sito Our Distro - ({$formType})";
 
     $mail->Body    = $body;
     $mail->AltBody = strip_tags(str_replace('<br>', "\n", $body));
@@ -135,9 +135,9 @@ try {
     $mail->send();
 
     http_response_code(200);
-    echo "✅ Mail has been sent";
+    echo "success";
 
 } catch (Exception $e) {
     http_response_code(500);
-    echo "❌ Error: {$mail->ErrorInfo}";
+    echo "{$mail->ErrorInfo}";
 }

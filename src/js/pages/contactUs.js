@@ -29,18 +29,18 @@ import { initLangSwitcher } from '../modules/langSwitcher.js';
 // All modules that interact with the DOM (event listeners, querySelector, MutationObserver)
 // must be initialized here, after the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
+    // UI CORE
     initScrollHeader();
     initBurgerMenu();
+    initLangSwitcher();
 
     // JS PER FORMS
-    initFormListener();
+    // initFormListener si occuperà di intercettare il submit e usare showNotification
+    initFormListener(); 
+    
     initTextAreaAutoExpand();
     initNormalizePhoneNumber();
     initSelectArrowAnimation();
     initCheckEmailProvider();
     initContactFlip();
-
-    initLangSwitcher();
-    
-    
 });

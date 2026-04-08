@@ -5,7 +5,7 @@
 Card Mancanti e finite Alunni:  
     1 Alessandro Foggetti 		    000
     2 Andrea Alduino 		        000
-    3. Andrea Piangivino 		    000
+    3. Andrea Piangivino 		    111
     4. Angelo Schena 		        000
     5. Antonella Pesare 		    000
     6. Antonio Straziota 		    000
