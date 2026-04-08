@@ -1,0 +1,15 @@
+Come abbiamo lavorato
+	GitHub e remoto
+	Framework e librerie
+	Analisi
+
+Cosa abbiamo fatto
+	Cosa rappresenta il sito
+	Breve spiegazione di alcune funzioni particolari e del loro funzionamento
+	Spiegare introduzione di SEO e backend
+
+Cosa abbiamo imparato
+	Usare i branch di GitHub
+	Familiarizzato con regole css particolari e maggior ordine
+	Familiarizzato con i json
+	Familiarizzato maggiormente con ciò che sono le convenzioni per lo sviluppo web
