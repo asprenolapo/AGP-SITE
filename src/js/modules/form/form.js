@@ -12,14 +12,28 @@ export function initFormListener() {
       const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
       const lang = (translations && currentLang) ? translations[currentLang].notifications : {};
 
+      // 2. Validazione campi obbligatori HTML5
       if (!form.checkValidity()) {
         form.classList.add("was-validated");
-        showNotification(lang.formInvalidFields, "error");
+        showNotification(lang.formInvalidFields || "Compila tutti i campi obbligatori", "error");
         return;
       }
 
-      // Disabilita il bottone
+      // 3. Validazione specifica Provider Email
+      const emailInput = form.querySelector('input[type="email"]');
+      if (emailInput && !isValidEmailProvider(emailInput.value)) {
+        showNotification(lang.invalidEmailProvider || "Provider email non supportato", "error");
+        emailInput.focus();
+        return;
+      }
+
+      // 4. Inizio processo di invio
       if (submitBtn) submitBtn.disabled = true;
+      
+      // Mostra notifica di caricamento (permanente con spinner)
+      showNotification(lang.sending || "Invio in corso...", "success", "permanent");
+
+      const formData = new FormData(form);
 
       // 1. Mostra la notifica di caricamento con lo spinner
       // Usiamo "permanent" così non scompare e attiva lo spinner nel tuo notification.js
@@ -27,27 +41,22 @@ export function initFormListener() {
 
       fetch("/php/sendForm.php", {
         method: "POST",
-        body: new FormData(form),
+        body: formData,
       })
-      .then(response => response.text())
-      .then(data => {
-        // Uso trim() per sicurezza, nel caso il PHP stampi spazi vuoti o ritorni a capo per sbaglio
-
-        if (data === "success") {
-          // 2a. Successo
-          showNotification(lang.messageSent, "success");
-          form.reset();
-          form.classList.remove("was-validated");
-        } else {
-          // 2b. Errore dal server (il PHP ha stampato l'errore)
-          console.error(data);
-          showNotification(lang.sendError, "error");
-        }
+      .then(async (response) => {
+        if (!response.ok) throw new Error("Network response error");
+        return response.text();
       })
-      .catch(error => {
-        // 2c. Errore di rete (es. connessione caduta)
-        console.error("Errore di rete/Fetch:", error);
-        showNotification(lang.sendError, "error");
+      .then((data) => {
+        // La nuova notifica di successo rimuoverà automaticamente quella di caricamento
+        showNotification(lang.formSubmitSuccess || data, "success");
+        
+        form.reset();
+        form.classList.remove("was-validated");
+      })
+      .catch((err) => {
+        console.error(err);
+        showNotification(lang.formSubmitError || "Errore durante l'invio", "error");
       })
       .finally(() => {
         // Riabilita il bottone a prescindere da come è andata

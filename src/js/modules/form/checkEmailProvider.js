@@ -40,8 +40,11 @@ export function initCheckEmailProvider() {
   // 1. Applica la validazione agli input email già presenti nel DOM
   document.querySelectorAll('input[type="email"]').forEach(validate);
 
-  // 2. Ascolta l'evento "input" su tutto il documento per aggiornare in tempo reale
-  document.addEventListener("input", ({ target }) => {
-    if (target.matches('input[type="email"]')) validate(target);
-  });
+// Restituisce un messaggio di errore standard se il provider non è valido
+export function getInvalidProviderMessage() {
+    return "Il fornitore email non è tra quelli supportati ufficialmente.";
+}
+
+export function initCheckEmailProvider() { 
+    // Dati già caricati tramite import
 }
