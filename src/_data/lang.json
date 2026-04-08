@@ -1,908 +1,908 @@
 {
-    "en": {
-        "allLang": {
-            "enLangName": "ENG 🇺🇸",
-            "itLangName": "ITA 🇮🇹"
-        },
-        "notifications": {
-            "formInvalidFields": "⚠️ You have to complete all the fields.",
-            "invalidEmailProvider": "❌ Email provider is not valid",
-            "sending": "Sending",
-            "messageSent": "The form has been sent sucessfully! ✨",
-            "sendError": "❌ Something went wrong"
-        },
-        "header": {
-            "navHome": "Home",
-            "navAboutUs": "About Us",
-            "navFutureVisions": "Future Visions",
-            "navReserchAndDevelopment": "Research & Development",
-            "navConsultancy": "Consultancy",
-            "navContactUs": "Contact Us"
-        },
-        "footer": {
-            "spanSocial": "Connect with us on social media:",
-            "skills": {
-                "title": "Skills",
-                "ai": "AI & Deep Learning",
-                "systems": "System & Cloud",
-                "iot": "Home Automation & IoT",
-                "finance": "Quantitative Finance"
-            },
-            "navigation": {
-                "title": "Navigation",
-                "home": "Homepage",
-                "aboutUs": "About Us",
-                "futureVisions": "Future Visions",
-                "reserchAndDevelopment": "Research & Development",
-                "consultancy": "Consultancy",
-                "contactUs": "Contact Us"
-            },
-            "contact": {
-                "title": "Contact",
-                "avenue": "69 Sparano Avenue Right There, Bari, Italy (ITS Grand Tier)",
-                "email": "info@ourdistro.dev",
-                "tel": "+39 012 345 678"
-            }
-        },
-        "homepage": {
-            "heroSec": {
-                "title": "Our Distro",
-                "subtitle": "Order without authority",
-                "paragraph": "There is no future to wait for, only a future to build.",
-                "button": "Explore the vision"
-            },
-            "aboutUsSec": {
-                "title": "The ecosystem",
-                "paragraph": "We don’t seek a place in an org chart, we live our own ecosystem.",
-                "button": "About Us"
-            },
-            "reserchAndDevelopmentSec": {
-                "title": "Engineering solutions",
-                "paragraph": "Our R&D department is a permanent lab where utopia becomes a prototype.",
-                "button": "Reserch & Development"
-            },
-            "newsAndConsultancySec": {
-                "title": "We want to share and collaborate.",
-                "paragraph": "News and info on our surroundings, and much more.",
-                "button": "Stay Updated"
-            },
-            "contactUsSec": {
-                "title": "Connect with us",
-                "paragraph": "Message us, or choose to become part of our ecosystem.",
-                "button": "Contact Us"
-            }
-        },
-        "aboutUsPage": {
-            "heroSec": {
-                "title": "Our Ecosystem",
-                "paragraph": "Hierarchies slow down thinking. Labels limit talent. This is our collective: a network of interconnected nodes, where chronological age takes precedence over competence, and authority comes solely from the code you write and the problems you solve."
-            },
-            "teamSec": {
-                "title": "The Operational Nodes",
-                "subtitle":"Collective Intelligence Runnin",
-                "paragraph":"The true strength of a network lies not in its core, but in the ability of its nodes to communicate. We are twenty-seven diverse minds, fused into a single collective. From training artificial intelligence to soldering hardware components, each member brings their own fragment of vision. In Our Distro, we have eliminated the concept of 'employee' to embrace that of 'creator'. We operate without imposed hierarchies, guided only by shared responsibility and the hunger to translate our utopias into real, functioning architectures.",
-                "card": {
-                    "tutors": [
-                        {
-                            "name": "Alessandra",
-                            "surname": "Raspatelli",
-                            "aka": "The Queen of Signatures",
-                            "role": "Jun... Human Resources",
-                            "quote": "The brain has about $10^{14}$ synapses and we only live for about $10^9$ seconds."
-                        },
-                        {
-                            "name": "Michele",
-                            "surname": "Scalera",
-                            "aka": "Big Head",
-                            "role": "UML/WEB Professor",
-                            "quote": "Our intelligence is what makes us human, and AI is an extension of that quality."
-                        },
-                        {
-                            "name": "Leonardo",
-                            "surname": "Chiarella",
-                            "aka": "Leo Fender",
-                            "role": "Soft Skills Professor",
-                            "quote": "Educating with a smile towards simplicity"
-                        },
-                        {
-                            "name": "Antonello",
-                            "surname": "Magaletti",
-                            "aka": "The Mind Behind AlphaGo",
-                            "role": "Mathematics and Statistics Professor",
-                            "quote": "AI could be the most transformative technology in human history."
-                        },
-                        {
-                            "name": "Michele",
-                            "surname": "Salierno",
-                            "aka": "Super Quark",
-                            "role": "English Language Professor",
-                            "quote": "Aspreeeeeen"
-                        },
-                        {
-                            "name": "Vito",
-                            "surname": "Carulli",
-                            "aka": "The Cloud Transformer",
-                            "role": "IT Law Professor",
-                            "quote": "We are in a mobile-first, cloud-first world."
-                        }
-                    ],
-                    "programmers": [
-                        {
-                            "name": "Alessandro",
-                            "surname": "Foggetti",
-                            "aka": "The Linux God",
-                            "role": "Creator of Linux & Git",
-                            "quote": "Talk is cheap. Show me the code."
-                        },
-                        {
-                            "name": "Andrea",
-                            "surname": "Alduino",
-                            "aka": "Father of C",
-                            "role": "Creator of C & Co-creator of Unix",
-                            "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
-                        },
-                        {
-                            "name": "Andrea",
-                            "surname": "Piangivino",
-                            "aka": "The Master of Art",
-                            "role": "Art Director",
-                            "quote": "It's not a bug, it's an avant-garde stylistic choice."
-                        },
-                        {
-                            "name": "Angelo",
-                            "surname": "Schena",
-                            "aka": "Benevolent Dictator For Life",
-                            "role": "Creator of Python",
-                            "quote": "Code is read much more often than it is written."
-                        },
-                        {
-                            "name": "Antonella",
-                            "surname": "Pesare",
-                            "aka": "Mother of C++",
-                            "role": "Creator of C++",
-                            "quote": "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
-                        },
-                        {
-                            "name": "Antonio",
-                            "surname": "Straziota",
-                            "aka": "The AWS Architect",
-                            "role": "CEO of Amazon",
-                            "quote": "The cloud is the new normal for enterprise IT."
-                        },
-                        {
-                            "name": "Aspreno Lapo",
-                            "surname": "Pesce",
-                            "aka": "Piero Angela",
-                            "role": "CEO of Google Cloud",
-                            "quote": "Every company in every industry is becoming a technology company."
-                        },
-                        {
-                            "name": "Christian",
-                            "surname": "Losito",
-                            "aka": "Dr. Werner",
-                            "role": "CTO of Amazon",
-                            "quote": "Everything fails, all the time. Design for failure."
-                        },
-                        {
-                            "name": "Davide",
-                            "surname": "Barbieri",
-                            "aka": "Hybrid Cloud Champion",
-                            "role": "CEO of IBM",
-                            "quote": "Hybrid cloud is where every enterprise will operate."
-                        },
-                        {
-                            "name": "Edoardo",
-                            "surname": "Martino",
-                            "aka": "The One Who Used Linux",
-                            "role": "Automatic Distro Vending Machine",
-                            "quote": "I'll use anything, as long as it's not Windows"
-                        },
-                        {
-                            "name": "Enrico Pasquale",
-                            "surname": "De Candia",
-                            "aka": "The Nest Co-Founder",
-                            "role": "Co-Founder of Nest Labs",
-                            "quote": "The home should adapt to you, not the other way around."
-                        },
-                        {
-                            "name": "Fabio",
-                            "surname": "Balenzano",
-                            "aka": "SmartThings Pioneer",
-                            "role": "Co-Founder of SmartThings",
-                            "quote": "The smart home is about making everyday life simpler and more efficient."
-                        },
-                        {
-                            "name": "Fabio",
-                            "surname": "Scarpa",
-                            "aka": "Z-Wave Guru",
-                            "role": "Director of Z-Wave Alliance",
-                            "quote": "Interoperability is the key to a truly connected home."
-                        },
-                        {
-                            "name": "Federico",
-                            "surname": "Di Leo",
-                            "aka": "Home Assistant Creator",
-                            "role": "Founder of Nabu Casa",
-                            "quote": "Your home automation should work locally, privately, and without the cloud."
-                        },
-                        {
-                            "name": "Francesco",
-                            "surname": "De Santis",
-                            "aka": "The Quant King",
-                            "role": "Founder of Renaissance Technologies",
-                            "quote": "We don't override the models. If you start doing that, you get in trouble."
-                        },
-                        {
-                            "name": "Francesco",
-                            "surname": "Pepe",
-                            "aka": "Father of Quantitative Investing",
-                            "role": "Mathematician & Hedge Fund Manager",
-                            "quote": "The market is beatable, but only with math and discipline."
-                        },
-                        {
-                            "name": "Francesco",
-                            "surname": "Picciotti",
-                            "aka": "The Black of Black-Scholes",
-                            "role": "Financial Economist",
-                            "quote": "Markets look a lot less efficient from the banks of the Hudson than the banks of the Charles."
-                        },
-                        {
-                            "name": "Gianvito",
-                            "surname": "Brunazzi",
-                            "aka": "Options Pricing Legend",
-                            "role": "Nobel Laureate in Economics",
-                            "quote": "Risk is the uncertainty of future outcomes."
-                        },
-                        {
-                            "name": "Giorgio",
-                            "surname": "Smaldino",
-                            "aka": "The King of Quants",
-                            "role": "Founder of D.E. Shaw & Co.",
-                            "quote": "Mathematics is the language the market speaks if you listen carefully enough."
-                        },
-                        {
-                            "name": "Giuseppe",
-                            "surname": "Calabrese",
-                            "aka": "Systems Architect",
-                            "role": "Senior Developer",
-                            "quote": "Scaling is not just a feature, it's a mindset."
-                        },
-                        {
-                            "name": "Leonardo",
-                            "surname": "Chiarella",
-                            "aka": "The Script Master",
-                            "role": "Automation Engineer",
-                            "quote": "If you do it twice, automate it."
-                        },
-                        {
-                            "name": "Matteo",
-                            "surname": "Caputo",
-                            "aka": "The Phishing Master",
-                            "role": "CSS Cloning Manager",
-                            "quote": "Scamming is an art"
-                        },
-                        {
-                            "name": "Michele",
-                            "surname": "Garofalo",
-                            "aka": "The Master of Cards",
-                            "role": "Software Architect",
-                            "quote": "Frontend, backend, it's all just data in motion."
-                        },
-                        {
-                            "name": "Nico",
-                            "surname": "Chimienti",
-                            "aka": "Inventor of Backdoors",
-                            "role": "Head of Cyber Security",
-                            "quote": "They used to call me the hackers' nightmare"
-                        },
-                        {
-                            "name": "Nicolò",
-                            "surname": "Gigante",
-                            "aka": "Lord of the Signatures",
-                            "role": "Precarious Assistant (Unpaid)",
-                            "quote": "What about you? Did you sign in?"
-                        },
-                        {
-                            "name": "Gherard",
-                            "surname": "Pirretti",
-                            "aka": "Database Wizard",
-                            "role": "Data Engineer",
-                            "quote": "Data is the new oil, and SQL is the drill."
-                        },
-                        {
-                            "name": "Alessandro",
-                            "surname": "Cramarossa",
-                            "aka": "I work at Ferrari",
-                            "role": "Vending Machine Manager",
-                            "quote": "Ferrari is terrible"
-                        }
-                    ]
-                }
-            },
-            "advisorSec": {
-                "title": "The Guardians of Knowledge",
-                "subtitle":"The solid architecture of experience",
-                "paragraph": "No ecosystem thrives without solid roots. Our Advisors aren't managers who give orders, but veterans of code and engineering who oversee methods, ensure the robustness of architectures, and constantly challenge us to push our limits. They are the safety net that allows us to dare."
-            }
-        },
-        "futureVisionsPage": {
-            "heroSec": {
-                "title": "Our future",
-                "subtitle": "Utopia as a test environment",
-                "paragraph": "We are not escaping reality. We are compiling a parallel one, more worthy.",
-                "button": "Explore the vision"
-            },
-            "firstSec": {
-                "title": "Knowledge is the Only Infrastructure",
-                "paragraph": "Utopian thinking is not an naive escape, but the methodical construction of an alternative. At Our Distro, we believe that freedom is found not just in open-source code, but in a structurally open mind. True technology emancipates; it does not control. We seek to abolish systemic extraction and the exploitation of both data and users. We are engineering systems where order arises from voluntary cooperation, rather than the centralized power of a server or a boardroom. A digital ecosystem where the only recognized authority is the force of reason, exact calculation, and leading by example."
-            },
-            "secondSec": {
-                "title": "The Necessary Reset",
-                "paragraphs": {
-                    "industry": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users.",
-                    "quote": "Michail Bakunin argued that 'the passion for destruction is also a creative passion.'",
-                    "application": "We apply this principle to computer architecture.",
-                    "action": "Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism.",
-                    "conclusion": "It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
-                }
-            },
-            "thirdSec": {
-                "title": "The future is not waited for. It is designed.",
-                "paragraphs": {
-                    "industry": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users.",
-                    "quote": "Michail Bakunin argued that 'the passion for destruction is also a creative passion.'",
-                    "application": "We apply this principle to computer architecture.",
-                    "action": "Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism.",
-                    "conclusion": "It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
-                },
-                "buttonResAndDev": "Explore our R&D",
-                "buttonConsultancy": "Or discover how we apply these principles in our Consultancy"
-            }
-        },
-        "reserchAndDevelopmentPage": {
-            "heroSec": {
-                "title": "Reserch & Development",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-                "button": "Read more"
-            },
-            "aiSec": {
-                "title": "Artificial Intelligence",
-                "paragraph": "There is no future to wait for, only one to discover",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "greenEnergySec": {
-                "title": "Low-Energy Intensity Algorithms & Software Refactoring",
-                "paragraph": "There is no future to wait for, only one to discover",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "homeAutomationSec": {
-                "title": "House Automation",
-                "paragraph": "There is no future to wait for, only one to discover",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "quantFinanceSec": {
-                "title": "Quantitative Finance",
-                "paragraph": "There is no future to wait for, only one to discover",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            }
-        },
-        "consultancyPage": {
-            "heroSec": {
-                "title": "Consultancy?",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "firstSec": {
-                "title": "Scapocchione",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            }
-        },
-        "contactUsPage": {
-            "contactSec": {
-                "title": "Contact Us",
-                "paragraph": "Have a project in mind or a technical need to solve?, We are ready to listen. We develop custom software, including solutions dedicated to specific hardware.",
-                "form": {
-                    "labelName": "Name*",
-                    "labelSurname": "Surname*",
-                    "labelEmail": "Email*",
-                    "labelTel": "Phone Number*",
-                    "labelMessages": "Leave us a message",
-                    "placeholder": {
-                        "name": "Name...",
-                        "surname": "Surname...",
-                        "email": "Email...",
-                        "tel": "Phone number...",
-                        "messages": "Describe your idea..."
-                    }
-                },
-                "contactUsSwitch": "Contact Us"
-            },
-            "workWithUsSec": {
-                "title": "Work With Us",
-                "paragraph": "Are you a developer, a designer, or a technician with a passion for innovation?, We are always looking for new talent to join our team. Send us your application and tell us about your skills!",
-                "form": {
-                    "labelName": "Name*",
-                    "labelSurname": "Surname*",
-                    "labelEmail": "Email*",
-                    "labelTel": "Phone Number*",
-                    "labelSkills": "Skills*",
-                    "placeholder": {
-                        "name": "Name...",
-                        "surname": "Surname...",
-                        "email": "Email...",
-                        "tel": "Phone number..."
-                    }
-                },
-                "select": {
-                    "optionSelect": "Select...",
-                    "optionHumanReso": "Human Resources",
-                    "optionDevFrontEnd": "Front-End Development",
-                    "optionDevBackEnd": "Back-End Development",
-                    "optionMarketing": "Marketing"
-                },
-                "buttons": {
-                    "submit": "Submit",
-                    "reset": "Reset"
-                },
-                "workWithUsSwitch": "Work With Us"
-            }
-        },
-        "404Page": {
-            "paragraph": "The page your are looking for does not exist!",
-            "button": "Return to homepage"
-        }
+  "en": {
+    "allLang": {
+      "enLangName": "ENG 🇺🇸",
+      "itLangName": "ITA 🇮🇹"
     },
-    "it": {
-        "allLang": {
-            "enLangName": "ENG 🇺🇸",
-            "itLangName": "ITA 🇮🇹"
-        },
-        "notifications": {
-            "formInvalidFields": "⚠️ Compila i campi obbligatori",
-            "invalidEmailProvider": "❌ Provider email non valido (Usa Gmail, Outlook, ecc.)",
-            "sending": "Invio in corso...",
-            "messageSent": "Messaggio inviato con successo! ✨",
-            "sendError": "❌ Errore durante l'invio"
-        },
-        "header": {
-            "navHome": "Home",
-            "navAboutUs": "Chi Siamo",
-            "navFutureVisions": "Prospettive Future",
-            "navReserchAndDevelopment": "Ricerca & Sviluppo",
-            "navConsultancy": "Consulenza",
-            "navContactUs": "Contattaci"
-        },
-        "footer": {
-            "spanSocial": "Connettiti con noi sui social:",
-            "siteTitle": "Titolo Sito",
-            "siteDesc": "Descrizione Sito",
-            "skills": {
-                "title": "Competenze",
-                "ai": "AI & Deep Learning",
-                "systems": "Sistemi & Cloud",
-                "iot": "Domotica & IoT",
-                "finance": "Finanza Quantitativa"
+    "notifications": {
+      "formInvalidFields": "⚠️ You have to complete all the fields.",
+      "invalidEmailProvider": "❌ Email provider is not valid",
+      "sending": "Sending",
+      "messageSent": "The form has been sent sucessfully! ✨",
+      "sendError": "❌ Something went wrong"
+    },
+    "header": {
+      "navHome": "Home",
+      "navAboutUs": "About Us",
+      "navFutureVisions": "Future Visions",
+      "navReserchAndDevelopment": "Research & Development",
+      "navConsultancy": "Consultancy",
+      "navContactUs": "Contact Us"
+    },
+    "footer": {
+      "spanSocial": "Connect with us on social media:",
+      "skills": {
+        "title": "Skills",
+        "ai": "AI & Deep Learning",
+        "systems": "System & Cloud",
+        "iot": "Home Automation & IoT",
+        "finance": "Quantitative Finance"
+      },
+      "navigation": {
+        "title": "Navigation",
+        "home": "Homepage",
+        "aboutUs": "About Us",
+        "futureVisions": "Future Visions",
+        "reserchAndDevelopment": "Research & Development",
+        "consultancy": "Consultancy",
+        "contactUs": "Contact Us"
+      },
+      "contact": {
+        "title": "Contact",
+        "avenue": "69 Sparano Avenue Right There, Bari, Italy (ITS Grand Tier)",
+        "email": "info@ourdistro.dev",
+        "tel": "+39 012 345 678"
+      }
+    },
+    "homepage": {
+      "heroSec": {
+        "title": "Our Distro",
+        "subtitle": "Order without authority",
+        "paragraph": "There is no future to wait for, only a future to build.",
+        "button": "Explore the vision"
+      },
+      "aboutUsSec": {
+        "title": "The ecosystem",
+        "paragraph": "We don’t seek a place in an org chart, we live our own ecosystem.",
+        "button": "About Us"
+      },
+      "reserchAndDevelopmentSec": {
+        "title": "Engineering solutions",
+        "paragraph": "Our R&D department is a permanent lab where utopia becomes a prototype.",
+        "button": "Reserch & Development"
+      },
+      "newsAndConsultancySec": {
+        "title": "We want to share and collaborate.",
+        "paragraph": "News and info on our surroundings, and much more.",
+        "button": "Stay Updated"
+      },
+      "contactUsSec": {
+        "title": "Connect with us",
+        "paragraph": "Message us, or choose to become part of our ecosystem.",
+        "button": "Contact Us"
+      }
+    },
+    "aboutUsPage": {
+      "heroSec": {
+        "title": "Our Ecosystem",
+        "paragraph": "Hierarchies slow down thinking. Labels limit talent. This is our collective: a network of interconnected nodes, where chronological age takes precedence over competence, and authority comes solely from the code you write and the problems you solve."
+      },
+      "teamSec": {
+        "title": "The Operational Nodes",
+        "subtitle": "Collective Intelligence Runnin",
+        "paragraph": "The true strength of a network lies not in its core, but in the ability of its nodes to communicate. We are twenty-seven diverse minds, fused into a single collective. From training artificial intelligence to soldering hardware components, each member brings their own fragment of vision. In Our Distro, we have eliminated the concept of 'employee' to embrace that of 'creator'. We operate without imposed hierarchies, guided only by shared responsibility and the hunger to translate our utopias into real, functioning architectures.",
+        "card": {
+          "tutors": [
+            {
+              "name": "Alessandra",
+              "surname": "Raspatelli",
+              "aka": "The Queen of Signatures",
+              "role": "Jun... Human Resources",
+              "quote": "The brain has about $10^{14}$ synapses and we only live for about $10^9$ seconds."
             },
-            "navigation": {
-                "title": "Navigazione",
-                "home": "Homepage",
-                "aboutUs": "Chi Siamo",
-                "futureVisions": "Prospettive Future",
-                "reserchAndDevelopment": "Ricerca & Sviluppo",
-                "consultancy": "Consulenza",
-                "contactUs": "Contattaci"
+            {
+              "name": "Michele",
+              "surname": "Scalera",
+              "aka": "Big Head",
+              "role": "UML/WEB Professor",
+              "quote": "Our intelligence is what makes us human, and AI is an extension of that quality."
             },
-            "contact": {
-                "title": "Contatti",
-                "avenue": "Via Sparano sta la 69, Bari, Italia (Loggione ITS)",
-                "email": "info@ourdistro.dev",
-                "tel": "+39 012 345 678"
+            {
+              "name": "Leonardo",
+              "surname": "Chiarella",
+              "aka": "Leo Fender",
+              "role": "Soft Skills Professor",
+              "quote": "Educating with a smile towards simplicity"
+            },
+            {
+              "name": "Antonello",
+              "surname": "Magaletti",
+              "aka": "The Mind Behind AlphaGo",
+              "role": "Mathematics and Statistics Professor",
+              "quote": "AI could be the most transformative technology in human history."
+            },
+            {
+              "name": "Michele",
+              "surname": "Salierno",
+              "aka": "Super Quark",
+              "role": "English Language Professor",
+              "quote": "Aspreeeeeen"
+            },
+            {
+              "name": "Vito",
+              "surname": "Carulli",
+              "aka": "The Cloud Transformer",
+              "role": "IT Law Professor",
+              "quote": "We are in a mobile-first, cloud-first world."
             }
-        },
-        "homepage": {
-            "heroSec": {
-                "title": "Our Distro",
-                "subtitle": "L'ordine senza potere",
-                "paragraph": "Non c'è un futuro da attendere, c'è solo un futuro da costruire.",
-                "button": "Esplora la visione"
+          ],
+          "programmers": [
+            {
+              "name": "Alessandro",
+              "surname": "Foggetti",
+              "aka": "The Linux God",
+              "role": "Creator of Linux & Git",
+              "quote": "Talk is cheap. Show me the code."
             },
-            "aboutUsSec": {
-                "title": "L'ecosistema",
-                "paragraph": "Non cerchiamo un posto in un organigramma, viviamo il nsotro ecosistema.",
-                "button": "Chi Siamo"
+            {
+              "name": "Andrea",
+              "surname": "Alduino",
+              "aka": "Father of C",
+              "role": "Creator of C & Co-creator of Unix",
+              "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
             },
-            "reserchAndDevelopmentSec": {
-                "title": "Inventiamo soluzioni",
-                "paragraph": "Il nostro dipartimento di R&D è un laboratorio permanente dove l'utopia diventa prototipo.",
-                "button": "Ricerca &  Sviluppo"
+            {
+              "name": "Andrea",
+              "surname": "Piangivino",
+              "aka": "The Master of Art",
+              "role": "Art Director",
+              "quote": "It's not a bug, it's an avant-garde stylistic choice."
             },
-            "newsAndConsultancySec": {
-                "title": "Desideriamo condividere e confrontarci",
-                "paragraph": "News e informazioni su tutto quello che cic circonda e non solo.",
-                "button": "Resta Informato"
+            {
+              "name": "Angelo",
+              "surname": "Schena",
+              "aka": "Benevolent Dictator For Life",
+              "role": "Creator of Python",
+              "quote": "Code is read much more often than it is written."
             },
-            "contactUsSec": {
-                "title": "Come Raggiungerci",
-                "paragraph": "Scrivici oppure scegli di entrare a far parte del nostro ecosistema.",
-                "button": "Contattaci"
+            {
+              "name": "Antonella",
+              "surname": "Pesare",
+              "aka": "Mother of C++",
+              "role": "Creator of C++",
+              "quote": "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+            },
+            {
+              "name": "Antonio",
+              "surname": "Straziota",
+              "aka": "The AWS Architect",
+              "role": "CEO of Amazon",
+              "quote": "The cloud is the new normal for enterprise IT."
+            },
+            {
+              "name": "Aspreno Lapo",
+              "surname": "Pesce",
+              "aka": "Piero Angela",
+              "role": "CEO of Google Cloud",
+              "quote": "Every company in every industry is becoming a technology company."
+            },
+            {
+              "name": "Christian",
+              "surname": "Losito",
+              "aka": "Dr. Werner",
+              "role": "CTO of Amazon",
+              "quote": "Everything fails, all the time. Design for failure."
+            },
+            {
+              "name": "Davide",
+              "surname": "Barbieri",
+              "aka": "Hybrid Cloud Champion",
+              "role": "CEO of IBM",
+              "quote": "Hybrid cloud is where every enterprise will operate."
+            },
+            {
+              "name": "Edoardo",
+              "surname": "Martino",
+              "aka": "The One Who Used Linux",
+              "role": "Automatic Distro Vending Machine",
+              "quote": "I'll use anything, as long as it's not Windows"
+            },
+            {
+              "name": "Enrico Pasquale",
+              "surname": "De Candia",
+              "aka": "The Nest Co-Founder",
+              "role": "Co-Founder of Nest Labs",
+              "quote": "The home should adapt to you, not the other way around."
+            },
+            {
+              "name": "Fabio",
+              "surname": "Balenzano",
+              "aka": "SmartThings Pioneer",
+              "role": "Co-Founder of SmartThings",
+              "quote": "The smart home is about making everyday life simpler and more efficient."
+            },
+            {
+              "name": "Fabio",
+              "surname": "Scarpa",
+              "aka": "Z-Wave Guru",
+              "role": "Director of Z-Wave Alliance",
+              "quote": "Interoperability is the key to a truly connected home."
+            },
+            {
+              "name": "Federico",
+              "surname": "Di Leo",
+              "aka": "Home Assistant Creator",
+              "role": "Founder of Nabu Casa",
+              "quote": "Your home automation should work locally, privately, and without the cloud."
+            },
+            {
+              "name": "Francesco",
+              "surname": "De Santis",
+              "aka": "The Quant King",
+              "role": "Founder of Renaissance Technologies",
+              "quote": "We don't override the models. If you start doing that, you get in trouble."
+            },
+            {
+              "name": "Francesco",
+              "surname": "Pepe",
+              "aka": "Father of Quantitative Investing",
+              "role": "Mathematician & Hedge Fund Manager",
+              "quote": "The market is beatable, but only with math and discipline."
+            },
+            {
+              "name": "Francesco",
+              "surname": "Picciotti",
+              "aka": "The Black of Black-Scholes",
+              "role": "Financial Economist",
+              "quote": "Markets look a lot less efficient from the banks of the Hudson than the banks of the Charles."
+            },
+            {
+              "name": "Gianvito",
+              "surname": "Brunazzi",
+              "aka": "Options Pricing Legend",
+              "role": "Nobel Laureate in Economics",
+              "quote": "Risk is the uncertainty of future outcomes."
+            },
+            {
+              "name": "Giorgio",
+              "surname": "Smaldino",
+              "aka": "The King of Quants",
+              "role": "Founder of D.E. Shaw & Co.",
+              "quote": "Mathematics is the language the market speaks if you listen carefully enough."
+            },
+            {
+              "name": "Giuseppe",
+              "surname": "Calabrese",
+              "aka": "Systems Architect",
+              "role": "Senior Developer",
+              "quote": "Scaling is not just a feature, it's a mindset."
+            },
+            {
+              "name": "Leonardo",
+              "surname": "Chiarella",
+              "aka": "The Script Master",
+              "role": "Automation Engineer",
+              "quote": "If you do it twice, automate it."
+            },
+            {
+              "name": "Matteo",
+              "surname": "Caputo",
+              "aka": "The Phishing Master",
+              "role": "CSS Cloning Manager",
+              "quote": "Scamming is an art"
+            },
+            {
+              "name": "Michele",
+              "surname": "Garofalo",
+              "aka": "The Master of Cards",
+              "role": "Software Architect",
+              "quote": "Frontend, backend, it's all just data in motion."
+            },
+            {
+              "name": "Nico",
+              "surname": "Chimienti",
+              "aka": "Inventor of Backdoors",
+              "role": "Head of Cyber Security",
+              "quote": "They used to call me the hackers' nightmare"
+            },
+            {
+              "name": "Nicolò",
+              "surname": "Gigante",
+              "aka": "Lord of the Signatures",
+              "role": "Precarious Assistant (Unpaid)",
+              "quote": "What about you? Did you sign in?"
+            },
+            {
+              "name": "Gherard",
+              "surname": "Pirretti",
+              "aka": "Database Wizard",
+              "role": "Data Engineer",
+              "quote": "Data is the new oil, and SQL is the drill."
+            },
+            {
+              "name": "Alessandro",
+              "surname": "Cramarossa",
+              "aka": "I work at Ferrari",
+              "role": "Vending Machine Manager",
+              "quote": "Ferrari is terrible"
             }
-        },
-        "aboutUsPage": {
-            "heroSec": {
-                "title": "Il Nostro Ecosistema",
-                "paragraph": "Le gerarchie rallentano il pensiero. Le etichette limitano il talento. Questo è il nostro collettivo: una rete di nodi interconnessi, dove l'età anagrafica cede il passo alla competenza e l'autorità deriva esclusivamente dal codice che scrivi e dai problemi che risolvi."
-            },
-            "teamSec": {
-                "title": "I Nodi Operativi",
-                "subtitle":"L'intelligenza collettiva in esecuzione",
-                "paragraph":"La vera forza di una rete non sta nel centro, ma nella capacità dei suoi nodi di comunicare. Siamo ventisette menti eterogenee, fuse in un unico collettivo. Dall'addestramento di intelligenze artificiali alla saldatura di componenti hardware, ogni membro porta il suo frammento di visione. In Our Distro abbiamo eliminato il concetto di 'dipendente' per abbracciare quello di 'creatore'. Operiamo senza gerarchie imposte, guidati solo dalla responsabilità condivisa e dalla fame di tradurre le nostre utopie in architetture reali e funzionanti.",
-                "card": {
-                    "tutors": [
-                        {
-                            "name": "Alessandra",
-                            "surname": "Raspatelli",
-                            "aka": "La regina delle firme",
-                            "role": "Risorse della giun... umane",
-                            "quote": "Il cervello ha circa $10^{14}$ sinapsi e viviamo solo per circa $10^9$ secondi."
-                        },
-                        {
-                            "name": "Michele",
-                            "surname": "Scalera",
-                            "aka": "Scapocchione",
-                            "role": "Professore UML/WEB",
-                            "quote": "La nostra intelligenza è ciò che ci rende umani, e l'IA è un'estensione di quella qualità."
-                        },
-                        {
-                            "name": "Leonardo",
-                            "surname": "Chiarella",
-                            "aka": "Leo Fender",
-                            "role": "Professore Soft Skill",
-                            "quote": "Educare sorridendo alla semplicità"
-                        },
-                        {
-                            "name": "Antonello",
-                            "surname": "Magaletti",
-                            "aka": "La mente dietro AlphaGo",
-                            "role": "Professore Matematica e statistica",
-                            "quote": "L'IA potrebbe essere la tecnologia più trasformativa nella storia dell'umanità."
-                        },
-                        {
-                            "name": "Michele",
-                            "surname": "Salierno",
-                            "aka": "Super quark",
-                            "role": "Professore Lingua Inglese",
-                            "quote": "Aspreeeeeen"
-                        },
-                        {
-                            "name": "Vito",
-                            "surname": "Carulli",
-                            "aka": "Il Trasformatore del Cloud",
-                            "role": "Professore Diritto informatico",
-                            "quote": "Siamo in un mondo che mette al primo posto il mobile e il cloud."
-                        }
-                    ],
-                    "programmers": [
-                        {
-                            "name": "Alessandro",
-                            "surname": "Foggetti",
-                            "aka": "Il Dio di Linux",
-                            "role": "Creatore di Linux & Git",
-                            "quote": "Le chiacchiere contano poco. Mostrami il codice."
-                        },
-                        {
-                            "name": "Andrea",
-                            "surname": "Alduino",
-                            "aka": "Padre del C",
-                            "role": "Creatore di C & Co-creatore di Unix",
-                            "quote": "UNIX è fondamentalmente un sistema operativo semplice, ma devi essere un genio per capirne la semplicità."
-                        },
-                        {
-                            "name": "Andrea",
-                            "surname": "Piangivino",
-                            "aka": "Il Maestro Dell'Arte",
-                            "role": "Direttore Artistico",
-                            "quote": "Non è un bug, è una scelta stilistica d'avanguardia"
-                        },
-                        {
-                            "name": "Angelo",
-                            "surname": "Schena",
-                            "aka": "Dittatore Benevolo a Vita",
-                            "role": "Creatore di Python",
-                            "quote": "Il codice viene letto molto più spesso di quanto non venga scritto."
-                        },
-                        {
-                            "name": "Antonella",
-                            "surname": "Pesare",
-                            "aka": "Madre del C++",
-                            "role": "Creatrice di C++",
-                            "quote": "Esistono solo due tipi di linguaggi: quelli di cui la gente si lamenta e quelli che nessuno usa."
-                        },
-                        {
-                            "name": "Antonio",
-                            "surname": "Straziota",
-                            "aka": "L'Architetto AWS",
-                            "role": "CEO di Amazon",
-                            "quote": "Il cloud è la nuova normalità per l'informatica aziendale."
-                        },
-                        {
-                            "name": "Aspreno Lapo",
-                            "surname": "Pesce",
-                            "aka": "Piero Angela",
-                            "role": "CEO di Google Cloud",
-                            "quote": "Ogni azienda, in ogni settore, sta diventando un'azienda tecnologica."
-                        },
-                        {
-                            "name": "Christian",
-                            "surname": "Losito",
-                            "aka": "Dr. Werner",
-                            "role": "CTO di Amazon",
-                            "quote": "Tutto fallisce, continuamente. Progetta pensando al fallimento."
-                        },
-                        {
-                            "name": "Davide",
-                            "surname": "Barbieri",
-                            "aka": "Campione del Cloud Ibrido",
-                            "role": "CEO di IBM",
-                            "quote": "Il cloud ibrido è il luogo in cui opererà ogni impresa."
-                        },
-                        {
-                            "name": "Edoardo",
-                            "surname": "Martino",
-                            "aka": "Colui che usava Linux",
-                            "role": "Distributore automatico di Distro",
-                            "quote": "Uso tutto basta che non si tratta di Windows"
-                        },
-                        {
-                            "name": "Enrico Pasquale",
-                            "surname": "De Candia",
-                            "aka": "Il Co-Fondatore di Nest",
-                            "role": "Co-Fondatore di Nest Labs",
-                            "quote": "La casa dovrebbe adattarsi a te, non il contrario."
-                        },
-                        {
-                            "name": "Fabio",
-                            "surname": "Balenzano",
-                            "aka": "Pioniere di SmartThings",
-                            "role": "Co-Fondatore di SmartThings",
-                            "quote": "La casa intelligente serve a rendere la vita quotidiana più semplice ed efficiente."
-                        },
-                        {
-                            "name": "Fabio",
-                            "surname": "Scarpa",
-                            "aka": "Guru di Z-Wave",
-                            "role": "Direttore di Z-Wave Alliance",
-                            "quote": "L'interoperabilità è la chiave per una casa davvero connessa."
-                        },
-                        {
-                            "name": "Federico",
-                            "surname": "Di Leo",
-                            "aka": "Creatore di Home Assistant",
-                            "role": "Fondatore di Nabu Casa",
-                            "quote": "La tua domotica dovrebbe funzionare localmente, privatamente e senza il cloud."
-                        },
-                        {
-                            "name": "Francesco",
-                            "surname": "De Santis",
-                            "aka": "Il Re dei Quant",
-                            "role": "Fondatore di Renaissance Technologies",
-                            "quote": "Non scavalchiamo i modelli. Se inizi a farlo, finisci nei guai."
-                        },
-                        {
-                            "name": "Francesco",
-                            "surname": "Pepe",
-                            "aka": "Padre degli Investimenti Quantitativi",
-                            "role": "Matematico & Gestore di Hedge Fund",
-                            "quote": "Il mercato è battibile, ma solo con la matematica e la disciplina."
-                        },
-                        {
-                            "name": "Francesco",
-                            "surname": "Picciotti",
-                            "aka": "L'infermiere",
-                            "role": "Addetto All'infermieria",
-                            "quote": "Spostatevi mi sta sanguinando il naso."
-                        },
-                        {
-                            "name": "Gianvito",
-                            "surname": "Brunazzi",
-                            "aka": "Leggenda del Pricing delle Opzioni",
-                            "role": "Premio Nobel per l'Economia",
-                            "quote": "Il rischio è l'incertezza dei risultati futuri."
-                        },
-                        {
-                            "name": "Giorgio",
-                            "surname": "Smaldino",
-                            "aka": "Il Re dei Quant",
-                            "role": "Fondatore di D.E. Shaw & Co.",
-                            "quote": "La matematica è la lingua che parla il mercato, se sai ascoltare con attenzione."
-                        },
-                        {
-                            "name": "Giuseppe",
-                            "surname": "Calabrese",
-                            "aka": "Geoilier",
-                            "role": "Cantante",
-                            "quote": "Scalare non è solo una funzionalità, è una mentalità."
-                        },
-                        {
-                            "name": "Leonardo",
-                            "surname": "Chiarella",
-                            "aka": "Il Maestro degli Script",
-                            "role": "Ingegnere dell'Automazione",
-                            "quote": "Se lo fai due volte, automatizzalo."
-                        },
-                        {
-                            "name": "Matteo",
-                            "surname": "Caputo",
-                            "aka": "Il Mastro del Phishing",
-                            "role": "Responsabile clonazione CSS",
-                            "quote": "Truffare è un'arte"
-                        },
-                        {
-                            "name": "Michele",
-                            "surname": "Garofalo",
-                            "aka": "Il Mastro delle Card",
-                            "role": "Architetto del Software",
-                            "quote": "Frontend, backend, è tutto solo dati in movimento."
-                        },
-                        {
-                            "name": "Nico",
-                            "surname": "Chimienti",
-                            "aka": "Inventore Delle Backdoor",
-                            "role": "Responsabile della Cyber Security",
-                            "quote": "Mi chiamavano l'incubo degli hacker"
-                        },
-                        {
-                            "name": "Nicolò",
-                            "surname": "Gigante",
-                            "aka": "Signore delle Firme",
-                            "role": "Assistente Precario (Non Pagato)",
-                            "quote": "Eh tu? L'hai messa la firma ?"
-                        },
-                        {
-                            "name": "Gherard",
-                            "surname": "Pirretti",
-                            "aka": "Mago dei Database",
-                            "role": "Ingegnere dei Dati",
-                            "quote": "I dati sono il nuovo petrolio, e SQL è la trivella."
-                        },
-                        {
-                            "name": "Alessandro",
-                            "surname": "Cramarossa",
-                            "aka": "Lavoro a Ferrari",
-                            "role": "Responsabile delle Macchinette",
-                            "quote": "Che schifo Ferrari"
-                        }
-                    ]
-                }
-            },
-            "advisorSec": {
-                "title": "I Custodi della Conoscenza",
-                "subtitle":"L'architettura solida dell'esperienza",
-                "paragraph": "Nessun ecosistema prospera senza radici solide. I nostri Advisor non sono manager che impartiscono ordini, ma veterani del codice e dell'ingegneria che supervisionano i metodi, garantiscono la solidità delle architetture e ci sfidano costantemente a superare i nostri limiti. Sono la rete di sicurezza che ci permette di osare."
-            }
-        },
-        "futureVisionsPage": {
-            "heroSec": {
-                "title": "Il nostro futuro",
-                "subtitle": "L'utopia come ambiente di test",
-                "paragraph": "Non fuggiamo dalla realtà. Ne stiamo compilando una parallela, più degna",
-                "button": "Esplora la visione"
-            },
-            "firstSec": {
-                "title": "La Conoscenza è l'Unica Infrastruttura",
-                "paragraph": "Il pensiero utopico non è una fuga ingenua, ma la costruzione metodica di un'alternativa. In Our Distro, crediamo che la libertà non si trovi semplicemente nel codice open-source, ma in una mente strutturalmente aperta. La vera tecnologia emancipa, non controlla.  Vogliamo abolire l'estrazione sistemica e lo sfruttamento del dato e dell'utente.  Stiamo ingegnerizzando sistemi dove l'ordine nasce dalla cooperazione volontaria e non dal potere centralizzato di un server o di un consiglio di amministrazione. Un ecosistema digitale in cui l'unica autorità riconosciuta è la forza della ragione, del calcolo esatto e dell'esempio."
-            },
-            "secondSec": {
-                "title": "Il Reset Necessario",
-                "paragraphs": {
-                    "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
-                    "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
-                    "application": "Noi applichiamo questo principio all'architettura informatica.",
-                    "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
-                    "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
-                }
-            },
-            "thirdSec": {
-                "title": "Il futuro non si attende. Si progetta",
-                "paragraphs": {
-                    "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
-                    "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
-                    "application": "Noi applichiamo questo principio all'architettura informatica.",
-                    "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
-                    "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
-                },
-                "buttonResAndDev": "Esplora il nostro R&D",
-                "buttonConsultancy": "O scopri come applichiamo questi principi nella Consulenza"
-            }
-        },
-        "reserchAndDevelopmentPage": {
-            "heroSec": {
-                "title": "Ricerca & sviluppo",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-                "button": "Scopri di più"
-            },
-            "aiSec": {
-                "title": "Intelligenza artificiale",
-                "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "greenEnergySec": {
-                "title": "Algoritmi a Bassa Intensità Energetica & Software Refactoring",
-                "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "homeAutomationSec": {
-                "title": "Domotica",
-                "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "quantFinanceSec": {
-                "title": "Finanza quantitativa",
-                "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-                "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            }
-        },
-        "consultancyPage": {
-            "heroSec": {
-                "title": "Consulenza?",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "firstSec": {
-                "title": "Altro",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            }
-        },
-        "contactUsPage": {
-            "contactSec": {
-                "title": "Contattaci",
-                "paragraph": "Hai un progetto in mente o una necessità tecnica da risolvere?, Siamo pronti ad ascoltarti. Sviluppiamo software su misura, incluse soluzioni dedicate a hardware specifici.",
-                "form": {
-                    "labelName": "Nome*",
-                    "labelSurname": "Cognome*",
-                    "labelEmail": "Email*",
-                    "labelTel": "Telefono*",
-                    "labelMessages": "Lasciaci un messaggio",
-                    "placeholder": {
-                        "name": "Nome...",
-                        "surname": "Cognome...",
-                        "email": "Email...",
-                        "tel": "Numero...",
-                        "messages": "Descrivi la tua idea..."
-                    }
-                },
-                "contactUsSwitch": "Contattaci"
-            },
-            "workWithUsSec": {
-                "title": "lavora con noi",
-                "paragraph": "Sei uno sviluppatore, un designer o un tecnico con la passione per l'innovazione?, Siamo sempre alla ricerca di nuovi talenti da inserire nel nostro team. Inviaci la tua candidatura e inserisci Quali sono le Tue Competenze!",
-                "form": {
-                    "labelName": "Nome*",
-                    "labelSurname": "Cognome*",
-                    "labelEmail": "Email*",
-                    "labelTel": "Telefono*",
-                    "labelSkills": "Competenze*",
-                    "placeholder": {
-                        "name": "Nome...",
-                        "surname": "Cognome...",
-                        "email": "Email...",
-                        "tel": "Telefono..."
-                    }
-                },
-                "select": {
-                    "optionSelect": "Scegli...",
-                    "optionHumanReso": "Risorse Umane",
-                    "optionDevFrontEnd": "Sviluppo Front-End",
-                    "optionDevBackEnd": "Sviluppo Back-End",
-                    "optionMarketing": "Marketing"
-                },
-                "buttons": {
-                    "submit": "Invia",
-                    "reset": "Resetta"
-                },
-                "workWithUsSwitch": "Lavora Con Noi"
-            }
-        },
-        "404Page": {
-            "paragraph": "La pagina che stai cercando non esiste!",
-            "button": "Torna alla homepage"
+          ]
         }
+      },
+      "advisorSec": {
+        "title": "The Guardians of Knowledge",
+        "subtitle": "The solid architecture of experience",
+        "paragraph": "No ecosystem thrives without solid roots. Our Advisors aren't managers who give orders, but veterans of code and engineering who oversee methods, ensure the robustness of architectures, and constantly challenge us to push our limits. They are the safety net that allows us to dare."
+      }
+    },
+    "futureVisionsPage": {
+      "heroSec": {
+        "title": "Our future",
+        "subtitle": "Utopia as a test environment",
+        "paragraph": "We are not escaping reality. We are compiling a parallel one, more worthy.",
+        "button": "Explore the vision"
+      },
+      "firstSec": {
+        "title": "Knowledge is the Only Infrastructure",
+        "paragraph": "Utopian thinking is not an naive escape, but the methodical construction of an alternative. At Our Distro, we believe that freedom is found not just in open-source code, but in a structurally open mind. True technology emancipates; it does not control. We seek to abolish systemic extraction and the exploitation of both data and users. We are engineering systems where order arises from voluntary cooperation, rather than the centralized power of a server or a boardroom. A digital ecosystem where the only recognized authority is the force of reason, exact calculation, and leading by example."
+      },
+      "secondSec": {
+        "title": "The Necessary Reset",
+        "paragraphs": {
+          "industry": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users.",
+          "quote": "Michail Bakunin argued that 'the passion for destruction is also a creative passion.'",
+          "application": "We apply this principle to computer architecture.",
+          "action": "Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism.",
+          "conclusion": "It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
+        }
+      },
+      "thirdSec": {
+        "title": "The future is not waited for. It is designed.",
+        "paragraphs": {
+          "industry": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users.",
+          "quote": "Michail Bakunin argued that 'the passion for destruction is also a creative passion.'",
+          "application": "We apply this principle to computer architecture.",
+          "action": "Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism.",
+          "conclusion": "It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
+        },
+        "buttonResAndDev": "Explore our R&D",
+        "buttonConsultancy": "Or discover how we apply these principles in our Consultancy"
+      }
+    },
+    "reserchAndDevelopmentPage": {
+      "heroSec": {
+        "title": "Reserch & Development",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "button": "Read more"
+      },
+      "aiSec": {
+        "title": "Artificial Intelligence",
+        "paragraph": "There is no future to wait for, only one to discover",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "greenEnergySec": {
+        "title": "Low-Energy Intensity Algorithms & Software Refactoring",
+        "paragraph": "There is no future to wait for, only one to discover",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "homeAutomationSec": {
+        "title": "House Automation",
+        "paragraph": "There is no future to wait for, only one to discover",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "quantFinanceSec": {
+        "title": "Quantitative Finance",
+        "paragraph": "There is no future to wait for, only one to discover",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      }
+    },
+    "consultancyPage": {
+      "heroSec": {
+        "title": "Consultancy?",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "firstSec": {
+        "title": "Scapocchione",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      }
+    },
+    "contactUsPage": {
+      "contactSec": {
+        "title": "Contact Us",
+        "paragraph": "Have a project in mind or a technical need to solve?, We are ready to listen. We develop custom software, including solutions dedicated to specific hardware.",
+        "form": {
+          "labelName": "Name*",
+          "labelSurname": "Surname*",
+          "labelEmail": "Email*",
+          "labelTel": "Phone Number*",
+          "labelMessages": "Leave us a message",
+          "placeholder": {
+            "name": "Name...",
+            "surname": "Surname...",
+            "email": "Email...",
+            "tel": "Phone number...",
+            "messages": "Describe your idea..."
+          }
+        },
+        "contactUsSwitch": "Contact Us"
+      },
+      "workWithUsSec": {
+        "title": "Work With Us",
+        "paragraph": "Are you a developer, a designer, or a technician with a passion for innovation?, We are always looking for new talent to join our team. Send us your application and tell us about your skills!",
+        "form": {
+          "labelName": "Name*",
+          "labelSurname": "Surname*",
+          "labelEmail": "Email*",
+          "labelTel": "Phone Number*",
+          "labelSkills": "Skills*",
+          "placeholder": {
+            "name": "Name...",
+            "surname": "Surname...",
+            "email": "Email...",
+            "tel": "Phone number..."
+          }
+        },
+        "select": {
+          "optionSelect": "Select...",
+          "optionHumanReso": "Human Resources",
+          "optionDevFrontEnd": "Front-End Development",
+          "optionDevBackEnd": "Back-End Development",
+          "optionMarketing": "Marketing"
+        },
+        "buttons": {
+          "submit": "Submit",
+          "reset": "Reset"
+        },
+        "workWithUsSwitch": "Work With Us"
+      }
+    },
+    "404Page": {
+      "paragraph": "The page your are looking for does not exist!",
+      "button": "Return to homepage"
     }
+  },
+  "it": {
+    "allLang": {
+      "enLangName": "ENG 🇺🇸",
+      "itLangName": "ITA 🇮🇹"
+    },
+    "notifications": {
+      "formInvalidFields": "⚠️ Compila i campi obbligatori",
+      "invalidEmailProvider": "❌ Provider email non valido (Usa Gmail, Outlook, ecc.)",
+      "sending": "Invio in corso...",
+      "messageSent": "Messaggio inviato con successo! ✨",
+      "sendError": "❌ Errore durante l'invio"
+    },
+    "header": {
+      "navHome": "Home",
+      "navAboutUs": "Chi Siamo",
+      "navFutureVisions": "Prospettive Future",
+      "navReserchAndDevelopment": "Ricerca & Sviluppo",
+      "navConsultancy": "Consulenza",
+      "navContactUs": "Contattaci"
+    },
+    "footer": {
+      "spanSocial": "Connettiti con noi sui social:",
+      "siteTitle": "Titolo Sito",
+      "siteDesc": "Descrizione Sito",
+      "skills": {
+        "title": "Competenze",
+        "ai": "AI & Deep Learning",
+        "systems": "Sistemi & Cloud",
+        "iot": "Domotica & IoT",
+        "finance": "Finanza Quantitativa"
+      },
+      "navigation": {
+        "title": "Navigazione",
+        "home": "Homepage",
+        "aboutUs": "Chi Siamo",
+        "futureVisions": "Prospettive Future",
+        "reserchAndDevelopment": "Ricerca & Sviluppo",
+        "consultancy": "Consulenza",
+        "contactUs": "Contattaci"
+      },
+      "contact": {
+        "title": "Contatti",
+        "avenue": "Via Sparano sta la 69, Bari, Italia (Loggione ITS)",
+        "email": "info@ourdistro.dev",
+        "tel": "+39 012 345 678"
+      }
+    },
+    "homepage": {
+      "heroSec": {
+        "title": "Our Distro",
+        "subtitle": "L'ordine senza potere",
+        "paragraph": "Non c'è un futuro da attendere, c'è solo un futuro da costruire.",
+        "button": "Esplora la visione"
+      },
+      "aboutUsSec": {
+        "title": "L'ecosistema",
+        "paragraph": "Non cerchiamo un posto in un organigramma, viviamo il nsotro ecosistema.",
+        "button": "Chi Siamo"
+      },
+      "reserchAndDevelopmentSec": {
+        "title": "Inventiamo soluzioni",
+        "paragraph": "Il nostro dipartimento di R&D è un laboratorio permanente dove l'utopia diventa prototipo.",
+        "button": "Ricerca &  Sviluppo"
+      },
+      "newsAndConsultancySec": {
+        "title": "Desideriamo condividere e confrontarci",
+        "paragraph": "News e informazioni su tutto quello che cic circonda e non solo.",
+        "button": "Resta Informato"
+      },
+      "contactUsSec": {
+        "title": "Come Raggiungerci",
+        "paragraph": "Scrivici oppure scegli di entrare a far parte del nostro ecosistema.",
+        "button": "Contattaci"
+      }
+    },
+    "aboutUsPage": {
+      "heroSec": {
+        "title": "Il Nostro Ecosistema",
+        "paragraph": "Le gerarchie rallentano il pensiero. Le etichette limitano il talento. Questo è il nostro collettivo: una rete di nodi interconnessi, dove l'età anagrafica cede il passo alla competenza e l'autorità deriva esclusivamente dal codice che scrivi e dai problemi che risolvi."
+      },
+      "teamSec": {
+        "title": "I Nodi Operativi",
+        "subtitle": "L'intelligenza collettiva in esecuzione",
+        "paragraph": "La vera forza di una rete non sta nel centro, ma nella capacità dei suoi nodi di comunicare. Siamo ventisette menti eterogenee, fuse in un unico collettivo. Dall'addestramento di intelligenze artificiali alla saldatura di componenti hardware, ogni membro porta il suo frammento di visione. In Our Distro abbiamo eliminato il concetto di 'dipendente' per abbracciare quello di 'creatore'. Operiamo senza gerarchie imposte, guidati solo dalla responsabilità condivisa e dalla fame di tradurre le nostre utopie in architetture reali e funzionanti.",
+        "card": {
+          "tutors": [
+            {
+              "name": "Alessandra",
+              "surname": "Raspatelli",
+              "aka": "La regina delle firme",
+              "role": "Risorse della giun... umane",
+              "quote": "Controllate se vi è arrivata la mail"
+            },
+            {
+              "name": "Michele",
+              "surname": "Scalera",
+              "aka": "Mastro del pensiero computazionale",
+              "role": "Professore UML/WEB",
+              "quote": "Ai miei tempi usavamo Cobol e le schede perforate"
+            },
+            {
+              "name": "Leonardo",
+              "surname": "Chiarella",
+              "aka": "Leo Fender",
+              "role": "Professore Soft Skill",
+              "quote": "Educare sorridendo alla semplicità"
+            },
+            {
+              "name": "Antonello",
+              "surname": "Magaletti",
+              "aka": "Calcolatrice umana",
+              "role": "Professore Matematica e statistica",
+              "quote": "Mi raccomando ad usare la modalità apprendimento su gemini"
+            },
+            {
+              "name": "Michele",
+              "surname": "Salierno",
+              "aka": "Super quark",
+              "role": "Professore Lingua Inglese",
+              "quote": "Aspreeeeeen"
+            },
+            {
+              "name": "Vito",
+              "surname": "Carulli",
+              "aka": "Alfonso signorini",
+              "role": "Professore Diritto informatico",
+              "quote": "Te lo posso dire il voto?"
+            }
+          ],
+          "programmers": [
+            {
+              "name": "Alessandro",
+              "surname": "Foggetti",
+              "aka": "Il Dio di Linux",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Andrea",
+              "surname": "Alduino",
+              "aka": "Mastro del margin",
+              "role": "Capostazione",
+              "quote": "Michè a che ora sta il treno?"
+            },
+            {
+              "name": "Andrea",
+              "surname": "Piangivino",
+              "aka": "Il Maestro Dell'Arte",
+              "role": "Direttore Artistico",
+              "quote": "Non è un bug, è una scelta stilistica d'avanguardia"
+            },
+            {
+              "name": "Angelo",
+              "surname": "Schena",
+              "aka": "Il mastro dell'ia",
+              "role": "Responsabile merchandising",
+              "quote": "State tranquilli che ve lo creo io il pupazzo"
+            },
+            {
+              "name": "Antonella",
+              "surname": "Pesare",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Antonio",
+              "surname": "Straziota",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Aspreno Lapo",
+              "surname": "Pesce",
+              "aka": "Piero Angela",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Christian",
+              "surname": "Losito",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Davide",
+              "surname": "Barbieri",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Edoardo",
+              "surname": "Martino",
+              "aka": "Colui che usava Linux",
+              "role": "Distributore automatico di Distro",
+              "quote": "Uso tutto basta che non si tratta di Windows"
+            },
+            {
+              "name": "Enrico Pasquale",
+              "surname": "De Candia",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Fabio",
+              "surname": "Balenzano",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Fabio",
+              "surname": "Scarpa",
+              "aka": "Il broker di fiducia",
+              "role": "Broker dell'oro",
+              "quote": "Adesso investo io"
+            },
+            {
+              "name": "Federico",
+              "surname": "Di Leo",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Francesco",
+              "surname": "De Santis",
+              "aka": "Il madrelingua inglese",
+              "role": "Assistente infiltrato del prof di inglese",
+              "quote": ""
+            },
+            {
+              "name": "Francesco",
+              "surname": "Pepe",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Francesco",
+              "surname": "Picciotti",
+              "aka": "L'infermiere",
+              "role": "Addetto All'infermieria",
+              "quote": "Spostatevi mi sta sanguinando il naso."
+            },
+            {
+              "name": "Gianvito",
+              "surname": "Brunazzi",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Giorgio",
+              "surname": "Smaldino",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Giuseppe",
+              "surname": "Calabrese",
+              "aka": "Geoilier",
+              "role": "Cantante",
+              "quote": ""
+            },
+            {
+              "name": "Leonardo",
+              "surname": "Chiarella",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Matteo",
+              "surname": "Caputo",
+              "aka": "Il Mastro del Phishing",
+              "role": "Responsabile clonazione CSS",
+              "quote": "Truffare è un'arte"
+            },
+            {
+              "name": "Michele",
+              "surname": "Garofalo",
+              "aka": "Il Mastro delle Card",
+              "role": "Architetto del Software",
+              "quote": ""
+            },
+            {
+              "name": "Nico",
+              "surname": "Chimienti",
+              "aka": "Inventore Delle Backdoor",
+              "role": "Responsabile della Cyber Security",
+              "quote": "Mi chiamavano l'incubo degli hacker"
+            },
+            {
+              "name": "Nicolò",
+              "surname": "Gigante",
+              "aka": "Signore delle Firme",
+              "role": "Assistente Precario (Non Pagato)",
+              "quote": "Ehi tu, L'hai messa la firma ?"
+            },
+            {
+              "name": "Gherard",
+              "surname": "Pirretti",
+              "aka": "",
+              "role": "",
+              "quote": ""
+            },
+            {
+              "name": "Alessandro",
+              "surname": "Cramarossa",
+              "aka": "Lavoro a Ferrari",
+              "role": "Responsabile delle Macchinette",
+              "quote": "Che schifo Ferrari"
+            }
+          ]
+        }
+      },
+      "advisorSec": {
+        "title": "I Custodi della Conoscenza",
+        "subtitle": "L'architettura solida dell'esperienza",
+        "paragraph": "Nessun ecosistema prospera senza radici solide. I nostri Advisor non sono manager che impartiscono ordini, ma veterani del codice e dell'ingegneria che supervisionano i metodi, garantiscono la solidità delle architetture e ci sfidano costantemente a superare i nostri limiti. Sono la rete di sicurezza che ci permette di osare."
+      }
+    },
+    "futureVisionsPage": {
+      "heroSec": {
+        "title": "Il nostro futuro",
+        "subtitle": "L'utopia come ambiente di test",
+        "paragraph": "Non fuggiamo dalla realtà. Ne stiamo compilando una parallela, più degna",
+        "button": "Esplora la visione"
+      },
+      "firstSec": {
+        "title": "La Conoscenza è l'Unica Infrastruttura",
+        "paragraph": "Il pensiero utopico non è una fuga ingenua, ma la costruzione metodica di un'alternativa. In Our Distro, crediamo che la libertà non si trovi semplicemente nel codice open-source, ma in una mente strutturalmente aperta. La vera tecnologia emancipa, non controlla.  Vogliamo abolire l'estrazione sistemica e lo sfruttamento del dato e dell'utente.  Stiamo ingegnerizzando sistemi dove l'ordine nasce dalla cooperazione volontaria e non dal potere centralizzato di un server o di un consiglio di amministrazione. Un ecosistema digitale in cui l'unica autorità riconosciuta è la forza della ragione, del calcolo esatto e dell'esempio."
+      },
+      "secondSec": {
+        "title": "Il Reset Necessario",
+        "paragraphs": {
+          "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
+          "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
+          "application": "Noi applichiamo questo principio all'architettura informatica.",
+          "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
+          "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
+        }
+      },
+      "thirdSec": {
+        "title": "Il futuro non si attende. Si progetta",
+        "paragraphs": {
+          "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
+          "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
+          "application": "Noi applichiamo questo principio all'architettura informatica.",
+          "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
+          "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
+        },
+        "buttonResAndDev": "Esplora il nostro R&D",
+        "buttonConsultancy": "O scopri come applichiamo questi principi nella Consulenza"
+      }
+    },
+    "reserchAndDevelopmentPage": {
+      "heroSec": {
+        "title": "Ricerca & sviluppo",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "button": "Scopri di più"
+      },
+      "aiSec": {
+        "title": "Intelligenza artificiale",
+        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "greenEnergySec": {
+        "title": "Algoritmi a Bassa Intensità Energetica & Software Refactoring",
+        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "homeAutomationSec": {
+        "title": "Domotica",
+        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "quantFinanceSec": {
+        "title": "Finanza quantitativa",
+        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      }
+    },
+    "consultancyPage": {
+      "heroSec": {
+        "title": "Consulenza?",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      },
+      "firstSec": {
+        "title": "Altro",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+      }
+    },
+    "contactUsPage": {
+      "contactSec": {
+        "title": "Contattaci",
+        "paragraph": "Hai un progetto in mente o una necessità tecnica da risolvere?, Siamo pronti ad ascoltarti. Sviluppiamo software su misura, incluse soluzioni dedicate a hardware specifici.",
+        "form": {
+          "labelName": "Nome*",
+          "labelSurname": "Cognome*",
+          "labelEmail": "Email*",
+          "labelTel": "Telefono*",
+          "labelMessages": "Lasciaci un messaggio",
+          "placeholder": {
+            "name": "Nome...",
+            "surname": "Cognome...",
+            "email": "Email...",
+            "tel": "Numero...",
+            "messages": "Descrivi la tua idea..."
+          }
+        },
+        "contactUsSwitch": "Contattaci"
+      },
+      "workWithUsSec": {
+        "title": "lavora con noi",
+        "paragraph": "Sei uno sviluppatore, un designer o un tecnico con la passione per l'innovazione?, Siamo sempre alla ricerca di nuovi talenti da inserire nel nostro team. Inviaci la tua candidatura e inserisci Quali sono le Tue Competenze!",
+        "form": {
+          "labelName": "Nome*",
+          "labelSurname": "Cognome*",
+          "labelEmail": "Email*",
+          "labelTel": "Telefono*",
+          "labelSkills": "Competenze*",
+          "placeholder": {
+            "name": "Nome...",
+            "surname": "Cognome...",
+            "email": "Email...",
+            "tel": "Telefono..."
+          }
+        },
+        "select": {
+          "optionSelect": "Scegli...",
+          "optionHumanReso": "Risorse Umane",
+          "optionDevFrontEnd": "Sviluppo Front-End",
+          "optionDevBackEnd": "Sviluppo Back-End",
+          "optionMarketing": "Marketing"
+        },
+        "buttons": {
+          "submit": "Invia",
+          "reset": "Resetta"
+        },
+        "workWithUsSwitch": "Lavora Con Noi"
+      }
+    },
+    "404Page": {
+      "paragraph": "La pagina che stai cercando non esiste!",
+      "button": "Torna alla homepage"
+    }
+  }
 }
