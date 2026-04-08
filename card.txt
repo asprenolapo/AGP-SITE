@@ -32,9 +32,9 @@ Card Mancanti e finite Alunni:
     27. Alessandro Cramarossa	    111 
 
 Card Mancanti e finite Tutor:  
-    1. Alessandra Raspatelli	    000
-    2. Michele Scalera		        000
+    1. Alessandra Raspatelli	    111
+    2. Michele Scalera		        111
     3. Leonardo Chiarella		    111
-    4. Antonello Magaletti		    000
+    4. Antonello Magaletti		    111
     5. Michele Salierno 		    111
-    6. Vito Carulli			        000 
+    6. Vito Carulli			        111
