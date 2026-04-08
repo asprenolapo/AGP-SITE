@@ -9,20 +9,28 @@ export function initSelectArrowAnimation() {
         if (select.dataset.arrowInitialized) return;
         select.dataset.arrowInitialized = "true";
 
-        // Quando clicchi, alterna la classe
+        // Toggle della classe all'apertura
         select.addEventListener('click', () => {
             select.classList.toggle('is-open');
         });
 
-        // Se l'utente clicca fuori, rimuovi la classe (torna a 8px e freccia giù)
+        // Rimuove la classe quando si perde il focus (chiusura cliccando fuori)
         select.addEventListener('blur', () => {
             select.classList.remove('is-open');
         });
 
-        // Quando viene scelta un'opzione, chiudi tutto
+        // Chiude la freccia quando viene selezionata un'opzione
         select.addEventListener('change', () => {
             select.classList.remove('is-open');
             select.blur(); 
         });
+
+        // Supporto extra per tasto ESC o chiusura involontaria
+        select.addEventListener('keydown', (e) => {
+            if (e.key === "Escape") {
+                select.classList.remove('is-open');
+                select.blur();
+            }
+        });
     });
-}
+}   

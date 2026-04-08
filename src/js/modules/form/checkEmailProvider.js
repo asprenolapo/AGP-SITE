@@ -1,4 +1,3 @@
-// modules/form/checkEmailProvider.js
 
 import data from '../../json/mailProviders.json' with { type: 'json' };
 
@@ -11,7 +10,11 @@ export function isValidEmailProvider(email) {
     return officialProviders.includes(domain);
 }
 
-// Lasciamo la funzione vuota per non rompere il contactUs.js che la chiama
+// Restituisce un messaggio di errore standard se il provider non è valido
+export function getInvalidProviderMessage() {
+    return "Il fornitore email non è tra quelli supportati ufficialmente.";
+}
+
 export function initCheckEmailProvider() { 
-    // Non serve fare nulla, i dati sono già caricati dall'import sopra
+    // Dati già caricati tramite import
 }
