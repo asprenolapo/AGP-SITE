@@ -24,6 +24,7 @@
 @import "../modules/footer";
 @import "../modules/buttons";
 @import "../modules/imageFilter";
+@import"../modules/typography";
 
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
@@ -36,65 +37,68 @@
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
 
-#hero {
+#future-hero {
     background-image: 
-    url("../../assets/images/hero-future-vision.webp");
+    url("../../assets/images/immagine6.webp");
 }
 
-
-
-.col,
-.col-12 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding-left: 10%;
-    z-index: 2;
-}
-
-operative-nodes {
-  padding: 10vh 3vw;
-  background-color: darken(root.$deep-black, 2%); // Crea un leggero stacco con l'hero
-}
 
 #first-section {
     background-color: var(--deep-black);
 }
 
-#advisors {
-  padding: 10vh 3vw;
-  background-color: root.$deep-black;
-
-  h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    text-transform: uppercase;
-    color: root.$starlight-text-title;
-    letter-spacing: 1.5px;
-  }
+/* --- 2. MOTORE DEL FLIP --- */
+.flip-card-container {
+    background-color: transparent;
+    width: 450px;
+    height: 600px;
+    perspective: 1000px; /* Profondità 3D */
+    margin: 0 auto; /* Centra nel contenitore di Bootstrap */
 }
 
-.code-window {
-    height: 700px;
-    border: solid 2px;
-    border-radius: 5%;
-    border-color: root.$tech-cyan;
-    overflow: hidden;
+.flip-card-inner {
     position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transform-style: preserve-3d;
 }
 
-.code-scroll {
-    animation: scroll-code 20s linear infinite;
-    color: root.$off-white-text-body;
-    font-family: root.$font-body;
+/* Attiva la rotazione al passaggio del mouse */
+.flip-card-container:hover .flip-card-inner {
+    transform: rotateY(180deg);
 }
 
-@keyframes scroll-code {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-50%);
-    }
+/* Faccia in comune */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Nasconde il retro quando ruota */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+
+.flip-card-back {
+    transform: rotateY(180deg); /* Posiziona il retro già girato */
+}
+/* --- 4. GESTIONE DELLE IMMAGINI --- */
+.card-image {
+    width: 100%; /* Occupa la larghezza disponibile */
+    max-height: 100%; /* Lascia spazio al titolo */
+    object-fit: cover; /* Non deforma l'immagine, la ridimensiona mantenendo le proporzioni */
+    border-radius: 6px;
+}
+
+
+#advisors {
+  background-color: root.$deep-black;
+}
+
