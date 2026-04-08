@@ -16,9 +16,9 @@ section::before {
     inset: 0;
     /* Si posiziona SOPRA lo sfondo della section, ma DIETRO ai suoi contenuti */
     z-index: -1; 
-    background: rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(1px) saturate(130%) brightness(1);
-    -webkit-backdrop-filter: blur(1px) saturate(130%) brightness(1); /* Obbligatorio per Safari/iOS */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    // backdrop-filter: blur(1px) saturate(130%) brightness(1);
+    // -webkit-backdrop-filter: blur(1px) saturate(130%) brightness(1); /* Obbligatorio per Safari/iOS */
     pointer-events: none;
     /* OTTIMIZZAZIONE PERFORMANCE: Forza l'accelerazione hardware (GPU) */
     transform: translateZ(0);
