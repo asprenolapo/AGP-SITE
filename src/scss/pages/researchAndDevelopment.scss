@@ -26,7 +26,6 @@
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
 @import "../modules/mobile";
-@import "../modules/cards/personCard";
 @import "../modules/buttons";
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: research-and-development
@@ -56,14 +55,37 @@
 //   background-image: url("../../assets/images/green-energy.webp");
 // }
 
-.hero-video-wrapper {
+.video-wrapper {
   border: solid 2px root.$tech-cyan;
   border-radius: 5%;
   overflow: hidden;
   position: relative;
+  margin: 10%;
 }
 
-.hero-video {
+video {
   width: 100%;
   display: block;
 }
+
+.counter-box {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  .counter-number {
+    font-weight: 700;
+    color: root.$tech-cyan;
+    line-height: 1;
+  }
+
+  .counter-label {
+    text-align: center;
+    color: root.$tech-cyan;
+    margin: 0;
+  }
+}
+

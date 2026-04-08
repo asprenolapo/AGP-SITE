@@ -14,6 +14,8 @@ import { initBurgerMenu } from '../modules/burgerMenu.js';
 // Languages
 import { initLangSwitcher } from '../modules/langSwitcher.js';
 
+import { initResDevCounters } from '../modules/resDevCounters.js';
+
 //==========================
 // "research-and-development" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
 //==========================
@@ -25,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initBurgerMenu();
 
     initLangSwitcher();
+    initResDevCounters();
 });
 
 // showNotification("Homepage notification");
