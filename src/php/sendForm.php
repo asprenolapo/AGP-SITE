@@ -100,7 +100,7 @@ try {
     // MAIL BODY
     //==========================
 
-    $body  = "<h2>New Form Submission</h2>";
+    $body  = "";
 
 
     //==========================
@@ -127,7 +127,7 @@ try {
     // MAIL CONTENT
     //==========================
 
-    $mail->Subject = "Nuova richiesta dal sito Our Distro -{$formType}";
+    $mail->Subject = "Nuova richiesta dal sito Our Distro - ({$formType})";
 
     $mail->Body    = $body;
     $mail->AltBody = strip_tags(str_replace('<br>', "\n", $body));

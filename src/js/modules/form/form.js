@@ -56,6 +56,7 @@ export function initFormListener() {
           form.reset();
           form.classList.remove("was-validated");
         } else {
+          console.error(data);
           showNotification(lang.sendError, "error");
         }
       })
