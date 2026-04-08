@@ -1,4 +1,4 @@
-// modules/form/checkEmailProvider.js
+import lang from '../../../_data/lang.json' with { type: 'json' };
 
 import data from '../../json/mailProviders.json' with { type: 'json' };
 
@@ -33,7 +33,7 @@ export function initCheckEmailProvider() {
       input.setCustomValidity(""); 
     } else {
       // Non valido: impostiamo un errore. Questo farà fallire form.checkValidity() in form.js
-      input.setCustomValidity("Provider email non supportato."); 
+      input.setCustomValidity("lang.invalidEmailProvider"); // Puoi usare una chiave di traduzione qui se vuoi supportare più lingue
     }
   }
 

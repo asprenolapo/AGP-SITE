@@ -1,6 +1,5 @@
 // initFormListener.js
 import { showNotification } from "../notification.js";
-// import { isValidEmailProvider } from "./checkEmailProvider.js"; // se ti serve usalo
 import { translations, currentLang } from "../langSwitcher.js";
 
 export function initFormListener() {
@@ -15,7 +14,7 @@ export function initFormListener() {
 
       if (!form.checkValidity()) {
         form.classList.add("was-validated");
-        showNotification(lang.formInvalidFields || "Errore: controlla i campi", "error");
+        showNotification(lang.formInvalidFields, "error");
         return;
       }
 
@@ -24,7 +23,7 @@ export function initFormListener() {
 
       // 1. Mostra la notifica di caricamento con lo spinner
       // Usiamo "permanent" così non scompare e attiva lo spinner nel tuo notification.js
-      showNotification(lang.loading || "Invio in corso...", "info", "permanent");
+      showNotification(lang.sending, "info", "permanent");
 
       fetch("/php/sendForm.php", {
         method: "POST",
@@ -33,23 +32,22 @@ export function initFormListener() {
       .then(response => response.text())
       .then(data => {
         // Uso trim() per sicurezza, nel caso il PHP stampi spazi vuoti o ritorni a capo per sbaglio
-        const responseText = data.trim(); 
 
-        if (responseText === "success") {
+        if (data === "success") {
           // 2a. Successo
-          showNotification(lang.success || "Messaggio inviato con successo!", "success");
+          showNotification(lang.messageSent, "success");
           form.reset();
           form.classList.remove("was-validated");
         } else {
           // 2b. Errore dal server (il PHP ha stampato l'errore)
-          console.error("Errore dal server PHP:", responseText);
-          showNotification(lang.error || "Si è verificato un errore durante l'invio", "error");
+          console.error(data);
+          showNotification(lang.sendError, "error");
         }
       })
       .catch(error => {
         // 2c. Errore di rete (es. connessione caduta)
         console.error("Errore di rete/Fetch:", error);
-        showNotification(lang.error || "Errore di connessione", "error");
+        showNotification(lang.sendError, "error");
       })
       .finally(() => {
         // Riabilita il bottone a prescindere da come è andata
