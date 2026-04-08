@@ -41,6 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     initTextAreaAutoExpand();
     initNormalizePhoneNumber();
     initSelectArrowAnimation();
-    initCheckEmailProvider(); // Carica i provider per la validazione
+    initCheckEmailProvider();
     initContactFlip();
 });

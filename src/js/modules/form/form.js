@@ -1,6 +1,7 @@
 // initFormListener.js
 import { showNotification } from "../notification.js";
 import { translations, currentLang } from "../langSwitcher.js";
+import { isValidEmailProvider } from "./checkEmailProvider.js";
 
 export function initFormListener() {
   const forms = document.querySelectorAll(".needs-validation");
@@ -10,34 +11,36 @@ export function initFormListener() {
       event.preventDefault();
 
       const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
-      const lang = (translations && currentLang) ? translations[currentLang].notifications : {};
+      const lang = translations[currentLang].notifications;
 
-      // 2. Validazione campi obbligatori HTML5
+      // 1. Validazione campi obbligatori HTML5
       if (!form.checkValidity()) {
         form.classList.add("was-validated");
-        showNotification(lang.formInvalidFields || "Compila tutti i campi obbligatori", "error");
+
+        // Distingui tra errore provider email e campo mancante/malformato
+        const emailInput = form.querySelector('input[type="email"]');
+        if (emailInput && emailInput.validity.customError) {
+          showNotification(lang.invalidEmailProvider, "error");
+          emailInput.focus();
+        } else {
+          showNotification(lang.formInvalidFields, "error");
+        }
         return;
       }
 
-      // 3. Validazione specifica Provider Email
+      // 2. Validazione provider email (doppio controllo nel caso checkEmailProvider non sia attivo)
       const emailInput = form.querySelector('input[type="email"]');
       if (emailInput && !isValidEmailProvider(emailInput.value)) {
-        showNotification(lang.invalidEmailProvider || "Provider email non supportato", "error");
+        showNotification(lang.invalidEmailProvider, "error");
         emailInput.focus();
         return;
       }
 
-      // 4. Inizio processo di invio
+      // 3. Inizio processo di invio
       if (submitBtn) submitBtn.disabled = true;
-      
-      // Mostra notifica di caricamento (permanente con spinner)
-      showNotification(lang.sending || "Invio in corso...", "success", "permanent");
+      showNotification(lang.sending, "info", "permanent");
 
       const formData = new FormData(form);
-
-      // 1. Mostra la notifica di caricamento con lo spinner
-      // Usiamo "permanent" così non scompare e attiva lo spinner nel tuo notification.js
-      showNotification(lang.sending, "info", "permanent");
 
       fetch("/php/sendForm.php", {
         method: "POST",
@@ -48,18 +51,19 @@ export function initFormListener() {
         return response.text();
       })
       .then((data) => {
-        // La nuova notifica di successo rimuoverà automaticamente quella di caricamento
-        showNotification(lang.formSubmitSuccess || data, "success");
-        
-        form.reset();
-        form.classList.remove("was-validated");
+        if (data.trim() === "success") {
+          showNotification(lang.messageSent, "success");
+          form.reset();
+          form.classList.remove("was-validated");
+        } else {
+          showNotification(lang.sendError, "error");
+        }
       })
       .catch((err) => {
         console.error(err);
-        showNotification(lang.formSubmitError || "Errore durante l'invio", "error");
+        showNotification(lang.sendError, "error");
       })
       .finally(() => {
-        // Riabilita il bottone a prescindere da come è andata
         if (submitBtn) submitBtn.disabled = false;
       });
     });
