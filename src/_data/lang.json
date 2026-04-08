@@ -142,9 +142,9 @@
                         {
                             "name": "Andrea",
                             "surname": "Piangivino",
-                            "aka": "The Art of Computer Programming",
-                            "role": "Computer Scientist & Author",
-                            "quote": "Premature optimization is the root of all evil."
+                            "aka": "The Master of Art",
+                            "role": "Art Director",
+                            "quote": "It's not a bug, it's an avant-garde stylistic choice."
                         },
                         {
                             "name": "Angelo",
@@ -593,9 +593,9 @@
                         {
                             "name": "Andrea",
                             "surname": "Piangivino",
-                            "aka": "L'Arte della Programmazione",
-                            "role": "Informatico & Autore",
-                            "quote": "L'ottimizzazione prematura è la radice di tutti i mali."
+                            "aka": "Il Maestro Dell'Arte",
+                            "role": "Direttore Artistico",
+                            "quote": "Non è un bug, è una scelta stilistica d'avanguardia"
                         },
                         {
                             "name": "Angelo",
