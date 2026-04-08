@@ -29,12 +29,12 @@ Card Mancanti e finite Alunni:
     24. Nico Chimienti		        111
     25. Nicolò Gigante		        111
     26. Gherard Pirretti		    000 FOTO MANCANTE
-    27. Alessandro Cramarossa	    111 FOTO MANCANTE
+    27. Alessandro Cramarossa	    111 
 
 Card Mancanti e finite Tutor:  
     1. Alessandra Raspatelli	    000
     2. Michele Scalera		        000
-    3. Leonardo Chiarella		    000
+    3. Leonardo Chiarella		    111
     4. Antonello Magaletti		    000
-    5. Michele Salierno 		    000
-    6. Vito Carulli			        000 FOTO MANCANTE
+    5. Michele Salierno 		    111
+    6. Vito Carulli			        000 
