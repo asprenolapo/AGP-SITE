@@ -1,6 +1,5 @@
 // initFormListener.js
 import { showNotification } from "../notification.js";
-import { isValidEmailProvider } from "./checkEmailProvider.js";
 import { translations, currentLang } from "../langSwitcher.js";
 
 export function initFormListener() {
@@ -10,7 +9,6 @@ export function initFormListener() {
     form.addEventListener("submit", (event) => {
       event.preventDefault();
 
-      // 1. Recupero traduzioni e pulsante
       const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
       const lang = (translations && currentLang) ? translations[currentLang].notifications : {};
 
@@ -37,6 +35,10 @@ export function initFormListener() {
 
       const formData = new FormData(form);
 
+      // 1. Mostra la notifica di caricamento con lo spinner
+      // Usiamo "permanent" così non scompare e attiva lo spinner nel tuo notification.js
+      showNotification(lang.sending, "info", "permanent");
+
       fetch("/php/sendForm.php", {
         method: "POST",
         body: formData,
@@ -57,6 +59,7 @@ export function initFormListener() {
         showNotification(lang.formSubmitError || "Errore durante l'invio", "error");
       })
       .finally(() => {
+        // Riabilita il bottone a prescindere da come è andata
         if (submitBtn) submitBtn.disabled = false;
       });
     });
