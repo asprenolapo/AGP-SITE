@@ -27,6 +27,7 @@
 // Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
 @import "../modules/mobile";
+@import "../modules/buttons";
 
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: consultancy
@@ -42,11 +43,10 @@
     background-color: root.$deep-black;
     overflow: hidden;
     display: flex;
-    align-items: center; // Centra il testo verticalmente
+    align-items: center; 
 }
 
 .glitch-wrapper {
-    // IMPORTANTE: Questo rende lo sfondo indipendente dalle colonne
     position: absolute;
     top: 0;
     left: 0;
@@ -71,42 +71,61 @@
 
 .hero-grid-fix {
     position: relative;
-    z-index: 2; // Mette la griglia SOPRA il canvas
+    z-index: 2; 
     width: 100%;
-    margin: 0 !important; // Evita overflow orizzontali della row
+    margin: 0 !important; 
 }
 
 .hero-content-box {
-    padding-left: 10%; 
-    
+    padding-left: 10%;
+    position: relative; 
+
     .text-wrapper {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
+        position: relative;
+        padding: 1rem 0; // Spazio minimo per il gradiente
+        z-index: 3;
+
+        // IL GRADIENTE CIRCOLARE (Solo per migliorare la lettura)
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 140%;  
+            height: 140%; 
+            
+            background: radial-gradient(
+                circle, 
+                rgba(0, 0, 0, 0.9) 0%, 
+                rgba(0, 0, 0, 0.5) 60%, 
+                transparent 100%
+            );
+            
+            z-index: -1; 
+            pointer-events: none; 
+            filter: blur(25px); 
+        }
     }
 
     .glitch-title {
         font-family: root.$font-title;
-        font-size: clamp(2.5rem, 6vw, 4rem);
-        color: root.$tech-cyan;
+        font-size: 5rem;
+        text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6);
         margin: 0;
-    }
-
-    .divider {
-        width: 60px;
-        height: 4px;
-        background-color: root.$yellow;
+        // Nessuno stile extra o ombre aggiunto
     }
 
     .glitch-paragraph {
         font-family: root.$font-body;
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         color: root.$off-white-text-body;
-        max-width: 500px;
+        max-width: 80%;
+        margin: 0;
     }
 }
 
-.d-none-mobile {
-    @media (max-width: 991px) { display: none; }
-}

@@ -34,6 +34,8 @@
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
 section {
+    background-image: linear-gradient(0deg, transparent, transparent) !important;
+    background-color: transparent !important;
     position: relative;
     margin: 0;
     padding: 0;
@@ -43,16 +45,12 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh; // Assicuriamoci che copra tutto
-    
-    // --- MODIFICA CRUCIALI PER IL BURGER MENU ---
-    z-index: 1; // Forza la section a stare sotto l'header/menu
-    // --------------------------------------------
+    z-index: 1;
 
     // Il contenuto deve stare sopra tutto il resto NELLA section
     .container.fade-in {
         position: relative;
-        z-index: 5; // Più alto del noise-overlay ma limitato dal padre
+        z-index: 5; 
         text-align: center;
         width: 100%;
     }
