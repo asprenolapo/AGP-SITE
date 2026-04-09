@@ -37,21 +37,25 @@
   background-image: url("../../assets/images/data-center.webp");
 }
 
-// #ai {
-//   background-image: url("../../assets/images/data-center.webp");
-// }
+#ai {
+  background-image: url("../../assets/separatori/sep-3-up.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
 
-// #green-energy {
-//   background-image: url("../../assets/images/green-energy.webp");
-// }
+#green-energy {
+  background-image: url("../../assets/separatori/sep-3-down.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
 
-// #home-automation {
-//   background-image: url("../../assets/images/house-automation-background.webp");
-// }
+#home-automation {
+  background-image: url("../../assets/separatori/sep-4-up.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
 
-// #quantitative-finance {
-//   background-image: url("../../assets/images/green-energy.webp");
-// }
+#quantitative-finance {
+  background-image: url("../../assets/separatori/sep-4-down.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
 
 // Colonna media (destra) condivisa da tutte le sezioni
 .media-col {

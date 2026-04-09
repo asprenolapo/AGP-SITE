@@ -41,152 +41,17 @@
 // Add any custom rule specific to this page below
 // These rules override the framework and module styles
 
-#about-hero{
+#about-hero {
   background-image: url("../../assets/images/we-care.webp");
 }
 
 
-/* =========================================
-  1. PRIMA SEZIONE (Triangolo in basso a destra)
-   ========================================= */
 #operative-nodes {
-  background-color: root.$deep-black;
-  position: relative;
-  overflow: hidden;
-
-  > * {
-    position: relative;
-    z-index: 5;
-  }
-
-  // SFONDO POLIGONALE (Transizione dei Colori Base)
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    
-    /* Il nuovo poligono richiesto */
-    clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
-
-    /* Transizione: Cyan -> Grey -> Deep Black */
-    background: linear-gradient(
-      315deg, /* Parte dall'angolo in basso a destra (100% 100%) */
-      rgba(root.$tech-cyan, 0.55) 0%,     /* Cuore intenso del Cyan */
-      rgba(root.$tech-cyan, 0.25) 25%,    /* Inizia a sfumare */
-      rgba(root.$state-grey, 0.35) 45%,   /* Transizione netta verso il Grey */
-      rgba(root.$state-grey, 0.15) 65%,   /* Il Grey si spegne */
-      root.$deep-black 90%                /* Si fonde con il background */
-    );
-    
-    // Un leggero blur ammorbidisce la pasta di colore sottostante
-    filter: blur(1px); 
-  }
-
-  // OVERLAY LUCIDO (Simulazione Riflesso Vetro senza backdrop-filter)
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    pointer-events: none;
-    
-    /* Stesso clip-path per mascherare perfettamente la luce */
-    clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
-
-    background: 
-      /* 1. Il "Taglio" di luce principale (Riflesso netto diagonale) */
-      linear-gradient(
-        295deg, 
-        transparent 35%, 
-        rgba(255, 255, 255, 0.02) 38%, 
-        rgba(255, 255, 255, 0.18) 40%, /* Picco di luce speculare (il "lucido") */
-        rgba(255, 255, 255, 0.02) 42%, 
-        transparent 45%
-      ),
-      /* 2. Un secondo riflesso secondario e più tenue per dare spessore */
-      linear-gradient(
-        295deg, 
-        transparent 65%, 
-        rgba(255, 255, 255, 0.05) 70%, 
-        transparent 75%
-      ),
-      /* 3. Maschera di profondità radiale (scurisce i bordi per dare volume) */
-      radial-gradient(
-        circle at 90% 90%, 
-        transparent 30%, 
-        rgba(root.$deep-black, 0.7) 100%
-      );
-  }
+  background-image: url("../../assets/separatori/sep-1-up.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
 }
 
-#advisors{
-  background-color: root.$deep-black;
-  position: relative;
-  overflow: hidden;
-
-  > * {
-    position: relative;
-    z-index: 5;
-  }
-
-  // SFONDO POLIGONALE (Transizione dei Colori Base)
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    
-    /* Il nuovo poligono: triangolo in alto a sinistra */
-    clip-path: polygon(100% 0, 0 90%, 0 0);
-
-    /* Transizione speculare: Cyan -> Grey -> Deep Black */
-    /* Parte dall'angolo in alto a sinistra (135deg) */
-    background: linear-gradient(
-      135deg, 
-      rgba(root.$tech-cyan, 0.55) 0%,     /* Cuore intenso del Cyan in alto a sx */
-      rgba(root.$tech-cyan, 0.25) 25%,    /* Inizia a sfumare */
-      rgba(root.$state-grey, 0.35) 45%,   /* Transizione netta verso il Grey */
-      rgba(root.$state-grey, 0.15) 65%,   /* Il Grey si spegne */
-      root.$deep-black 90%                /* Si fonde con il background */
-    );
-    
-    filter: blur(1px); 
-  }
-
-  // OVERLAY LUCIDO (Simulazione Riflesso Vetro senza backdrop-filter)
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    pointer-events: none;
-    
-    /* Stesso clip-path per la maschera di luce */
-    clip-path: polygon(100% 0, 0 90%, 0 0);
-
-    background: 
-      /* 1. Il "Taglio" di luce principale (angolo invertito per colpire il nuovo triangolo) */
-      linear-gradient(
-        115deg, 
-        transparent 35%, 
-        rgba(255, 255, 255, 0.02) 38%, 
-        rgba(255, 255, 255, 0.18) 40%, /* Picco di luce speculare */
-        rgba(255, 255, 255, 0.02) 42%, 
-        transparent 45%
-      ),
-      /* 2. Riflesso secondario e più tenue */
-      linear-gradient(
-        115deg, 
-        transparent 65%, 
-        rgba(255, 255, 255, 0.05) 70%, 
-        transparent 75%
-      ),
-      /* 3. Maschera di profondità radiale (ora parte dall'alto a sx) */
-      radial-gradient(
-        circle at 10% 10%, 
-        transparent 30%, 
-        rgba(root.$deep-black, 0.7) 100%
-      );
-  }
+#advisors {
+  background-image: url("../../assets/separatori/sep-1-down.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
 }
