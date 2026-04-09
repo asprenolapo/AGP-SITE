@@ -389,7 +389,8 @@
         "consultancyPage": {
             "heroSec": {
                 "title": "Work in Progress",
-                "paragraph": "We are expanding our horizons. This is a brand-new section dedicated to our consultancy division, currently being configured to provide you with tailored strategic solutions."
+                "paragraph": "We are expanding our horizons. This is a brand-new section dedicated to our consultancy division, currently being configured to provide you with tailored strategic solutions.",
+                "button": "Contact Us"
             }
         },
         "contactUsPage": {
@@ -839,7 +840,8 @@
         "consultancyPage": {
             "heroSec": {
                 "title": "Lavori in Corso",
-                "paragraph": "Stiamo espandendo i nostri orizzonti. Questa sezione è una nuova aggiunta dedicata alla nostra divisione consultancy, attualmente in fase di configurazione per garantirti soluzioni su misura."
+                "paragraph": "Stiamo espandendo i nostri orizzonti. Questa sezione è una nuova aggiunta dedicata alla nostra divisione consultancy, attualmente in fase di configurazione per garantirti soluzioni su misura.",
+                "button": "Contattaci"
             }
         },
         "contactUsPage": {
