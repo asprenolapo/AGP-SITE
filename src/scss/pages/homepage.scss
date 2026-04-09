@@ -67,11 +67,19 @@ section:nth-of-type(even) {
   background-image: url("../../assets/images/hero-homepage.webp");
 }
 
+#about-us {
+  background-image: url("../../assets/separatori/sep-7-up.svg");
+  filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
 
 #research-and-development {
   background-image: url("../../assets/images/res-and-dev-section.webp");
 }
 
+#news-and-consultancy {
+  background-image: url("../../assets/separatori/sep-7-down.svg");
+  filter: brightness(1.2)  drop-shadow(0 0 15px root.$tech-cyan);
+}
 
 #contact-us {
   background-image: url("../../assets/images/cabina-telefonica.webp");

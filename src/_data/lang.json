@@ -85,6 +85,21 @@
           "partners": [
             {
               "name": "Ferrovie Appulo Lucane"
+            },
+            {
+              "name": "Regione Puglia"
+            },
+            {
+              "name": "Kiki Fish Poke"
+            },
+            {
+              "name": "Panificio Magda"
+            },
+            {
+              "name": "Trenitalia"
+            },
+            {
+              "name": "McDonald's"
             }
           ],
           "tutors": [
@@ -330,7 +345,9 @@
         "paragraph": "No ecosystem thrives without solid roots. Our Advisors aren't managers who give orders, but veterans of code and engineering who oversee methods, ensure the robustness of architectures, and constantly challenge us to push our limits. They are the safety net that allows us to dare."
       },
       "partnersSec": {
-        "title": "Our partners"
+        "title": "Our Partners",
+        "subtitle": "The leading companies we collaborate with to bring our projects to life",
+        "paragraph": "We collaborate with organizations that share our core values: reliability, punctuality, and total availability. More than just partners, they are strategic allies, always ready to step in and support us at every stage of the project. This synergy allows us to tackle any challenge with the certainty of having dependable, ever-present professionals by our side."
       }
     },
     "futureVisionsPage": {
@@ -383,7 +400,7 @@
         "title": "Quantitative Finance",
         "paragraph": "There is no future to wait for, only one to discover",
         "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-        "counter": "Transactions analyzed per millisecond"
+        "counter": "Transactions analyzed per second"
       }
     },
     "consultancyPage": {
@@ -536,6 +553,21 @@
           "partners": [
             {
               "name": "Ferrovie Appulo Lucane"
+            },
+            {
+              "name": "Regione Puglia"
+            },
+            {
+              "name": "Kiki Fish Poke"
+            },
+            {
+              "name": "Panificio Magda"
+            },
+            {
+              "name": "Trenitalia"
+            },
+            {
+              "name": "McDonald's"
             }
           ],
           "tutors": [
@@ -781,7 +813,9 @@
         "paragraph": "Nessun ecosistema prospera senza radici solide. I nostri Advisor non sono manager che impartiscono ordini, ma veterani del codice e dell'ingegneria che supervisionano i metodi, garantiscono la solidità delle architetture e ci sfidano costantemente a superare i nostri limiti. Sono la rete di sicurezza che ci permette di osare."
       },
       "partnersSec": {
-        "title": "I nostri partners"
+        "title": "I nostri partner",
+        "subtitle": "Tutte le aziende che con le quali collaboriamo per realizzare i nostri progetti",
+        "paragraph": "Collaboriamo con realtà che condividono i nostri stessi valori: serietà, puntualità e una disponibilità totale. Più che fornitori, sono alleati strategici sempre pronti a intervenire e a supportarci in ogni fase del progetto. Questa sinergia ci permette di affrontare ogni sfida con la certezza di avere al nostro fianco professionisti affidabili e sempre presenti."
       }
     },
     "futureVisionsPage": {
@@ -834,7 +868,7 @@
         "title": "Finanza quantitativa",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
         "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-        "counter": "Transazioni analizzate al millisecondo"
+        "counter": "Transazioni analizzate al secondo"
       }
     },
     "consultancyPage": {
