@@ -162,7 +162,6 @@
     align-items: center;
     justify-content: center;
     padding: 12px 14px;
-    font-family: root.$font-body;
     font-size: 0.75rem;
     font-weight: 600;
     color: root.$starlight-text-title;
@@ -198,7 +197,6 @@
 
 .paragraph-contact,
 .paragraph-work-with-us {
-    font-family: root.$font-body;
     font-size: 1.1rem;
     margin-bottom: 1rem; 
     flex-shrink: 0;
@@ -233,7 +231,6 @@
 
 .form-label {
     display: block;
-    font-family: root.$font-body;
     color: root.$starlight-text-title;
     text-shadow: 0 0 2px #00ffff, 0 0 15px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.2);
     font-size: 0.85rem;
