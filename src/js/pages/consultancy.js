@@ -14,6 +14,9 @@ import { initBurgerMenu } from '../modules/burgerMenu.js';
 // Languages
 import { initLangSwitcher } from '../modules/langSwitcher.js';
 
+// Importiamo il nuovo modulo glitch
+import { initLetterGlitch } from '../modules/letterGlitch.js';
+
 //==========================
 // "consultancy" PAGE CUSTOM JAVASCRIPT INSTRUCTIONS
 //==========================
@@ -23,8 +26,15 @@ import { initLangSwitcher } from '../modules/langSwitcher.js';
 document.addEventListener("DOMContentLoaded", () => {
     initScrollHeader();
     initBurgerMenu();
-
     initLangSwitcher();
+
+    // Inizializzazione dello sfondo per la pagina consultancy
+    initLetterGlitch({
+        canvasId: 'letterGlitchCanvas',
+        colors: ['#00FFFF', '#7D8491', '#0B0C10'], // Cyan, Grey, Black
+        glitchSpeed: 50,
+        smooth: true
+    });
 });
 
 // showNotification("Homepage notification");
