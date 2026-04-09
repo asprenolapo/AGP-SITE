@@ -15,6 +15,9 @@ function createEl(tag, classNames = [], attributes = {}, text = '') {
 export function initTeam(data) {
   if (!data) return;
 
+  // Supporta sia l'oggetto completo della traduzione che il sotto-oggetto card
+  const card = data?.aboutUsPage?.teamSec?.card ?? data;
+
   try {
     const programmersContainer = document.getElementById('team-wrapper');
     const tutorsContainer = document.getElementById('advisor-wrapper');
@@ -23,7 +26,7 @@ export function initTeam(data) {
     // 1. Popolamento Programmatori
     if (programmersContainer) {
       programmersContainer.textContent = ""; 
-      const programmers = data.programmers || [];
+      const programmers = card.programmers || [];
 
       programmers.forEach(person => {
         const fullName = `${person.name} ${person.surname}`;
@@ -59,7 +62,7 @@ export function initTeam(data) {
     // 2. Popolamento Tutors
     if (tutorsContainer) {
       tutorsContainer.textContent = ""; 
-      const tutors = data.tutors || [];
+      const tutors = card.tutors || [];
 
       tutors.forEach(person => {
         const fullName = `${person.name} ${person.surname}`;
@@ -87,24 +90,21 @@ export function initTeam(data) {
 
     // 3. Popolamento Partner
     if (partnersContainer) {
-      partnersContainer.textContent = "";
-      const rawPartners = data.aboutUsPage?.teamSec?.card?.partners;
-      const partners = Array.isArray(rawPartners) ? rawPartners : (rawPartners ? [rawPartners] : []);
+      partnersContainer.textContent = ""; 
+      const partners = card.partners || [];
 
       partners.forEach(partner => {
-        const logoPath = `../../assets/images/foto-partners/${partner.name}.webp`;
+        const avatarPath = `../../assets/images/foto-partners/${partner.name}.webp`;
 
         const slide = createEl('div', ['swiper-slide']);
-        const article = createEl('article', ['tutor-card']);
+        const article = createEl('article', ['partner-card']);
 
-        const avatar = createEl('div', ['tutor-avatar']);
-        avatar.appendChild(createEl('img', [], { src: logoPath, alt: partner.name }));
+        const avatar = createEl('div', ['partner-avatar']);
+        avatar.appendChild(createEl('img', [], { src: avatarPath, alt: partner.name }));
 
-        const info = createEl('div', ['tutor-info']);
         const h2 = createEl('h2', ['sec-sub-title'], {}, partner.name);
 
-        info.append(h2);
-        article.append(avatar, info);
+        article.append(avatar, h2);
         slide.appendChild(article);
 
         partnersContainer.appendChild(slide);
@@ -152,20 +152,19 @@ function initSwipers() {
     }
   });
 
-  // Swiper Partner (Velocità 2500ms)
+  // Swiper Partner (Velocità 3000ms)
   new Swiper('.partners-swiper', {
     loop: true,
     grabCursor: true,
     spaceBetween: 30,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
+    autoplay: { 
+        delay: 3000,
+        disableOnInteraction: false, 
+        reverseDirection: true 
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
-      576: { slidesPerView: 2, spaceBetween: 30 },
-      992: { slidesPerView: 3, spaceBetween: 40 },
-      1200: { slidesPerView: 4, spaceBetween: 40 },
+      992: { slidesPerView: 2, spaceBetween: 40 } 
     }
   });
 }
