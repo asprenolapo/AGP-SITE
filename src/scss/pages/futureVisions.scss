@@ -38,13 +38,14 @@
 // These rules override the framework and module styles
 
 #future-hero {
-    background-image: 
-    url("../../assets/images/immagine6.webp");
+    background-image:
+        url("../../assets/images/immagine6.webp");
 }
 
 
 #first-section {
-    background-color: var(--deep-black);
+    background-image: url("../../assets/separatori/sep-5-up.svg");
+    filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
 }
 
 /* --- 2. MOTORE DEL FLIP --- */
@@ -52,8 +53,10 @@
     background-color: transparent;
     width: 450px;
     height: 600px;
-    perspective: 1000px; /* Profondità 3D */
-    margin: 0 auto; /* Centra nel contenitore di Bootstrap */
+    perspective: 1000px;
+    /* Profondità 3D */
+    margin: 0 auto;
+    /* Centra nel contenitore di Bootstrap */
 }
 
 .flip-card-inner {
@@ -71,11 +74,13 @@
 }
 
 /* Faccia in comune */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* Nasconde il retro quando ruota */
+    backface-visibility: hidden;
+    /* Nasconde il retro quando ruota */
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -83,22 +88,32 @@
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .flip-card-back {
-    transform: rotateY(180deg); /* Posiziona il retro già girato */
+    transform: rotateY(180deg);
+    /* Posiziona il retro già girato */
 }
+
 /* --- 4. GESTIONE DELLE IMMAGINI --- */
 .card-image {
-    width: 100%; /* Occupa la larghezza disponibile */
-    max-height: 100%; /* Lascia spazio al titolo */
-    object-fit: cover; /* Non deforma l'immagine, la ridimensiona mantenendo le proporzioni */
+    width: 100%;
+    /* Occupa la larghezza disponibile */
+    max-height: 100%;
+    /* Lascia spazio al titolo */
+    object-fit: cover;
+    /* Non deforma l'immagine, la ridimensiona mantenendo le proporzioni */
     border-radius: 6px;
 }
 
 
-#advisors {
-  background-color: root.$deep-black;
+#second-section {
+    background-image: url("../../assets/separatori/sep-2-down.svg");
+    filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
 }
 
+#third-section{
+    background-image: url("../../assets/separatori/sep-5-down.svg");
+    filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
