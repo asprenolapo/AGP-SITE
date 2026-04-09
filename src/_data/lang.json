@@ -338,23 +338,11 @@
             },
             "secondSec": {
                 "title": "The Necessary Reset",
-                "paragraphs": {
-                    "industry": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users.",
-                    "quote": "Michail Bakunin argued that 'the passion for destruction is also a creative passion.'",
-                    "application": "We apply this principle to computer architecture.",
-                    "action": "Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism.",
-                    "conclusion": "It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
-                }
+                "paragraph": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users. Michail Bakunin argued that 'the passion for destruction is also a creative passion.' We apply this principle to computer architecture. Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism. It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
             },
             "thirdSec": {
                 "title": "The future is not waited for. It is designed.",
-                "paragraphs": {
-                    "industry": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users.",
-                    "quote": "Michail Bakunin argued that 'the passion for destruction is also a creative passion.'",
-                    "application": "We apply this principle to computer architecture.",
-                    "action": "Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism.",
-                    "conclusion": "It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all."
-                },
+                "paragraph": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users. Michail Bakunin argued that 'the passion for destruction is also a creative passion.'We apply this principle to computer architecture. Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism. It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all.",
                 "buttonResAndDev": "Explore our R&D",
                 "buttonConsultancy": "Or discover how we apply these principles in our Consultancy"
             }
@@ -788,23 +776,11 @@
             },
             "secondSec": {
                 "title": "Il Reset Necessario",
-                "paragraphs": {
-                    "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
-                    "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
-                    "application": "Noi applichiamo questo principio all'architettura informatica.",
-                    "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
-                    "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
-                }
+                "paragraph": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti. Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'. Noi applichiamo questo principio all'architettura informatica. Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale. È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
             },
             "thirdSec": {
                 "title": "Il futuro non si attende. Si progetta",
-                "paragraphs": {
-                    "industry": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti.",
-                    "quote": "Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'.",
-                    "application": "Noi applichiamo questo principio all'architettura informatica.",
-                    "action": "Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale.",
-                    "conclusion": "È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti."
-                },
+                "paragraph": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti. Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'. Noi applichiamo questo principio all'architettura informatica. Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale. È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti.",
                 "buttonResAndDev": "Esplora il nostro R&D",
                 "buttonConsultancy": "O scopri come applichiamo questi principi nella Consulenza"
             }
