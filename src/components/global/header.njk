@@ -1,43 +1,63 @@
-<header>
+<header role="banner">
   <div class="logo">
-    <a href="/"><img src="{{ site.logo }}" alt="{{ site.title }} Torna alla home"></a>
+    <!-- alt descrittivo: descrive l'immagine + l'azione del link -->
+    <a href="/" aria-label="{{ site.title }} - Torna alla homepage">
+      <img src="{{ site.logo }}" alt="{{ site.title }}" aria-hidden="true">
+    </a>
   </div>
 
-  <nav class="nav-links">
-    <a class="nav-button" href="/" data-lang-key="header.navHome"></a>
+  <!-- aria-label distingue questa nav da quella dell'offcanvas -->
+  <nav class="nav-links" aria-label="Navigazione principale">
+    <a class="nav-button" href="/" data-lang-key="header.navHome" aria-current="page"></a>
     <a class="nav-button" href="/about-us" data-lang-key="header.navAboutUs"></a>
     <a class="nav-button" href="/future-visions" data-lang-key="header.navFutureVisions"></a>
     <a class="nav-button" href="/research-and-development" data-lang-key="header.navResearchAndDevelopment"></a>
     <a class="nav-button" href="/consultancy" data-lang-key="header.navConsultancy"></a>
     <a class="nav-button" href="/contact-us" data-lang-key="header.navContactUs"></a>
   </nav>
-<div class="lang">
-  <i class="fa-solid fa-language"></i>
-  <div class="lang-switcher" role="group">
-    <div class="slider"></div>
 
-    <input class="lang-input" type="radio" name="lang-switcher" id="lang-en" value="en" />
-    <label class="lang-btn" for="lang-en" data-lang-key="allLang.enLangName"></label>
+  <div class="lang">
+    <!-- L'icona è decorativa, lo screen reader la ignora -->
+    <i class="fa-solid fa-language" aria-hidden="true"></i>
 
-    <input class="lang-input" type="radio" name="lang-switcher" id="lang-it" value="it" />
-    <label class="lang-btn" for="lang-it" data-lang-key="allLang.itLangName"></label>
+    <!-- role="group" + aria-label descrive lo scopo del gruppo di radio -->
+    <div class="lang-switcher" role="group" aria-label="Seleziona lingua">
+      <div class="slider" aria-hidden="true"></div>
+      <input class="lang-input" type="radio" name="lang-switcher" id="lang-en" value="en" />
+      <label class="lang-btn" for="lang-en" data-lang-key="allLang.enLangName"></label>
+      <input class="lang-input" type="radio" name="lang-switcher" id="lang-it" value="it" />
+      <label class="lang-btn" for="lang-it" data-lang-key="allLang.itLangName"></label>
+    </div>
   </div>
-</div>
-  <div class="burger-button">
-    <i class="fa-solid fa-bars"></i>
-  </div>
+
+  <!-- aria-expanded gestito via JS: true quando offcanvas è aperto -->
+  <!-- aria-controls punta all'id dell'offcanvas che controlla -->
+  <button class="burger-button" 
+          aria-label="Apri menu di navigazione" 
+          aria-expanded="false" 
+          aria-controls="offcanvas-menu">
+    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+  </button>
 </header>
 
-<!-- Overlay scuro dietro l'offcanvas -->
-<div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+<!-- aria-hidden gestito via JS insieme ad aria-expanded del burger -->
+<div class="offcanvas-overlay" 
+     id="offcanvas-overlay" 
+     aria-hidden="true"></div>
 
-<!-- Offcanvas panel -->
-<aside class="offcanvas" id="offcanvas-menu" aria-hidden="true">
-  <button class="offcanvas-close" aria-label="Chiudi menu">
-    <i class="fa-solid fa-xmark"></i>
+<!-- role="dialog" per semantica modale + aria-modal blocca il focus fuori -->
+<aside class="offcanvas" 
+       id="offcanvas-menu" 
+       role="dialog"
+       aria-modal="true"
+       aria-label="Menu di navigazione"
+       aria-hidden="true">
+
+  <button class="offcanvas-close" aria-label="Chiudi menu di navigazione">
+    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
   </button>
 
-  <nav class="offcanvas-nav">
+  <nav class="offcanvas-nav" aria-label="Navigazione mobile">
     <a class="nav-button" href="/" data-lang-key="header.navHome"></a>
     <a class="nav-button" href="/about-us" data-lang-key="header.navAboutUs"></a>
     <a class="nav-button" href="/future-visions" data-lang-key="header.navFutureVisions"></a>
