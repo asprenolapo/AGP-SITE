@@ -113,7 +113,145 @@
     filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
 }
 
-#third-section{
+.terminal-prompt {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.562);
+    /* Sfondo leggermente scuro */
+    padding: 1.5rem 2rem;
+    border-left: 3px solid #00c4cc;
+    border-radius: 5px;
+    /* Richiama il colore del tuo titolo */
+    font-size: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 196, 204, 0.2);
+}
+
+.terminal-prompt .user {
+    color: root.$starlight-text-title;
+}
+
+.terminal-prompt .command {
+    color: #00c4cc;
+    margin-left: 10px;
+    text-shadow: 0 0 5px #00c4cc;
+    /* Effetto glow leggero */
+}
+
+.terminal-prompt .cursor {
+    color: #00c4cc;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+#third-section {
     background-image: url("../../assets/separatori/sep-5-down.svg");
     filter: brightness(1.2) drop-shadow(0 0 15px root.$tech-cyan);
+}
+
+/* --- STILI COMPILATORE DI FUTURO --- */
+.cyber-build-process {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 196, 204, 0.3);
+    box-shadow: 0 0 20px rgba(0, 196, 204, 0.05);
+    position: relative;
+}
+
+/* Aggiunge dei piccoli "angoli" per un look più tech */
+.cyber-build-process::before,
+.cyber-build-process::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #00c4cc;
+}
+
+.cyber-build-process::before {
+    top: -1px;
+    left: -1px;
+    border-left: 2px solid #00c4cc;
+}
+
+.cyber-build-process::after {
+    top: -1px;
+    right: -1px;
+    border-right: 2px solid #00c4cc;
+}
+
+.build-header {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.build-percent {
+    color: #00c4cc;
+}
+
+.build-bar-container {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 196, 204, 0.2);
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.build-progress {
+    height: 100%;
+    width: 73%;
+    /* Stessa percentuale del testo */
+    background-color: #00c4cc;
+    box-shadow: 0 0 10px #00c4cc;
+    animation: pulse-bar 2s infinite alternate;
+}
+
+.build-status {
+    color: #00c4cc;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
+
+.build-status .cursor {
+    animation: blink 1s step-end infinite;
+}
+
+/* Animazioni */
+@keyframes pulse-bar {
+    0% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
