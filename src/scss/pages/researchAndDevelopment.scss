@@ -73,6 +73,7 @@ video {
   font-size: 3rem;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -90,3 +91,13 @@ video {
   }
 }
 
+.wrapper {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 996px) {
+  .video-wrapper, .wrapper {
+    margin: 15%;
+  }
+}
