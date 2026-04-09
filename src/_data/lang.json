@@ -15,7 +15,7 @@
       "navHome": "Home",
       "navAboutUs": "About Us",
       "navFutureVisions": "Future Visions",
-      "navReserchAndDevelopment": "Research & Development",
+      "navResearchAndDevelopment": "Research & Development",
       "navConsultancy": "Consultancy",
       "navContactUs": "Contact Us"
     },
@@ -33,7 +33,7 @@
         "home": "Homepage",
         "aboutUs": "About Us",
         "futureVisions": "Future Visions",
-        "reserchAndDevelopment": "Research & Development",
+        "researchAndDevelopment": "Research & Development",
         "consultancy": "Consultancy",
         "contactUs": "Contact Us"
       },
@@ -56,10 +56,16 @@
         "paragraph": "We don’t seek a place in an org chart, we live our own ecosystem.",
         "button": "About Us"
       },
-      "reserchAndDevelopmentSec": {
+      "researchAndDevelopmentSec": {
         "title": "Engineering solutions",
         "paragraph": "Our R&D department is a permanent lab where utopia becomes a prototype.",
-        "button": "Reserch & Development"
+        "button": "Research & Development",
+        "counters": {
+          "ai": "Work hours saved through AI process automation in the last year",
+          "greenEnergy": "Solar panels installed in the last year",
+          "homeAutomation": "Smart environments designed and installed in the last year",
+          "quantitativeFinance": "Transactions analyzed per millisecond"
+        }
       },
       "newsAndConsultancySec": {
         "title": "We want to share and collaborate.",
@@ -359,31 +365,35 @@
         "buttonConsultancy": "Or discover how we apply these principles in our Consultancy"
       }
     },
-    "reserchAndDevelopmentPage": {
+    "researchAndDevelopmentPage": {
       "heroSec": {
-        "title": "Reserch & Development",
+        "title": "Research & Development",
         "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-        "button": "Read more"
+        "button": "Discover more"
       },
       "aiSec": {
         "title": "Artificial Intelligence",
         "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Work hours saved through AI process automation in the last year"
       },
       "greenEnergySec": {
-        "title": "Low-Energy Intensity Algorithms & Software Refactoring",
+        "title": "Low Energy Intensity Algorithms & Software Refactoring",
         "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Solar panels installed in the last year"
       },
       "homeAutomationSec": {
-        "title": "House Automation",
+        "title": "Home Automation",
         "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Smart environments designed and installed in the last year"      
       },
       "quantFinanceSec": {
         "title": "Quantitative Finance",
         "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Transactions analyzed per millisecond"
       }
     },
     "consultancyPage": {
@@ -467,7 +477,7 @@
       "navHome": "Home",
       "navAboutUs": "Chi Siamo",
       "navFutureVisions": "Prospettive Future",
-      "navReserchAndDevelopment": "Ricerca & Sviluppo",
+      "navResearchAndDevelopment": "Ricerca & Sviluppo",
       "navConsultancy": "Consulenza",
       "navContactUs": "Contattaci"
     },
@@ -487,7 +497,7 @@
         "home": "Homepage",
         "aboutUs": "Chi Siamo",
         "futureVisions": "Prospettive Future",
-        "reserchAndDevelopment": "Ricerca & Sviluppo",
+        "researchAndDevelopment": "Ricerca & Sviluppo",
         "consultancy": "Consulenza",
         "contactUs": "Contattaci"
       },
@@ -510,7 +520,7 @@
         "paragraph": "Non cerchiamo un posto in un organigramma, viviamo il nsotro ecosistema.",
         "button": "Chi Siamo"
       },
-      "reserchAndDevelopmentSec": {
+      "researchAndDevelopmentSec": {
         "title": "Inventiamo soluzioni",
         "paragraph": "Il nostro dipartimento di R&D è un laboratorio permanente dove l'utopia diventa prototipo.",
         "button": "Ricerca &  Sviluppo"
@@ -813,7 +823,7 @@
         "buttonConsultancy": "O scopri come applichiamo questi principi nella Consulenza"
       }
     },
-    "reserchAndDevelopmentPage": {
+    "researchAndDevelopmentPage": {
       "heroSec": {
         "title": "Ricerca & sviluppo",
         "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
@@ -822,22 +832,26 @@
       "aiSec": {
         "title": "Intelligenza artificiale",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Ore di lavoro risparmiate grazie all'automazione dei processi AI nell'ultimo anno"
       },
       "greenEnergySec": {
         "title": "Algoritmi a Bassa Intensità Energetica & Software Refactoring",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Pannelli solari installati nell'ultim anno"
       },
       "homeAutomationSec": {
         "title": "Domotica",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Ambienti intelligenti progettati e installati nell'ultimo anno"      
       },
       "quantFinanceSec": {
         "title": "Finanza quantitativa",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "counter": "Transazioni analizzate al millisecondo"
       }
     },
     "consultancyPage": {

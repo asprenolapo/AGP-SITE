@@ -91,3 +91,10 @@ video {
   margin-top: 2rem;
   gap: 1rem;
 }
+
+.counter-number {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  color: root.$tech-cyan;
+  letter-spacing: 0.05em;
+}
