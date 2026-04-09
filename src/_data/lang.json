@@ -388,12 +388,8 @@
         },
         "consultancyPage": {
             "heroSec": {
-                "title": "Consultancy?",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "firstSec": {
-                "title": "Scapocchione",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+                "title": "Work in Progress",
+                "paragraph": "We are expanding our horizons. This is a brand-new section dedicated to our consultancy division, currently being configured to provide you with tailored strategic solutions."
             }
         },
         "contactUsPage": {
@@ -842,12 +838,8 @@
         },
         "consultancyPage": {
             "heroSec": {
-                "title": "Consulenza?",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
-            },
-            "firstSec": {
-                "title": "Altro",
-                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe."
+                "title": "Lavori in Corso",
+                "paragraph": "Stiamo espandendo i nostri orizzonti. Questa sezione è una nuova aggiunta dedicata alla nostra divisione consultancy, attualmente in fase di configurazione per garantirti soluzioni su misura."
             }
         },
         "contactUsPage": {
