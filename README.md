@@ -76,7 +76,18 @@ THANKS:
 
 
 
+APERTURA:
+    ASPRENO
+    
 
+Michele:
+    Architettura
+
+Aspreno:
+    Idee e stile riguardanti i colori
+    Setup dell'ecosistema e gestione branch github
+
+Andrea:
 
 
 
@@ -91,6 +102,7 @@ Cosa abbiamo fatto
 	Cosa rappresenta il sito
 	Breve spiegazione di alcune funzioni particolari e del loro funzionamento
 	Spiegare introduzione di SEO e backend
+    Responsive fatto a mano
 
 Cosa abbiamo imparato
 	Usare i branch di GitHub
