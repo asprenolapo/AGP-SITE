@@ -10,7 +10,6 @@
 // ║              _uikit.scss  / _foundation.scss                ║
 // ╚═════════════════════════════════════════════════════════════╝
 
-// Use @use with a namespace to avoid framework variable conflicts:
 @use "../modules/root" as root;
 
 // @import "../modules/frameworks/bootstrap";
@@ -18,15 +17,14 @@
 // @import "../modules/frameworks/foundation";
 // @import "../modules/frameworks/uikit";
 
-// Page layout modules — comment out any section you don't need
 @import "../modules/header";
 @import "../modules/main";
 @import "../modules/footer";
 
-// Responsive overrides — edit _mobile.scss for breakpoint-specific rules
 @import "../modules/animations";
 @import "../modules/mobile";
 @import "../modules/buttons";
+
 //==========================
 // PAGE CUSTOM CSS RULES FOR PAGE: research-and-development
 //==========================
@@ -55,49 +53,48 @@
 //   background-image: url("../../assets/images/green-energy.webp");
 // }
 
-.video-wrapper {
-  border: solid 2px root.$tech-cyan;
-  border-radius: 5%;
-  overflow: hidden;
-  position: relative;
+// Colonna media (destra) condivisa da tutte le sezioni
+.media-col {
+  flex-direction: column;
+  align-items: center;
+}
+
+// Blocco che controlla la larghezza di video + counter
+.media-block {
   margin: 10%;
   margin-right: 0;
+
+  @media (max-width: 996px) {
+    margin: 0%;
+  }
+}
+
+// Wrapper video — solo clipping, niente margini
+.wrapper {
+  overflow: hidden;
+  position: relative;
 }
 
 video {
+  border: solid 2px root.$tech-cyan;
+  border-radius: 5%;
   width: 100%;
   display: block;
 }
 
-.counter-box {
-  font-size: 3rem;
+// Counter — solo nella sezione #ai
+.counter-row {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-
-  .counter-number {
-    font-weight: 700;
-    color: root.$tech-cyan;
-    line-height: 1;
-  }
-
-  .counter-label {
-    text-align: center;
-    color: root.$tech-cyan;
-    margin: 0;
-  }
+  text-align: center;
+  margin-top: 2rem;
+  gap: 1rem;
 }
 
-.wrapper {
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-@media (max-width: 996px) {
-  .video-wrapper, .wrapper {
-    margin: 15%;
-  }
+.counter-number {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  color: root.$tech-cyan;
+  letter-spacing: 0.05em;
 }
