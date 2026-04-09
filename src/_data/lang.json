@@ -400,7 +400,7 @@
         "title": "Quantitative Finance",
         "paragraph": "There is no future to wait for, only one to discover",
         "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-        "counter": "Transactions analyzed per millisecond"
+        "counter": "Transactions analyzed per second"
       }
     },
     "consultancyPage": {
@@ -868,7 +868,7 @@
         "title": "Finanza quantitativa",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
         "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-        "counter": "Transazioni analizzate al millisecondo"
+        "counter": "Transazioni analizzate al secondo"
       }
     },
     "consultancyPage": {
