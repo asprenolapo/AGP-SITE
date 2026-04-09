@@ -1,15 +1,15 @@
-IMPORTANTI:
+Riempire card
 
-- check generale style (tutti insieme)
-- completamento ricerca e sviluppo contenuti e card 
-- casi di test + requisiti + test affidabilità (tutti insieme)
-- realzione presentazione progetto (insieme)
+Controllare lighthouse
 
-Finire presentazione
+Invertire ordine aka, nome ecc
 
-Finire contenuti card per le persone
+Aggiungere sponsor
 
-Cambiare ordine contenuti card
+Finire contenuti scritte
 
-Scrivere counter e mettere immaginina come sfondo in res-dev
+Sicurezza PhP
 
+Finire gradienti e immagini
+
+Fare presentazione
