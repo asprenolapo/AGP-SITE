@@ -10,7 +10,7 @@ function createEl(tag, classNames = [], attributes = {}, text = '') {
 }
 
 /**
- * Funzione principale per stampare i membri del team e i tutor.
+ * Funzione principale per stampare i membri del team, i tutor e i partner.
  */
 export function initTeam(data) {
   if (!data) return;
@@ -18,6 +18,7 @@ export function initTeam(data) {
   try {
     const programmersContainer = document.getElementById('team-wrapper');
     const tutorsContainer = document.getElementById('advisor-wrapper');
+    const partnersContainer = document.getElementById('partners-wrapper');
 
     // 1. Popolamento Programmatori
     if (programmersContainer) {
@@ -38,8 +39,8 @@ export function initTeam(data) {
         avatar.appendChild(createEl('img', [], { src: avatarPath, alt: fullName }));
 
         const info = createEl('div', ['card-info']);
-        const h3 = createEl('h3', ['aka', 'sec-sub-title'], {}, `AKA: ${person.aka}`);
         const h4 = createEl('h4', ['real-name', 'sec-sub-title'], {}, fullName);
+        const h3 = createEl('h3', ['aka', 'sec-sub-title'], {}, `AKA: ${person.aka}`);
         const role = createEl('p', ['role'], {}, person.role);
 
         const mottoContainer = createEl('div', ['motto']);
@@ -47,7 +48,7 @@ export function initTeam(data) {
         const mottoText = createEl('p', ['paragraph-home'], {}, `"${person.quote}"`);
         
         mottoContainer.append(mottoTitle, mottoText);
-        info.append(h3, h4, role, mottoContainer);
+        info.append(h4, h3, role, mottoContainer);
         article.append(cover, avatar, info);
         slide.appendChild(article);
 
@@ -84,6 +85,32 @@ export function initTeam(data) {
       });
     }
 
+    // 3. Popolamento Partner
+    if (partnersContainer) {
+      partnersContainer.textContent = "";
+      const rawPartners = data.aboutUsPage?.teamSec?.card?.partners;
+      const partners = Array.isArray(rawPartners) ? rawPartners : (rawPartners ? [rawPartners] : []);
+
+      partners.forEach(partner => {
+        const logoPath = `../../assets/images/foto-partners/${partner.name}.webp`;
+
+        const slide = createEl('div', ['swiper-slide']);
+        const article = createEl('article', ['tutor-card']);
+
+        const avatar = createEl('div', ['tutor-avatar']);
+        avatar.appendChild(createEl('img', [], { src: logoPath, alt: partner.name }));
+
+        const info = createEl('div', ['tutor-info']);
+        const h2 = createEl('h2', ['sec-sub-title'], {}, partner.name);
+
+        info.append(h2);
+        article.append(avatar, info);
+        slide.appendChild(article);
+
+        partnersContainer.appendChild(slide);
+      });
+    }
+
     // Inizializza gli Swiper con la velocità corretta
     initSwipers();
 
@@ -99,7 +126,7 @@ function initSwipers() {
     grabCursor: true, 
     spaceBetween: 30, 
     autoplay: { 
-        delay: 3000, // Velocità standard ripristinata
+        delay: 3000,
         disableOnInteraction: false 
     },
     breakpoints: {
@@ -115,13 +142,30 @@ function initSwipers() {
     grabCursor: true,
     spaceBetween: 30,
     autoplay: { 
-        delay: 3000, // Velocità standard ripristinata
+        delay: 3000,
         disableOnInteraction: false, 
         reverseDirection: true 
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
       992: { slidesPerView: 2, spaceBetween: 40 } 
+    }
+  });
+
+  // Swiper Partner (Velocità 2500ms)
+  new Swiper('.partners-swiper', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: { slidesPerView: 1, spaceBetween: 20 },
+      576: { slidesPerView: 2, spaceBetween: 30 },
+      992: { slidesPerView: 3, spaceBetween: 40 },
+      1200: { slidesPerView: 4, spaceBetween: 40 },
     }
   });
 }

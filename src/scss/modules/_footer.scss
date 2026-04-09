@@ -21,7 +21,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
-  font-family: root.$font-body;
   color: root.$off-white-text-body;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Sottile linea divisoria */
 }
@@ -66,7 +65,6 @@ color: root.$off-white-text-body;
 }
 
 .footer-col p {
-  font-family: root.$font-body;
   font-size: 0.95rem;
   line-height: 1.5;
   color: root.$off-white-text-body; /* Grigio tenue per i testi */
@@ -96,5 +94,4 @@ color: root.$off-white-text-body;
   padding: 20px;
   font-size: 0.9rem;
   color: root.$starlight-text-title;
-  font-family: root.$font-body;
 }

@@ -2,7 +2,6 @@
 @use 'root' as root;
 
 .button {
-  font-family: root.$font-body;
   font-size: 1.5rem;
   border: 2px solid;
   color: root.$starlight-text-title;

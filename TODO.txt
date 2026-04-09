@@ -1,18 +1,17 @@
+Finire gradienti e immagini
 Riempire card
-
-Controllare lighthouse
-
+Finire contenuti scritte
 Invertire ordine aka, nome ecc
 
+
+
+!!!Fare presentazione
+
+
+
 Aggiungere sponsor
-
-Finire contenuti scritte
-
+Controllare lighthouse
 Sicurezza PhP
-
-Finire gradienti e immagini
-
-Fare presentazione
 
 
 
