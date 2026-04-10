@@ -1,114 +1,100 @@
-R&s (TUTTI)
-PROSPETTIVEFUTURE(3 4 SEZ)
+OUR/DISTRO
+L'anarchia è l'ordine senza il potere.
+Un progetto di: Anarchici da Loggione
 
-NOME GRUPPO:
-0. Anarchici da loggione 
+[0] LA VISIONE
+E se l'anarchia fosse l'astrazione di un'utopia? Questa è la query di base da cui è nato our/distro. Trovare l'equilibrio tra un quesito del genere e la sua soluzione pratica è stata la nostra prima architettura.
+Il primo blocco da definire è stato il Chi. Rifiutando gli organigrammi, ci è bastato mappare i nostri nodi per capire che l'ecosistema eravamo semplicemente noi. Il secondo è stato il Come. La complessità del mondo reale faceva paura, ma la cooperazione orizzontale ha compilato un piano d'azione inarrestabile. Poi ci siamo interrogati sul Dove. Su questo non c'erano conflitti: l'unico hub possibile, lo spazio di collisione perfetto, era il nostro Loggione. Ad unanimità, la risposta al Quando è stata una sola: in esecuzione adesso. E poi ci siamo fermati davanti al Perché. È la variabile che ha generato più divergenze nelle opinioni, ma che alla fine ha saldato per sempre i nostri intenti.
 
-NOME PROGETTO/SITO:
-0. OurDistro
+[1] ANALISI DEI REQUISITI
+Mostrare l'idea di una possibile realtà aziendale (e sociale) differente.
 
-SLOGAN:
-0. L'anarchia è l'ordine senza il potere
+Immergere l'utente in un ecosistema visivo e narrativo parallelo.
 
-DESCRIZIONE DEL PROGETTO:
-0. E se  l'anarchia fosse  l'astrazione di un' utopia? Questa è la risposta che cerchiamo in our/distro. Quello  tra un quesito e la sua soluzione è un  equilibrio che abbiamo scelto fino da subito. Uno dei primi problemi è stato:chi? Ma facendo la conta ci siamo resi subito conto che il chi eravamo semplicemente noi. Il secondo è stato: come? La realtà faceva paura ma la cooperazione ha prodotto un piano d'azione computazionale. E poi ci siamo interrogati sul dove? Qui eravamo tutti d'accordo ci piace stare insieme e quindi il posto migliore era proprio questo la nostra aula. Poi ad un unanimità la risposta al quando è stata: adesso.E poi ci siamo fermati. Perché? Questa è la domanda che ci ha più divisi nelle opinioni ma unito negli intenti 
+Creare interesse non solo sull'infrastruttura tecnologica, ma sulle menti che la compongono.
 
-ANALISI DEI REQUISITI:
-1. Mostare l'idea di una possibile realtà aziendale differente.  
-2. L'utente deve essere immerso in un mondo parallelo.
-3. Creare interesse non solo sull'infrastruttura ma sull'ecosistema.
-4. Generare una navigazione fluida e dinamica al passo con lo sviluppo attuale.
-5. Possibilità per l'utente di scegliere la lingua del sito. 
-6. Possibilità per l'utente di scriverci sia per contattarci che per lavorare con noi.
+Generare una navigazione fluida, dinamica e priva di attriti.
 
-IL NOSTRO WORK-FLOW:
-Per il flusso di lavoro abbiamo scelto fin dall'inizio di utilizzare al massimo gli strumenti a nostra disposizione, facendo subito chiarezza sull'obbiettivo:
-1. definizione su carta della nostra idea di base e del relativo storytelling grafico.
-2. scelta degli strumenti di lavoro(gitHub,Vsc,Html,Css,Sass,JavaScript,Njk,Json,Php)
-3. abbiamo iniziato creando una repository condivisa in modo da poter allineare costantemente il flusso di lavoro.
-	(Questo ci ha dato la posssibilità di sperimentare il lavoro tramite branch diversi utilizzando il metodo delle pull request)
-4. condivisione giornaliera dei progressi di sviluppo e della condivisione delle idee.
-5. ottima gestione dei merging e ottimo lavoro di squadra . 
+Permettere all'utente di bypassare le barriere linguistiche (multilingua).
 
-Cosa abbiamo fatto
-	Cosa rappresenta il sito
-	Breve spiegazione di alcune funzioni particolari e del loro funzionamento
-	Spiegare introduzione di SEO e backend
-    Responsive fatto a mano
+Fornire un canale di comunicazione diretto per collaborare o sfidare il nostro codice.
 
-Cosa abbiamo imparato
-	Usare i branch di GitHub
-	Familiarizzato con regole css particolari e maggior ordine
-	Familiarizzato con i json
-	Familiarizzato maggiormente con ciò che sono le convenzioni per lo sviluppo web
+[2] IL NOSTRO WORKFLOW
+Per il flusso di lavoro abbiamo scelto fin dall'inizio di ottimizzare le risorse, rifiutando il caos per abbracciare l'organizzazione orizzontale:
 
+Fase 1: Definizione su carta dell'architettura di base e dello storytelling visivo.
 
+Fase 2: Selezione dello stack tecnologico definitivo (GitHub, VSCode, HTML, CSS/Sass, JavaScript, Njk, JSON, PHP).
 
-RELAZIONE:
-Aspreno:
-	Idea e storytelling
-Andrea:
-	Front-end
-Michele:
-    Architettura
+Fase 3: Creazione di una repository condivisa. Abbiamo sperimentato la vera cooperazione ramificando il lavoro tramite branch isolati e unificando il codice tramite rigorose Pull Request.
 
-STACK UTILIZZATI:
+Fase 4: Stand-up giornaliero per l'allineamento dei progressi e la condivisione delle idee.
 
-FONTS:
+Fase 5: Gestione chirurgica dei merge e consolidamento della root del progetto.
 
-PALETTE COLORI:
+[3] COSA ABBIAMO COMPILATO (Features & Sviluppo)
+Non ci siamo limitati a scrivere interfacce, abbiamo ingegnerizzato soluzioni:
 
-https://coolors.co/d97706-1a1b1e-f5efed-2292a4-bdbf09
+Architettura Modulare (Nunjucks & Sass): Abbiamo destrutturato il codice, isolando componenti e stili per rendere l'ambiente di sviluppo scalabile, pulito e facilmente manutenibile.
 
-https://coolors.co/31393c-2176ff-33a1fd-fdca40-f79824
+Responsività Indipendente: Non ci siamo affidati a framework rigidi. Abbiamo scritto regole manuali per controllare ogni singola viewport, garantendo che l'interfaccia si adatti fluidamente senza perdere la sua identità visiva.
 
-https://getwaves.io/
+Iniezione Dinamica dei Dati: Utilizzo di file JSON per iniettare i contenuti e gestire dinamicamente lo switch delle lingue.
 
-LINK UTILI:
+Connessione Backend e SEO: Implementazione di script PHP per la gestione sicura del form di contatto, unendo il front-end al server. Abbiamo inoltre gettato le fondamenta SEO (meta tag, struttura semantica) per permettere alla nostra utopia di essere indicizzata e trovata nel mondo reale.
 
-THANKS:
+[4] COSA ABBIAMO IMPARATO (Evoluzione del Team)
+Il codice ha cambiato il progetto, ma il progetto ha cambiato noi:
 
-NOTE E ISPIRAZIONI:
+Il Dominio del Versioning: Abbiamo imparato a domare GitHub, passando dalla paura dei conflitti di merge alla gestione fluida del lavoro parallelo sui branch.
 
-[...] Noi vogliamo dunque abolire radicalmente la dominazione e lo sfruttamento dell'uomo sull'uomo, noi vogliamo che gli uomini affratellati da una solidarietà cosciente e voluta cooperino tutti volontariamente al benessere di tutti; noi vogliamo che la società sia costituita allo scopo di fornire a tutti gli esseri umani i mezzi per raggiungere il massimo benessere possibile, il massimo possibile sviluppo morale e materiale; noi vogliamo per tutti pane, libertà, amore, scienza.
-E per raggiungere questo scopo supremo noi crediamo necessario che i mezzi di produzione siano a disposizione di tutti, e che nessun uomo, o gruppo di uomini possa obbligare gli altri a sottostare alla sua volontà né esercitare la sua influenza altrimenti che con la forza della ragione e dell'esempio.
+Il Rigore dello Stile: Abbiamo approfondito l'uso di regole CSS complesse, passando da fogli di stile caotici a un ordine strutturale guidato da variabili globali (root) e annidamenti Sass.
 
-Dunque, espropriazione dei detentori del suolo e del capitale a vantaggio di tutti, abolizione del governo. Ed aspettando che questo si possa fare: propaganda dell'ideale; organizzazione delle forze popolari; lotta continua, pacifica o violenta secondo le circostanze, contro il governo e contro i proprietari per conquistare quanto più si può di libertà e di benessere per tutti.»
+Separazione delle Logiche: Abbiamo interiorizzato la potenza dei file JSON, comprendendo come separare il dato nudo dall'architettura visiva.
 
-(Errico Malatesta, sezione conclusiva de Il Programma Anarchico, 1919)[29])
----------------------------------------------------------------------------------------------------------
-«L'anarchia è l'ordine senza il potere»
-(Pierre-Joseph Proudhon, Le confessioni di un rivoluzionario, per servire la storia della Rivoluzione di Febbraio[30])
----------------------------------------------------------------------------------------------------------
-L'utopia in filosofia
-Il pensiero utopico filosofico non ha a che fare con una rappresentazione ingenua della realtà, ma con problemi più complessi. L'utopista non accetta la realtà così come appare. Esso costruisce due realtà parallele, esprimendo il rifiuto del possibile con la fuga nell'impossibile. Si vive quindi in mondi virtuali, impossibili, in modo degno, come non è consentito dalla realtà.[4]
-L'utopista quindi si pone tre domande:
-Qual è la realtà?
-Esistono effettive possibilità di conoscere la vera realtà?
-Esistono realtà parallele di cui non si sa nulla?
-L'utopista - sia come coniatore di utopie, sia come semplice propugnatore, sia come pensatore utopico critico[5] - può quindi essere tanto colui che costruisce le sue preferenze e le sue scelte ideologiche esimendosi dallo studio e dalla comprensione della realtà e delle sue dinamiche, quanto colui che indica un percorso che ritiene al contempo auspicabile e pragmaticamente perseguibile.
+Il Rispetto delle Convenzioni: Abbiamo assimilato le best practice dello sviluppo web moderno. Non come dogmi da subire, ma come un linguaggio universale per scrivere codice leggibile, efficiente e pronto per il rilascio.
 
+[5] STACK E STRUMENTI
+Front-End: HTML / Njk, CSS, Sass, JavaScript
 
+Back-End / Dati: PHP, JSON
 
+Palette Colori
+Deep Black: #0B0C10 (Sfondo / Vuoto)
 
+Tech Cyan: #00FFFF (Accenti / Energia)
 
+Starlight Text: #F3F4F6 (Titoli / Chiarezza)
 
+Muted Grey: #9CA3AF (Dettagli / Codice)
 
+Off-White: #FAF9F6 (Corpo del testo)
 
+State Grey: #7D8491 (Elementi secondari)
 
+Tipografia
+Titoli: Space Grotesk
 
+Paragrafi: Inter
 
+[6] LINK UTILI E DIPENDENZE
+Repository: GitHub - AGP-SITE
 
+Librerie & Tool: Swiper.js | ReactBits | GetWaves | FontAwesome
 
+Risorse Grafiche: Unsplash | Freepik | Pixabay | Coolors
 
+AI & Assistenza Tecnica: Gemini | Claude
 
+[7] NOTE E ISPIRAZIONI (I Nostri Sorgenti)
+"Noi vogliamo dunque abolire radicalmente la dominazione e lo sfruttamento dell'uomo sull'uomo [...] noi vogliamo che la società sia costituita allo scopo di fornire a tutti gli esseri umani i mezzi per raggiungere il massimo benessere possibile, il massimo possibile sviluppo morale e materiale; noi vogliamo per tutti pane, libertà, amore, scienza."
+— Errico Malatesta (Il Programma Anarchico, 1919)
 
+"L'anarchia è l'ordine senza il potere."
+— Pierre-Joseph Proudhon (Le confessioni di un rivoluzionario)
 
+"Io non sono veramente libero se non quando tutti gli esseri umani che mi circondano sono ugualmente liberi. La libertà degli altri, lungi dall'essere un limite o la negazione della mia libertà, ne è la condizione necessaria e la conferma."
+— Michail Bakunin (Stato e anarchia, 1873)
 
-
-
-
-
-
-
-
+"L'informazione è potere. Ma come per tutti i poteri, ci sono quelli che vogliono tenerlo per sé. [...] Dobbiamo prendere l'informazione, ovunque sia memorizzata, farne le nostre copie e condividerle col mondo."
+— Aaron Swartz (Guerilla Open Access Manifesto, 2008)
