@@ -47,7 +47,7 @@ export function initTeam(data) {
         const role = createEl('p', ['role'], {}, person.role);
 
         const mottoContainer = createEl('div', ['motto']);
-        const mottoTitle = createEl('span', ['motto-title'], {}, 'IL MIO MOTTO:');
+        const mottoTitle = createEl('span', ['motto-title'], {}, `"${card.motto}"`);
         const mottoText = createEl('p', ['paragraph-home'], {}, `"${person.quote}"`);
         
         mottoContainer.append(mottoTitle, mottoText);

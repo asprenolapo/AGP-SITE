@@ -21,6 +21,8 @@
     },
     "footer": {
       "spanSocial": "Connect with us on social media:",
+      "title": "Our Distro — Technology, Research and Development in Bari",
+      "description": "Our Distro is an independent technological ecosystem specializing in AI, cloud systems, home automation, and quantitative finance. We develop custom software and provide technical consultancy.",
       "skills": {
         "title": "Skills",
         "ai": "AI & Deep Learning",
@@ -42,6 +44,9 @@
         "avenue": "69 Sparano Avenue Right There, Bari, Italy (ITS Grand Tier)",
         "email": "info@ourdistro.dev",
         "tel": "+39 012 345 678"
+      },
+      "copyright": {
+        "text": "© 2026 All rights reserved. Our Distro"
       }
     },
     "homepage": {
@@ -82,6 +87,7 @@
         "subtitle": "Collective Intelligence Runnin",
         "paragraph": "The true strength of a network lies not in its core, but in the ability of its nodes to communicate. We are twenty-seven diverse minds, fused into a single collective. From training artificial intelligence to soldering hardware components, each member brings their own fragment of vision. In Our Distro, we have eliminated the concept of 'employee' to embrace that of 'creator'. We operate without imposed hierarchies, guided only by shared responsibility and the hunger to translate our utopias into real, functioning architectures.",
         "card": {
+          "motto": "MY CATCHPHRASE",
           "partners": [
             {
               "name": "Ferrovie Appulo Lucane"
@@ -487,6 +493,8 @@
     },
     "footer": {
       "spanSocial": "Connettiti con noi sui social:",
+      "title": "Our Distro — Tecnologia, Ricerca e Sviluppo a Bari",
+      "description": "Our Distro è un ecosistema tecnologico indipendente specializzato in AI, cloud systems, domotica e finanza quantitativa. Sviluppiamo software su misura e consulenza tecnica.",
       "siteTitle": "Titolo Sito",
       "siteDesc": "Descrizione Sito",
       "skills": {
@@ -510,6 +518,9 @@
         "avenue": "Via Sparano sta la 69, Bari, Italia (Loggione ITS)",
         "email": "info@ourdistro.dev",
         "tel": "+39 012 345 678"
+      },
+      "copyright": {
+        "text": "© 2026 Tutti i diritti riservati. Our Distro"
       }
     },
     "homepage": {
@@ -550,6 +561,7 @@
         "subtitle": "L'intelligenza collettiva in esecuzione",
         "paragraph": "La vera forza di una rete non sta nel centro, ma nella capacità dei suoi nodi di comunicare. Siamo ventisette menti eterogenee, fuse in un unico collettivo. Dall'addestramento di intelligenze artificiali alla saldatura di componenti hardware, ogni membro porta il suo frammento di visione. In Our Distro abbiamo eliminato il concetto di 'dipendente' per abbracciare quello di 'creatore'. Operiamo senza gerarchie imposte, guidati solo dalla responsabilità condivisa e dalla fame di tradurre le nostre utopie in architetture reali e funzionanti.",
         "card": {
+          "motto": "IL MIO MOTTO:",
           "partners": [
             {
               "name": "Ferrovie Appulo Lucane"
