@@ -330,11 +330,11 @@
               "quote": "I don't know, put whatever you want"
             },
             {
-              "name": "Alessandro",
-              "surname": "Cramarossa",
-              "aka": "I work for Ferrari",
-              "role": "Vending Machine Manager",
-              "quote": "I delegate"
+            "name": "Alessandro",
+            "surname": "Cramarossa",
+            "aka": "Professional Delegator",
+            "role": "Chief Vending Machine Officer",
+            "quote": "I work for Ferrari, I delegate everything"
             }
           ]
         }
@@ -800,9 +800,9 @@
             {
               "name": "Alessandro",
               "surname": "Cramarossa",
-              "aka": "Lavoro a Ferrari",
+              "aka": "Delegatore professionista",
               "role": "Responsabile delle Macchinette",
-              "quote": "Io delego"
+              "quote": "Io lavoro a Ferrari, delego tutto"
             }
           ]
         }
