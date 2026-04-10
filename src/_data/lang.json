@@ -367,7 +367,7 @@
       },
       "thirdSec": {
         "title": "The future is not waited for. It is designed.",
-        "paragraph": "The commercial software industry has conditioned us to closed fences, walled gardens, and machines programmed to distrust their own users. Michail Bakunin argued that 'the passion for destruction is also a creative passion.'We apply this principle to computer architecture. Breaking data monopolies, forcing open closed architectures, and deconstructing technological hierarchies is not digital vandalism. It is the structural prerequisite for creating something authentically new, solid, and unconditionally available to all.",
+        "paragraph": "We're not here to make predictions. Predictions are made by those who are resigned to undergoing events. We are writing the source code of tomorrow. The utopia we speak of is not an unattainable place or an abstract theory, but a production environment in the process of being released. We are assembling the infrastructure of a decentralized digital society, where open source is not just a software license, but a true social pact. We are building the architecture node by node, line by line. The upload is in progress. The infrastructure is operational. The completion of the system now depends only on how many nodes decide to connect and reject the old paradigm.",
         "buttonResAndDev": "Explore our R&D",
         "buttonConsultancy": "Or discover how we apply these principles in our Consultancy"
       }
@@ -375,31 +375,31 @@
     "researchAndDevelopmentPage": {
       "heroSec": {
         "title": "Research & Development",
-        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "Thinking without execution is just an illusion. This is our engine room, the permanent testing environment where theoretical abstractions collide with software engineering. We don't wait for pre-packaged solutions to arrive from industry: we compile them ourselves, on the backbench. Here, utopia ceases to be a simple philosophical manifesto and becomes a working prototype, ready to attack reality.",
         "button": "Read more"
       },
       "aiSec": {
         "title": "Artificial Intelligence",
-        "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "We shape neural networks. We don't submit to them",
+        "paragraph1": "Artificial Intelligence is not a black box to be obeyed, but an extension of our logic. In our lab, we don't just interrogate pre-trained commercial models; we shape their architecture. We design predictive algorithms and machine learning systems capable of automating chaos, freeing up human time to return it to imagination. We transform raw data into digital synapses that serve the community, not the monopoly.",
         "counter": "Work hours saved through AI process automation in the last year"
       },
       "greenEnergySec": {
         "title": "Low-Energy Intensity Algorithms & Software Refactoring",
-        "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "Surgical Code. Efficiency as a Dogma",
+        "paragraph1": "Poorly written code consumes the planet. The industry produces obese software, masking inefficiency behind the raw power of servers. We apply a destructive and creative approach: we deconstruct, clean, and optimize. We perform surgical refactoring to eliminate unnecessary computation cycles, dramatically reducing infrastructure energy consumption. Because writing efficient algorithms means transforming mathematical elegance into real ecological impact.",
         "counter": "Solar panels installed in the last year"
       },
       "homeAutomationSec": {
         "title": "House Automation",
-        "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "Matter Comes to Life. Space Responds.",
+        "paragraph1": "We bring computing out of the prison of monitors and let it breathe in physical space. We don't assemble closed gadgets for home surveillance, but engineer responsive ecosystems that adapt in real time to their inhabitants. We solder circuits, write open IoT protocols, and build invisible hardware infrastructures. Our goal is a technology that blends with the environment, leaving behind only natural, frictionless interaction.",
         "counter": "Smart environments designed and installed in the last year"
       },
       "quantFinanceSec": {
         "title": "Quantitative Finance",
-        "paragraph": "There is no future to wait for, only one to discover",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "The Mathematics of Chaos. Decoding Uncertainty",
+        "paragraph1": "Global markets are not mystical entities to be indulged, but highly entropic data flows to be mastered. We approach them with the cold rigor of exact science. We design quantitative models and algorithmic trading architectures capable of analyzing thousands of microtransactions per millisecond, extracting patterns from the background noise. We rely not on instinct, but on the geometry of data: we transform fluctuations into computable strings of code.",
         "counter": "Transactions analyzed per second"
       }
     },
@@ -835,7 +835,7 @@
       },
       "thirdSec": {
         "title": "Il futuro non si attende. Si progetta",
-        "paragraph": "L'industria del software commerciale ci ha abituato a recinti chiusi, a giardini murati e a macchine programmate per non fidarsi dei propri utenti. Michail Bakunin sosteneva che 'la passione per la distruzione è anche una passione creatrice'. Noi applichiamo questo principio all'architettura informatica. Rompere i monopoli del dato, forzare le architetture chiuse e decostruire le gerarchie tecnologiche non è vandalismo digitale. È il prerequisito strutturale per creare qualcosa di autenticamente nuovo, solido e incondizionatamente a disposizione di tutti.",
+        "paragraph": "Non siamo qui per compilare previsioni. Le previsioni le fa chi è rassegnato a subire gli eventi. Noi stiamo scrivendo il codice sorgente del domani. L'utopia di cui parliamo non è un luogo irraggiungibile o una teoria astratta, ma un ambiente di produzione in fase di rilascio.Stiamo assemblando l'infrastruttura di una società digitale decentralizzata, dove l'open-source non è solo una licenza software, ma un vero e proprio patto sociale. Stiamo costruendo l'architettura nodo dopo nodo, riga dopo riga. Il caricamento è in corso. L'infrastruttura è operativa. Il completamento del sistema ora dipende solo da quanti nodi decideranno di connettersi e rifiutare il vecchio paradigma.",
         "buttonResAndDev": "Esplora il nostro R&D",
         "buttonConsultancy": "O scopri come applichiamo questi principi nella Consulenza"
       }
@@ -843,31 +843,31 @@
     "researchAndDevelopmentPage": {
       "heroSec": {
         "title": "Ricerca & sviluppo",
-        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "Il pensiero senza esecuzione è solo un'illusione. Questa è la nostra sala macchine, l'ambiente di test permanente dove le astrazioni teoriche collidono con l'ingegneria del software. Non aspettiamo che le soluzioni pre-confezionate arrivino dall'industria: le compiliamo noi, dall'ultimo banco. Qui, l'utopia smette di essere un semplice manifesto filosofico e diventa un prototipo funzionante, pronto ad aggredire la realtà",
         "button": "Scopri di più"
       },
       "aiSec": {
         "title": "Intelligenza artificiale",
-        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "Plasmiamo reti neurali. Non le subiamo",
+        "paragraph1": " L'Intelligenza Artificiale non è una scatola nera a cui obbedire, ma un'estensione della nostra logica. Nel nostro laboratorio non ci limitiamo a interrogare modelli pre-addestrati commerciali; ne forgiamo l'architettura. Progettiamo algoritmi predittivi e sistemi di machine learning capaci di automatizzare il caos, liberando il tempo umano per restituirlo all'immaginazione. Trasformiamo i dati grezzi in sinapsi digitali al servizio della collettività, non del monopolio.",
         "counter": "Ore di lavoro risparmiate grazie all'automazione dei processi AI nell'ultimo anno"
       },
       "greenEnergySec": {
         "title": "Algoritmi a Bassa Intensità Energetica & Software Refactoring",
-        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "Codice chirurgico. L'efficienza come dogma",
+        "paragraph1": "Il codice scritto male consuma il pianeta. L'industria produce software obeso, mascherando l'inefficienza dietro la potenza bruta dei server. Noi applichiamo un approccio distruttivo e creatore: destrutturiamo, ripuliamo e ottimizziamo. Eseguiamo un refactoring chirurgico per abbattere i cicli di calcolo superflui, abbassando drasticamente il consumo energetico delle infrastrutture. Perché scrivere algoritmi efficienti significa trasformare l'eleganza matematica in un impatto ecologico reale.",
         "counter": "Pannelli solari installati nell'ultimo anno"
       },
       "homeAutomationSec": {
         "title": "Domotica",
-        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "La materia si anima. Lo spazio risponde",
+        "paragraph1": "Portiamo l'informatica fuori dalla prigione dei monitor per farla respirare nello spazio fisico. Non assembliamo gadget chiusi per la sorveglianza domestica, ma ingegnerizziamo ecosistemi reattivi che si adattano in tempo reale a chi li abita. Saldiamo circuiti, scriviamo protocolli IoT open e costruiamo infrastrutture hardware invisibili. Il nostro obiettivo è una tecnologia che si fonde con l'ambiente, lasciando dietro di sé solo un'interazione naturale e priva di attriti.",
         "counter": "Ambienti intelligenti progettati e installati nell'ultimo anno"
       },
       "quantFinanceSec": {
         "title": "Finanza quantitativa",
-        "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
-        "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
+        "paragraph": "La matematica del caos. Decodificare l'incertezza",
+        "paragraph1": " I mercati globali non sono entità mistiche da assecondare, ma flussi di dati ad altissima entropia da dominare. Li affrontiamo con il rigore gelido della scienza esatta. Progettiamo modelli quantitativi e architetture di trading algoritmico in grado di analizzare migliaia di micro-transazioni al millisecondo, estraendo pattern dal rumore di fondo. Non ci affidiamo all'istinto, ma alla geometria dei dati: trasformiamo le fluttuazioni in stringhe di codice calcolabili.",
         "counter": "Transazioni analizzate al secondo"
       }
     },
