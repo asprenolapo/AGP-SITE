@@ -103,154 +103,154 @@
             }
           ],
           "tutors": [
-            {
-              "name": "Alessandra",
-              "surname": "Raspatelli",
-              "aka": "The Queen of Signatures",
-              "role": "Human... Jungle Resources",
-              "quote": "Check if you received the email"
-            },
-            {
-              "name": "Michele",
-              "surname": "Scalera",
-              "aka": "Master of Computational Thinking",
-              "role": "UML/WEB Professor",
-              "quote": "In my day, we used Cobol and punch cards"
-            },
-            {
-              "name": "Leonardo",
-              "surname": "Chiarella",
-              "aka": "Leo Fender",
-              "role": "Soft Skills Professor",
-              "quote": "Educating with a smile towards simplicity"
-            },
-            {
-              "name": "Antonello",
-              "surname": "Magaletti",
-              "aka": "Human Calculator",
-              "role": "Mathematics and Statistics Professor",
-              "quote": "Make sure to use the learning mode on Gemini"
-            },
-            {
-              "name": "Michele",
-              "surname": "Salierno",
-              "aka": "Super Quark",
-              "role": "English Language Professor",
-              "quote": "Aspreeeeeen"
-            },
-            {
-              "name": "Vito",
-              "surname": "Carulli",
-              "aka": "Alfonso Signorini",
-              "role": "IT Law Professor",
-              "quote": "Can I tell you the grade?"
-            }
+          {
+            "name": "Alessandra",
+            "surname": "Raspatelli",
+            "aka": "The Queen of Signatures",
+            "role": "Anim... Human Resources",
+            "quote": "Check if you've received the email"
+          },
+          {
+            "name": "Michele",
+            "surname": "Scalera",
+            "aka": "Master of Computational Thinking",
+            "role": "UML/WEB Professor",
+            "quote": "Back in my day, we used Cobol and punch cards"
+          },
+          {
+            "name": "Leonardo",
+            "surname": "Chiarella",
+            "aka": "Leo Fender",
+            "role": "Soft Skills Professor",
+            "quote": "Educating with a smile for simplicity"
+          },
+          {
+            "name": "Antonello",
+            "surname": "Magaletti",
+            "aka": "Human Calculator",
+            "role": "Professor of Mathematics and Statistics",
+            "quote": "Make sure to use learning mode on Gemini"
+          },
+          {
+            "name": "Michele",
+            "surname": "Salierno",
+            "aka": "Super Quark",
+            "role": "English Language Professor",
+            "quote": "Aspreeeeeen"
+          },
+          {
+            "name": "Vito",
+            "surname": "Carulli",
+            "aka": "The Gossip King",
+            "role": "IT Law Professor",
+            "quote": "Am I allowed to tell you the grade?"
+          }
           ],
           "programmers": [
             {
               "name": "Alessandro",
               "surname": "Foggetti",
-              "aka": "The God of Linux",
-              "role": "",
-              "quote": ""
+              "aka": "Creator of Cobol",
+              "role": "Cobol Systems Maintainer",
+              "quote": "Life is just one big If Then Else"
             },
             {
               "name": "Andrea",
               "surname": "Alduino",
-              "aka": "Master of Margin",
-              "role": "Stationmaster",
+              "aka": "Master of the Margin",
+              "role": "Station Master",
               "quote": "Michè, what time is the train?"
             },
             {
               "name": "Andrea",
               "surname": "Piangivino",
-              "aka": "The Master of Art",
-              "role": "Art Director",
-              "quote": "It's not a bug, it's an avant-garde stylistic choice"
+              "aka": "Super Mario's #1 Fan",
+              "role": "Artistic Director",
+              "quote": "Professor, JavaScript doesn't know how to do addition"
             },
             {
               "name": "Angelo",
               "surname": "Schena",
               "aka": "The AI Master",
               "role": "Merchandising Manager",
-              "quote": "Don't worry, I'll create the plushie for you"
+              "quote": "Don't worry, I'll make the sticker myself"
             },
             {
               "name": "Antonella",
               "surname": "Pesare",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Miss",
+              "role": "Balcony Bodyguard",
+              "quote": "One moment while I plug my ears"
             },
             {
               "name": "Antonio",
               "surname": "Straziota",
-              "aka": "The Small-Town Connoisseur",
+              "aka": "The Rural Connoisseur",
               "role": "Corporate Chef",
-              "quote": "Brasciole and zucchini simply do not belong together"
+              "quote": "Meat rolls simply don't go with zucchini"
             },
             {
               "name": "Aspreno Lapo",
               "surname": "Pesce",
-              "aka": "Piero Angela",
+              "aka": "The Science Guy",
               "role": "Science Communicator",
               "quote": "This is how you make a compass with leaves..."
             },
             {
               "name": "Christian",
               "surname": "Losito",
-              "aka": "McDonald's Shareholder",
+              "aka": "McDonald's Best Customer",
               "role": "Elevator Technician",
-              "quote": "I'll fix it now!!"
+              "quote": "I'll fix it now"
             },
             {
               "name": "Davide",
               "surname": "Barbieri",
-              "aka": "Giacomino Poretti",
+              "aka": "The Comedian",
               "role": "The Beta Tester",
-              "quote": "I can neither go down nor go up. I'll just stay here."
+              "quote": "I can't go down, I can't go up. I'm staying right here."
             },
             {
               "name": "Edoardo",
               "surname": "Martino",
-              "aka": "He Who Used Linux",
+              "aka": "The Linux Zealot",
               "role": "Distro Vending Machine",
-              "quote": "I use anything as long as it's not Windows"
+              "quote": "I'll use anything as long as it's not Windows"
             },
             {
               "name": "Enrico Pasquale",
               "surname": "De Candia",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Supreme Chad",
+              "role": "Company Physiotherapist",
+              "quote": "I'll provide the countryside vibe"
             },
             {
               "name": "Fabio",
               "surname": "Balenzano",
-              "aka": "Sun FTSE",
-              "role": "Nasdaq Tormentor",
-              "quote": "Jordan Belfort is not my friend!"
-            },
-            {
-              "name": "Fabio",
-              "surname": "Scarpa",
-              "aka": "The Trusted Broker",
-              "role": "Gold Broker",
-              "quote": "Now I'll invest"
-            },
-            {
-              "name": "Federico",
-              "surname": "Di Leo",
               "aka": "",
               "role": "",
               "quote": ""
             },
             {
+              "name": "Fabio",
+              "surname": "Scarpa",
+              "aka": "Your Trusted Broker",
+              "role": "Gold Broker",
+              "quote": "I'm investing now"
+            },
+            {
+              "name": "Federico",
+              "surname": "Di Leo",
+              "aka": "Hacker Mouse",
+              "role": "Gaming Software Tester",
+              "quote": "They're tracking us! Unplug! Unplug! Unplug!"
+            },
+            {
               "name": "Francesco",
               "surname": "De Santis",
-              "aka": "The Native English Speaker",
-              "role": "Undercover Assistant to the English Professor",
-              "quote": ""
+              "aka": "The Native Speaker",
+              "role": "Undercover English Assistant",
+              "quote": "Between travel, trip and journey, it's always a trip"
             },
             {
               "name": "Francesco",
@@ -262,30 +262,30 @@
             {
               "name": "Francesco",
               "surname": "Picciotti",
-              "aka": "The Nurse",
-              "role": "Infirmary Attendant",
-              "quote": "Move aside, my nose is bleeding."
+              "aka": "Fragile Nose",
+              "role": "Infirmary Officer",
+              "quote": "Move aside, my nose is bleeding"
             },
             {
               "name": "Gianvito",
               "surname": "Brunazzi",
-              "aka": "",
-              "role": "",
+              "aka": "Gianto",
+              "role": "Poké Delivery Manager",
               "quote": ""
             },
             {
               "name": "Giorgio",
               "surname": "Smaldino",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Mr. Water Bottle",
+              "role": "Plumber",
+              "quote": "Fresh coconut!"
             },
             {
               "name": "Giuseppe",
               "surname": "Calabrese",
-              "aka": "Geoilier",
+              "aka": "The Rapper",
               "role": "Singer",
-              "quote": ""
+              "quote": "Guys, I'll be right back. Going to pick some (wild) asparagus"
             },
             {
               "name": "Leonardo",
@@ -297,44 +297,44 @@
             {
               "name": "Matteo",
               "surname": "Caputo",
-              "aka": "The Master of Phishing",
-              "role": "Head of CSS Cloning",
+              "aka": "The Phishing Master",
+              "role": "CSS Cloning Manager",
               "quote": "Scamming is an art"
             },
             {
               "name": "Michele",
               "surname": "Garofalo",
-              "aka": "The Master of Cards",
-              "role": "Software Architect",
-              "quote": ""
+              "aka": "The Card Master",
+              "role": "Chair Design Manager",
+              "quote": "Please, let's just use Bootstrap"
             },
             {
               "name": "Nico",
               "surname": "Chimienti",
-              "aka": "Inventor of Backdoors",
+              "aka": "The Backdoor Man",
               "role": "Head of Cyber Security",
-              "quote": "They called me the hackers' nightmare"
+              "quote": "Forget Polymarket, let's do Fantasy Trump"
             },
             {
               "name": "Nicolò",
               "surname": "Gigante",
               "aka": "Lord of Signatures",
               "role": "Precarious Assistant (Unpaid)",
-              "quote": "Hey you, did you put your signature?"
+              "quote": "What about you? Did you sign in?"
             },
             {
               "name": "Gherard",
               "surname": "Pirretti",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "The Ideator",
+              "role": "Head of Corporate Decisions",
+              "quote": "I don't know, put whatever you want"
             },
             {
               "name": "Alessandro",
               "surname": "Cramarossa",
-              "aka": "I Work at Ferrari",
+              "aka": "I work for Ferrari",
               "role": "Vending Machine Manager",
-              "quote": "Ferrari sucks"
+              "quote": "I delegate"
             }
           ]
         }
@@ -575,7 +575,7 @@
               "name": "Alessandra",
               "surname": "Raspatelli",
               "aka": "La regina delle firme",
-              "role": "Risorse della giun... umane",
+              "role": "Risorse della anim... umane",
               "quote": "Controllate se vi è arrivata la mail"
             },
             {
@@ -618,7 +618,7 @@
             {
               "name": "Alessandro",
               "surname": "Foggetti",
-              "aka": "Il Creatore di Cobol",
+              "aka": "Creatore di Cobol",
               "role": "Manutentore sistemi Cobol",
               "quote": "La vita è tutto un If Then Else"
             },
@@ -632,23 +632,23 @@
             {
               "name": "Andrea",
               "surname": "Piangivino",
-              "aka": "Il Maestro Dell'Arte",
+              "aka": "Fan numero 1 di Super Mario",
               "role": "Direttore Artistico",
-              "quote": "Non è un bug, è una scelta stilistica d'avanguardia"
+              "quote": "Professore, javascript non sa fare le addizioni"
             },
             {
               "name": "Angelo",
               "surname": "Schena",
-              "aka": "Il mastro dell'ia",
+              "aka": "Il Mastro dell'AI",
               "role": "Responsabile merchandising",
-              "quote": "State tranquilli che ve lo creo io il pupazzo"
+              "quote": "Non vi preoccupate che lo faccio io lo sticker"
             },
             {
               "name": "Antonella",
               "surname": "Pesare",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Signorina",
+              "role": "Bodyguard del terrazzino",
+              "quote": "Un attimo che mi tappo le orecchie"
             },
             {
               "name": "Antonio",
@@ -667,9 +667,9 @@
             {
               "name": "Christian",
               "surname": "Losito",
-              "aka": "Finanziatore McDonald",
+              "aka": "Miglior cliente McDonald",
               "role": "Tecnico Dell'Ascensore",
-              "quote": "Ora l'aggiusto io!!"
+              "quote": "Ora l'aggiusto io"
             },
             {
               "name": "Davide",
@@ -683,21 +683,21 @@
               "surname": "Martino",
               "aka": "Colui che usava Linux",
               "role": "Distributore automatico di Distro",
-              "quote": "Uso tutto basta che non si tratta di Windows"
+              "quote": "Uso tutto, basta che non si tratta di Windows"
             },
             {
               "name": "Enrico Pasquale",
               "surname": "De Candia",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Chad supremo",
+              "role": "Fisioterapista aziendale",
+              "quote": "La campagna la metto io"
             },
             {
               "name": "Fabio",
               "surname": "Balenzano",
-              "aka": "Sun FTSE",
-              "role": "Seviziatore del nasdaq",
-              "quote": "Jordan Belfort non è mio amico!"
+              "aka": "",
+              "role": "",
+              "quote": ""
             },
             {
               "name": "Fabio",
@@ -709,16 +709,16 @@
             {
               "name": "Federico",
               "surname": "Di Leo",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Topolino hackerino",
+              "role": "Tester del software videoludico",
+              "quote": "Ci stanno tracciando, stacca, stacca, stacca"
             },
             {
               "name": "Francesco",
               "surname": "De Santis",
               "aka": "Il madrelingua inglese",
               "role": "Assistente infiltrato del prof di inglese",
-              "quote": ""
+              "quote": "Tra travel, trip e journey, è sempre trip"
             },
             {
               "name": "Francesco",
@@ -730,30 +730,30 @@
             {
               "name": "Francesco",
               "surname": "Picciotti",
-              "aka": "L'infermiere",
+              "aka": "Nasino fragile",
               "role": "Addetto All'infermieria",
-              "quote": "Spostatevi mi sta sanguinando il naso."
+              "quote": "Spostatevi che mi sta sanguinando il naso"
             },
             {
               "name": "Gianvito",
               "surname": "Brunazzi",
-              "aka": "",
-              "role": "",
+              "aka": "Gianto",
+              "role": "Responsabile consegne poke",
               "quote": ""
             },
             {
               "name": "Giorgio",
               "surname": "Smaldino",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Mr. Borraccia",
+              "role": "Idraulico",
+              "quote": "Coccobello"
             },
             {
               "name": "Giuseppe",
               "surname": "Calabrese",
-              "aka": "Geoilier",
+              "aka": "Geolier",
               "role": "Cantante",
-              "quote": ""
+              "quote": "Uagnù, mo vengo. Vado a fare gli asparagi (selvatici)"
             },
             {
               "name": "Leonardo",
@@ -773,36 +773,36 @@
               "name": "Michele",
               "surname": "Garofalo",
               "aka": "Il Mastro delle Card",
-              "role": "Architetto del Software",
-              "quote": ""
+              "role": "Responsabile deisgn delle sedie",
+              "quote": "Per piacere usiamo boostrap"
             },
             {
               "name": "Nico",
               "surname": "Chimienti",
-              "aka": "Inventore Delle Backdoor",
+              "aka": "Uomo delle backdoor",
               "role": "Responsabile della Cyber Security",
-              "quote": "Mi chiamavano l'incubo degli hacker"
+              "quote": "Altro che polymarket, facciamo il fanta Trump"
             },
             {
               "name": "Nicolò",
               "surname": "Gigante",
               "aka": "Signore delle Firme",
               "role": "Assistente Precario (Non Pagato)",
-              "quote": "Ehi tu, L'hai messa la firma ?"
+              "quote": "E tu? L'hai messa la firma?"
             },
             {
               "name": "Gherard",
               "surname": "Pirretti",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "L'ideatore",
+              "role": "Responsabile decisioni aziendali",
+              "quote": "Non lo so, metti quello che vuoi"
             },
             {
               "name": "Alessandro",
               "surname": "Cramarossa",
               "aka": "Lavoro a Ferrari",
               "role": "Responsabile delle Macchinette",
-              "quote": "Che schifo Ferrari"
+              "quote": "Io delego"
             }
           ]
         }

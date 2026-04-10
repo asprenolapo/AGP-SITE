@@ -1,4 +1,4 @@
-export function initResDevCounters() {
+  export function initResDevCounters() {
   const counters = document.querySelectorAll(".counter-number");
 
   const observer = new IntersectionObserver(
