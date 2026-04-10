@@ -118,11 +118,11 @@
             "quote": "Back in my day, we used Cobol and punch cards"
           },
           {
-            "name": "Leonardo",
-            "surname": "Chiarella",
-            "aka": "Leo Fender",
-            "role": "Soft Skills Professor",
-            "quote": "Educating with a smile for simplicity"
+          "name": "Leonardo",
+          "surname": "Chiarella",
+          "aka": "The Mindset Master",
+          "role": "Soft Skills Professor",
+          "quote": "The jester of tor-minds"
           },
           {
             "name": "Antonello",
@@ -588,9 +588,9 @@
             {
               "name": "Leonardo",
               "surname": "Chiarella",
-              "aka": "Leo Fender",
+              "aka": "Il mastro del mindset",
               "role": "Professore Soft Skill",
-              "quote": "Educare sorridendo alla semplicità"
+              "quote": "Il giullare dei tor-menti"
             },
             {
               "name": "Antonello",
