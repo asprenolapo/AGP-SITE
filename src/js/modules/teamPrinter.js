@@ -126,8 +126,9 @@ function initSwipers() {
     grabCursor: true, 
     spaceBetween: 30, 
     autoplay: { 
-        delay: 3000,
-        disableOnInteraction: false 
+        delay: 2500,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
@@ -142,9 +143,10 @@ function initSwipers() {
     grabCursor: true,
     spaceBetween: 30,
     autoplay: { 
-        delay: 3000,
+        delay: 2500,
         disableOnInteraction: false, 
-        reverseDirection: true 
+        reverseDirection: true,
+        pauseOnMouseEnter: true
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
@@ -158,13 +160,14 @@ function initSwipers() {
     grabCursor: true,
     spaceBetween: 30,
     autoplay: { 
-        delay: 3000,
+        delay: 2500,
         disableOnInteraction: false, 
-        reverseDirection: true 
+        pauseOnMouseEnter: true 
     },
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
-      992: { slidesPerView: 2, spaceBetween: 40 } 
+      768: { slidesPerView: 2, spaceBetween: 30 },
+      1024: { slidesPerView: 3, spaceBetween: 40 } 
     }
   });
 }
