@@ -253,11 +253,11 @@
               "quote": "Between travel, trip and journey, it's always a trip"
             },
             {
-              "name": "Francesco",
-              "surname": "Pepe",
-              "aka": "",
-              "role": "",
-              "quote": ""
+            "name": "Francesco",
+            "surname": "Pepe",
+            "aka": "Night Penguin",
+            "role": "Night-shift worker",
+            "quote": "I understand Assembly better than women"
             },
             {
               "name": "Francesco",
@@ -267,11 +267,11 @@
               "quote": "Move aside, my nose is bleeding"
             },
             {
-              "name": "Gianvito",
-              "surname": "Brunazzi",
-              "aka": "Gianto",
-              "role": "Poké Delivery Manager",
-              "quote": ""
+            "name": "Gianvito",
+            "surname": "Brunazzi",
+            "aka": "Gianto",
+            "role": "Poke Delivery Manager",
+            "quote": "Great wine comes in big barrels, but the 2009 vintage..."
             },
             {
               "name": "Giorgio",
@@ -723,9 +723,9 @@
             {
               "name": "Francesco",
               "surname": "Pepe",
-              "aka": "",
-              "role": "",
-              "quote": ""
+              "aka": "Pinguino notturno",
+              "role": "Turnista di notte",
+              "quote": "Capisco meglio l'assembly che le donne"
             },
             {
               "name": "Francesco",
@@ -738,8 +738,8 @@
               "name": "Gianvito",
               "surname": "Brunazzi",
               "aka": "Gianto",
-              "role": "Responsabile consegne poke",
-              "quote": ""
+              "role": "Poké Delivery Manager",
+              "quote": "Nella botte grande c'è il vino buono, ma l'annata del 2009..."
             },
             {
               "name": "Giorgio",
@@ -856,7 +856,7 @@
         "title": "Algoritmi a Bassa Intensità Energetica & Software Refactoring",
         "paragraph": "Non c'è un futuro da attendere, c'è solo da scoprire",
         "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem maiores soluta illum sequi facilis voluptate a impedit voluptas in doloribus, iusto saepe ipsam deleniti fugiat aliquid ut facere. Provident veritatis minus perferendis aspernatur temporibus sint ut at iusto saepe.",
-        "counter": "Pannelli solari installati nell'ultim anno"
+        "counter": "Pannelli solari installati nell'ultimo anno"
       },
       "homeAutomationSec": {
         "title": "Domotica",
